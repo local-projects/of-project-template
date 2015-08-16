@@ -1,0 +1,54 @@
+#OSX getInfo versioning info (/World/Scripts/XcodeAttachGitInfoToBinary.sh)
+gitInfo.h
+
+#oriol's addons settings local 
+ofxRemoteUISettings Backups
+ofxTimeMeasurements.settings
+
+# OF-specific ignore patterns
+
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+
+
+# Some general ignore patterns
+
+[Bb]uild/
+[Oo]bj/
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+
+# IDE-specific ignore patterns
+
+#XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+
+#OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+#Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
