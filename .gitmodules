@@ -1,6 +1,3 @@
 [submodule "OpenFrameworks"]
 	path = OpenFrameworks
 	url = git@github.com:openframeworks/openFrameworks.git
-[submodule "OpenFrameworks/OpenFrameworks"]
-	path = OpenFrameworks/OpenFrameworks
-	url = git@github.com:openframeworks/openFrameworks.git
