@@ -32,7 +32,7 @@ copyright=$(echo "LocalProjects © $year")
 defaults write "${TARGET_BUILD_DIR}/$INFOPLIST_PATH" "CFBundleShortVersionString" -string "$getInfoString"
 defaults write "${TARGET_BUILD_DIR}/$INFOPLIST_PATH" "NSHumanReadableCopyright" -string "$copyright"
 
-mkdir "$SRCROOT/src"
+mkdir -p "$SRCROOT/src"
 touch "$SRCROOT/src/gitInfo.h"
 
 echo -e "#pragma once\n#include <string>\n\nnamespace GIT_INFO {\n
