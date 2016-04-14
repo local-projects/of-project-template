@@ -85,3 +85,6 @@
 [submodule "ExternalAddons/ofxAnimatable"]
 	path = ExternalAddons/ofxAnimatable
 	url = git@github.com:local-projects/ofxAnimatable.git
+[submodule "ExternalAddons/ofxFontStash2"]
+	path = ExternalAddons/ofxFontStash2
+	url = https://github.com/armadillu/ofxFontStash2.git
