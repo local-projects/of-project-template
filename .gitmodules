@@ -1,6 +1,6 @@
 [submodule "OpenFrameworks"]
 	path = OpenFrameworks
-	url = https://github.com/openframeworks/openFrameworks.git
+	url = https://github.com/local-projects/openFrameworks.git
 [submodule "ExternalAddons/ofxRemoteUI"]
 	path = ExternalAddons/ofxRemoteUI
 	url = https://github.com/local-projects/ofxRemoteUI.git
