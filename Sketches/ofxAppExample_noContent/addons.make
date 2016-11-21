@@ -1,6 +1,7 @@
+ofxOpenCv
 ofxOsc
 ofxXmlSettings
-ofxOpenCv
+ofxNetwork
 ../../ExternalAddons/ofxFontStash
 ../../ExternalAddons/ofxTuio
 ../../ExternalAddons/ofxJson
@@ -22,5 +23,5 @@ ofxOpenCv
 ../../ExternalAddons/ofxHistoryPlot
 ../../ExternalAddons/ofxAnimatable
 ../../ExternalAddons/ofxScreenSetup
-
-
+../../ExternalAddons/ofxSensu
+../../ExternalAddons/ofxGoogleAnalytics
