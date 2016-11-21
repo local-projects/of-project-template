@@ -16,18 +16,12 @@
 [submodule "ExternalAddons/ofxFontStash"]
 	path = ExternalAddons/ofxFontStash
 	url = https://github.com/local-projects/ofxFontStash.git
-[submodule "ExternalAddons/ofxUnicode"]
-	path = ExternalAddons/ofxUnicode
-	url = https://github.com/local-projects/ofxUnicode.git
 [submodule "ExternalAddons/ofxJson"]
 	path = ExternalAddons/ofxJson
 	url = https://github.com/local-projects/ofxJSON.git
 [submodule "ExternalAddons/ofxSimpleHttp"]
 	path = ExternalAddons/ofxSimpleHttp
 	url = https://github.com/local-projects/ofxSimpleHttp.git
-[submodule "ExternalAddons/ofxSimpleTimer"]
-	path = ExternalAddons/ofxSimpleTimer
-	url = https://github.com/local-projects/ofxSimpleTimer.git
 [submodule "ExternalAddons/ofxSuperLog"]
 	path = ExternalAddons/ofxSuperLog
 	url = https://github.com/local-projects/ofxSuperLog.git
@@ -88,3 +82,39 @@
 [submodule "ExternalAddons/ofxFontStash2"]
 	path = ExternalAddons/ofxFontStash2
 	url = https://github.com/local-projects/ofxFontStash2.git
+[submodule "ExternalAddons/ofxApp"]
+	path = ExternalAddons/ofxApp
+	url = https://github.com/local-projects/ofxApp.git
+[submodule "ExternalAddons/ofxAutoTexture"]
+	path = ExternalAddons/ofxAutoTexture
+	url = https://github.com/local-projects/ofxAutoTexture.git
+[submodule "ExternalAddons/ofxColorGradient"]
+	path = ExternalAddons/ofxColorGradient
+	url = https://github.com/local-projects/ofxColorGradient.git
+[submodule "ExternalAddons/ofxCv"]
+	path = ExternalAddons/ofxCv
+	url = https://github.com/local-projects/ofxCv.git
+[submodule "ExternalAddons/ofxExternalProcess"]
+	path = ExternalAddons/ofxExternalProcess
+	url = https://github.com/local-projects/ofxExternalProcess.git
+[submodule "ExternalAddons/ofxHttpForm"]
+	path = ExternalAddons/ofxHttpForm
+	url = https://github.com/local-projects/ofxHttpForm.git
+[submodule "ExternalAddons/ofxJsonSettings"]
+	path = ExternalAddons/ofxJsonSettings
+	url = https://github.com/local-projects/ofxJsonSettings.git
+[submodule "ExternalAddons/ofxOscRecorder"]
+	path = ExternalAddons/ofxOscRecorder
+	url = https://github.com/local-projects/ofxOscRecorder.git
+[submodule "ExternalAddons/ofxRectangleUtils"]
+	path = ExternalAddons/ofxRectangleUtils
+	url = https://github.com/local-projects/ofxRectangleUtils.git
+[submodule "ExternalAddons/ofxRay"]
+	path = ExternalAddons/ofxRay
+	url = https://github.com/local-projects/ofxRay.git
+[submodule "ExternalAddons/ofxSensu"]
+	path = ExternalAddons/ofxSensu
+	url = https://github.com/local-projects/ofxSensu.git
+[submodule "ExternalAddons/ofxUserContentUpload"]
+	path = ExternalAddons/ofxUserContentUpload
+	url = https://github.com/local-projects/ofxUserContentUpload.git
