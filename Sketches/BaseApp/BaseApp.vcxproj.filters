@@ -67,9 +67,6 @@
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
-      <Filter>local_addons\ofxRemoteUI\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
@@ -285,9 +282,6 @@
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
-      <Filter>local_addons\ofxRemoteUI\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h">
