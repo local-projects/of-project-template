@@ -33,9 +33,6 @@
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
 		BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA261CBF0EBC004EB39A /* stb_truetype.c */; };
-		BB19DA481CBF0EC0004EB39A /* ofTextConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA2D1CBF0EC0004EB39A /* ofTextConverter.cpp */; };
-		BB19DA491CBF0EC0004EB39A /* ofxUnicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA2F1CBF0EC0004EB39A /* ofxUnicode.cpp */; };
-		BB19DA4A1CBF0EC0004EB39A /* ofUTF8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA311CBF0EC0004EB39A /* ofUTF8.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -138,12 +135,6 @@
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
 		BB19DA261CBF0EBC004EB39A /* stb_truetype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
-		BB19DA2D1CBF0EC0004EB39A /* ofTextConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofTextConverter.cpp; sourceTree = "<group>"; };
-		BB19DA2E1CBF0EC0004EB39A /* ofTextConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofTextConverter.h; sourceTree = "<group>"; };
-		BB19DA2F1CBF0EC0004EB39A /* ofxUnicode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUnicode.cpp; sourceTree = "<group>"; };
-		BB19DA301CBF0EC0004EB39A /* ofxUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxUnicode.h; sourceTree = "<group>"; };
-		BB19DA311CBF0EC0004EB39A /* ofUTF8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofUTF8.cpp; sourceTree = "<group>"; };
-		BB19DA321CBF0EC0004EB39A /* ofUTF8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofUTF8.h; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
@@ -408,35 +399,12 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		BB19DA2B1CBF0EC0004EB39A /* ofxUnicode */ = {
-			isa = PBXGroup;
-			children = (
-				BB19DA2C1CBF0EC0004EB39A /* src */,
-			);
-			name = ofxUnicode;
-			sourceTree = "<group>";
-		};
-		BB19DA2C1CBF0EC0004EB39A /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB19DA2D1CBF0EC0004EB39A /* ofTextConverter.cpp */,
-				BB19DA2E1CBF0EC0004EB39A /* ofTextConverter.h */,
-				BB19DA2F1CBF0EC0004EB39A /* ofxUnicode.cpp */,
-				BB19DA301CBF0EC0004EB39A /* ofxUnicode.h */,
-				BB19DA311CBF0EC0004EB39A /* ofUTF8.cpp */,
-				BB19DA321CBF0EC0004EB39A /* ofUTF8.h */,
-			);
-			name = src;
-			path = ../../ExternalAddons/ofxUnicode/src;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 				BB19DA1D1CBF0EBC004EB39A /* ofxFontStash */,
-				BB19DA2B1CBF0EC0004EB39A /* ofxUnicode */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -662,7 +630,6 @@
 				BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
-				BB19DA4A1CBF0EC0004EB39A /* ofUTF8.cpp in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
 				BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */,
@@ -685,8 +652,6 @@
 				B33249AEA0D8C83C8AE132D4 /* ofxAnimatableFloat.cpp in Sources */,
 				345019F66CDF689909AB4F13 /* ofxAnimatableOfColor.cpp in Sources */,
 				94F902D6857BEF04CA429979 /* ofxAnimatableOfPoint.cpp in Sources */,
-				BB19DA481CBF0EC0004EB39A /* ofTextConverter.cpp in Sources */,
-				BB19DA491CBF0EC0004EB39A /* ofxUnicode.cpp in Sources */,
 				1C8DD6DEE06582FD45DDD14C /* ofxScreenSetup.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
