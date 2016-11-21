@@ -24,6 +24,11 @@ openFrameworksUniversal.a
 *.pyc
 .svn/
 *.log
+*.dll
+*.exp
+*.exe
+*.lib
+Thumbs.db
 
 # IDE-specific ignore patterns
 
@@ -44,6 +49,10 @@ xcuserdata
 # Thumbnails
 ._*
 
+#Linux
+.AppleDouble
+
+
 #Visual Studio
 *.sdf
 *.opensdf
@@ -52,3 +61,5 @@ xcuserdata
 *.ilk
 *.aps
 ipch/
+*.VC.db
+*.VC.VC.opendb
