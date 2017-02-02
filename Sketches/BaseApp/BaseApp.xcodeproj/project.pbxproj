@@ -33,6 +33,18 @@
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
 		BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA261CBF0EBC004EB39A /* stb_truetype.c */; };
+		BB2F8F3C1E1EBC8300CDC606 /* ofxAnimatableQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB2F8F3A1E1EBC8300CDC606 /* ofxAnimatableQueue.cpp */; };
+		BB7801F21E3D271100570DD5 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB78FEB71E3D271100570DD5 /* ofxXmlPoco.cpp */; };
+		BB7801F31E3D271100570DD5 /* crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB78FF0B1E3D271100570DD5 /* crypto.a */; };
+		BB7801F41E3D271100570DD5 /* ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB78FF0C1E3D271100570DD5 /* ssl.a */; };
+		BB7801F51E3D271100570DD5 /* PocoCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801E81E3D271100570DD5 /* PocoCrypto.a */; };
+		BB7801F61E3D271100570DD5 /* PocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801E91E3D271100570DD5 /* PocoFoundation.a */; };
+		BB7801F71E3D271100570DD5 /* PocoJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801EA1E3D271100570DD5 /* PocoJSON.a */; };
+		BB7801F81E3D271100570DD5 /* PocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801EB1E3D271100570DD5 /* PocoNet.a */; };
+		BB7801F91E3D271100570DD5 /* PocoNetSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801EC1E3D271100570DD5 /* PocoNetSSL.a */; };
+		BB7801FA1E3D271100570DD5 /* PocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801ED1E3D271100570DD5 /* PocoUtil.a */; };
+		BB7801FB1E3D271100570DD5 /* PocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801EE1E3D271100570DD5 /* PocoXML.a */; };
+		BB7801FC1E3D271100570DD5 /* PocoZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7801EF1E3D271100570DD5 /* PocoZip.a */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -101,7 +113,6 @@
 		53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAnimatable.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h; sourceTree = SOURCE_ROOT; };
 		569DA45655AF84D7959F2362 /* ofxTimeMeasurements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTimeMeasurements.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.h; sourceTree = SOURCE_ROOT; };
 		5E25203034548B1414A2EC4A /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
-		5FE44E52941549810A497BA4 /* TinyPie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TinyPie.h; path = ../../ExternalAddons/ofxRemoteUI/src/TinyPie.h; sourceTree = SOURCE_ROOT; };
 		60264129E173C2D0D9139A97 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
 		62E4DB2F6A265DC653B8AD3F /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
 		656296A3F6AE4DF9B513F9B0 /* ofxTimeMeasurementsScoped.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTimeMeasurementsScoped.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsScoped.h; sourceTree = SOURCE_ROOT; };
@@ -135,6 +146,98 @@
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
 		BB19DA261CBF0EBC004EB39A /* stb_truetype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		BB2F8F3A1E1EBC8300CDC606 /* ofxAnimatableQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAnimatableQueue.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.cpp; sourceTree = "<group>"; };
+		BB2F8F3B1E1EBC8300CDC606 /* ofxAnimatableQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAnimatableQueue.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.h; sourceTree = "<group>"; };
+		BB7801E81E3D271100570DD5 /* PocoCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoCrypto.a; sourceTree = "<group>"; };
+		BB7801E91E3D271100570DD5 /* PocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoFoundation.a; sourceTree = "<group>"; };
+		BB7801EA1E3D271100570DD5 /* PocoJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoJSON.a; sourceTree = "<group>"; };
+		BB7801EB1E3D271100570DD5 /* PocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoNet.a; sourceTree = "<group>"; };
+		BB7801EC1E3D271100570DD5 /* PocoNetSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoNetSSL.a; sourceTree = "<group>"; };
+		BB7801ED1E3D271100570DD5 /* PocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoUtil.a; sourceTree = "<group>"; };
+		BB7801EE1E3D271100570DD5 /* PocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoXML.a; sourceTree = "<group>"; };
+		BB7801EF1E3D271100570DD5 /* PocoZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoZip.a; sourceTree = "<group>"; };
+		BB7801F11E3D271100570DD5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB78FEB71E3D271100570DD5 /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlPoco.cpp; sourceTree = "<group>"; };
+		BB78FEB81E3D271100570DD5 /* ofxXmlPoco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlPoco.h; sourceTree = "<group>"; };
+		BB78FEBD1E3D271100570DD5 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		BB78FEBE1E3D271100570DD5 /* asn1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		BB78FEBF1E3D271100570DD5 /* asn1_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		BB78FEC01E3D271100570DD5 /* asn1t.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		BB78FEC11E3D271100570DD5 /* bio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		BB78FEC21E3D271100570DD5 /* blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		BB78FEC31E3D271100570DD5 /* bn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		BB78FEC41E3D271100570DD5 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		BB78FEC51E3D271100570DD5 /* camellia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		BB78FEC61E3D271100570DD5 /* cast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		BB78FEC71E3D271100570DD5 /* cmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		BB78FEC81E3D271100570DD5 /* cms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		BB78FEC91E3D271100570DD5 /* comp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		BB78FECA1E3D271100570DD5 /* conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		BB78FECB1E3D271100570DD5 /* conf_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		BB78FECC1E3D271100570DD5 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		BB78FECD1E3D271100570DD5 /* des.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		BB78FECE1E3D271100570DD5 /* des_old.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		BB78FECF1E3D271100570DD5 /* dh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		BB78FED01E3D271100570DD5 /* dsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		BB78FED11E3D271100570DD5 /* dso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		BB78FED21E3D271100570DD5 /* dtls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		BB78FED31E3D271100570DD5 /* e_os2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		BB78FED41E3D271100570DD5 /* ebcdic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		BB78FED51E3D271100570DD5 /* ec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		BB78FED61E3D271100570DD5 /* ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		BB78FED71E3D271100570DD5 /* ecdsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		BB78FED81E3D271100570DD5 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		BB78FED91E3D271100570DD5 /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		BB78FEDA1E3D271100570DD5 /* evp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		BB78FEDB1E3D271100570DD5 /* hmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		BB78FEDC1E3D271100570DD5 /* idea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		BB78FEDD1E3D271100570DD5 /* krb5_asn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		BB78FEDE1E3D271100570DD5 /* kssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		BB78FEDF1E3D271100570DD5 /* lhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		BB78FEE01E3D271100570DD5 /* md4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		BB78FEE11E3D271100570DD5 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		BB78FEE21E3D271100570DD5 /* mdc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		BB78FEE31E3D271100570DD5 /* modes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		BB78FEE41E3D271100570DD5 /* obj_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		BB78FEE51E3D271100570DD5 /* objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		BB78FEE61E3D271100570DD5 /* ocsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		BB78FEE71E3D271100570DD5 /* opensslconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		BB78FEE81E3D271100570DD5 /* opensslconf_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_osx.h; sourceTree = "<group>"; };
+		BB78FEE91E3D271100570DD5 /* opensslv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		BB78FEEA1E3D271100570DD5 /* ossl_typ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		BB78FEEB1E3D271100570DD5 /* pem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		BB78FEEC1E3D271100570DD5 /* pem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		BB78FEED1E3D271100570DD5 /* pkcs12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		BB78FEEE1E3D271100570DD5 /* pkcs7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		BB78FEEF1E3D271100570DD5 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		BB78FEF01E3D271100570DD5 /* rand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		BB78FEF11E3D271100570DD5 /* rc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		BB78FEF21E3D271100570DD5 /* rc4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		BB78FEF31E3D271100570DD5 /* ripemd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		BB78FEF41E3D271100570DD5 /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		BB78FEF51E3D271100570DD5 /* safestack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		BB78FEF61E3D271100570DD5 /* seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		BB78FEF71E3D271100570DD5 /* sha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		BB78FEF81E3D271100570DD5 /* srp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		BB78FEF91E3D271100570DD5 /* srtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		BB78FEFA1E3D271100570DD5 /* ssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		BB78FEFB1E3D271100570DD5 /* ssl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		BB78FEFC1E3D271100570DD5 /* ssl23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		BB78FEFD1E3D271100570DD5 /* ssl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		BB78FEFE1E3D271100570DD5 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		BB78FEFF1E3D271100570DD5 /* symhacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		BB78FF001E3D271100570DD5 /* tls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		BB78FF011E3D271100570DD5 /* ts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		BB78FF021E3D271100570DD5 /* txt_db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		BB78FF031E3D271100570DD5 /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		BB78FF041E3D271100570DD5 /* ui_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		BB78FF051E3D271100570DD5 /* whrlpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		BB78FF061E3D271100570DD5 /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		BB78FF071E3D271100570DD5 /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		BB78FF081E3D271100570DD5 /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		BB78FF0B1E3D271100570DD5 /* crypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = crypto.a; sourceTree = "<group>"; };
+		BB78FF0C1E3D271100570DD5 /* ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ssl.a; sourceTree = "<group>"; };
+		BB78FF0E1E3D271100570DD5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
@@ -168,6 +271,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7801FC1E3D271100570DD5 /* PocoZip.a in Frameworks */,
+				BB7801FB1E3D271100570DD5 /* PocoXML.a in Frameworks */,
+				BB7801F81E3D271100570DD5 /* PocoNet.a in Frameworks */,
+				BB7801F41E3D271100570DD5 /* ssl.a in Frameworks */,
+				BB7801F51E3D271100570DD5 /* PocoCrypto.a in Frameworks */,
+				BB7801F71E3D271100570DD5 /* PocoJSON.a in Frameworks */,
+				BB7801F31E3D271100570DD5 /* crypto.a in Frameworks */,
+				BB7801F91E3D271100570DD5 /* PocoNetSSL.a in Frameworks */,
+				BB7801FA1E3D271100570DD5 /* PocoUtil.a in Frameworks */,
+				BB7801F61E3D271100570DD5 /* PocoFoundation.a in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +318,8 @@
 				B1CD54DDE1EA9286E9E3C011 /* ofxAnimatableOfColor.h */,
 				52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */,
 				8E0EE3A94131658AA144B2E0 /* ofxAnimatableOfPoint.h */,
+				BB2F8F3A1E1EBC8300CDC606 /* ofxAnimatableQueue.cpp */,
+				BB2F8F3B1E1EBC8300CDC606 /* ofxAnimatableQueue.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -280,7 +395,6 @@
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
-				5FE44E52941549810A497BA4 /* TinyPie.h */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
 			);
@@ -405,8 +519,204 @@
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 				BB19DA1D1CBF0EBC004EB39A /* ofxFontStash */,
+				BB78FEB51E3D271100570DD5 /* ofxPoco */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BB7801E61E3D271100570DD5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB7801E71E3D271100570DD5 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BB7801E71E3D271100570DD5 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				BB7801E81E3D271100570DD5 /* PocoCrypto.a */,
+				BB7801E91E3D271100570DD5 /* PocoFoundation.a */,
+				BB7801EA1E3D271100570DD5 /* PocoJSON.a */,
+				BB7801EB1E3D271100570DD5 /* PocoNet.a */,
+				BB7801EC1E3D271100570DD5 /* PocoNetSSL.a */,
+				BB7801ED1E3D271100570DD5 /* PocoUtil.a */,
+				BB7801EE1E3D271100570DD5 /* PocoXML.a */,
+				BB7801EF1E3D271100570DD5 /* PocoZip.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB7801F01E3D271100570DD5 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				BB7801F11E3D271100570DD5 /* LICENSE */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		BB78FEB51E3D271100570DD5 /* ofxPoco */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEB61E3D271100570DD5 /* src */,
+				BB78FEB91E3D271100570DD5 /* libs */,
+			);
+			name = ofxPoco;
+			sourceTree = "<group>";
+		};
+		BB78FEB61E3D271100570DD5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEB71E3D271100570DD5 /* ofxXmlPoco.cpp */,
+				BB78FEB81E3D271100570DD5 /* ofxXmlPoco.h */,
+			);
+			name = src;
+			path = ../../OpenFrameworks/addons/ofxPoco/src;
+			sourceTree = "<group>";
+		};
+		BB78FEB91E3D271100570DD5 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEBA1E3D271100570DD5 /* openssl */,
+				BB78FF0F1E3D271100570DD5 /* poco */,
+			);
+			name = libs;
+			path = ../../OpenFrameworks/addons/ofxPoco/libs;
+			sourceTree = "<group>";
+		};
+		BB78FEBA1E3D271100570DD5 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEBB1E3D271100570DD5 /* include */,
+				BB78FF091E3D271100570DD5 /* lib */,
+				BB78FF0D1E3D271100570DD5 /* license */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		BB78FEBB1E3D271100570DD5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEBC1E3D271100570DD5 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BB78FEBC1E3D271100570DD5 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FEBD1E3D271100570DD5 /* aes.h */,
+				BB78FEBE1E3D271100570DD5 /* asn1.h */,
+				BB78FEBF1E3D271100570DD5 /* asn1_mac.h */,
+				BB78FEC01E3D271100570DD5 /* asn1t.h */,
+				BB78FEC11E3D271100570DD5 /* bio.h */,
+				BB78FEC21E3D271100570DD5 /* blowfish.h */,
+				BB78FEC31E3D271100570DD5 /* bn.h */,
+				BB78FEC41E3D271100570DD5 /* buffer.h */,
+				BB78FEC51E3D271100570DD5 /* camellia.h */,
+				BB78FEC61E3D271100570DD5 /* cast.h */,
+				BB78FEC71E3D271100570DD5 /* cmac.h */,
+				BB78FEC81E3D271100570DD5 /* cms.h */,
+				BB78FEC91E3D271100570DD5 /* comp.h */,
+				BB78FECA1E3D271100570DD5 /* conf.h */,
+				BB78FECB1E3D271100570DD5 /* conf_api.h */,
+				BB78FECC1E3D271100570DD5 /* crypto.h */,
+				BB78FECD1E3D271100570DD5 /* des.h */,
+				BB78FECE1E3D271100570DD5 /* des_old.h */,
+				BB78FECF1E3D271100570DD5 /* dh.h */,
+				BB78FED01E3D271100570DD5 /* dsa.h */,
+				BB78FED11E3D271100570DD5 /* dso.h */,
+				BB78FED21E3D271100570DD5 /* dtls1.h */,
+				BB78FED31E3D271100570DD5 /* e_os2.h */,
+				BB78FED41E3D271100570DD5 /* ebcdic.h */,
+				BB78FED51E3D271100570DD5 /* ec.h */,
+				BB78FED61E3D271100570DD5 /* ecdh.h */,
+				BB78FED71E3D271100570DD5 /* ecdsa.h */,
+				BB78FED81E3D271100570DD5 /* engine.h */,
+				BB78FED91E3D271100570DD5 /* err.h */,
+				BB78FEDA1E3D271100570DD5 /* evp.h */,
+				BB78FEDB1E3D271100570DD5 /* hmac.h */,
+				BB78FEDC1E3D271100570DD5 /* idea.h */,
+				BB78FEDD1E3D271100570DD5 /* krb5_asn.h */,
+				BB78FEDE1E3D271100570DD5 /* kssl.h */,
+				BB78FEDF1E3D271100570DD5 /* lhash.h */,
+				BB78FEE01E3D271100570DD5 /* md4.h */,
+				BB78FEE11E3D271100570DD5 /* md5.h */,
+				BB78FEE21E3D271100570DD5 /* mdc2.h */,
+				BB78FEE31E3D271100570DD5 /* modes.h */,
+				BB78FEE41E3D271100570DD5 /* obj_mac.h */,
+				BB78FEE51E3D271100570DD5 /* objects.h */,
+				BB78FEE61E3D271100570DD5 /* ocsp.h */,
+				BB78FEE71E3D271100570DD5 /* opensslconf.h */,
+				BB78FEE81E3D271100570DD5 /* opensslconf_osx.h */,
+				BB78FEE91E3D271100570DD5 /* opensslv.h */,
+				BB78FEEA1E3D271100570DD5 /* ossl_typ.h */,
+				BB78FEEB1E3D271100570DD5 /* pem.h */,
+				BB78FEEC1E3D271100570DD5 /* pem2.h */,
+				BB78FEED1E3D271100570DD5 /* pkcs12.h */,
+				BB78FEEE1E3D271100570DD5 /* pkcs7.h */,
+				BB78FEEF1E3D271100570DD5 /* pqueue.h */,
+				BB78FEF01E3D271100570DD5 /* rand.h */,
+				BB78FEF11E3D271100570DD5 /* rc2.h */,
+				BB78FEF21E3D271100570DD5 /* rc4.h */,
+				BB78FEF31E3D271100570DD5 /* ripemd.h */,
+				BB78FEF41E3D271100570DD5 /* rsa.h */,
+				BB78FEF51E3D271100570DD5 /* safestack.h */,
+				BB78FEF61E3D271100570DD5 /* seed.h */,
+				BB78FEF71E3D271100570DD5 /* sha.h */,
+				BB78FEF81E3D271100570DD5 /* srp.h */,
+				BB78FEF91E3D271100570DD5 /* srtp.h */,
+				BB78FEFA1E3D271100570DD5 /* ssl.h */,
+				BB78FEFB1E3D271100570DD5 /* ssl2.h */,
+				BB78FEFC1E3D271100570DD5 /* ssl23.h */,
+				BB78FEFD1E3D271100570DD5 /* ssl3.h */,
+				BB78FEFE1E3D271100570DD5 /* stack.h */,
+				BB78FEFF1E3D271100570DD5 /* symhacks.h */,
+				BB78FF001E3D271100570DD5 /* tls1.h */,
+				BB78FF011E3D271100570DD5 /* ts.h */,
+				BB78FF021E3D271100570DD5 /* txt_db.h */,
+				BB78FF031E3D271100570DD5 /* ui.h */,
+				BB78FF041E3D271100570DD5 /* ui_compat.h */,
+				BB78FF051E3D271100570DD5 /* whrlpool.h */,
+				BB78FF061E3D271100570DD5 /* x509.h */,
+				BB78FF071E3D271100570DD5 /* x509_vfy.h */,
+				BB78FF081E3D271100570DD5 /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		BB78FF091E3D271100570DD5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FF0A1E3D271100570DD5 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BB78FF0A1E3D271100570DD5 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FF0B1E3D271100570DD5 /* crypto.a */,
+				BB78FF0C1E3D271100570DD5 /* ssl.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB78FF0D1E3D271100570DD5 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				BB78FF0E1E3D271100570DD5 /* LICENSE */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		BB78FF0F1E3D271100570DD5 /* poco */ = {
+			isa = PBXGroup;
+			children = (
+				BB7801E61E3D271100570DD5 /* lib */,
+				BB7801F01E3D271100570DD5 /* license */,
+			);
+			path = poco;
 			sourceTree = "<group>";
 		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
@@ -610,7 +920,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../OpenFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"${APPSTORE}\" ] ; then\necho \"Copying GLUT framework\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../OpenFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\nelse\necho \"Not including GLUT\";\nfi\n";
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../OpenFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"${APPSTORE}\" ] ; then\necho \"Copying GLUT framework\";\n# Copy GLUT framework (must remove for AppStore submissions)\n#rsync -aved ../../OpenFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\nelse\necho \"Not including GLUT\";\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -620,6 +930,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				BB2F8F3C1E1EBC8300CDC606 /* ofxAnimatableQueue.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
@@ -632,6 +943,7 @@
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
+				BB7801F21E3D271100570DD5 /* ofxXmlPoco.cpp in Sources */,
 				BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */,
@@ -811,7 +1123,7 @@
 					"$(OF_CORE_LIBS)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/ ../../ExternalAddons/ofxUnicode/libs/unibreak/include/";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/ ../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../ExternalAddons/ofxUnicode/libs/unibreak/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};
@@ -1037,7 +1349,7 @@
 					"$(OF_CORE_LIBS)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/ ../../ExternalAddons/ofxUnicode/libs/unibreak/include/";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/ ../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../ExternalAddons/ofxUnicode/libs/unibreak/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1107,7 +1419,7 @@
 					"$(OF_CORE_LIBS)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/ ../../ExternalAddons/ofxUnicode/libs/unibreak/include/";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/ ../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../ExternalAddons/ofxUnicode/libs/unibreak/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../ExternalAddons/ofxUnicode/libs/utf8cpp/include/";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};

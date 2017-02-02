@@ -1,5 +1,4 @@
 {
-
 	"App":{		
 		"frameRate" : 60,
 		"numAASamples" : 8,
@@ -91,11 +90,11 @@
 	},
 
 	"TimeMeasurements":{
-		"enabled" : false,
+		"enabled" : true,
 		"uiScale" : 1.0,
 		"threadTimeDecay" : 0.985,
 		"frameRate" : 60,
-		"fontSize" : 13,
+		"fontSize" : 15,
 		"fontFile" : "fonts/UbuntuMono-R.ttf",
 		"useFontStash" : true,
 		"msPrecision" : 1,
@@ -107,7 +106,7 @@
 		"percentageAsGraph" : true
 	},
 	
-	"textureLoader": {
+	"TextureLoader": {
 		"maxNumberSimulataneousLoads" : 3,
 		"textureLodBias" : -0.3,
 		"maxTimeSpentLoadingPerFrameMs" : 4.0,//ms
@@ -115,7 +114,7 @@
 		"maxLoadRequestsPerFrame" : 64
 	},
 
-	"logging":{
+	"Logging":{
 		"logLevel" : 1, //0..5 (verbose, notice, warning, error, fatal, silent)
 		"toScreen": true,
 		"toFile" : true,
@@ -138,9 +137,10 @@
 	"ErrorReporting":{
 		"enabled" : true,
 		//"host" : "127.0.0.1",
-		"host" : "192.168.103.10",
+		"host" : "192.168.42.119",
 		"port" : 3030,
-		"email" : "oriol@localprojects.com"
+		"emails" : ["oriol@localprojects.com"],
+		"reportGitStatus" : true
 	},
 	
 	"GoogleAnalytics" : {
@@ -159,12 +159,12 @@
 		"framerateReportInterval" : 60.0 //seconds
 	},
 
-	"tuio":{
+	"TUIO":{
 		"enabled" : true,
 		"port" : 3333
 	},
 
-	"downloads":{
+	"Downloads":{
 		"proxy":{
 			"useProxy" : false,
 			"proxyHost": "",
@@ -187,7 +187,7 @@
 		"idleTimeAfterEachDownloadSec" : 0.0
 	},
 
-	"content":{
+	"Content":{
 		"JsonSources":{ 
 		},  
 

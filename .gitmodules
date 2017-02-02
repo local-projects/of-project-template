@@ -1,6 +1,6 @@
 [submodule "OpenFrameworks"]
 	path = OpenFrameworks
-	url = https://github.com/local-projects/openFrameworks.git
+	url = https://github.com/local-projects/OpenFrameworks.git
 [submodule "ExternalAddons/ofxRemoteUI"]
 	path = ExternalAddons/ofxRemoteUI
 	url = https://github.com/local-projects/ofxRemoteUI.git
@@ -118,3 +118,12 @@
 [submodule "ExternalAddons/ofxUserContentUpload"]
 	path = ExternalAddons/ofxUserContentUpload
 	url = https://github.com/local-projects/ofxUserContentUpload.git
+[submodule "ExternalAddons/ofxJSON"]
+	path = ExternalAddons/ofxJSON
+	url = https://github.com/local-projects/ofxJSON.git
+[submodule "ExternalAddons/ofxNanoVG"]
+	path = ExternalAddons/ofxNanoVG
+	url = https://github.com/local-projects/ofxNanoVG.git
+[submodule "ExternalAddons/ofxTextureCrop"]
+	path = ExternalAddons/ofxTextureCrop
+	url = https://github.com/local-projects/ofxTextureCrop.git

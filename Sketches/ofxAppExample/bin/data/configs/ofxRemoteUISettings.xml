@@ -20,13 +20,13 @@
 		<!-- # APP COLORS ############################ -->
 		<P c0.red="22" c1.green="22" c2.blue="22" c3.alpha="255" name="bgColor" type="color"/>
 		<P c0.red="255" c1.green="255" c2.blue="255" c3.alpha="255" name="myColor" type="color"/>
+		<P name="APP" type="group"/>
+		<!-- # APP ############################ -->
+		<P name="showMouse" type="bool">1</P>
+		<P name="enableMouse" type="bool">1</P>
 		<!--                                                                                 -->
 		<!-- ############################## DISABLED PARAMS ################################# -->
 		<!--                                                                                 -->
-		<P disabled="1" name="APP" type="group"/>
-		<!-- # APP ############################ -->
-		<P disabled="1" name="showMouse" type="bool">1</P>
-		<P disabled="1" name="enableMouse" type="bool">1</P>
 		<P disabled="1" name="AppColors" type="group"/>
 		<!-- # AppColors ############################ -->
 	</OFX_REMOTE_UI_PARAMS>

@@ -8,11 +8,11 @@
 		"maxThreads" : 6,
 		"window":{
 			"windowMode" : 8, //see ofxScreenSetup::ScreenMode; windowed=8, fullOneMonitor=1, fullAllMonitors=0
-			"customWidth": 800, //540
+			"customWidth": 1200, //540
 			"customHeight": 800,
-			"customWindowPosition" : false,
-			"customPositionX" : 1950,
-			"customPositionY" : -450
+			"customWindowPosition" : true,
+			"customPositionX" : 70,
+			"customPositionY" : 70
 		},
 		"startupScreenViewport":{ "x":0.0, "y":0.0, "w":1.0, "h":1.0 }, //define what part of the window is used to draw loading screens
 		"renderSize":{ //get it with app.renderSize
@@ -63,7 +63,6 @@
 				"uiScale" : 1.0
 			}
 		}
-
 	},
 
 
@@ -107,15 +106,15 @@
 		"percentageAsGraph" : true
 	},
 	
-	"textureLoader": {
-		"maxNumberSimulataneousLoads" : 3,
+	"TextureLoader": {
+		"maxNumberSimulataneousLoads" : 6,
 		"textureLodBias" : -0.3,
 		"maxTimeSpentLoadingPerFrameMs" : 4.0,//ms
 		"scanlinesPerLoop" : 128,
 		"maxLoadRequestsPerFrame" : 64
 	},
 
-	"logging":{
+	"Logging":{
 		"logLevel" : 1, //0..5 (verbose, notice, warning, error, fatal, silent)
 		"toScreen": true,
 		"toFile" : true,
@@ -137,10 +136,11 @@
 	
 	"ErrorReporting":{ //ofxSensu
 		"enabled" : true,
-		"host" : "127.0.0.1",
+		"host" : "192.168.42.119",
 		//"host" : "192.168.103.10",
 		"port" : 3030,
-		"emails" : ["oriol@localprojects.com", "oriol@uri.cat"]
+		"emails" : ["oriol@localprojects.com", "oriol@uri.cat"],
+		"reportGitStatus" : true
 	},
 
 	"GoogleAnalytics" : {
@@ -159,12 +159,12 @@
 		"framerateReportInterval" : 60.0 //seconds
 	},
 
-	"tuio":{
+	"TUIO":{
 		"enabled" : true,
 		"port" : 3333
 	},
 
-	"downloads":{
+	"Downloads":{
 		"proxy":{
 			"useProxy" : false,
 			"proxyHost": "",
@@ -176,28 +176,30 @@
 			"username": "",
 			"password": ""
 		},
-		"customHeaders":{ //not implemented
+		"customHeaders":{ //not implemented TODO!
 			//"myHeaderName" : "myHeaderContent",
 		},
 		"verbose" : false,
-		"maxConcurrentDownloads": 5,
+		"maxConcurrentDownloads": 20,
 		"userAgent" : "", //not implemented
 		"timeOutSec" : 20,
 		"speedLimitKb" : 0, //per download - 0 means no limit
 		"idleTimeAfterEachDownloadSec" : 0.0
 	},
 
-	"content":{
+	"Content":{
 		"JsonSources":{ 
 			"CH" : {
 				"url" : "file://testJson/ch_small.json",
+				//"url" : "http://uri.cat/LP/ch_small.json",
 				"jsonDownloadDir": "CH_JsonDownloads",
 				"assetsLocation": "CH_assets",  //all assets will be in that folder, with a sub-folder (named after the object ID) per each content object
 				"shouldSkipObjectPolicyTests" : false  //set this to true to avoid the object cleanup according to the policies defined below
 			},
 			"CWRU" : {
-				//"url" : "file://testJson/cwru_broken.json",
 				"url" : "file://testJson/cwru.json",
+				//"url" : "http://uri.cat/LP/cwru.json",
+				//"url" : "file://testJson/cwru_broken.json",
 				"jsonDownloadDir": "CWRU_JsonDownloads",
 				"assetsLocation": "CWRU_assets",  //all assets will be in that folder, with a sub-folder (named after the object ID) per each content object
 				"shouldSkipObjectPolicyTests" : false  //set this to true to avoid the object cleanup according to the policies defined below
@@ -220,7 +222,7 @@
   			"fileExistsAndProvidedSha1Match" : true
   		},
 
-  		"ObjectUsagePolicy":{ //an JSON object should only be used if...
+  		"ObjectUsagePolicy":{ //a JSON object should only be used if...
   			"allAssetsAreOK" : true, //if true, an object can only be used if ALL assets are OK
   			"minNumberImgAssets" : 1, //ie. if there are < N image assets, object will be rejected
   			"minNumberVideoAssets" : 0,
