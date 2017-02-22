@@ -215,7 +215,7 @@ Ensure-SubModule-Upstream() {
     # If the remote already exists but pointing to another location, let's see if we can update
     # it
     elif [ "$remote_url" != "$upstream" ]; then
-        echo-info "'$modpath' already has a remote '$name' but it is pointing towards '$remote_url', not '$upstream' as specified."
+        echo-info "'$modpath' already has a remote '$name' but it is pointing towards '$submod_url', not '$upstream' as specified."
         if prompt-user "For '$modpath', would you like to update the url from '$submod_url' to '$upstream'?"; then
             git remote set-url $name $upstream
         fi
@@ -364,6 +364,10 @@ if ! ls .git &> /dev/null; then
         exit 1
     fi
 fi
+
+echo-info "Performing basic git submodule initialization and updates"
+git submodule init
+git submodule update
 
 # Manage our submodules
 SubMods
