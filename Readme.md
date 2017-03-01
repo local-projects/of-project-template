@@ -26,6 +26,7 @@ CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
 
 AND drop these 2 files (```ccache-clang.sh``` and```ccache-clang++.sh```) in ```$(OF_PATH)/libs/openFrameworksCompiled/project/osx```
 
+
 **if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```
 
 ####ccache-clang.sh
