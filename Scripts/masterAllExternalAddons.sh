@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#this script will checkout master and will pull from origin for all submods
+#this is a dumb script; run it from /Scripts with ./masterAllExternalAddons.sh
+
+
 cd ..
 
 for i in ExternalAddons/* ; do
