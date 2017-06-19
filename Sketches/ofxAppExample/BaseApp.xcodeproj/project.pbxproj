@@ -48,7 +48,6 @@
 		BB1167021D5D530C0095DABF /* ofxMtJsonParserThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1166FE1D5D530C0095DABF /* ofxMtJsonParserThread.cpp */; };
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
-		BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA261CBF0EBC004EB39A /* stb_truetype.c */; };
 		BB27B4241D7A7369004DB04B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B41F1D7A7369004DB04B /* main.cpp */; };
 		BB27B4251D7A7369004DB04B /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B4201D7A7369004DB04B /* ofApp.cpp */; };
 		BB27B4261D7A7369004DB04B /* ofxAppParsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B4221D7A7369004DB04B /* ofxAppParsers.cpp */; };
@@ -60,6 +59,7 @@
 		BB41EE631E350E6F000D1F4D /* TouchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE5A1E350E6F000D1F4D /* TouchManager.cpp */; };
 		BB41EE641E350E6F000D1F4D /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE5C1E350E6F000D1F4D /* VirtualTouch.cpp */; };
 		BB41EE681E351072000D1F4D /* TexturedObjectScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE661E351072000D1F4D /* TexturedObjectScrollView.cpp */; };
+		BB57E7251EF86C8400C2E1EE /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB57E7241EF86C8400C2E1EE /* stb_truetype.c */; };
 		BB641FDE1D9FF6BE007DBBB6 /* ofxApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB641FD11D9FF6BE007DBBB6 /* ofxApp.cpp */; };
 		BB641FDF1D9FF6BE007DBBB6 /* ofxAppContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB641FD41D9FF6BE007DBBB6 /* ofxAppContent.cpp */; };
 		BB641FE01D9FF6BE007DBBB6 /* ofxAppFonts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB641FD61D9FF6BE007DBBB6 /* ofxAppFonts.cpp */; };
@@ -442,7 +442,6 @@
 		BB19DA201CBF0EBC004EB39A /* ofxFontStash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStash.h; sourceTree = "<group>"; };
 		BB19DA241CBF0EBC004EB39A /* fontstash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fontstash.c; sourceTree = "<group>"; };
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
-		BB19DA261CBF0EBC004EB39A /* stb_truetype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 		BB27B41D1D7A7363004DB04B /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../ExternalAddons/ofxApp/example/CH_Object.h; sourceTree = "<group>"; };
 		BB27B41E1D7A7363004DB04B /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../ExternalAddons/ofxApp/example/CWRU_Object.h; sourceTree = "<group>"; };
@@ -470,6 +469,7 @@
 		BB41EE5D1E350E6F000D1F4D /* VirtualTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualTouch.h; sourceTree = "<group>"; };
 		BB41EE661E351072000D1F4D /* TexturedObjectScrollView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexturedObjectScrollView.cpp; path = ../../ExternalAddons/ofxApp/example/TexturedObjectScrollView.cpp; sourceTree = "<group>"; };
 		BB41EE671E351072000D1F4D /* TexturedObjectScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexturedObjectScrollView.h; path = ../../ExternalAddons/ofxApp/example/TexturedObjectScrollView.h; sourceTree = "<group>"; };
+		BB57E7241EF86C8400C2E1EE /* stb_truetype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB641FD11D9FF6BE007DBBB6 /* ofxApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxApp.cpp; sourceTree = "<group>"; };
 		BB641FD21D9FF6BE007DBBB6 /* ofxApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxApp.h; sourceTree = "<group>"; };
 		BB641FD31D9FF6BE007DBBB6 /* ofxAppColorsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAppColorsBasic.h; sourceTree = "<group>"; };
@@ -1456,8 +1456,8 @@
 			children = (
 				BB19DA241CBF0EBC004EB39A /* fontstash.c */,
 				BB19DA251CBF0EBC004EB39A /* fontstash.h */,
-				BB19DA261CBF0EBC004EB39A /* stb_truetype.c */,
 				BB19DA271CBF0EBC004EB39A /* stb_truetype.h */,
+				BB57E7241EF86C8400C2E1EE /* stb_truetype.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -2353,10 +2353,10 @@
 				BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */,
 				BBB15F131D5B93C10051942B /* LoadingScreen.cpp in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
+				BB57E7251EF86C8400C2E1EE /* stb_truetype.c in Sources */,
 				BBB15F151D5B93C10051942B /* ProgressBar.cpp in Sources */,
 				BB1166F21D5D3ECF0095DABF /* ofxCvFloatImage.cpp in Sources */,
 				BBA029D61D53A07B004A32A2 /* jsoncpp.cpp in Sources */,
-				BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
 				0EA5725384DF8D68BCC2427C /* ofxXmlSettings.cpp in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
