@@ -62,3 +62,10 @@ fi
 # Xcode 8 plugins
 
 https://github.com/XVimProject/XVim/blob/master/INSTALL_Xcode8.md
+
+
+# Submodules
+
+There's this script called ```submods.sh``` in the repo root. Run it when you first clone the repo to setup your submodules. Edit it and run it again to add extra submodules, syntax should be self-explanatory.
+
+
