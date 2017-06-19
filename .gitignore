@@ -1,6 +1,10 @@
 #OSX getInfo versioning info (/World/Scripts/XcodeAttachGitInfoToBinary.sh)
 gitInfo.h
 
+#ofxApp examples downloaded assets
+Sketches/ofxAppExample/bin/data/CWRU_assets
+Sketches/ofxAppExample/bin/data/CH_assets
+
 #oriol's addons settings local 
 ofxRemoteUISettings Backups
 ofxTimeMeasurements.settings

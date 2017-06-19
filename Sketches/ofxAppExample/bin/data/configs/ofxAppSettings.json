@@ -140,7 +140,7 @@
 		//"host" : "192.168.103.10",
 		"port" : 3030,
 		"emails" : ["oriol@localprojects.com", "oriol@uri.cat"],
-		"reportGitStatus" : true
+		"reportGitStatus" : true //if true, ofxSensu will add info regarding the repo status (git status) to the reports
 	},
 
 	"GoogleAnalytics" : {

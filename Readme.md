@@ -15,7 +15,7 @@ required for xcode project compilation
 ```
 brew install ccache
 ```
-https://forum.openframeworks.cc/t/speeding-up-compilation-with-ccache-xcode-tip/23492/7
+[forum thread](https://forum.openframeworks.cc/t/speeding-up-compilation-with-ccache-xcode-tip/23492/7)
 
 add these 2 lines at the end of ```CoreOF.xcconfig```
  
@@ -27,37 +27,10 @@ CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
 AND drop these 2 files (```ccache-clang.sh``` and```ccache-clang++.sh```) in ```$(OF_PATH)/libs/openFrameworksCompiled/project/osx```
 
 
-**if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```
+**if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```**
 
-####ccache-clang.sh
+**Note that Xcode will fail to compile using ccache if you enable the ```Address Sanitiser```; just comment out those two lines in ```CoreOF.xcconfig ``` if you need a build with it.**
 
-```
-#!/bin/sh
-if type -p /usr/local/bin/ccache >/dev/null 2>&1; then
-  export CCACHE_MAXSIZE=10G
-  export CCACHE_CPP2=true
-  export CCACHE_HARDLINK=true
-  export CCACHE_SLOPPINESS=file_macro,time_macros,include_file_mtime,include_file_ctime,file_stat_matches
-  exec /usr/local/bin/ccache /usr/bin/clang "$@"
-else
-  exec clang "$@"
-fi
-```
-
-####ccache-clang++.sh
-
-```
-#!/bin/sh
-if type -p /usr/local/bin/ccache >/dev/null 2>&1; then
-  export CCACHE_MAXSIZE=10G
-  export CCACHE_CPP2=true
-  export CCACHE_HARDLINK=true
-  export CCACHE_SLOPPINESS=file_macro,time_macros,include_file_mtime,include_file_ctime,file_stat_matches
-  exec /usr/local/bin/ccache /usr/bin/clang++ "$@"
-else
-  exec clang++ "$@"
-fi
-```
 
 # Xcode 8 plugins
 
