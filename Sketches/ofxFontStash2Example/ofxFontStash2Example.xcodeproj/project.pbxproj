@@ -29,13 +29,26 @@
 		B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7416C84B72931B29F2372A27 /* NetworkingUtils.cpp */; };
 		B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0697B00065A3B433EADDCD82 /* ofxRemoteUIServer.cpp */; };
 		B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */; };
-		BB411EC11E33EFA300069F78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB411EBE1E33EFA300069F78 /* main.cpp */; };
-		BB411EC21E33EFA300069F78 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB411EBF1E33EFA300069F78 /* ofApp.cpp */; };
-		BB4120151E345BA100069F78 /* ofxNanoVG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB411FD11E345BA100069F78 /* ofxNanoVG.cpp */; };
-		BB4120181E345BA100069F78 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB411FE11E345BA100069F78 /* README.md */; };
-		BB4120201E345BA100069F78 /* obsolete.md in Sources */ = {isa = PBXBuildFile; fileRef = BB41200A1E345BA100069F78 /* obsolete.md */; };
-		BB4120211E345BA100069F78 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB41200C1E345BA100069F78 /* README.md */; };
-		BB4120221E345BA100069F78 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB41200F1E345BA100069F78 /* nanovg.c */; };
+		BB031C0C1EA5714A008FBBC6 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB0318B71EA5714A008FBBC6 /* ofxXmlPoco.cpp */; };
+		BB031C0D1EA5714A008FBBC6 /* crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0319101EA5714A008FBBC6 /* crypto.a */; };
+		BB031C0E1EA5714A008FBBC6 /* ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0319111EA5714A008FBBC6 /* ssl.a */; };
+		BB031C0F1EA5714A008FBBC6 /* PocoCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BF91EA5714A008FBBC6 /* PocoCrypto.a */; };
+		BB031C101EA5714A008FBBC6 /* PocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFA1EA5714A008FBBC6 /* PocoFoundation.a */; };
+		BB031C111EA5714A008FBBC6 /* PocoJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFB1EA5714A008FBBC6 /* PocoJSON.a */; };
+		BB031C121EA5714A008FBBC6 /* PocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFC1EA5714A008FBBC6 /* PocoNet.a */; };
+		BB031C131EA5714A008FBBC6 /* PocoNetSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFD1EA5714A008FBBC6 /* PocoNetSSL.a */; };
+		BB031C141EA5714A008FBBC6 /* PocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFE1EA5714A008FBBC6 /* PocoUtil.a */; };
+		BB031C151EA5714A008FBBC6 /* PocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFF1EA5714A008FBBC6 /* PocoXML.a */; };
+		BB031C161EA5714A008FBBC6 /* PocoZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031C001EA5714A008FBBC6 /* PocoZip.a */; };
+		BB5978F41EC9FAFE003CCFAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F11EC9FAFE003CCFAC /* main.cpp */; };
+		BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */; };
+		BB5979411ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979071ECA0453003CCFAC /* README.md */; };
+		BB5979491ECA0454003CCFAC /* obsolete.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979301ECA0453003CCFAC /* obsolete.md */; };
+		BB59794A1ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979321ECA0454003CCFAC /* README.md */; };
+		BB59794B1ECA0454003CCFAC /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5979351ECA0454003CCFAC /* nanovg.c */; };
+		BB59794C1ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB59793B1ECA0454003CCFAC /* README.md */; };
+		BB59794D1ECA0454003CCFAC /* ofxNanoVG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */; };
+		BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD11E1582CE4E65E6E7C9F26 /* tinyxml.cpp */; };
@@ -93,7 +106,6 @@
 		454A1AEDABDA4CCE34450A12 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = ../../OpenFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
 		46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
 		48A61DDA77A363E5184007AC /* OscReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscReceivedElements.cpp; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
-		4AE3963B750C498020EBEB82 /* gl3fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gl3fontstash.h; path = ../../ExternalAddons/ofxFontStash2/libs/fontstash/src/gl3fontstash.h; sourceTree = SOURCE_ROOT; };
 		569DA45655AF84D7959F2362 /* ofxTimeMeasurements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTimeMeasurements.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.h; sourceTree = SOURCE_ROOT; };
 		5E25203034548B1414A2EC4A /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
 		5FE44E52941549810A497BA4 /* TinyPie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TinyPie.h; path = ../../ExternalAddons/ofxRemoteUI/src/TinyPie.h; sourceTree = SOURCE_ROOT; };
@@ -122,33 +134,133 @@
 		B0413FA90AE37E82CBF8E321 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscArg.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
 		B588A5CAFAD1F1E91D6FC6AA /* pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pugiconfig.hpp; path = ../../ExternalAddons/ofxFontStash2/libs/pugixml/src/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
 		B8AEC5B896853B6FC7C19C68 /* ofxTimeMeasurements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTimeMeasurements.cpp; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.cpp; sourceTree = SOURCE_ROOT; };
-		BB411EBE1E33EFA300069F78 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxFontStash2/example/main.cpp; sourceTree = "<group>"; };
-		BB411EBF1E33EFA300069F78 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxFontStash2/example/ofApp.cpp; sourceTree = "<group>"; };
-		BB411EC01E33EFA300069F78 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxFontStash2/example/ofApp.h; sourceTree = "<group>"; };
-		BB411F761E34571C00069F78 /* ofx_fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofx_fontstash.h; path = ../../ExternalAddons/ofxFontStash2/libs/fontstash/src/ofx_fontstash.h; sourceTree = "<group>"; };
-		BB411F791E34575100069F78 /* ofx_stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofx_stb_truetype.h; path = ../../ExternalAddons/ofxFontStash2/libs/fontstash/src/ofx_stb_truetype.h; sourceTree = "<group>"; };
-		BB411FD11E345BA100069F78 /* ofxNanoVG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNanoVG.cpp; sourceTree = "<group>"; };
-		BB411FD21E345BA100069F78 /* ofxNanoVG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxNanoVG.h; sourceTree = "<group>"; };
-		BB411FD51E345BA100069F78 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BB411FDF1E345BA100069F78 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB411FE01E345BA100069F78 /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
-		BB411FE11E345BA100069F78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB411FE31E345BA100069F78 /* nanosvg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanosvg.h; sourceTree = "<group>"; };
-		BB411FE41E345BA100069F78 /* nanosvgrast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanosvgrast.h; sourceTree = "<group>"; };
-		BB411FE61E345BA100069F78 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BB4120061E345BA100069F78 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB4120081E345BA100069F78 /* nanovg_gl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl2.h; sourceTree = "<group>"; };
-		BB4120091E345BA100069F78 /* nanovg_gl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl3.h; sourceTree = "<group>"; };
-		BB41200A1E345BA100069F78 /* obsolete.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = obsolete.md; sourceTree = "<group>"; };
-		BB41200B1E345BA100069F78 /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
-		BB41200C1E345BA100069F78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB41200E1E345BA100069F78 /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
-		BB41200F1E345BA100069F78 /* nanovg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
-		BB4120101E345BA100069F78 /* nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
-		BB4120111E345BA100069F78 /* nanovg_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
-		BB4120121E345BA100069F78 /* nanovg_gl_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
-		BB4120131E345BA100069F78 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		BB4120141E345BA100069F78 /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		BB0318B71EA5714A008FBBC6 /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlPoco.cpp; sourceTree = "<group>"; };
+		BB0318B81EA5714A008FBBC6 /* ofxXmlPoco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlPoco.h; sourceTree = "<group>"; };
+		BB0318BD1EA5714A008FBBC6 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		BB0318BE1EA5714A008FBBC6 /* asn1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		BB0318BF1EA5714A008FBBC6 /* asn1_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		BB0318C01EA5714A008FBBC6 /* asn1t.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		BB0318C11EA5714A008FBBC6 /* bio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		BB0318C21EA5714A008FBBC6 /* blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		BB0318C31EA5714A008FBBC6 /* bn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		BB0318C41EA5714A008FBBC6 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		BB0318C51EA5714A008FBBC6 /* camellia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		BB0318C61EA5714A008FBBC6 /* cast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		BB0318C71EA5714A008FBBC6 /* cmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		BB0318C81EA5714A008FBBC6 /* cms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		BB0318C91EA5714A008FBBC6 /* comp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		BB0318CA1EA5714A008FBBC6 /* conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		BB0318CB1EA5714A008FBBC6 /* conf_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		BB0318CC1EA5714A008FBBC6 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		BB0318CD1EA5714A008FBBC6 /* des.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		BB0318CE1EA5714A008FBBC6 /* des_old.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		BB0318CF1EA5714A008FBBC6 /* dh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		BB0318D01EA5714A008FBBC6 /* dsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		BB0318D11EA5714A008FBBC6 /* dso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		BB0318D21EA5714A008FBBC6 /* dtls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		BB0318D31EA5714A008FBBC6 /* e_os2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		BB0318D41EA5714A008FBBC6 /* ebcdic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		BB0318D51EA5714A008FBBC6 /* ec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		BB0318D61EA5714A008FBBC6 /* ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		BB0318D71EA5714A008FBBC6 /* ecdsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		BB0318D81EA5714A008FBBC6 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		BB0318D91EA5714A008FBBC6 /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		BB0318DA1EA5714A008FBBC6 /* evp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		BB0318DB1EA5714A008FBBC6 /* hmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		BB0318DC1EA5714A008FBBC6 /* idea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		BB0318DD1EA5714A008FBBC6 /* krb5_asn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		BB0318DE1EA5714A008FBBC6 /* kssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		BB0318DF1EA5714A008FBBC6 /* lhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		BB0318E01EA5714A008FBBC6 /* md4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		BB0318E11EA5714A008FBBC6 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		BB0318E21EA5714A008FBBC6 /* mdc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		BB0318E31EA5714A008FBBC6 /* modes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		BB0318E41EA5714A008FBBC6 /* obj_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		BB0318E51EA5714A008FBBC6 /* objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		BB0318E61EA5714A008FBBC6 /* ocsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		BB0318E71EA5714A008FBBC6 /* opensslconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		BB0318E81EA5714A008FBBC6 /* opensslconf_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios.h; sourceTree = "<group>"; };
+		BB0318E91EA5714A008FBBC6 /* opensslconf_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_osx.h; sourceTree = "<group>"; };
+		BB0318EA1EA5714A008FBBC6 /* opensslconf_tvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_tvos.h; sourceTree = "<group>"; };
+		BB0318EB1EA5714A008FBBC6 /* opensslv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		BB0318EC1EA5714A008FBBC6 /* ossl_typ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		BB0318ED1EA5714A008FBBC6 /* pem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		BB0318EE1EA5714A008FBBC6 /* pem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		BB0318EF1EA5714A008FBBC6 /* pkcs12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		BB0318F01EA5714A008FBBC6 /* pkcs7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		BB0318F11EA5714A008FBBC6 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		BB0318F21EA5714A008FBBC6 /* rand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		BB0318F31EA5714A008FBBC6 /* rc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		BB0318F41EA5714A008FBBC6 /* rc4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		BB0318F51EA5714A008FBBC6 /* ripemd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		BB0318F61EA5714A008FBBC6 /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		BB0318F71EA5714A008FBBC6 /* safestack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		BB0318F81EA5714A008FBBC6 /* seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		BB0318F91EA5714A008FBBC6 /* sha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		BB0318FA1EA5714A008FBBC6 /* srp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		BB0318FB1EA5714A008FBBC6 /* srtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		BB0318FC1EA5714A008FBBC6 /* ssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		BB0318FD1EA5714A008FBBC6 /* ssl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		BB0318FE1EA5714A008FBBC6 /* ssl23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		BB0318FF1EA5714A008FBBC6 /* ssl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		BB0319001EA5714A008FBBC6 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		BB0319011EA5714A008FBBC6 /* symhacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		BB0319021EA5714A008FBBC6 /* tls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		BB0319031EA5714A008FBBC6 /* ts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		BB0319041EA5714A008FBBC6 /* txt_db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		BB0319051EA5714A008FBBC6 /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		BB0319061EA5714A008FBBC6 /* ui_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		BB0319071EA5714A008FBBC6 /* whrlpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		BB0319081EA5714A008FBBC6 /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		BB0319091EA5714A008FBBC6 /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		BB03190A1EA5714A008FBBC6 /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		BB0319101EA5714A008FBBC6 /* crypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = crypto.a; sourceTree = "<group>"; };
+		BB0319111EA5714A008FBBC6 /* ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ssl.a; sourceTree = "<group>"; };
+		BB0319161EA5714A008FBBC6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB031BF91EA5714A008FBBC6 /* PocoCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoCrypto.a; sourceTree = "<group>"; };
+		BB031BFA1EA5714A008FBBC6 /* PocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoFoundation.a; sourceTree = "<group>"; };
+		BB031BFB1EA5714A008FBBC6 /* PocoJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoJSON.a; sourceTree = "<group>"; };
+		BB031BFC1EA5714A008FBBC6 /* PocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoNet.a; sourceTree = "<group>"; };
+		BB031BFD1EA5714A008FBBC6 /* PocoNetSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoNetSSL.a; sourceTree = "<group>"; };
+		BB031BFE1EA5714A008FBBC6 /* PocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoUtil.a; sourceTree = "<group>"; };
+		BB031BFF1EA5714A008FBBC6 /* PocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoXML.a; sourceTree = "<group>"; };
+		BB031C001EA5714A008FBBC6 /* PocoZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoZip.a; sourceTree = "<group>"; };
+		BB031C0B1EA5714A008FBBC6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB5978F11EC9FAFE003CCFAC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		BB5978F31EC9FAFE003CCFAC /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		BB5978F71ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BB5978F81ECA0453003CCFAC /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		BB5978FB1ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BB5979051ECA0453003CCFAC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BB5979061ECA0453003CCFAC /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		BB5979071ECA0453003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB5979091ECA0453003CCFAC /* nanosvg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanosvg.h; sourceTree = "<group>"; };
+		BB59790A1ECA0453003CCFAC /* nanosvgrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanosvgrast.h; sourceTree = "<group>"; };
+		BB59790C1ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BB59792C1ECA0453003CCFAC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BB59792E1ECA0453003CCFAC /* nanovg_gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl2.h; sourceTree = "<group>"; };
+		BB59792F1ECA0453003CCFAC /* nanovg_gl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl3.h; sourceTree = "<group>"; };
+		BB5979301ECA0453003CCFAC /* obsolete.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = obsolete.md; sourceTree = "<group>"; };
+		BB5979311ECA0454003CCFAC /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		BB5979321ECA0454003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB5979341ECA0454003CCFAC /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		BB5979351ECA0454003CCFAC /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
+		BB5979361ECA0454003CCFAC /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		BB5979371ECA0454003CCFAC /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
+		BB5979381ECA0454003CCFAC /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BB5979391ECA0454003CCFAC /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		BB59793A1ECA0454003CCFAC /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		BB59793B1ECA0454003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNanoVG.cpp; sourceTree = "<group>"; };
+		BB59793E1ECA0454003CCFAC /* ofxNanoVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNanoVG.h; sourceTree = "<group>"; };
+		BB6ACC131ED207B600D624E8 /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_fontstash.h; sourceTree = "<group>"; };
+		BB6ACC141ED207B600D624E8 /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BB6ACC151ED207B600D624E8 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
+		BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
+		BB6ACC171ED207B600D624E8 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
+		BB9E898D1EC7E00E000C83E5 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		BB9E898E1EC7E00E000C83E5 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
@@ -174,7 +286,6 @@
 		EB66CB0E1883D43752D0A3C1 /* OscTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscTypes.cpp; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp; sourceTree = SOURCE_ROOT; };
 		F0AB936C503BA3240063A923 /* ofxFontStashStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFontStashStyle.h; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStashStyle.h; sourceTree = SOURCE_ROOT; };
 		F29DC702833F30894D699307 /* ofxRemoteUINeigbors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUINeigbors.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUINeigbors.h; sourceTree = SOURCE_ROOT; };
-		F48F60AEBA2ED9A556F0B437 /* glfontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = glfontstash.h; path = ../../ExternalAddons/ofxFontStash2/libs/fontstash/src/glfontstash.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +293,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB031C161EA5714A008FBBC6 /* PocoZip.a in Frameworks */,
+				BB031C151EA5714A008FBBC6 /* PocoXML.a in Frameworks */,
+				BB031C121EA5714A008FBBC6 /* PocoNet.a in Frameworks */,
+				BB031C0E1EA5714A008FBBC6 /* ssl.a in Frameworks */,
+				BB031C0F1EA5714A008FBBC6 /* PocoCrypto.a in Frameworks */,
+				BB031C111EA5714A008FBBC6 /* PocoJSON.a in Frameworks */,
+				BB031C0D1EA5714A008FBBC6 /* crypto.a in Frameworks */,
+				BB031C131EA5714A008FBBC6 /* PocoNetSSL.a in Frameworks */,
+				BB031C141EA5714A008FBBC6 /* PocoUtil.a in Frameworks */,
+				BB031C101EA5714A008FBBC6 /* PocoFoundation.a in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,17 +390,6 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		44030EEF372663423FBA9FA6 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB411F791E34575100069F78 /* ofx_stb_truetype.h */,
-				BB411F761E34571C00069F78 /* ofx_fontstash.h */,
-				4AE3963B750C498020EBEB82 /* gl3fontstash.h */,
-				F48F60AEBA2ED9A556F0B437 /* glfontstash.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		641362CA659FAFEE4E81001B /* posix */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +402,7 @@
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
+				BB5978F61ECA0453003CCFAC /* ofxNanoVG */,
 				88CCE135290E1DCC58B78E38 /* ofxFontStash2 */,
 				6EF0FDC4781F206366A051E5 /* ofxRemoteUI */,
 				1C02E16201287DD7B0F97B68 /* ofxTimeMeasurements */,
@@ -330,7 +441,7 @@
 		6F739D6EA6502645A9A20C8C /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				995EC34862A48438B149E087 /* fontstash */,
+				BB9E897F1EC7E00E000C83E5 /* nanoVG */,
 				8DF3024E269407B1C1DEA0A5 /* pugixml */,
 			);
 			name = libs;
@@ -361,14 +472,6 @@
 			name = pugixml;
 			sourceTree = "<group>";
 		};
-		995EC34862A48438B149E087 /* fontstash */ = {
-			isa = PBXGroup;
-			children = (
-				44030EEF372663423FBA9FA6 /* src */,
-			);
-			name = fontstash;
-			sourceTree = "<group>";
-		};
 		9CB6D9058AC334E75D130ABF /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,91 +494,201 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		BB411FCF1E345BA100069F78 /* ofxNanoVG */ = {
+		BB0318B51EA5714A008FBBC6 /* ofxPoco */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FD01E345BA100069F78 /* src */,
-				BB411FD31E345BA100069F78 /* libs */,
+				BB0318B61EA5714A008FBBC6 /* src */,
+				BB0318B91EA5714A008FBBC6 /* libs */,
 			);
-			name = ofxNanoVG;
+			name = ofxPoco;
 			sourceTree = "<group>";
 		};
-		BB411FD01E345BA100069F78 /* src */ = {
+		BB0318B61EA5714A008FBBC6 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FD11E345BA100069F78 /* ofxNanoVG.cpp */,
-				BB411FD21E345BA100069F78 /* ofxNanoVG.h */,
+				BB0318B71EA5714A008FBBC6 /* ofxXmlPoco.cpp */,
+				BB0318B81EA5714A008FBBC6 /* ofxXmlPoco.h */,
 			);
 			name = src;
-			path = ../../ExternalAddons/ofxNanoVG/src;
+			path = ../../OpenFrameworks/addons/ofxPoco/src;
 			sourceTree = "<group>";
 		};
-		BB411FD31E345BA100069F78 /* libs */ = {
+		BB0318B91EA5714A008FBBC6 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FD41E345BA100069F78 /* nanosvg */,
-				BB411FE51E345BA100069F78 /* nanovg */,
+				BB0318BA1EA5714A008FBBC6 /* openssl */,
+				BB0319171EA5714A008FBBC6 /* poco */,
 			);
 			name = libs;
-			path = ../../ExternalAddons/ofxNanoVG/libs;
+			path = ../../OpenFrameworks/addons/ofxPoco/libs;
 			sourceTree = "<group>";
 		};
-		BB411FD41E345BA100069F78 /* nanosvg */ = {
+		BB0318BA1EA5714A008FBBC6 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FD51E345BA100069F78 /* .gitignore */,
-				BB411FDF1E345BA100069F78 /* LICENSE.txt */,
-				BB411FE01E345BA100069F78 /* premake4.lua */,
-				BB411FE11E345BA100069F78 /* README.md */,
-				BB411FE21E345BA100069F78 /* src */,
+				BB0318BB1EA5714A008FBBC6 /* include */,
+				BB03190B1EA5714A008FBBC6 /* lib */,
+				BB0319151EA5714A008FBBC6 /* license */,
 			);
-			path = nanosvg;
+			path = openssl;
 			sourceTree = "<group>";
 		};
-		BB411FE21E345BA100069F78 /* src */ = {
+		BB0318BB1EA5714A008FBBC6 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FE31E345BA100069F78 /* nanosvg.h */,
-				BB411FE41E345BA100069F78 /* nanosvgrast.h */,
+				BB0318BC1EA5714A008FBBC6 /* openssl */,
 			);
-			path = src;
+			path = include;
 			sourceTree = "<group>";
 		};
-		BB411FE51E345BA100069F78 /* nanovg */ = {
+		BB0318BC1EA5714A008FBBC6 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				BB411FE61E345BA100069F78 /* .gitignore */,
-				BB4120061E345BA100069F78 /* LICENSE.txt */,
-				BB4120071E345BA100069F78 /* obsolete */,
-				BB41200B1E345BA100069F78 /* premake4.lua */,
-				BB41200C1E345BA100069F78 /* README.md */,
-				BB41200D1E345BA100069F78 /* src */,
+				BB0318BD1EA5714A008FBBC6 /* aes.h */,
+				BB0318BE1EA5714A008FBBC6 /* asn1.h */,
+				BB0318BF1EA5714A008FBBC6 /* asn1_mac.h */,
+				BB0318C01EA5714A008FBBC6 /* asn1t.h */,
+				BB0318C11EA5714A008FBBC6 /* bio.h */,
+				BB0318C21EA5714A008FBBC6 /* blowfish.h */,
+				BB0318C31EA5714A008FBBC6 /* bn.h */,
+				BB0318C41EA5714A008FBBC6 /* buffer.h */,
+				BB0318C51EA5714A008FBBC6 /* camellia.h */,
+				BB0318C61EA5714A008FBBC6 /* cast.h */,
+				BB0318C71EA5714A008FBBC6 /* cmac.h */,
+				BB0318C81EA5714A008FBBC6 /* cms.h */,
+				BB0318C91EA5714A008FBBC6 /* comp.h */,
+				BB0318CA1EA5714A008FBBC6 /* conf.h */,
+				BB0318CB1EA5714A008FBBC6 /* conf_api.h */,
+				BB0318CC1EA5714A008FBBC6 /* crypto.h */,
+				BB0318CD1EA5714A008FBBC6 /* des.h */,
+				BB0318CE1EA5714A008FBBC6 /* des_old.h */,
+				BB0318CF1EA5714A008FBBC6 /* dh.h */,
+				BB0318D01EA5714A008FBBC6 /* dsa.h */,
+				BB0318D11EA5714A008FBBC6 /* dso.h */,
+				BB0318D21EA5714A008FBBC6 /* dtls1.h */,
+				BB0318D31EA5714A008FBBC6 /* e_os2.h */,
+				BB0318D41EA5714A008FBBC6 /* ebcdic.h */,
+				BB0318D51EA5714A008FBBC6 /* ec.h */,
+				BB0318D61EA5714A008FBBC6 /* ecdh.h */,
+				BB0318D71EA5714A008FBBC6 /* ecdsa.h */,
+				BB0318D81EA5714A008FBBC6 /* engine.h */,
+				BB0318D91EA5714A008FBBC6 /* err.h */,
+				BB0318DA1EA5714A008FBBC6 /* evp.h */,
+				BB0318DB1EA5714A008FBBC6 /* hmac.h */,
+				BB0318DC1EA5714A008FBBC6 /* idea.h */,
+				BB0318DD1EA5714A008FBBC6 /* krb5_asn.h */,
+				BB0318DE1EA5714A008FBBC6 /* kssl.h */,
+				BB0318DF1EA5714A008FBBC6 /* lhash.h */,
+				BB0318E01EA5714A008FBBC6 /* md4.h */,
+				BB0318E11EA5714A008FBBC6 /* md5.h */,
+				BB0318E21EA5714A008FBBC6 /* mdc2.h */,
+				BB0318E31EA5714A008FBBC6 /* modes.h */,
+				BB0318E41EA5714A008FBBC6 /* obj_mac.h */,
+				BB0318E51EA5714A008FBBC6 /* objects.h */,
+				BB0318E61EA5714A008FBBC6 /* ocsp.h */,
+				BB0318E71EA5714A008FBBC6 /* opensslconf.h */,
+				BB0318E81EA5714A008FBBC6 /* opensslconf_ios.h */,
+				BB0318E91EA5714A008FBBC6 /* opensslconf_osx.h */,
+				BB0318EA1EA5714A008FBBC6 /* opensslconf_tvos.h */,
+				BB0318EB1EA5714A008FBBC6 /* opensslv.h */,
+				BB0318EC1EA5714A008FBBC6 /* ossl_typ.h */,
+				BB0318ED1EA5714A008FBBC6 /* pem.h */,
+				BB0318EE1EA5714A008FBBC6 /* pem2.h */,
+				BB0318EF1EA5714A008FBBC6 /* pkcs12.h */,
+				BB0318F01EA5714A008FBBC6 /* pkcs7.h */,
+				BB0318F11EA5714A008FBBC6 /* pqueue.h */,
+				BB0318F21EA5714A008FBBC6 /* rand.h */,
+				BB0318F31EA5714A008FBBC6 /* rc2.h */,
+				BB0318F41EA5714A008FBBC6 /* rc4.h */,
+				BB0318F51EA5714A008FBBC6 /* ripemd.h */,
+				BB0318F61EA5714A008FBBC6 /* rsa.h */,
+				BB0318F71EA5714A008FBBC6 /* safestack.h */,
+				BB0318F81EA5714A008FBBC6 /* seed.h */,
+				BB0318F91EA5714A008FBBC6 /* sha.h */,
+				BB0318FA1EA5714A008FBBC6 /* srp.h */,
+				BB0318FB1EA5714A008FBBC6 /* srtp.h */,
+				BB0318FC1EA5714A008FBBC6 /* ssl.h */,
+				BB0318FD1EA5714A008FBBC6 /* ssl2.h */,
+				BB0318FE1EA5714A008FBBC6 /* ssl23.h */,
+				BB0318FF1EA5714A008FBBC6 /* ssl3.h */,
+				BB0319001EA5714A008FBBC6 /* stack.h */,
+				BB0319011EA5714A008FBBC6 /* symhacks.h */,
+				BB0319021EA5714A008FBBC6 /* tls1.h */,
+				BB0319031EA5714A008FBBC6 /* ts.h */,
+				BB0319041EA5714A008FBBC6 /* txt_db.h */,
+				BB0319051EA5714A008FBBC6 /* ui.h */,
+				BB0319061EA5714A008FBBC6 /* ui_compat.h */,
+				BB0319071EA5714A008FBBC6 /* whrlpool.h */,
+				BB0319081EA5714A008FBBC6 /* x509.h */,
+				BB0319091EA5714A008FBBC6 /* x509_vfy.h */,
+				BB03190A1EA5714A008FBBC6 /* x509v3.h */,
 			);
-			path = nanovg;
+			path = openssl;
 			sourceTree = "<group>";
 		};
-		BB4120071E345BA100069F78 /* obsolete */ = {
+		BB03190B1EA5714A008FBBC6 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				BB4120081E345BA100069F78 /* nanovg_gl2.h */,
-				BB4120091E345BA100069F78 /* nanovg_gl3.h */,
-				BB41200A1E345BA100069F78 /* obsolete.md */,
+				BB03190F1EA5714A008FBBC6 /* osx */,
 			);
-			path = obsolete;
+			path = lib;
 			sourceTree = "<group>";
 		};
-		BB41200D1E345BA100069F78 /* src */ = {
+		BB03190F1EA5714A008FBBC6 /* osx */ = {
 			isa = PBXGroup;
 			children = (
-				BB41200E1E345BA100069F78 /* fontstash.h */,
-				BB41200F1E345BA100069F78 /* nanovg.c */,
-				BB4120101E345BA100069F78 /* nanovg.h */,
-				BB4120111E345BA100069F78 /* nanovg_gl.h */,
-				BB4120121E345BA100069F78 /* nanovg_gl_utils.h */,
-				BB4120131E345BA100069F78 /* stb_image.h */,
-				BB4120141E345BA100069F78 /* stb_truetype.h */,
+				BB0319101EA5714A008FBBC6 /* crypto.a */,
+				BB0319111EA5714A008FBBC6 /* ssl.a */,
 			);
-			path = src;
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB0319151EA5714A008FBBC6 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				BB0319161EA5714A008FBBC6 /* LICENSE */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		BB0319171EA5714A008FBBC6 /* poco */ = {
+			isa = PBXGroup;
+			children = (
+				BB031BEE1EA5714A008FBBC6 /* lib */,
+				BB031C0A1EA5714A008FBBC6 /* license */,
+			);
+			path = poco;
+			sourceTree = "<group>";
+		};
+		BB031BEE1EA5714A008FBBC6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB031BF81EA5714A008FBBC6 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BB031BF81EA5714A008FBBC6 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				BB031BF91EA5714A008FBBC6 /* PocoCrypto.a */,
+				BB031BFA1EA5714A008FBBC6 /* PocoFoundation.a */,
+				BB031BFB1EA5714A008FBBC6 /* PocoJSON.a */,
+				BB031BFC1EA5714A008FBBC6 /* PocoNet.a */,
+				BB031BFD1EA5714A008FBBC6 /* PocoNetSSL.a */,
+				BB031BFE1EA5714A008FBBC6 /* PocoUtil.a */,
+				BB031BFF1EA5714A008FBBC6 /* PocoXML.a */,
+				BB031C001EA5714A008FBBC6 /* PocoZip.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB031C0A1EA5714A008FBBC6 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				BB031C0B1EA5714A008FBBC6 /* LICENSE */,
+			);
+			path = license;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
@@ -483,9 +696,132 @@
 			children = (
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
-				BB411FCF1E345BA100069F78 /* ofxNanoVG */,
+				BB0318B51EA5714A008FBBC6 /* ofxPoco */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BB5978F01EC9FAFE003CCFAC /* example */ = {
+			isa = PBXGroup;
+			children = (
+				BB5978F11EC9FAFE003CCFAC /* main.cpp */,
+				BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */,
+				BB5978F31EC9FAFE003CCFAC /* ofApp.h */,
+			);
+			name = example;
+			path = ../../ExternalAddons/ofxFontStash2/example;
+			sourceTree = "<group>";
+		};
+		BB5978F61ECA0453003CCFAC /* ofxNanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				BB5978F71ECA0453003CCFAC /* .gitignore */,
+				BB5978F81ECA0453003CCFAC /* .gitmodules */,
+				BB5978F91ECA0453003CCFAC /* libs */,
+				BB59793B1ECA0454003CCFAC /* README.md */,
+				BB59793C1ECA0454003CCFAC /* src */,
+			);
+			name = ofxNanoVG;
+			path = ../../ExternalAddons/ofxNanoVG;
+			sourceTree = "<group>";
+		};
+		BB5978F91ECA0453003CCFAC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BB5978FA1ECA0453003CCFAC /* nanosvg */,
+				BB59790B1ECA0453003CCFAC /* nanovg */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		BB5978FA1ECA0453003CCFAC /* nanosvg */ = {
+			isa = PBXGroup;
+			children = (
+				BB5978FB1ECA0453003CCFAC /* .gitignore */,
+				BB5979051ECA0453003CCFAC /* LICENSE.txt */,
+				BB5979061ECA0453003CCFAC /* premake4.lua */,
+				BB5979071ECA0453003CCFAC /* README.md */,
+				BB5979081ECA0453003CCFAC /* src */,
+			);
+			path = nanosvg;
+			sourceTree = "<group>";
+		};
+		BB5979081ECA0453003CCFAC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB5979091ECA0453003CCFAC /* nanosvg.h */,
+				BB59790A1ECA0453003CCFAC /* nanosvgrast.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB59790B1ECA0453003CCFAC /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				BB59790C1ECA0453003CCFAC /* .gitignore */,
+				BB59792C1ECA0453003CCFAC /* LICENSE.txt */,
+				BB59792D1ECA0453003CCFAC /* obsolete */,
+				BB5979311ECA0454003CCFAC /* premake4.lua */,
+				BB5979321ECA0454003CCFAC /* README.md */,
+				BB5979331ECA0454003CCFAC /* src */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		BB59792D1ECA0453003CCFAC /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				BB59792E1ECA0453003CCFAC /* nanovg_gl2.h */,
+				BB59792F1ECA0453003CCFAC /* nanovg_gl3.h */,
+				BB5979301ECA0453003CCFAC /* obsolete.md */,
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		BB5979331ECA0454003CCFAC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB5979341ECA0454003CCFAC /* fontstash.h */,
+				BB5979351ECA0454003CCFAC /* nanovg.c */,
+				BB5979361ECA0454003CCFAC /* nanovg.h */,
+				BB5979371ECA0454003CCFAC /* nanovg_gl.h */,
+				BB5979381ECA0454003CCFAC /* nanovg_gl_utils.h */,
+				BB5979391ECA0454003CCFAC /* stb_image.h */,
+				BB59793A1ECA0454003CCFAC /* stb_truetype.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB59793C1ECA0454003CCFAC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */,
+				BB59793E1ECA0454003CCFAC /* ofxNanoVG.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB9E897F1EC7E00E000C83E5 /* nanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E89871EC7E00E000C83E5 /* src */,
+			);
+			name = nanoVG;
+			path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG;
+			sourceTree = "<group>";
+		};
+		BB9E89871EC7E00E000C83E5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB6ACC131ED207B600D624E8 /* ofxfs2_fontstash.h */,
+				BB6ACC141ED207B600D624E8 /* ofxfs2_nanovg_gl_utils.h */,
+				BB6ACC151ED207B600D624E8 /* ofxfs2_nanovg_gl.h */,
+				BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */,
+				BB6ACC171ED207B600D624E8 /* ofxfs2_nanovg.h */,
+				BB9E898D1EC7E00E000C83E5 /* stb_image.h */,
+				BB9E898E1EC7E00E000C83E5 /* stb_truetype.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
@@ -529,23 +865,13 @@
 			children = (
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				BB5978F01EC9FAFE003CCFAC /* example */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
 				E4B69B5B0A3A1756003C02F2 /* ofxFontStash2ExampleDebug.app */,
 			);
 			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB411EBE1E33EFA300069F78 /* main.cpp */,
-				BB411EBF1E33EFA300069F78 /* ofApp.cpp */,
-				BB411EC01E33EFA300069F78 /* ofApp.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
 		};
 		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
 			isa = PBXGroup;
@@ -671,7 +997,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../OpenFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"${APPSTORE}\" ] ; then\necho \"Copying GLUT framework\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../OpenFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\nelse\necho \"Not including GLUT\";\nfi\n";
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../OpenFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"${APPSTORE}\" ] ; then\necho \"Copying GLUT framework\";\n# Copy GLUT framework (must remove for AppStore submissions)\n#rsync -aved ../../OpenFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\nelse\necho \"Not including GLUT\";\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -680,39 +1006,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB411EC21E33EFA300069F78 /* ofApp.cpp in Sources */,
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
-				BB411EC11E33EFA300069F78 /* main.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
-				BB4120201E345BA100069F78 /* obsolete.md in Sources */,
+				BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
+				BB59794B1ECA0454003CCFAC /* nanovg.c in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
+				BB5979411ECA0454003CCFAC /* README.md in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
+				BB59794D1ECA0454003CCFAC /* ofxNanoVG.cpp in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
+				BB5979491ECA0454003CCFAC /* obsolete.md in Sources */,
 				0EA5725384DF8D68BCC2427C /* ofxXmlSettings.cpp in Sources */,
-				BB4120221E345BA100069F78 /* nanovg.c in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
+				BB59794A1ECA0454003CCFAC /* README.md in Sources */,
+				BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,
-				BB4120181E345BA100069F78 /* README.md in Sources */,
+				BB031C0C1EA5714A008FBBC6 /* ofxXmlPoco.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
+				BB5978F41EC9FAFE003CCFAC /* main.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
-				BB4120151E345BA100069F78 /* ofxNanoVG.cpp in Sources */,
+				BB59794C1ECA0454003CCFAC /* README.md in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
-				BB4120211E345BA100069F78 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,7 +1120,6 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					../../OpenFrameworks/addons/ofxOsc/libs,
@@ -804,9 +1132,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -818,8 +1143,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};
@@ -889,10 +1215,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					GL_VERSION_3,
-					NANOVG_GL3_IMPLEMENTATION,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL3_IMPLEMENTATION;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					../../OpenFrameworks/addons/ofxOsc/libs,
@@ -905,9 +1228,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -919,8 +1239,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = DebugGL3;
@@ -990,9 +1311,8 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					PROFILE_OFX_FONTSTASH2,
-					GL_VERSION_3,
 					NANOVG_GL3_IMPLEMENTATION,
+					PROFILE_OFX_FONTSTASH2,
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
@@ -1006,9 +1326,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -1020,8 +1337,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = DebugGL3_Profiled;
@@ -1091,8 +1409,8 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					PROFILE_OFX_FONTSTASH2,
 					NANOVG_GL2_IMPLEMENTATION,
+					PROFILE_OFX_FONTSTASH2,
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
@@ -1106,9 +1424,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -1120,8 +1435,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_Profiled;
@@ -1253,9 +1569,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -1267,8 +1580,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1286,10 +1600,7 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					PROFILE_OFX_FONTSTASH2,
-					NANOVG_GL2_IMPLEMENTATION,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL2_IMPLEMENTATION;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					../../OpenFrameworks/addons/ofxOsc/libs,
@@ -1302,9 +1613,6 @@
 					../../OpenFrameworks/addons/ofxOsc/src,
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
-					../../ExternalAddons/ofxFontStash2/libs,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash,
-					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
 					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
 					../../ExternalAddons/ofxFontStash2/src,
@@ -1316,8 +1624,9 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};

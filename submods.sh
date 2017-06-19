@@ -48,7 +48,7 @@ SubModule: ExternalAddons/ofxAssets https://github.com/local-projects/ofxAssets.
 SubModule: ExternalAddons/ofxAutoReloadedShader https://github.com/local-projects/ofxAutoReloadedShader.git armadillu?https://github.com/armadillu/ofxAutoReloadedShader.git
 SubModule: ExternalAddons/ofxAutoTexture https://github.com/local-projects/ofxAutoTexture.git armadillu?https://github.com/armadillu/ofxAutoTexture.git
 SubModule: ExternalAddons/ofxColorGradient https://github.com/local-projects/ofxColorGradient.git armadillu?https://github.com/armadillu/ofxColorGradient.git
-SubModule: ExternalAddons/ofxCv https://github.com/local-projects/ofxCv.git armadillu?https://github.com/armadillu/ofxCv.git
+SubModule: ExternalAddons/ofxCv https://github.com/local-projects/ofxCv.git  kylemcdonald?https://github.com/kylemcdonald/ofxCv.git
 SubModule: ExternalAddons/ofxExternalProcess https://github.com/local-projects/ofxExternalProcess.git armadillu?https://github.com/armadillu/ofxExternalProcess.git
 SubModule: ExternalAddons/ofxFboBlur https://github.com/local-projects/ofxFboBlur.git armadillu?https://github.com/armadillu/ofxFboBlur.git
 SubModule: ExternalAddons/ofxFontStash https://github.com/local-projects/ofxFontStash.git armadillu?https://github.com/armadillu/ofxFontStash.git
@@ -82,6 +82,9 @@ SubModule: ExternalAddons/ofxThreadSafeLog https://github.com/local-projects/ofx
 SubModule: ExternalAddons/ofxTimeMeasurements https://github.com/local-projects/ofxTimeMeasurements.git armadillu?https://github.com/armadillu/ofxTimeMeasurements.git
 SubModule: ExternalAddons/ofxTuio https://github.com/local-projects/ofxTuio.git armadillu?https://github.com/armadillu/ofxTuio.git
 SubModule: ExternalAddons/ofxUserContentUpload https://github.com/local-projects/ofxUserContentUpload.git armadillu?https://github.com/armadillu/ofxUserContentUpload.git
+SubModule: ExternalAddons/ofxNanoVG https://github.com/local-projects/ofxNanoVG.git armadillu?https://github.com/armadillu/ofxNanoVG.git galsasson?https://github.com/galsasson/ofxNanoVG.git
+
+
 SubModule: OpenFrameworks https://github.com/local-projects/OpenFrameworks.git OF?https://github.com/OpenFrameworks/OpenFrameworks.git
 }
 
