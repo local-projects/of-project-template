@@ -26,3 +26,4 @@ ofxXmlSettings
 ../../ExternalAddons/ofxScreenSetup
 ../../ExternalAddons/ofxSensu
 ../../ExternalAddons/ofxGoogleAnalytics
+../../ExternalAddons/ofxInterface
