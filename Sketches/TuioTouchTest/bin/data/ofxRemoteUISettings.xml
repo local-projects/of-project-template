@@ -4,7 +4,7 @@
 		<P name="APP" type="group"/>
 		<!-- # APP ############################ -->
 		<P name="frameRate" type="int">60</P>
-		<P name="logTouches" type="bool">1</P>
+		<P name="logTouches" type="bool">0</P>
 		<P name="TOUCH" type="group"/>
 		<!-- # TOUCH ############################ -->
 		<P name="drawTouches" type="bool">1</P>

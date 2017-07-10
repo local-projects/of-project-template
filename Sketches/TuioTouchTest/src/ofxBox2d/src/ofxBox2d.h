@@ -13,8 +13,8 @@
 #include "ofxBox2dRender.h"
 #include "ofxBox2dContactListener.h"
 
-#ifdef TARGET_OPENGLES
-#define OF_MAX_TOUCH_JOINTS		5			// max number of touch points on iPhone + iPad (this may change in the future though).
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
+#define OF_MAX_TOUCH_JOINTS		20			// max number of touch points on iPhone + iPad (this may change in the future though).
 #endif
 
 class ofxBox2dContactArgs : public ofEventArgs {
@@ -66,7 +66,7 @@ public:
 	b2BodyDef			bd;
 	
 	b2Body*				m_bomb;
-#ifdef TARGET_OPENGLES    
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     b2MouseJoint*		touchJoints[ OF_MAX_TOUCH_JOINTS ];
     b2Body*		        touchBodies[ OF_MAX_TOUCH_JOINTS ];
 #else
@@ -89,7 +89,7 @@ public:
 	void		init();
 	void		setFPS(float theFps) { fps = theFps; }
 	
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
 	void		touchDown(ofTouchEventArgs &touch);
 	void		touchMoved(ofTouchEventArgs &touch);
 	void		touchUp(ofTouchEventArgs &touch);

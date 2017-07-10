@@ -5,7 +5,7 @@ ofxBox2d::ofxBox2d() {
     enableContactEvents = false;
 	world = NULL;
 	m_bomb = NULL;
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     // touch grabbing
     for( int i=0; i<OF_MAX_TOUCH_JOINTS; i++ )
 		touchJoints[ i ] = NULL;
@@ -23,7 +23,7 @@ ofxBox2d::ofxBox2d() {
 // ------------------------------------------------------
 ofxBox2d::~ofxBox2d() {
 	
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     // destroy touch grabbing bodies
     for(int i=0; i<OF_MAX_TOUCH_JOINTS; i++) {
         if(touchBodies[i]) {
@@ -73,7 +73,7 @@ void ofxBox2d::init() {
 	velocityIterations = 40;
 	positionIterations = 20;
 		
-#ifdef TARGET_OPENGLES    
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     // touch grabbing
     for( int i=0; i<OF_MAX_TOUCH_JOINTS; i++ )
 		touchJoints[ i ] = NULL;
@@ -135,7 +135,7 @@ void ofxBox2d::setContactListener(ofxBox2dContactListener * listener) {
 
 // ------------------------------------------------------ grab shapes Events
 void ofxBox2d::registerGrabbing() {
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
 	ofAddListener(ofEvents().touchDown, this, &ofxBox2d::touchDown);
 	ofAddListener(ofEvents().touchMoved, this, &ofxBox2d::touchMoved);
 	ofAddListener(ofEvents().touchUp, this, &ofxBox2d::touchUp);
@@ -146,7 +146,7 @@ void ofxBox2d::registerGrabbing() {
 #endif
 }
 
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
 void ofxBox2d::touchDown(ofTouchEventArgs &touch) {
 	grabShapeDown(touch.x, touch.y, touch.id);
 }
@@ -179,7 +179,7 @@ void ofxBox2d::grabShapeDown(float x, float y, int id) {
 	if(bEnableGrabbing) {
 		b2Vec2 p(x/OFX_BOX2D_SCALE, y/OFX_BOX2D_SCALE);		
         
-#ifdef TARGET_OPENGLES  
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
         if(id >= 0 && id < OF_MAX_TOUCH_JOINTS)
         {
             if(touchJoints[id] != NULL)
@@ -222,7 +222,7 @@ void ofxBox2d::grabShapeDown(float x, float y, int id) {
 			md.bodyB    = body;
 			md.target   = p;
 			md.maxForce = 1000.0f * body->GetMass();
-#ifdef TARGET_OPENGLES
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
             md.bodyA    = touchBodies[id];
             touchJoints[id] = (b2MouseJoint*)world->CreateJoint(&md);
 #else
@@ -240,7 +240,7 @@ void ofxBox2d::grabShapeDown(float x, float y, int id) {
 
 // ------------------------------------------------------ 
 void ofxBox2d::grabShapeUp(float x, float y, int id) {
-#ifdef TARGET_OPENGLES     
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     if(id >= 0 && id < OF_MAX_TOUCH_JOINTS) {
         if(touchJoints[id] && bEnableGrabbing){
 			if(world == NULL) {
@@ -269,7 +269,7 @@ void ofxBox2d::grabShapeUp(float x, float y, int id) {
 // ------------------------------------------------------ 
 void ofxBox2d::grabShapeDragged(float x, float y, int id) {
 	b2Vec2 p(x/OFX_BOX2D_SCALE, y/OFX_BOX2D_SCALE);
-#ifdef TARGET_OPENGLES  
+#if defined(TARGET_OPENGLES) || defined(MULTITOUCH_HACK)
     if(id >= 0 && id < OF_MAX_TOUCH_JOINTS) {
         if (touchJoints[id] && bEnableGrabbing)
             touchJoints[id]->SetTarget(p);
