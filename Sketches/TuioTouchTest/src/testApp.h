@@ -11,6 +11,7 @@
 #include "ofxFontStash.h"
 #include "ofxScreenSetup.h"
 #include "ofxSuperLog.h"
+#include "ofxTuio.h"
 
 #define MAX_FINGERS 100
 
