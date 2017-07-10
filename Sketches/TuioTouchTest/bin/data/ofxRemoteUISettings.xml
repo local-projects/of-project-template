@@ -1,0 +1,35 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<P name="APP" type="group"/>
+		<!-- # APP ############################ -->
+		<P name="frameRate" type="int">60</P>
+		<P name="logTouches" type="bool">1</P>
+		<P name="TOUCH" type="group"/>
+		<!-- # TOUCH ############################ -->
+		<P name="drawTouches" type="bool">1</P>
+		<P name="VSYNC" type="group"/>
+		<!-- # VSYNC ############################ -->
+		<P name="enableVsync" type="bool">1</P>
+		<P name="vSyncTestHorizontal" type="bool">0</P>
+		<P name="vSyncTestVertical" type="bool">0</P>
+		<P name="speed" type="float">10</P>
+		<P name="BEHAVIORS" type="group"/>
+		<!-- # BEHAVIORS ############################ -->
+		<P name="dragger-&gt;gravity" type="bool">1</P>
+		<P c0.red="255" c1.green="255" c2.blue="255" c3.alpha="255" name="dragger-&gt;bgColor" type="color"/>
+		<P name="dragger-&gt;objectScale" type="float">1.04</P>
+		<P name="touchCreatesBodies" type="bool">1</P>
+		<P name="touchDeletesBodies" type="bool">0</P>
+		<P name="drawTouchPaths" type="bool">0</P>
+		<P name="clearTouchPaths" type="bool">0</P>
+		<P name="RESET" type="group"/>
+		<!-- # RESET ############################ -->
+		<P name="deleteAll" type="bool">0</P>
+		<!--                                                                                 -->
+		<!-- ############################## DISABLED PARAMS ################################# -->
+		<!--                                                                                 -->
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>53352</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>
