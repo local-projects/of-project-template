@@ -238,10 +238,10 @@
     <ClCompile Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.cpp">
       <Filter>local_addons\ofxGoogleAnalytics\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\exampleNoContent\main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\exampleNoContent\ofApp.cpp">
+    <ClCompile Include="src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1970,13 +1970,13 @@
     <ClInclude Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.h">
       <Filter>local_addons\ofxGoogleAnalytics\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\MyAppColors.h">
+    <ClInclude Include="src\MyAppColors.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\MyAppGlobals.h">
+    <ClInclude Include="src\MyAppGlobals.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\ofApp.h">
+    <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

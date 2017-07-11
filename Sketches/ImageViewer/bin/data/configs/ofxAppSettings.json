@@ -1,7 +1,7 @@
 {
 	"App":{		
 		"frameRate" : 60,
-		"numAASamples" : 8,
+		"numAASamples" : 0,
 		"showMouse" : true,
 		"enableMouse" : true,
 		"maxThreads" : 8,
