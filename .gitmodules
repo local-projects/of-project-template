@@ -16,9 +16,6 @@
 [submodule "ExternalAddons/ofxFontStash"]
 	path = ExternalAddons/ofxFontStash
 	url = https://github.com/local-projects/ofxFontStash.git
-[submodule "ExternalAddons/ofxJson"]
-	path = ExternalAddons/ofxJson
-	url = https://github.com/local-projects/ofxJSON.git
 [submodule "ExternalAddons/ofxSimpleHttp"]
 	path = ExternalAddons/ofxSimpleHttp
 	url = https://github.com/local-projects/ofxSimpleHttp.git
