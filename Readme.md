@@ -8,6 +8,8 @@ random notes below:
 OF now doesnt compile out of the box, you must download the libs manually
 ```./OpenFrameworks/scripts/osx/download_libs.sh```
 
+On windows, the download script will fail as wget and rsync dont exist. I've used [chocolatey](https://chocolatey.org/) to install both and it worked.
+
 
 #CCache! 
 required for xcode project compilation
@@ -24,7 +26,8 @@ CC = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang.sh
 CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
 ```
 
-AND drop these 2 files (```ccache-clang.sh``` and```ccache-clang++.sh```) in ```$(OF_PATH)/libs/openFrameworksCompiled/project/osx```
+AND drop these 2 files (```ccache-clang.sh``` and
+```ccache-clang++.sh```) in ```$(OF_PATH)/libs/openFrameworksCompiled/project/osx```
 
 
 **if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```**
