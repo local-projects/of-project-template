@@ -1,0 +1,12 @@
+ofxOpenCv
+ofxOsc
+ofxXmlSettings
+../../ExternalAddons/ofxTimeMeasurements
+../../ExternalAddons/ofxRemoteUI
+../../ExternalAddons/ofxHistoryPlot
+../../ExternalAddons/ofxAnimatable
+../../ExternalAddons/ofxFontStash
+../../ExternalAddons/ofxScreenSetup
+../../ExternalAddons/ofxMemoryUsage
+../../ExternalAddons/ofxTexturedObject
+../../ExternalAddons/ofxProgressiveTextureLoad
