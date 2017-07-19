@@ -1,5 +1,6 @@
 ofxOpenCv
 ofxOsc
+ofxPoco
 ofxXmlSettings
 ../../ExternalAddons/ofxTimeMeasurements
 ../../ExternalAddons/ofxRemoteUI

@@ -23,6 +23,7 @@ void ofApp::createThread(int n){
 		if(t){
 			t->thread.detach();
 		}else{
+			ofLogError("ofApp") << "cant detaqch this std::thread!";
 		}
 		threads.push_back(t);
 	#endif
@@ -35,7 +36,7 @@ void ofApp::update(){
 
 	float dt = 1./60.;
 
-	createThread(3); //spawn N threads per frame
+	createThread(4); //spawn N threads per frame
 
 
 	int index = threads.size() -1;

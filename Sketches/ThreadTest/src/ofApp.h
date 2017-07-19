@@ -12,7 +12,9 @@
 
 class ThreadTest : public ofThread{
 	public:
-		void threadedFunction(){}
+		void threadedFunction(){
+			//ofSleepMillis(1);
+		}
 };
 
 #else
@@ -28,6 +30,7 @@ public:
 	}
 
 	void threadedFunction(){
+		//ofSleepMillis(1);
 		done = true;
 	}
 };
