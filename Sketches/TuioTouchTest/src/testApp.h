@@ -52,6 +52,8 @@ public:
 	bool drawTouchPaths;
 	bool clearTouchPaths;
 
+	bool flashTest = false;
+
 	struct FingerLines{
 		ofVboMesh points;
 		vector<ofVboMesh> oldPoints;

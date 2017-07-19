@@ -28,6 +28,7 @@ void testApp::setup(){
 	OFX_REMOTEUI_SERVER_GET_INSTANCE()->setCallback(serverCallback);
 	OFX_REMOTEUI_SERVER_GET_INSTANCE()->setBuiltInUiScale(2.0);
 	OFX_REMOTEUI_SERVER_GET_INSTANCE()->drawUiWithFontStash("fonts/VeraMono.ttf");
+	OFX_REMOTEUI_SERVER_GET_INSTANCE()->setSaveToXMLOnExit(false);
 	OFX_REMOTEUI_SERVER_SETUP(); 	//start server
 
 
@@ -43,6 +44,9 @@ void testApp::setup(){
 	OFX_REMOTEUI_SERVER_SHARE_PARAM(vSyncTestHorizontal);
 	OFX_REMOTEUI_SERVER_SHARE_PARAM(vSyncTestVertical);
 	OFX_REMOTEUI_SERVER_SHARE_PARAM(speed, 10,500);
+	OFX_REMOTEUI_SERVER_SET_UPCOMING_PARAM_GROUP("FLASH TEST");
+	OFX_REMOTEUI_SERVER_SHARE_PARAM(flashTest);
+
 
 	OFX_REMOTEUI_SERVER_SET_UPCOMING_PARAM_GROUP("BEHAVIORS");
 	OFX_REMOTEUI_SERVER_SET_NEW_COLOR();
@@ -178,6 +182,12 @@ void testApp::draw(){
 
 	if(drawTouchPaths){
 		drawFingerLines();
+	}
+
+	if (flashTest) {
+		if (ofGetFrameNum() % 30 == 1) {
+			ofClear(255);
+		}
 	}
 	ofSetColor(255);
 	font.drawMultiLine("PRESS 'd' to delete all\nPRESS 'v' to toggle Vertical Sync Tests\nPRESS 'TAB' for Settings\nPRESS 'PgDwn' for Timings\nPRESS 'w' to cycle window modes\n", 30, 40, ofGetHeight() - 140);
