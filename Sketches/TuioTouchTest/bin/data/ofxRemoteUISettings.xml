@@ -11,9 +11,12 @@
 		<P name="VSYNC" type="group"/>
 		<!-- # VSYNC ############################ -->
 		<P name="enableVsync" type="bool">1</P>
-		<P name="vSyncTestHorizontal" type="bool">0</P>
+		<P name="vSyncTestHorizontal" type="bool">1</P>
 		<P name="vSyncTestVertical" type="bool">0</P>
-		<P name="speed" type="float">10</P>
+		<P name="speed" type="float">500</P>
+		<P name="FLASH TEST" type="group"/>
+		<!-- # FLASH TEST ############################ -->
+		<P name="flashTest" type="bool">1</P>
 		<P name="BEHAVIORS" type="group"/>
 		<!-- # BEHAVIORS ############################ -->
 		<P name="dragger-&gt;gravity" type="bool">1</P>
