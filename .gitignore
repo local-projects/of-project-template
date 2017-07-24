@@ -2,8 +2,10 @@
 gitInfo.h
 
 #ofxApp examples downloaded assets
-Sketches/ofxAppExample/bin/data/CWRU_assets
-Sketches/ofxAppExample/bin/data/CH_assets
+AddonsExamples/ofxAppExample/bin/data/CWRU_assets
+AddonsExamples/ofxAppExample/bin/data/CH_assets
+AddonsExamples/ofxAppExample/bin/data/CH_JsonDownloads
+AddonsExamples/ofxAppExample/bin/data/CWRU_JsonDownloads
 
 #oriol's addons settings local 
 ofxRemoteUISettings Backups
