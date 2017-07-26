@@ -97,7 +97,7 @@
       <WarningLevel>Level3</WarningLevel>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxOsc\libs;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc;..\..\OpenFrameworks\addons\ofxOsc\src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\OpenFrameworks\addons\ofxXmlSettings\libs;..\..\OpenFrameworks\addons\ofxXmlSettings\src;..\..\ExternalAddons\ofxFontStash2\libs;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src;..\..\ExternalAddons\ofxFontStash2\libs\pugixml;..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src;..\..\ExternalAddons\ofxFontStash2\src;..\..\ExternalAddons\ofxRemoteUI\src;..\..\ExternalAddons\ofxTimeMeasurements\src;..\..\ExternalAddons\ofxFontStash2\example\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
-      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
       <AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -118,7 +118,7 @@
       <WarningLevel>Level3</WarningLevel>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxOsc\libs;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc;..\..\OpenFrameworks\addons\ofxOsc\src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\OpenFrameworks\addons\ofxXmlSettings\libs;..\..\OpenFrameworks\addons\ofxXmlSettings\src;..\..\ExternalAddons\ofxFontStash2\libs;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src;..\..\ExternalAddons\ofxFontStash2\libs\pugixml;..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src;..\..\ExternalAddons\ofxFontStash2\src;..\..\ExternalAddons\ofxRemoteUI\src;..\..\ExternalAddons\ofxTimeMeasurements\src;..\..\ExternalAddons\ofxFontStash2\example\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
-      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
     </ClCompile>
@@ -139,7 +139,7 @@
       <WarningLevel>Level3</WarningLevel>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxOsc\libs;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc;..\..\OpenFrameworks\addons\ofxOsc\src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\OpenFrameworks\addons\ofxXmlSettings\libs;..\..\OpenFrameworks\addons\ofxXmlSettings\src;..\..\ExternalAddons\ofxFontStash2\libs;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src;..\..\ExternalAddons\ofxFontStash2\libs\pugixml;..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src;..\..\ExternalAddons\ofxFontStash2\src;..\..\ExternalAddons\ofxRemoteUI\src;..\..\ExternalAddons\ofxTimeMeasurements\src;..\..\ExternalAddons\ofxFontStash2\example\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
-      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
     </ClCompile>
@@ -163,7 +163,7 @@
       <WarningLevel>Level3</WarningLevel>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxOsc\libs;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc;..\..\OpenFrameworks\addons\ofxOsc\src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\OpenFrameworks\addons\ofxXmlSettings\libs;..\..\OpenFrameworks\addons\ofxXmlSettings\src;..\..\ExternalAddons\ofxFontStash2\libs;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete;..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src;..\..\ExternalAddons\ofxFontStash2\libs\pugixml;..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src;..\..\ExternalAddons\ofxFontStash2\src;..\..\ExternalAddons\ofxRemoteUI\src;..\..\ExternalAddons\ofxTimeMeasurements\src;..\..\ExternalAddons\ofxFontStash2\example\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
-      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
       <AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
     </ClCompile>
     <Link>

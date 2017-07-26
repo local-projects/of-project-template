@@ -7,6 +7,9 @@ AddonsExamples/ofxAppExample/bin/data/CH_assets
 AddonsExamples/ofxAppExample/bin/data/CH_JsonDownloads
 AddonsExamples/ofxAppExample/bin/data/CWRU_JsonDownloads
 
+textureCache
+
+
 #oriol's addons settings local 
 ofxRemoteUISettings Backups
 ofxTimeMeasurements.settings
@@ -23,6 +26,8 @@ openFrameworksUniversal.a
 [Bb]uild/
 [Oo]bj/
 *.o
+*.iobj
+*.ipdb
 [Dd]ebug*/
 [Rr]elease*/
 *.mode*
