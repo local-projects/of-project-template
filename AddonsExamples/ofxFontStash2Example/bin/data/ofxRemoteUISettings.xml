@@ -3,7 +3,7 @@
 	<OFX_REMOTE_UI_PARAMS>
 		<P name="defaultGroup" type="group"/>
 		<!-- # defaultGroup ############################ -->
-		<P name="debug" type="bool">1</P>
+		<P name="debug" type="bool">0</P>
 		<!--                                                                                 -->
 		<!-- ############################## DISABLED PARAMS ################################# -->
 		<!--                                                                                 -->

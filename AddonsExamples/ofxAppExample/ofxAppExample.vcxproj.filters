@@ -262,16 +262,16 @@
     <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.cpp">
       <Filter>local_addons\ofxInterface\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\main.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\ofApp.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\ofxAppParsers.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\TexturedObjectScrollView.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -2036,25 +2036,25 @@
     <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.h">
       <Filter>local_addons\ofxInterface\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\CH_Object.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CH_Object.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\CWRU_Object.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CWRU_Object.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\MyAppColors.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\MyAppColors.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\MyAppGlobals.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\MyAppGlobals.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\ofApp.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\ofxAppParsers.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\TexturedObjectScrollView.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

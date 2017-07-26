@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\.gitkeep">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPClient.cpp">
       <Filter>addons\ofxNetwork\src</Filter>
     </ClCompile>
@@ -238,10 +235,10 @@
     <ClCompile Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.cpp">
       <Filter>local_addons\ofxGoogleAnalytics\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\exampleNoContent\main.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example-NoContent\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxApp\exampleNoContent\ofApp.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example-NoContent\src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1970,13 +1967,13 @@
     <ClInclude Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.h">
       <Filter>local_addons\ofxGoogleAnalytics\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\MyAppColors.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example-NoContent\src\MyAppColors.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\MyAppGlobals.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example-NoContent\src\MyAppGlobals.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxApp\exampleNoContent\ofApp.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example-NoContent\src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
