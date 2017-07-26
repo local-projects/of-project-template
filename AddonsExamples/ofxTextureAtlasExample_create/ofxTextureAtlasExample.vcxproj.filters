@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlas.cpp">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlasCreator.cpp">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlasDrawer.cpp">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRectangleUtils\src\ofxRectangleUtils.cpp">
+			<Filter>local_addons\ofxRectangleUtils\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons">
+			<UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTextureAtlas">
+			<UniqueIdentifier>{0C14E081-D622-1D40-1136-5393}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTextureAtlas\src">
+			<UniqueIdentifier>{87D1A964-E124-7892-DD55-9CE7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxRectangleUtils">
+			<UniqueIdentifier>{0037BCD9-3D98-FBF0-C9AA-2D89}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxRectangleUtils\src">
+			<UniqueIdentifier>{46CA2978-1B05-9FFA-D32A-3607}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlas.h">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlasCreator.h">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTextureAtlas\src\TextureAtlasDrawer.h">
+			<Filter>local_addons\ofxTextureAtlas\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRectangleUtils\src\ofAbstractRectanglePacker.h">
+			<Filter>local_addons\ofxRectangleUtils\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRectangleUtils\src\ofBaseOnlineRectanglePacker.h">
+			<Filter>local_addons\ofxRectangleUtils\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRectangleUtils\src\ofRectanglePacker.h">
+			<Filter>local_addons\ofxRectangleUtils\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRectangleUtils\src\ofxRectangleUtils.h">
+			<Filter>local_addons\ofxRectangleUtils\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

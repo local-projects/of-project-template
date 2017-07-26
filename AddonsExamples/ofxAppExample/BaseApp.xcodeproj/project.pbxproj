@@ -48,9 +48,6 @@
 		BB1167021D5D530C0095DABF /* ofxMtJsonParserThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1166FE1D5D530C0095DABF /* ofxMtJsonParserThread.cpp */; };
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
-		BB27B4241D7A7369004DB04B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B41F1D7A7369004DB04B /* main.cpp */; };
-		BB27B4251D7A7369004DB04B /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B4201D7A7369004DB04B /* ofApp.cpp */; };
-		BB27B4261D7A7369004DB04B /* ofxAppParsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B4221D7A7369004DB04B /* ofxAppParsers.cpp */; };
 		BB41EE5E1E350E6F000D1F4D /* BitmapTextButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE4F1E350E6F000D1F4D /* BitmapTextButton.cpp */; };
 		BB41EE5F1E350E6F000D1F4D /* SolidColorPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE511E350E6F000D1F4D /* SolidColorPanel.cpp */; };
 		BB41EE601E350E6F000D1F4D /* TextureButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE531E350E6F000D1F4D /* TextureButton.cpp */; };
@@ -58,7 +55,6 @@
 		BB41EE621E350E6F000D1F4D /* TouchEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE581E350E6F000D1F4D /* TouchEvent.cpp */; };
 		BB41EE631E350E6F000D1F4D /* TouchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE5A1E350E6F000D1F4D /* TouchManager.cpp */; };
 		BB41EE641E350E6F000D1F4D /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE5C1E350E6F000D1F4D /* VirtualTouch.cpp */; };
-		BB41EE681E351072000D1F4D /* TexturedObjectScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB41EE661E351072000D1F4D /* TexturedObjectScrollView.cpp */; };
 		BB57E7251EF86C8400C2E1EE /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB57E7241EF86C8400C2E1EE /* stb_truetype.c */; };
 		BB641FDE1D9FF6BE007DBBB6 /* ofxApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB641FD11D9FF6BE007DBBB6 /* ofxApp.cpp */; };
 		BB641FDF1D9FF6BE007DBBB6 /* ofxAppContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB641FD41D9FF6BE007DBBB6 /* ofxAppContent.cpp */; };
@@ -100,6 +96,10 @@
 		BBBFF3021D53CB7A0013E6B8 /* ofxSuperLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF2FE1D53CB7A0013E6B8 /* ofxSuperLog.cpp */; };
 		BBBFF3031D53CB7A0013E6B8 /* ofxSuperLogDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF3001D53CB7A0013E6B8 /* ofxSuperLogDisplay.cpp */; };
 		BBBFF3131D5407B00013E6B8 /* ofxAutoTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF3111D5407B00013E6B8 /* ofxAutoTexture.cpp */; };
+		BBDE06AF1F265C8D00F0F710 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06A61F265C8D00F0F710 /* main.cpp */; };
+		BBDE06B01F265C8D00F0F710 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06A91F265C8D00F0F710 /* ofApp.cpp */; };
+		BBDE06B11F265C8D00F0F710 /* ofxAppParsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06AB1F265C8D00F0F710 /* ofxAppParsers.cpp */; };
+		BBDE06B21F265C8D00F0F710 /* TexturedObjectScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06AD1F265C8D00F0F710 /* TexturedObjectScrollView.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -443,15 +443,6 @@
 		BB19DA241CBF0EBC004EB39A /* fontstash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fontstash.c; sourceTree = "<group>"; };
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
-		BB27B41D1D7A7363004DB04B /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../ExternalAddons/ofxApp/example/CH_Object.h; sourceTree = "<group>"; };
-		BB27B41E1D7A7363004DB04B /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../ExternalAddons/ofxApp/example/CWRU_Object.h; sourceTree = "<group>"; };
-		BB27B41F1D7A7369004DB04B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../ExternalAddons/ofxApp/example/main.cpp; sourceTree = "<group>"; };
-		BB27B4201D7A7369004DB04B /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../ExternalAddons/ofxApp/example/ofApp.cpp; sourceTree = "<group>"; };
-		BB27B4211D7A7369004DB04B /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../ExternalAddons/ofxApp/example/ofApp.h; sourceTree = "<group>"; };
-		BB27B4221D7A7369004DB04B /* ofxAppParsers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAppParsers.cpp; path = ../../ExternalAddons/ofxApp/example/ofxAppParsers.cpp; sourceTree = "<group>"; };
-		BB27B4231D7A7369004DB04B /* ofxAppParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAppParsers.h; path = ../../ExternalAddons/ofxApp/example/ofxAppParsers.h; sourceTree = "<group>"; };
-		BB27B42D1D7A760A004DB04B /* MyAppColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyAppColors.h; path = ../../ExternalAddons/ofxApp/example/MyAppColors.h; sourceTree = "<group>"; };
-		BB27B42E1D7A760A004DB04B /* MyAppGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyAppGlobals.h; path = ../../ExternalAddons/ofxApp/example/MyAppGlobals.h; sourceTree = "<group>"; };
 		BB41EE4F1E350E6F000D1F4D /* BitmapTextButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BitmapTextButton.cpp; sourceTree = "<group>"; };
 		BB41EE501E350E6F000D1F4D /* BitmapTextButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapTextButton.h; sourceTree = "<group>"; };
 		BB41EE511E350E6F000D1F4D /* SolidColorPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolidColorPanel.cpp; sourceTree = "<group>"; };
@@ -467,8 +458,6 @@
 		BB41EE5B1E350E6F000D1F4D /* TouchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchManager.h; sourceTree = "<group>"; };
 		BB41EE5C1E350E6F000D1F4D /* VirtualTouch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualTouch.cpp; sourceTree = "<group>"; };
 		BB41EE5D1E350E6F000D1F4D /* VirtualTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualTouch.h; sourceTree = "<group>"; };
-		BB41EE661E351072000D1F4D /* TexturedObjectScrollView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexturedObjectScrollView.cpp; path = ../../ExternalAddons/ofxApp/example/TexturedObjectScrollView.cpp; sourceTree = "<group>"; };
-		BB41EE671E351072000D1F4D /* TexturedObjectScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexturedObjectScrollView.h; path = ../../ExternalAddons/ofxApp/example/TexturedObjectScrollView.h; sourceTree = "<group>"; };
 		BB57E7241EF86C8400C2E1EE /* stb_truetype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB641FD11D9FF6BE007DBBB6 /* ofxApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxApp.cpp; sourceTree = "<group>"; };
 		BB641FD21D9FF6BE007DBBB6 /* ofxApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxApp.h; sourceTree = "<group>"; };
@@ -640,6 +629,17 @@
 		BBBFF3111D5407B00013E6B8 /* ofxAutoTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAutoTexture.cpp; sourceTree = "<group>"; };
 		BBBFF3121D5407B00013E6B8 /* ofxAutoTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAutoTexture.h; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
+		BBDE06A41F265C8D00F0F710 /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../ExternalAddons/ofxApp/example/src/CH_Object.h; sourceTree = "<group>"; };
+		BBDE06A51F265C8D00F0F710 /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../ExternalAddons/ofxApp/example/src/CWRU_Object.h; sourceTree = "<group>"; };
+		BBDE06A61F265C8D00F0F710 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../ExternalAddons/ofxApp/example/src/main.cpp; sourceTree = "<group>"; };
+		BBDE06A71F265C8D00F0F710 /* MyAppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppColors.h; path = ../../ExternalAddons/ofxApp/example/src/MyAppColors.h; sourceTree = "<group>"; };
+		BBDE06A81F265C8D00F0F710 /* MyAppGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppGlobals.h; path = ../../ExternalAddons/ofxApp/example/src/MyAppGlobals.h; sourceTree = "<group>"; };
+		BBDE06A91F265C8D00F0F710 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../ExternalAddons/ofxApp/example/src/ofApp.cpp; sourceTree = "<group>"; };
+		BBDE06AA1F265C8D00F0F710 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../ExternalAddons/ofxApp/example/src/ofApp.h; sourceTree = "<group>"; };
+		BBDE06AB1F265C8D00F0F710 /* ofxAppParsers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAppParsers.cpp; path = ../../ExternalAddons/ofxApp/example/src/ofxAppParsers.cpp; sourceTree = "<group>"; };
+		BBDE06AC1F265C8D00F0F710 /* ofxAppParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAppParsers.h; path = ../../ExternalAddons/ofxApp/example/src/ofxAppParsers.h; sourceTree = "<group>"; };
+		BBDE06AD1F265C8D00F0F710 /* TexturedObjectScrollView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexturedObjectScrollView.cpp; path = ../../ExternalAddons/ofxApp/example/src/TexturedObjectScrollView.cpp; sourceTree = "<group>"; };
+		BBDE06AE1F265C8D00F0F710 /* TexturedObjectScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexturedObjectScrollView.h; path = ../../ExternalAddons/ofxApp/example/src/TexturedObjectScrollView.h; sourceTree = "<group>"; };
 		BBE2ACB21D5FB1A5008364CF /* ofxAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAssets.h; sourceTree = "<group>"; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
@@ -1465,17 +1465,17 @@
 		BB27B4321D7A8766004DB04B /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB27B41D1D7A7363004DB04B /* CH_Object.h */,
-				BB27B41E1D7A7363004DB04B /* CWRU_Object.h */,
-				BB27B42D1D7A760A004DB04B /* MyAppColors.h */,
-				BB27B42E1D7A760A004DB04B /* MyAppGlobals.h */,
-				BB27B41F1D7A7369004DB04B /* main.cpp */,
-				BB27B4201D7A7369004DB04B /* ofApp.cpp */,
-				BB27B4211D7A7369004DB04B /* ofApp.h */,
-				BB27B4221D7A7369004DB04B /* ofxAppParsers.cpp */,
-				BB27B4231D7A7369004DB04B /* ofxAppParsers.h */,
-				BB41EE661E351072000D1F4D /* TexturedObjectScrollView.cpp */,
-				BB41EE671E351072000D1F4D /* TexturedObjectScrollView.h */,
+				BBDE06A41F265C8D00F0F710 /* CH_Object.h */,
+				BBDE06A51F265C8D00F0F710 /* CWRU_Object.h */,
+				BBDE06A61F265C8D00F0F710 /* main.cpp */,
+				BBDE06A71F265C8D00F0F710 /* MyAppColors.h */,
+				BBDE06A81F265C8D00F0F710 /* MyAppGlobals.h */,
+				BBDE06A91F265C8D00F0F710 /* ofApp.cpp */,
+				BBDE06AA1F265C8D00F0F710 /* ofApp.h */,
+				BBDE06AB1F265C8D00F0F710 /* ofxAppParsers.cpp */,
+				BBDE06AC1F265C8D00F0F710 /* ofxAppParsers.h */,
+				BBDE06AD1F265C8D00F0F710 /* TexturedObjectScrollView.cpp */,
+				BBDE06AE1F265C8D00F0F710 /* TexturedObjectScrollView.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -2314,11 +2314,12 @@
 			files = (
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
 				BB641FDE1D9FF6BE007DBBB6 /* ofxApp.cpp in Sources */,
+				BBDE06B01F265C8D00F0F710 /* ofApp.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				BBB22A4E1DB6B4710007FDF3 /* ofxTCPClient.cpp in Sources */,
 				BB41EE621E350E6F000D1F4D /* TouchEvent.cpp in Sources */,
+				BBDE06B11F265C8D00F0F710 /* ofxAppParsers.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
-				BB41EE681E351072000D1F4D /* TexturedObjectScrollView.cpp in Sources */,
 				BB41EE631E350E6F000D1F4D /* TouchManager.cpp in Sources */,
 				BBB22A4F1DB6B4710007FDF3 /* ofxTCPManager.cpp in Sources */,
 				BB1166F01D5D3ECF0095DABF /* ofxCvColorImage.cpp in Sources */,
@@ -2340,7 +2341,6 @@
 				BB641FDF1D9FF6BE007DBBB6 /* ofxAppContent.cpp in Sources */,
 				BBB22A3F1DB6B4640007FDF3 /* ofxSensu.cpp in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
-				BB27B4261D7A7369004DB04B /* ofxAppParsers.cpp in Sources */,
 				BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */,
 				BB641FE01D9FF6BE007DBBB6 /* ofxAppFonts.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
@@ -2380,15 +2380,15 @@
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				BB41EE611E350E6F000D1F4D /* Node.cpp in Sources */,
 				BBB15EFE1D5A90AC0051942B /* ofxChecksum.cpp in Sources */,
-				BB27B4241D7A7369004DB04B /* main.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
 				FC7A347B4FFFF65BA56DB24B /* ofxHistoryPlot.cpp in Sources */,
-				BB27B4251D7A7369004DB04B /* ofApp.cpp in Sources */,
 				BB41EE601E350E6F000D1F4D /* TextureButton.cpp in Sources */,
 				E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */,
 				BBBFF3031D53CB7A0013E6B8 /* ofxSuperLogDisplay.cpp in Sources */,
 				B33249AEA0D8C83C8AE132D4 /* ofxAnimatableFloat.cpp in Sources */,
 				BBBFF3021D53CB7A0013E6B8 /* ofxSuperLog.cpp in Sources */,
+				BBDE06B21F265C8D00F0F710 /* TexturedObjectScrollView.cpp in Sources */,
+				BBDE06AF1F265C8D00F0F710 /* main.cpp in Sources */,
 				BB41EE641E350E6F000D1F4D /* VirtualTouch.cpp in Sources */,
 				BB1166F31D5D3ECF0095DABF /* ofxCvGrayscaleImage.cpp in Sources */,
 				345019F66CDF689909AB4F13 /* ofxAnimatableOfColor.cpp in Sources */,
