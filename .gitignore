@@ -6,6 +6,8 @@ AddonsExamples/ofxAppExample/bin/data/CWRU_assets
 AddonsExamples/ofxAppExample/bin/data/CH_assets
 AddonsExamples/ofxAppExample/bin/data/CH_JsonDownloads
 AddonsExamples/ofxAppExample/bin/data/CWRU_JsonDownloads
+AddonsExamples/ofxTextureAtlasExample_create/bin/data/images/cats/
+AddonsExamples/ofxTextureAtlasExample_draw/bin/data/images/cats/
 
 textureCache
 
