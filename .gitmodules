@@ -124,3 +124,6 @@
 [submodule "ExternalAddons/ofxTextureCrop"]
 	path = ExternalAddons/ofxTextureCrop
 	url = https://github.com/local-projects/ofxTextureCrop.git
+[submodule "ExternalAddons/ofxInterfaceKeyboard"]
+	path = ExternalAddons/ofxInterfaceKeyboard
+	url = https://github.com/local-projects/ofxInterfaceKeyboard.git

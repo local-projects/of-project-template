@@ -58,6 +58,7 @@ SubModule: ExternalAddons/ofxGoogleAnalytics https://github.com/local-projects/o
 SubModule: ExternalAddons/ofxHistoryPlot https://github.com/local-projects/ofxHistoryPlot.git armadillu?https://github.com/armadillu/ofxHistoryPlot.git
 SubModule: ExternalAddons/ofxHttpForm https://github.com/local-projects/ofxHttpForm.git armadillu?https://github.com/armadillu/ofxHttpForm.git
 SubModule: ExternalAddons/ofxInterface https://github.com/local-projects/ofxInterface.git armadillu?https://github.com/armadillu/ofxInterface.git
+SubModule: ExternalAddons/ofxInterfaceKeyboard https://github.com/local-projects/ofxInterfaceKeyboard.git armadillu?https://github.com/armadillu/ofxInterfaceKeyboard.git
 SubModule: ExternalAddons/ofxJSON https://github.com/local-projects/ofxJSON.git armadillu?https://github.com/armadillu/ofxJSON.git
 SubModule: ExternalAddons/ofxJsonSettings https://github.com/local-projects/ofxJsonSettings.git armadillu?https://github.com/armadillu/ofxJsonSettings.git
 SubModule: ExternalAddons/ofxMTJsonParser https://github.com/local-projects/ofxMTJsonParser.git armadillu?https://github.com/armadillu/ofxMTJsonParser.git
@@ -83,7 +84,7 @@ SubModule: ExternalAddons/ofxTimeMeasurements https://github.com/local-projects/
 SubModule: ExternalAddons/ofxTuio https://github.com/local-projects/ofxTuio.git armadillu?https://github.com/armadillu/ofxTuio.git
 SubModule: ExternalAddons/ofxUserContentUpload https://github.com/local-projects/ofxUserContentUpload.git armadillu?https://github.com/armadillu/ofxUserContentUpload.git
 SubModule: ExternalAddons/ofxNanoVG https://github.com/local-projects/ofxNanoVG.git armadillu?https://github.com/armadillu/ofxNanoVG.git galsasson?https://github.com/galsasson/ofxNanoVG.git
-
+SubModule: ExternalAddons/ofxImageResizer https://github.com/local-projects/ofxImageResizer.git armadillu?https://github.com/armadillu/ofxImageResizer.git
 
 SubModule: OpenFrameworks https://github.com/local-projects/OpenFrameworks.git OF?https://github.com/OpenFrameworks/OpenFrameworks.git
 }
