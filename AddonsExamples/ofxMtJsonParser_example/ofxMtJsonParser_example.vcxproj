@@ -95,7 +95,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src;..\..\ExternalAddons\ofxMtJsonParser\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
@@ -116,7 +116,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src;..\..\ExternalAddons\ofxMtJsonParser\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -137,7 +137,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src;..\..\ExternalAddons\ofxMtJsonParser\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -161,7 +161,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxJSON\libs;..\..\ExternalAddons\ofxJSON\libs\jsoncpp;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json;..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src;..\..\ExternalAddons\ofxJSON\src;..\..\ExternalAddons\ofxSimpleHttp\src;..\..\ExternalAddons\ofxMtJsonParser\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
@@ -188,6 +188,8 @@
 		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxChecksum.cpp" />
 		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxDownloadCentral.cpp" />
 		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.cpp" />
+		<ClCompile Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParser.cpp" />
+		<ClCompile Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserThread.cpp" />
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h" />
@@ -275,6 +277,11 @@
 		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxChecksum.h" />
 		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxDownloadCentral.h" />
 		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParsedObject.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParser.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserConfig.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserThread.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserUtils.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">

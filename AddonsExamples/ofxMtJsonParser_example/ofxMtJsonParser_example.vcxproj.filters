@@ -28,6 +28,12 @@
 		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.cpp">
 			<Filter>local_addons\ofxSimpleHttp\src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParser.cpp">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserThread.cpp">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<Filter Include="src">
@@ -83,6 +89,12 @@
 		</Filter>
 		<Filter Include="local_addons\ofxSimpleHttp\src">
 			<UniqueIdentifier>{F39988FC-5D12-F6A6-E554-9922}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMtJsonParser">
+			<UniqueIdentifier>{D6BE75B4-8D56-5466-8D66-E167}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMtJsonParser\src">
+			<UniqueIdentifier>{DEA73704-EF9B-4790-FE6F-AA60}</UniqueIdentifier>
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
@@ -340,6 +352,21 @@
 		</ClInclude>
 		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.h">
 			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParsedObject.h">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParser.h">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserConfig.h">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserThread.h">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMtJsonParser\src\ofxMtJsonParserUtils.h">
+			<Filter>local_addons\ofxMtJsonParser\src</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

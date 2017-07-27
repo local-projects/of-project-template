@@ -58,16 +58,12 @@ brew install ccache
 
 For more info, see this [forum thread](https://forum.openframeworks.cc/t/speeding-up-compilation-with-ccache-xcode-tip/23492/7).
 
-add these 2 lines at the end of ```CoreOF.xcconfig```
+To get Ccache working with OF, we added these 2 lines at the end of ```CoreOF.xcconfig``` to our [fork](https://github.com/local-projects/openframeworks/tree/feature/ccache) of OpenFrameworks, note its the branch ```feature/ccache```.
  
 ```
 CC = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang.sh
 CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
 ```
-
-AND drop these 2 files (```ccache-clang.sh``` and
-```ccache-clang++.sh```) in ```$(OF_PATH)/libs/openFrameworksCompiled/project/osx```
-
 
 **if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```**
 

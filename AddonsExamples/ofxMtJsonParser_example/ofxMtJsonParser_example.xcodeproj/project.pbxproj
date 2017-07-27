@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1331011D11EABBDD0B86E638 /* ofxJSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DE0A3DDACEFFE7DD3B933 /* ofxJSON.cpp */; };
 		25FB8D79DB7BBA88033049C4 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A740887331D278DE95F5D /* jsoncpp.cpp */; };
+		4E111E35C570BCD5568BBEF2 /* ofxMtJsonParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7C8331F2DBEE73B92B8C5EF /* ofxMtJsonParser.cpp */; };
 		7D9D704BA864F8CA41346355 /* ofxBatchDownloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63922F549A8CD5CCD6CBDB6 /* ofxBatchDownloader.cpp */; };
 		846C520144534642B48EA14B /* ofxSimpleHttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A97288DDF5AB6AB5F511E22 /* ofxSimpleHttp.cpp */; };
+		9976697657BAB68DA0C8A699 /* ofxMtJsonParserThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5878ACD6598F22628B432B39 /* ofxMtJsonParserThread.cpp */; };
 		9D12BE9B8F1D1E4080643C6D /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B1E8C8AF335278560FF39 /* ofxXmlPoco.cpp */; };
-		BB8E6E591F2A7A5300D27A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E551F2A7A5300D27A76 /* main.cpp */; };
-		BB8E6E5A1F2A7A5300D27A76 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E571F2A7A5300D27A76 /* ofApp.cpp */; };
+		BB12A34A1F2A99FD00F34A83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB12A3461F2A99FD00F34A83 /* main.cpp */; };
+		BB12A34B1F2A99FD00F34A83 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB12A3481F2A99FD00F34A83 /* ofApp.cpp */; };
 		C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C456297E03FFB4330EF59F8E /* ofxChecksum.cpp */; };
 		CD950F2E6482A88DADF72404 /* ofxDownloadCentral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D43F0E08FB57A2E11F76737 /* ofxDownloadCentral.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -52,6 +54,7 @@
 		045480176ACA4E32E183CF59 /* json-forwards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "json-forwards.h"; path = "../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json/json-forwards.h"; sourceTree = SOURCE_ROOT; };
 		04CF99809F708A24D54C1645 /* cms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cms.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/cms.h; sourceTree = SOURCE_ROOT; };
 		06AE6EBA3CC5DAE55F32720A /* bn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bn.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/bn.h; sourceTree = SOURCE_ROOT; };
+		097AF7DB96BA75E9C02FE000 /* ofxMtJsonParserUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMtJsonParserUtils.h; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParserUtils.h; sourceTree = SOURCE_ROOT; };
 		0A8DE0A3DDACEFFE7DD3B933 /* ofxJSON.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxJSON.cpp; path = ../../ExternalAddons/ofxJSON/src/ofxJSON.cpp; sourceTree = SOURCE_ROOT; };
 		0B7E29347CCC914F187643F4 /* buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = buffer.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/buffer.h; sourceTree = SOURCE_ROOT; };
 		0D7369D17ED3FB7828581C7F /* dtls1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dtls1.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dtls1.h; sourceTree = SOURCE_ROOT; };
@@ -70,9 +73,11 @@
 		37B28A39B6BC1D18426CE8B3 /* ts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ts.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ts.h; sourceTree = SOURCE_ROOT; };
 		431145D333BCC41CA7FA0522 /* rand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rand.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/rand.h; sourceTree = SOURCE_ROOT; };
 		43277B8993EDC45A1117A26B /* opensslconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslconf.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslconf.h; sourceTree = SOURCE_ROOT; };
+		4634AC659F16D106AE71B3AF /* ofxMtJsonParserConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMtJsonParserConfig.h; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParserConfig.h; sourceTree = SOURCE_ROOT; };
 		48F1CF1B3019C74C25E1C658 /* srp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = srp.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/srp.h; sourceTree = SOURCE_ROOT; };
 		53244B2D8596A411053FD269 /* conf_api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conf_api.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/conf_api.h; sourceTree = SOURCE_ROOT; };
 		55014A3AB44CF82E5AF793FD /* evp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = evp.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/evp.h; sourceTree = SOURCE_ROOT; };
+		5878ACD6598F22628B432B39 /* ofxMtJsonParserThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMtJsonParserThread.cpp; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParserThread.cpp; sourceTree = SOURCE_ROOT; };
 		5969B17E41EBE2B939FDFE01 /* dsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsa.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dsa.h; sourceTree = SOURCE_ROOT; };
 		5A97288DDF5AB6AB5F511E22 /* ofxSimpleHttp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSimpleHttp.cpp; path = ../../ExternalAddons/ofxSimpleHttp/src/ofxSimpleHttp.cpp; sourceTree = SOURCE_ROOT; };
 		5B2D962944947973C2533DC5 /* comp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = comp.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/comp.h; sourceTree = SOURCE_ROOT; };
@@ -80,6 +85,7 @@
 		612B89DBBFEE42AA65AB8FC2 /* ssl3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ssl3.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ssl3.h; sourceTree = SOURCE_ROOT; };
 		621C960B7B0524E11319E1F2 /* pem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pem.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pem.h; sourceTree = SOURCE_ROOT; };
 		626529DF7C1DFC897C9F230A /* modes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = modes.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/modes.h; sourceTree = SOURCE_ROOT; };
+		62CBE59A7EB88366DCF23A5B /* ofxMtJsonParsedObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMtJsonParsedObject.h; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParsedObject.h; sourceTree = SOURCE_ROOT; };
 		66EA8376DD9893609027547C /* ofxDownloadCentral.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxDownloadCentral.h; path = ../../ExternalAddons/ofxSimpleHttp/src/ofxDownloadCentral.h; sourceTree = SOURCE_ROOT; };
 		6BDB7359B0C7C768671CFDA0 /* md5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = md5.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/md5.h; sourceTree = SOURCE_ROOT; };
 		6D3B1E8C8AF335278560FF39 /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxXmlPoco.cpp; path = ../../OpenFrameworks/addons/ofxPoco/src/ofxXmlPoco.cpp; sourceTree = SOURCE_ROOT; };
@@ -104,6 +110,7 @@
 		A56EE43CFB6DC222EEAB4B55 /* dso.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dso.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dso.h; sourceTree = SOURCE_ROOT; };
 		A77FB557CD4BB7136ECD5A1B /* x509v3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = x509v3.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/x509v3.h; sourceTree = SOURCE_ROOT; };
 		A95F721E7CDFD3790B65139F /* des_old.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = des_old.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/des_old.h; sourceTree = SOURCE_ROOT; };
+		A9B2FEC38839185C6D8B6840 /* ofxMtJsonParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMtJsonParser.h; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParser.h; sourceTree = SOURCE_ROOT; };
 		AB5316187239A304ADC9457F /* asn1_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asn1_mac.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1_mac.h; sourceTree = SOURCE_ROOT; };
 		ABBBD00922AC4EA644AEF76A /* pkcs7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pkcs7.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pkcs7.h; sourceTree = SOURCE_ROOT; };
 		AD637EF5D87E20F2DB3575B7 /* pqueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pqueue.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pqueue.h; sourceTree = SOURCE_ROOT; };
@@ -112,17 +119,19 @@
 		B4BDADCFF6620168E977C837 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
 		B67EC1220B1C93868485C653 /* pkcs12.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pkcs12.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pkcs12.h; sourceTree = SOURCE_ROOT; };
 		B79CB5CB0C032F136757BC17 /* opensslconf_osx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslconf_osx.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslconf_osx.h; sourceTree = SOURCE_ROOT; };
+		B7C8331F2DBEE73B92B8C5EF /* ofxMtJsonParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMtJsonParser.cpp; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParser.cpp; sourceTree = SOURCE_ROOT; };
 		B8581C32877ED7F33F6F7B3E /* ecdsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ecdsa.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ecdsa.h; sourceTree = SOURCE_ROOT; };
 		BA16270D20A9486D53B31B95 /* ripemd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ripemd.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h; sourceTree = SOURCE_ROOT; };
+		BB12A3461F2A99FD00F34A83 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/main.cpp; sourceTree = "<group>"; };
+		BB12A3471F2A99FD00F34A83 /* MyJsonParserThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyJsonParserThread.h; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/MyJsonParserThread.h; sourceTree = "<group>"; };
+		BB12A3481F2A99FD00F34A83 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/ofApp.cpp; sourceTree = "<group>"; };
+		BB12A3491F2A99FD00F34A83 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/ofApp.h; sourceTree = "<group>"; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
-		BB8E6E551F2A7A5300D27A76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/main.cpp; sourceTree = "<group>"; };
-		BB8E6E561F2A7A5300D27A76 /* MyJsonParserThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyJsonParserThread.h; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/MyJsonParserThread.h; sourceTree = "<group>"; };
-		BB8E6E571F2A7A5300D27A76 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/ofApp.cpp; sourceTree = "<group>"; };
-		BB8E6E581F2A7A5300D27A76 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxMTJsonParser/example/src/ofApp.h; sourceTree = "<group>"; };
 		BCCCF102DE2F4CB002C4B895 /* asn1t.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asn1t.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1t.h; sourceTree = SOURCE_ROOT; };
 		BE929EB04FF743BB0200713B /* cast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cast.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/cast.h; sourceTree = SOURCE_ROOT; };
 		C06DAC66F51D07FA1BC3AE5D /* err.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = err.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/err.h; sourceTree = SOURCE_ROOT; };
 		C12E9EEB8AD17F43826930AD /* symhacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = symhacks.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/symhacks.h; sourceTree = SOURCE_ROOT; };
+		C32CF0913351B66B1A8CDF7F /* ofxMtJsonParserThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMtJsonParserThread.h; path = ../../ExternalAddons/ofxMtJsonParser/src/ofxMtJsonParserThread.h; sourceTree = SOURCE_ROOT; };
 		C345BA165523D2D3BDFE5319 /* blowfish.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = blowfish.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/blowfish.h; sourceTree = SOURCE_ROOT; };
 		C456297E03FFB4330EF59F8E /* ofxChecksum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxChecksum.cpp; path = ../../ExternalAddons/ofxSimpleHttp/src/ofxChecksum.cpp; sourceTree = SOURCE_ROOT; };
 		C63922F549A8CD5CCD6CBDB6 /* ofxBatchDownloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBatchDownloader.cpp; path = ../../ExternalAddons/ofxSimpleHttp/src/ofxBatchDownloader.cpp; sourceTree = SOURCE_ROOT; };
@@ -202,6 +211,7 @@
 			children = (
 				9E66EBC59831BC369906EE7E /* ofxJSON */,
 				73960BBFE754AE467B50C70B /* ofxSimpleHttp */,
+				C9FFD1761C49D70F4119EC78 /* ofxMtJsonParser */,
 			);
 			name = local_addons;
 			sourceTree = "<group>";
@@ -364,6 +374,20 @@
 			name = json;
 			sourceTree = "<group>";
 		};
+		AB2511ABEB5EF86962D29CF5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				62CBE59A7EB88366DCF23A5B /* ofxMtJsonParsedObject.h */,
+				B7C8331F2DBEE73B92B8C5EF /* ofxMtJsonParser.cpp */,
+				A9B2FEC38839185C6D8B6840 /* ofxMtJsonParser.h */,
+				4634AC659F16D106AE71B3AF /* ofxMtJsonParserConfig.h */,
+				5878ACD6598F22628B432B39 /* ofxMtJsonParserThread.cpp */,
+				C32CF0913351B66B1A8CDF7F /* ofxMtJsonParserThread.h */,
+				097AF7DB96BA75E9C02FE000 /* ofxMtJsonParserUtils.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		B2C98B62869583DB9FE30DA7 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +402,14 @@
 				0117D94CE0C695E5E5482BEC /* ofxPoco */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		C9FFD1761C49D70F4119EC78 /* ofxMtJsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				AB2511ABEB5EF86962D29CF5 /* src */,
+			);
+			name = ofxMtJsonParser;
 			sourceTree = "<group>";
 		};
 		DD1B1BD3744DC7B92CCFDEFE /* include */ = {
@@ -412,10 +444,10 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB8E6E551F2A7A5300D27A76 /* main.cpp */,
-				BB8E6E561F2A7A5300D27A76 /* MyJsonParserThread.h */,
-				BB8E6E571F2A7A5300D27A76 /* ofApp.cpp */,
-				BB8E6E581F2A7A5300D27A76 /* ofApp.h */,
+				BB12A3461F2A99FD00F34A83 /* main.cpp */,
+				BB12A3471F2A99FD00F34A83 /* MyJsonParserThread.h */,
+				BB12A3481F2A99FD00F34A83 /* ofApp.cpp */,
+				BB12A3491F2A99FD00F34A83 /* ofApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -536,9 +568,11 @@
 				7D9D704BA864F8CA41346355 /* ofxBatchDownloader.cpp in Sources */,
 				C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */,
 				CD950F2E6482A88DADF72404 /* ofxDownloadCentral.cpp in Sources */,
-				BB8E6E591F2A7A5300D27A76 /* main.cpp in Sources */,
-				BB8E6E5A1F2A7A5300D27A76 /* ofApp.cpp in Sources */,
 				846C520144534642B48EA14B /* ofxSimpleHttp.cpp in Sources */,
+				4E111E35C570BCD5568BBEF2 /* ofxMtJsonParser.cpp in Sources */,
+				BB12A34A1F2A99FD00F34A83 /* main.cpp in Sources */,
+				BB12A34B1F2A99FD00F34A83 /* ofApp.cpp in Sources */,
+				9976697657BAB68DA0C8A699 /* ofxMtJsonParserThread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +610,6 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -587,6 +620,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -622,7 +656,6 @@
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -633,6 +666,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -679,7 +713,6 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -690,6 +723,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
@@ -736,7 +770,6 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -747,6 +780,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -782,7 +816,6 @@
 				GCC_MODEL_TUNING = NONE;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -793,6 +826,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -828,7 +862,6 @@
 				GCC_MODEL_TUNING = NONE;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					src,
 					../../OpenFrameworks/addons/ofxPoco/libs/poco/include,
 					../../OpenFrameworks/addons/ofxPoco/src,
 					../../OpenFrameworks/addons/ofxPoco/libs/openssl/include,
@@ -839,6 +872,7 @@
 					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
 					../../ExternalAddons/ofxJSON/src,
 					../../ExternalAddons/ofxSimpleHttp/src,
+					../../ExternalAddons/ofxMtJsonParser/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
