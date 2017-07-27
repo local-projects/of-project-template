@@ -4,6 +4,7 @@
 		<P name="defaultGroup" type="group"/>
 		<!-- # defaultGroup ############################ -->
 		<P name="debug" type="bool">0</P>
+		<P name="columnVariationSpeed" type="float">2</P>
 		<!--                                                                                 -->
 		<!-- ############################## DISABLED PARAMS ################################# -->
 		<!--                                                                                 -->
