@@ -60,7 +60,7 @@ SubModule: ExternalAddons/ofxHttpForm https://github.com/local-projects/ofxHttpF
 SubModule: ExternalAddons/ofxInterface https://github.com/local-projects/ofxInterface.git armadillu?https://github.com/armadillu/ofxInterface.git
 SubModule: ExternalAddons/ofxInterfaceKeyboard https://github.com/local-projects/ofxInterfaceKeyboard.git armadillu?https://github.com/armadillu/ofxInterfaceKeyboard.git
 SubModule: ExternalAddons/ofxJSON https://github.com/local-projects/ofxJSON.git armadillu?https://github.com/armadillu/ofxJSON.git
-SubModule: ExternalAddons/ofxJsonSettings https://github.com/local-projects/ofxJsonSettings.git armadillu?https://github.com/armadillu/ofxJsonSettings.git
+SubModule: ExternalAddons/ofxJsonSettings https://github.com/local-projects/ofxJsonSettings.git
 SubModule: ExternalAddons/ofxMTJsonParser https://github.com/local-projects/ofxMTJsonParser.git armadillu?https://github.com/armadillu/ofxMTJsonParser.git
 SubModule: ExternalAddons/ofxMemoryUsage https://github.com/local-projects/ofxMemoryUsage.git armadillu?https://github.com/armadillu/ofxMemoryUsage.git
 SubModule: ExternalAddons/ofxMullion https://github.com/local-projects/ofxMullion.git armadillu?https://github.com/armadillu/ofxMullion.git
