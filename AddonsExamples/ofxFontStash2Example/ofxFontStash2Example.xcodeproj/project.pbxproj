@@ -1010,7 +1010,6 @@
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
-				BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
 				BB59794B1ECA0454003CCFAC /* nanovg.c in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
@@ -1020,6 +1019,7 @@
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
 				BB59794D1ECA0454003CCFAC /* ofxNanoVG.cpp in Sources */,
+				BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
 				BB5979491ECA0454003CCFAC /* obsolete.md in Sources */,
@@ -1028,7 +1028,6 @@
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				BB59794A1ECA0454003CCFAC /* README.md in Sources */,
-				BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,
@@ -1042,6 +1041,7 @@
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
 				BB59794C1ECA0454003CCFAC /* README.md in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
+				BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1442,101 @@
 			};
 			name = Debug_Profiled;
 		};
+		BB8E6E321F2A503100D27A76 /* NoMacro */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../OpenFrameworks/addons/ofxOsc/libs,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
+					../../OpenFrameworks/addons/ofxOsc/src,
+					../../OpenFrameworks/addons/ofxXmlSettings/libs,
+					../../OpenFrameworks/addons/ofxXmlSettings/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/fontstash,
+					../../ExternalAddons/ofxFontStash2/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+					../../ExternalAddons/ofxRemoteUI/src,
+					../../ExternalAddons/ofxTimeMeasurements/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = NoMacro;
+		};
+		BB8E6E331F2A503100D27A76 /* NoMacro */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../OpenFrameworks/addons/ofxOsc/libs,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
+					../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
+					../../OpenFrameworks/addons/ofxOsc/src,
+					../../OpenFrameworks/addons/ofxXmlSettings/libs,
+					../../OpenFrameworks/addons/ofxXmlSettings/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+					../../ExternalAddons/ofxRemoteUI/src,
+					../../ExternalAddons/ofxTimeMeasurements/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../OpenFrameworks/addons/ofxPoco/libs/poco/include ../../OpenFrameworks/addons/ofxPoco/src ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/ ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include ../../OpenFrameworks/addons/ofxPoco/libs/poco/include/";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = NoMacro;
+		};
 		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
@@ -1643,6 +1738,7 @@
 				BB411EC31E3421EC00069F78 /* DebugGL3 */,
 				BB411EC51E34221400069F78 /* DebugGL3_Profiled */,
 				E4B69B4F0A3A1720003C02F2 /* Release */,
+				BB8E6E321F2A503100D27A76 /* NoMacro */,
 				99FA3DBB1C7456C400CFA0EE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1656,6 +1752,7 @@
 				BB411EC41E3421EC00069F78 /* DebugGL3 */,
 				BB411EC61E34221400069F78 /* DebugGL3_Profiled */,
 				E4B69B610A3A1757003C02F2 /* Release */,
+				BB8E6E331F2A503100D27A76 /* NoMacro */,
 				99FA3DBC1C7456C400CFA0EE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
