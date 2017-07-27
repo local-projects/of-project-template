@@ -127,3 +127,6 @@
 [submodule "ExternalAddons/ofxInterfaceKeyboard"]
 	path = ExternalAddons/ofxInterfaceKeyboard
 	url = https://github.com/local-projects/ofxInterfaceKeyboard.git
+[submodule "ExternalAddons/ofxImageResizer"]
+	path = ExternalAddons/ofxImageResizer
+	url = https://github.com/local-projects/ofxImageResizer.git
