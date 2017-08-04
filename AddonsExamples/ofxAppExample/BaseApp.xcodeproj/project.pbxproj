@@ -96,6 +96,13 @@
 		BBBFF3021D53CB7A0013E6B8 /* ofxSuperLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF2FE1D53CB7A0013E6B8 /* ofxSuperLog.cpp */; };
 		BBBFF3031D53CB7A0013E6B8 /* ofxSuperLogDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF3001D53CB7A0013E6B8 /* ofxSuperLogDisplay.cpp */; };
 		BBBFF3131D5407B00013E6B8 /* ofxAutoTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBFF3111D5407B00013E6B8 /* ofxAutoTexture.cpp */; };
+		BBC864111F33FD5100A5E29A /* ofxFontStash2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC863F41F33FD5100A5E29A /* ofxFontStash2.cpp */; };
+		BBC864121F33FD5100A5E29A /* ofxFontStashParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC863F61F33FD5100A5E29A /* ofxFontStashParser.cpp */; };
+		BBC864131F33FD5100A5E29A /* obsolete.md in Sources */ = {isa = PBXBuildFile; fileRef = BBC863FF1F33FD5100A5E29A /* obsolete.md */; };
+		BBC864141F33FD5100A5E29A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBC864011F33FD5100A5E29A /* README.md */; };
+		BBC864151F33FD5100A5E29A /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BBC864041F33FD5100A5E29A /* ofxfs2_nanovg.c */; };
+		BBC864161F33FD5100A5E29A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBC8640B1F33FD5100A5E29A /* README.md */; };
+		BBC864171F33FD5100A5E29A /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC8640F1F33FD5100A5E29A /* pugixml.cpp */; };
 		BBDE06AF1F265C8D00F0F710 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06A61F265C8D00F0F710 /* main.cpp */; };
 		BBDE06B01F265C8D00F0F710 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06A91F265C8D00F0F710 /* ofApp.cpp */; };
 		BBDE06B11F265C8D00F0F710 /* ofxAppParsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06AB1F265C8D00F0F710 /* ofxAppParsers.cpp */; };
@@ -628,6 +635,29 @@
 		BBBFF3011D53CB7A0013E6B8 /* ofxSuperLogDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSuperLogDisplay.h; sourceTree = "<group>"; };
 		BBBFF3111D5407B00013E6B8 /* ofxAutoTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAutoTexture.cpp; sourceTree = "<group>"; };
 		BBBFF3121D5407B00013E6B8 /* ofxAutoTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAutoTexture.h; sourceTree = "<group>"; };
+		BBC863F41F33FD5100A5E29A /* ofxFontStash2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStash2.cpp; sourceTree = "<group>"; };
+		BBC863F51F33FD5100A5E29A /* ofxFontStash2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStash2.h; sourceTree = "<group>"; };
+		BBC863F61F33FD5100A5E29A /* ofxFontStashParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStashParser.cpp; sourceTree = "<group>"; };
+		BBC863F71F33FD5100A5E29A /* ofxFontStashParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStashParser.h; sourceTree = "<group>"; };
+		BBC863F81F33FD5100A5E29A /* ofxFontStashStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStashStyle.h; sourceTree = "<group>"; };
+		BBC863FB1F33FD5100A5E29A /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BBC863FD1F33FD5100A5E29A /* nanovg_gl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl2.h; sourceTree = "<group>"; };
+		BBC863FE1F33FD5100A5E29A /* nanovg_gl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl3.h; sourceTree = "<group>"; };
+		BBC863FF1F33FD5100A5E29A /* obsolete.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = obsolete.md; sourceTree = "<group>"; };
+		BBC864001F33FD5100A5E29A /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		BBC864011F33FD5100A5E29A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBC864031F33FD5100A5E29A /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_fontstash.h; sourceTree = "<group>"; };
+		BBC864041F33FD5100A5E29A /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
+		BBC864051F33FD5100A5E29A /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
+		BBC864061F33FD5100A5E29A /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
+		BBC864071F33FD5100A5E29A /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BBC864081F33FD5100A5E29A /* ofxfs2_stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_image.h; sourceTree = "<group>"; };
+		BBC864091F33FD5100A5E29A /* ofxfs2_stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_truetype.h; sourceTree = "<group>"; };
+		BBC8640B1F33FD5100A5E29A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBC8640C1F33FD5100A5E29A /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		BBC8640E1F33FD5100A5E29A /* pugiconfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		BBC8640F1F33FD5100A5E29A /* pugixml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		BBC864101F33FD5100A5E29A /* pugixml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BBDE06A41F265C8D00F0F710 /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../ExternalAddons/ofxApp/example/src/CH_Object.h; sourceTree = "<group>"; };
 		BBDE06A51F265C8D00F0F710 /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../ExternalAddons/ofxApp/example/src/CWRU_Object.h; sourceTree = "<group>"; };
@@ -1545,6 +1575,7 @@
 				BBB22A541DB6B49E0007FDF3 /* ofxGoogleAnalytics */,
 				BB41EE4C1E350E6F000D1F4D /* ofxInterface */,
 				BB7802041E3D30DD00570DD5 /* ofxPoco */,
+				BBC863F21F33FD5100A5E29A /* ofxFontStash2 */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -2112,6 +2143,94 @@
 			path = ../../ExternalAddons/ofxAutoTexture/src;
 			sourceTree = "<group>";
 		};
+		BBC863F21F33FD5100A5E29A /* ofxFontStash2 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC863F31F33FD5100A5E29A /* src */,
+				BBC863F91F33FD5100A5E29A /* libs */,
+			);
+			name = ofxFontStash2;
+			sourceTree = "<group>";
+		};
+		BBC863F31F33FD5100A5E29A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBC863F41F33FD5100A5E29A /* ofxFontStash2.cpp */,
+				BBC863F51F33FD5100A5E29A /* ofxFontStash2.h */,
+				BBC863F61F33FD5100A5E29A /* ofxFontStashParser.cpp */,
+				BBC863F71F33FD5100A5E29A /* ofxFontStashParser.h */,
+				BBC863F81F33FD5100A5E29A /* ofxFontStashStyle.h */,
+			);
+			name = src;
+			path = ../../ExternalAddons/ofxFontStash2/src;
+			sourceTree = "<group>";
+		};
+		BBC863F91F33FD5100A5E29A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBC863FA1F33FD5100A5E29A /* nanoVG */,
+				BBC8640A1F33FD5100A5E29A /* pugixml */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxFontStash2/libs;
+			sourceTree = "<group>";
+		};
+		BBC863FA1F33FD5100A5E29A /* nanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				BBC863FB1F33FD5100A5E29A /* LICENSE.txt */,
+				BBC863FC1F33FD5100A5E29A /* obsolete */,
+				BBC864001F33FD5100A5E29A /* premake4.lua */,
+				BBC864011F33FD5100A5E29A /* README.md */,
+				BBC864021F33FD5100A5E29A /* src */,
+			);
+			path = nanoVG;
+			sourceTree = "<group>";
+		};
+		BBC863FC1F33FD5100A5E29A /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				BBC863FD1F33FD5100A5E29A /* nanovg_gl2.h */,
+				BBC863FE1F33FD5100A5E29A /* nanovg_gl3.h */,
+				BBC863FF1F33FD5100A5E29A /* obsolete.md */,
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		BBC864021F33FD5100A5E29A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBC864031F33FD5100A5E29A /* ofxfs2_fontstash.h */,
+				BBC864041F33FD5100A5E29A /* ofxfs2_nanovg.c */,
+				BBC864051F33FD5100A5E29A /* ofxfs2_nanovg.h */,
+				BBC864061F33FD5100A5E29A /* ofxfs2_nanovg_gl.h */,
+				BBC864071F33FD5100A5E29A /* ofxfs2_nanovg_gl_utils.h */,
+				BBC864081F33FD5100A5E29A /* ofxfs2_stb_image.h */,
+				BBC864091F33FD5100A5E29A /* ofxfs2_stb_truetype.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BBC8640A1F33FD5100A5E29A /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				BBC8640B1F33FD5100A5E29A /* README.md */,
+				BBC8640C1F33FD5100A5E29A /* readme.txt */,
+				BBC8640D1F33FD5100A5E29A /* src */,
+			);
+			path = pugixml;
+			sourceTree = "<group>";
+		};
+		BBC8640D1F33FD5100A5E29A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBC8640E1F33FD5100A5E29A /* pugiconfig.hpp */,
+				BBC8640F1F33FD5100A5E29A /* pugixml.cpp */,
+				BBC864101F33FD5100A5E29A /* pugixml.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -2317,10 +2436,12 @@
 				BBDE06B01F265C8D00F0F710 /* ofApp.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				BBB22A4E1DB6B4710007FDF3 /* ofxTCPClient.cpp in Sources */,
+				BBC864171F33FD5100A5E29A /* pugixml.cpp in Sources */,
 				BB41EE621E350E6F000D1F4D /* TouchEvent.cpp in Sources */,
 				BBDE06B11F265C8D00F0F710 /* ofxAppParsers.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				BB41EE631E350E6F000D1F4D /* TouchManager.cpp in Sources */,
+				BBC864121F33FD5100A5E29A /* ofxFontStashParser.cpp in Sources */,
 				BBB22A4F1DB6B4710007FDF3 /* ofxTCPManager.cpp in Sources */,
 				BB1166F01D5D3ECF0095DABF /* ofxCvColorImage.cpp in Sources */,
 				BB11654E1D5D22B90095DABF /* TexturedObjectGC.cpp in Sources */,
@@ -2330,8 +2451,10 @@
 				BBB22A511DB6B4710007FDF3 /* ofxUDPManager.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
+				BBC864151F33FD5100A5E29A /* ofxfs2_nanovg.c in Sources */,
 				BBB22A531DB6B48A0007FDF3 /* ofxAppUtils.cpp in Sources */,
 				BBB15F001D5A90AC0051942B /* ofxSimpleHttp.cpp in Sources */,
+				BBC864111F33FD5100A5E29A /* ofxFontStash2.cpp in Sources */,
 				BBB22A501DB6B4710007FDF3 /* ofxTCPServer.cpp in Sources */,
 				BB11654B1D5D22B90095DABF /* TexturedObject.cpp in Sources */,
 				BB1166F11D5D3ECF0095DABF /* ofxCvContourFinder.cpp in Sources */,
@@ -2364,8 +2487,10 @@
 				BB1167011D5D530C0095DABF /* ofxMtJsonParser.cpp in Sources */,
 				BBB22A5B1DB6B49E0007FDF3 /* GA_uriencode.cpp in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
+				BBC864141F33FD5100A5E29A /* README.md in Sources */,
 				BB1166F61D5D3ECF0095DABF /* ofxCvShortImage.cpp in Sources */,
 				BBB15F271D5B9EF40051942B /* ofxThreadSafeLog.cpp in Sources */,
+				BBC864161F33FD5100A5E29A /* README.md in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
 				BB11653F1D5D22960095DABF /* ProgressiveTextureLoadQueue.cpp in Sources */,
@@ -2380,6 +2505,7 @@
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				BB41EE611E350E6F000D1F4D /* Node.cpp in Sources */,
 				BBB15EFE1D5A90AC0051942B /* ofxChecksum.cpp in Sources */,
+				BBC864131F33FD5100A5E29A /* obsolete.md in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
 				FC7A347B4FFFF65BA56DB24B /* ofxHistoryPlot.cpp in Sources */,
 				BB41EE601E350E6F000D1F4D /* TextureButton.cpp in Sources */,
@@ -2426,7 +2552,7 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
@@ -2505,7 +2631,10 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OFX_APP_NAME=MyApp",
+					NANOVG_GL2_IMPLEMENTATION,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -2576,6 +2705,7 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
@@ -2653,6 +2783,7 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
@@ -2732,7 +2863,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OFX_APP_NAME=MyApp",
+					NANOVG_GL2_IMPLEMENTATION,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -2803,7 +2937,10 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OFX_APP_NAME=MyApp",
+					NANOVG_GL2_IMPLEMENTATION,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,

@@ -56,6 +56,11 @@
 		BBA029BF1D539FB9004A32A2 /* ofxJsonSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA029BD1D539FB9004A32A2 /* ofxJsonSettings.cpp */; };
 		BBA029D61D53A07B004A32A2 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA029D41D53A07B004A32A2 /* jsoncpp.cpp */; };
 		BBA029D91D53A32A004A32A2 /* ofxJSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA029D71D53A32A004A32A2 /* ofxJSON.cpp */; };
+		BBA2F4001F30D48900CFFE56 /* ofxFontStash2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA2F3E31F30D48900CFFE56 /* ofxFontStash2.cpp */; };
+		BBA2F4011F30D48900CFFE56 /* ofxFontStashParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA2F3E51F30D48900CFFE56 /* ofxFontStashParser.cpp */; };
+		BBA2F4041F30D48900CFFE56 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BBA2F3F31F30D48900CFFE56 /* ofxfs2_nanovg.c */; };
+		BBA2F4051F30D48900CFFE56 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBA2F3FA1F30D48900CFFE56 /* README.md */; };
+		BBA2F4061F30D48900CFFE56 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA2F3FE1F30D48900CFFE56 /* pugixml.cpp */; };
 		BBB15EFD1D5A90AC0051942B /* ofxBatchDownloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB15EF51D5A90AC0051942B /* ofxBatchDownloader.cpp */; };
 		BBB15EFE1D5A90AC0051942B /* ofxChecksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB15EF71D5A90AC0051942B /* ofxChecksum.cpp */; };
 		BBB15EFF1D5A90AC0051942B /* ofxDownloadCentral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB15EF91D5A90AC0051942B /* ofxDownloadCentral.cpp */; };
@@ -461,6 +466,23 @@
 		BBA029D41D53A07B004A32A2 /* jsoncpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncpp.cpp; sourceTree = "<group>"; };
 		BBA029D71D53A32A004A32A2 /* ofxJSON.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxJSON.cpp; sourceTree = "<group>"; };
 		BBA029D81D53A32A004A32A2 /* ofxJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxJSON.h; sourceTree = "<group>"; };
+		BBA2F3E31F30D48900CFFE56 /* ofxFontStash2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStash2.cpp; sourceTree = "<group>"; };
+		BBA2F3E41F30D48900CFFE56 /* ofxFontStash2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStash2.h; sourceTree = "<group>"; };
+		BBA2F3E51F30D48900CFFE56 /* ofxFontStashParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStashParser.cpp; sourceTree = "<group>"; };
+		BBA2F3E61F30D48900CFFE56 /* ofxFontStashParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStashParser.h; sourceTree = "<group>"; };
+		BBA2F3E71F30D48900CFFE56 /* ofxFontStashStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStashStyle.h; sourceTree = "<group>"; };
+		BBA2F3F21F30D48900CFFE56 /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_fontstash.h; sourceTree = "<group>"; };
+		BBA2F3F31F30D48900CFFE56 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
+		BBA2F3F41F30D48900CFFE56 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
+		BBA2F3F51F30D48900CFFE56 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
+		BBA2F3F61F30D48900CFFE56 /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BBA2F3F71F30D48900CFFE56 /* ofxfs2_stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_image.h; sourceTree = "<group>"; };
+		BBA2F3F81F30D48900CFFE56 /* ofxfs2_stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_truetype.h; sourceTree = "<group>"; };
+		BBA2F3FA1F30D48900CFFE56 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBA2F3FB1F30D48900CFFE56 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		BBA2F3FD1F30D48900CFFE56 /* pugiconfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		BBA2F3FE1F30D48900CFFE56 /* pugixml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		BBA2F3FF1F30D48900CFFE56 /* pugixml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
 		BBB15EF51D5A90AC0051942B /* ofxBatchDownloader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBatchDownloader.cpp; sourceTree = "<group>"; };
 		BBB15EF61D5A90AC0051942B /* ofxBatchDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBatchDownloader.h; sourceTree = "<group>"; };
 		BBB15EF71D5A90AC0051942B /* ofxChecksum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxChecksum.cpp; sourceTree = "<group>"; };
@@ -487,6 +509,7 @@
 		BBB15F1D1D5B9AF40051942B /* AssetHolderUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AssetHolderUtils.cpp; sourceTree = "<group>"; };
 		BBB15F251D5B9EF40051942B /* ofxThreadSafeLog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxThreadSafeLog.cpp; sourceTree = "<group>"; };
 		BBB15F261D5B9EF40051942B /* ofxThreadSafeLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxThreadSafeLog.h; sourceTree = "<group>"; };
+		BBB470211F32262C009C73C9 /* ofxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAppDelegate.h; sourceTree = "<group>"; };
 		BBB60E121DB6CA2600D0327E /* GA_uriencode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GA_uriencode.cpp; sourceTree = "<group>"; };
 		BBB60E131DB6CA2600D0327E /* GA_uriencode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GA_uriencode.h; sourceTree = "<group>"; };
 		BBB60E141DB6CA2600D0327E /* ofxGoogleAnalytics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGoogleAnalytics.cpp; sourceTree = "<group>"; };
@@ -1460,6 +1483,7 @@
 				BBCA69971DB57FD40024EE22 /* ofxSensu */,
 				BBB60E101DB6CA2600D0327E /* ofxGoogleAnalytics */,
 				BBE889901EF83B78005DB89D /* ofxPoco */,
+				BBA2F3E11F30D48900CFFE56 /* ofxFontStash2 */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -1566,6 +1590,80 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		BBA2F3E11F30D48900CFFE56 /* ofxFontStash2 */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3E21F30D48900CFFE56 /* src */,
+				BBA2F3E81F30D48900CFFE56 /* libs */,
+			);
+			name = ofxFontStash2;
+			sourceTree = "<group>";
+		};
+		BBA2F3E21F30D48900CFFE56 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3E31F30D48900CFFE56 /* ofxFontStash2.cpp */,
+				BBA2F3E41F30D48900CFFE56 /* ofxFontStash2.h */,
+				BBA2F3E51F30D48900CFFE56 /* ofxFontStashParser.cpp */,
+				BBA2F3E61F30D48900CFFE56 /* ofxFontStashParser.h */,
+				BBA2F3E71F30D48900CFFE56 /* ofxFontStashStyle.h */,
+			);
+			name = src;
+			path = ../../ExternalAddons/ofxFontStash2/src;
+			sourceTree = "<group>";
+		};
+		BBA2F3E81F30D48900CFFE56 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3E91F30D48900CFFE56 /* nanoVG */,
+				BBA2F3F91F30D48900CFFE56 /* pugixml */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxFontStash2/libs;
+			sourceTree = "<group>";
+		};
+		BBA2F3E91F30D48900CFFE56 /* nanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3F11F30D48900CFFE56 /* src */,
+			);
+			path = nanoVG;
+			sourceTree = "<group>";
+		};
+		BBA2F3F11F30D48900CFFE56 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3F21F30D48900CFFE56 /* ofxfs2_fontstash.h */,
+				BBA2F3F31F30D48900CFFE56 /* ofxfs2_nanovg.c */,
+				BBA2F3F41F30D48900CFFE56 /* ofxfs2_nanovg.h */,
+				BBA2F3F51F30D48900CFFE56 /* ofxfs2_nanovg_gl.h */,
+				BBA2F3F61F30D48900CFFE56 /* ofxfs2_nanovg_gl_utils.h */,
+				BBA2F3F71F30D48900CFFE56 /* ofxfs2_stb_image.h */,
+				BBA2F3F81F30D48900CFFE56 /* ofxfs2_stb_truetype.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BBA2F3F91F30D48900CFFE56 /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3FA1F30D48900CFFE56 /* README.md */,
+				BBA2F3FB1F30D48900CFFE56 /* readme.txt */,
+				BBA2F3FC1F30D48900CFFE56 /* src */,
+			);
+			path = pugixml;
+			sourceTree = "<group>";
+		};
+		BBA2F3FC1F30D48900CFFE56 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2F3FD1F30D48900CFFE56 /* pugiconfig.hpp */,
+				BBA2F3FE1F30D48900CFFE56 /* pugixml.cpp */,
+				BBA2F3FF1F30D48900CFFE56 /* pugixml.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BBB15E9A1D593D9E0051942B /* ofxApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -1577,6 +1675,7 @@
 		BBB15E9B1D593D9E0051942B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BBB470211F32262C009C73C9 /* ofxAppDelegate.h */,
 				BBCA699C1DB582C90024EE22 /* ofxAppErrorReporter.h */,
 				BB5C524C1D9FF5FD00CFADF2 /* ofxApp.cpp */,
 				BB5C524D1D9FF5FD00CFADF2 /* ofxApp.h */,
@@ -2226,6 +2325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA2F4011F30D48900CFFE56 /* ofxFontStashParser.cpp in Sources */,
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
 				BBCA69941DB57FCA0024EE22 /* ofxTCPManager.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
@@ -2241,6 +2341,7 @@
 				BBB15F001D5A90AC0051942B /* ofxSimpleHttp.cpp in Sources */,
 				BB11654B1D5D22B90095DABF /* TexturedObject.cpp in Sources */,
 				BBB60E161DB6CA2600D0327E /* GA_uriencode.cpp in Sources */,
+				BBA2F4041F30D48900CFFE56 /* ofxfs2_nanovg.c in Sources */,
 				BB1166F11D5D3ECF0095DABF /* ofxCvContourFinder.cpp in Sources */,
 				BBCA699E1DB584460024EE22 /* ofxAppUtils.cpp in Sources */,
 				BB1166F41D5D3ECF0095DABF /* ofxCvHaarFinder.cpp in Sources */,
@@ -2253,6 +2354,7 @@
 				BB11654D1D5D22B90095DABF /* TexturedObjectConstants.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
 				BB1166F51D5D3ECF0095DABF /* ofxCvImage.cpp in Sources */,
+				BBA2F4001F30D48900CFFE56 /* ofxFontStash2.cpp in Sources */,
 				BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */,
 				BB5C525B1D9FF5FD00CFADF2 /* ofxAppFonts.cpp in Sources */,
 				BBB60E171DB6CA2600D0327E /* ofxGoogleAnalytics.cpp in Sources */,
@@ -2283,6 +2385,8 @@
 				BBA029BF1D539FB9004A32A2 /* ofxJsonSettings.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
 				BBB15F1E1D5B9AF40051942B /* AssetChecker.cpp in Sources */,
+				BBA2F4061F30D48900CFFE56 /* pugixml.cpp in Sources */,
+				BBA2F4051F30D48900CFFE56 /* README.md in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
 				BBB15F201D5B9AF40051942B /* AssetHolderUtils.cpp in Sources */,
@@ -2331,7 +2435,6 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
@@ -2410,7 +2513,10 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NANOVG_GL2_IMPLEMENTATION,
+					"OFX_APP_NAME=MyApp",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -2637,7 +2743,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NANOVG_GL2_IMPLEMENTATION,
+					"OFX_APP_NAME=MyApp",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -2708,7 +2817,10 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = "OFX_APP_NAME=MyApp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NANOVG_GL2_IMPLEMENTATION,
+					"OFX_APP_NAME=MyApp",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,

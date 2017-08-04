@@ -33,8 +33,8 @@
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
 		BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA261CBF0EBC004EB39A /* stb_truetype.c */; };
-		BB81ADB21E1D8CA4007591AC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB81ADAF1E1D8CA4007591AC /* main.cpp */; };
-		BB81ADB31E1D8CA4007591AC /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB81ADB01E1D8CA4007591AC /* ofApp.cpp */; };
+		BB9E2C211F337DC10065ED1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2C1E1F337DC10065ED1B /* main.cpp */; };
+		BB9E2C221F337DC10065ED1B /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2C1F1F337DC10065ED1B /* ofApp.cpp */; };
 		BBDE247B1E43B94700663956 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE21401E43B94700663956 /* ofxXmlPoco.cpp */; };
 		BBDE247C1E43B94700663956 /* crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDE21941E43B94700663956 /* crypto.a */; };
 		BBDE247D1E43B94700663956 /* ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDE21951E43B94700663956 /* ssl.a */; };
@@ -145,9 +145,9 @@
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
 		BB19DA261CBF0EBC004EB39A /* stb_truetype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
-		BB81ADAF1E1D8CA4007591AC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../ExternalAddons/ofxAnimatable/ExampleCurveParameters/src/main.cpp; sourceTree = "<group>"; };
-		BB81ADB01E1D8CA4007591AC /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../ExternalAddons/ofxAnimatable/ExampleCurveParameters/src/ofApp.cpp; sourceTree = "<group>"; };
-		BB81ADB11E1D8CA4007591AC /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../ExternalAddons/ofxAnimatable/ExampleCurveParameters/src/ofApp.h; sourceTree = "<group>"; };
+		BB9E2C1E1F337DC10065ED1B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/main.cpp"; sourceTree = "<group>"; };
+		BB9E2C1F1F337DC10065ED1B /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/ofApp.cpp"; sourceTree = "<group>"; };
+		BB9E2C201F337DC10065ED1B /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/ofApp.h"; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BBDE21401E43B94700663956 /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlPoco.cpp; sourceTree = "<group>"; };
 		BBDE21411E43B94700663956 /* ofxXmlPoco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlPoco.h; sourceTree = "<group>"; };
@@ -523,9 +523,9 @@
 		BB81ADAE1E1D8C9F007591AC /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB81ADAF1E1D8CA4007591AC /* main.cpp */,
-				BB81ADB01E1D8CA4007591AC /* ofApp.cpp */,
-				BB81ADB11E1D8CA4007591AC /* ofApp.h */,
+				BB9E2C1E1F337DC10065ED1B /* main.cpp */,
+				BB9E2C1F1F337DC10065ED1B /* ofApp.cpp */,
+				BB9E2C201F337DC10065ED1B /* ofApp.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -945,14 +945,14 @@
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
+				BB9E2C221F337DC10065ED1B /* ofApp.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
+				BB9E2C211F337DC10065ED1B /* main.cpp in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				BBDE247B1E43B94700663956 /* ofxXmlPoco.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
-				BB81ADB31E1D8CA4007591AC /* ofApp.cpp in Sources */,
-				BB81ADB21E1D8CA4007591AC /* main.cpp in Sources */,
 				FC7A347B4FFFF65BA56DB24B /* ofxHistoryPlot.cpp in Sources */,
 				E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */,
 				B33249AEA0D8C83C8AE132D4 /* ofxAnimatableFloat.cpp in Sources */,
