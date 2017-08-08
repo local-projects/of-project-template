@@ -40,15 +40,14 @@
 		BB031C141EA5714A008FBBC6 /* PocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFE1EA5714A008FBBC6 /* PocoUtil.a */; };
 		BB031C151EA5714A008FBBC6 /* PocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031BFF1EA5714A008FBBC6 /* PocoXML.a */; };
 		BB031C161EA5714A008FBBC6 /* PocoZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB031C001EA5714A008FBBC6 /* PocoZip.a */; };
+		BB1F2D001F3A268D00DE336D /* ofxNanoVG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1F2CBC1F3A268D00DE336D /* ofxNanoVG.cpp */; };
+		BB1F2D031F3A268D00DE336D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB1F2CCC1F3A268D00DE336D /* README.md */; };
+		BB1F2D0B1F3A268D00DE336D /* obsolete.md in Sources */ = {isa = PBXBuildFile; fileRef = BB1F2CF51F3A268D00DE336D /* obsolete.md */; };
+		BB1F2D0C1F3A268D00DE336D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB1F2CF71F3A268D00DE336D /* README.md */; };
+		BB1F2D0D1F3A268D00DE336D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB1F2CFA1F3A268D00DE336D /* nanovg.c */; };
+		BB5209BE1F38C7E000629936 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5209BA1F38C7E000629936 /* ofxfs2_nanovg.c */; };
 		BB5978F41EC9FAFE003CCFAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F11EC9FAFE003CCFAC /* main.cpp */; };
 		BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */; };
-		BB5979411ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979071ECA0453003CCFAC /* README.md */; };
-		BB5979491ECA0454003CCFAC /* obsolete.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979301ECA0453003CCFAC /* obsolete.md */; };
-		BB59794A1ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB5979321ECA0454003CCFAC /* README.md */; };
-		BB59794B1ECA0454003CCFAC /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5979351ECA0454003CCFAC /* nanovg.c */; };
-		BB59794C1ECA0454003CCFAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB59793B1ECA0454003CCFAC /* README.md */; };
-		BB59794D1ECA0454003CCFAC /* ofxNanoVG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */; };
-		BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD11E1582CE4E65E6E7C9F26 /* tinyxml.cpp */; };
@@ -226,41 +225,38 @@
 		BB031BFF1EA5714A008FBBC6 /* PocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoXML.a; sourceTree = "<group>"; };
 		BB031C001EA5714A008FBBC6 /* PocoZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoZip.a; sourceTree = "<group>"; };
 		BB031C0B1EA5714A008FBBC6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB1F2CBC1F3A268D00DE336D /* ofxNanoVG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNanoVG.cpp; sourceTree = "<group>"; };
+		BB1F2CBD1F3A268D00DE336D /* ofxNanoVG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxNanoVG.h; sourceTree = "<group>"; };
+		BB1F2CC01F3A268D00DE336D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BB1F2CCA1F3A268D00DE336D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BB1F2CCB1F3A268D00DE336D /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		BB1F2CCC1F3A268D00DE336D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB1F2CCE1F3A268D00DE336D /* nanosvg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanosvg.h; sourceTree = "<group>"; };
+		BB1F2CCF1F3A268D00DE336D /* nanosvgrast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanosvgrast.h; sourceTree = "<group>"; };
+		BB1F2CD11F3A268D00DE336D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BB1F2CF11F3A268D00DE336D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BB1F2CF31F3A268D00DE336D /* nanovg_gl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl2.h; sourceTree = "<group>"; };
+		BB1F2CF41F3A268D00DE336D /* nanovg_gl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl3.h; sourceTree = "<group>"; };
+		BB1F2CF51F3A268D00DE336D /* obsolete.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = obsolete.md; sourceTree = "<group>"; };
+		BB1F2CF61F3A268D00DE336D /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		BB1F2CF71F3A268D00DE336D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB1F2CF91F3A268D00DE336D /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		BB1F2CFA1F3A268D00DE336D /* nanovg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
+		BB1F2CFB1F3A268D00DE336D /* nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		BB1F2CFC1F3A268D00DE336D /* nanovg_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
+		BB1F2CFD1F3A268D00DE336D /* nanovg_gl_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BB1F2CFE1F3A268D00DE336D /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		BB1F2CFF1F3A268D00DE336D /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		BB5209B71F38C7E000629936 /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_fontstash.h; sourceTree = "<group>"; };
+		BB5209B81F38C7E000629936 /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl_utils.h; sourceTree = "<group>"; };
+		BB5209B91F38C7E000629936 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
+		BB5209BA1F38C7E000629936 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
+		BB5209BB1F38C7E000629936 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
+		BB5209BC1F38C7E000629936 /* ofxfs2_stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_image.h; sourceTree = "<group>"; };
+		BB5209BD1F38C7E000629936 /* ofxfs2_stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_stb_truetype.h; sourceTree = "<group>"; };
 		BB5978F11EC9FAFE003CCFAC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
 		BB5978F31EC9FAFE003CCFAC /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
-		BB5978F71ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BB5978F81ECA0453003CCFAC /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
-		BB5978FB1ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BB5979051ECA0453003CCFAC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB5979061ECA0453003CCFAC /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
-		BB5979071ECA0453003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB5979091ECA0453003CCFAC /* nanosvg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanosvg.h; sourceTree = "<group>"; };
-		BB59790A1ECA0453003CCFAC /* nanosvgrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanosvgrast.h; sourceTree = "<group>"; };
-		BB59790C1ECA0453003CCFAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BB59792C1ECA0453003CCFAC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB59792E1ECA0453003CCFAC /* nanovg_gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl2.h; sourceTree = "<group>"; };
-		BB59792F1ECA0453003CCFAC /* nanovg_gl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl3.h; sourceTree = "<group>"; };
-		BB5979301ECA0453003CCFAC /* obsolete.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = obsolete.md; sourceTree = "<group>"; };
-		BB5979311ECA0454003CCFAC /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
-		BB5979321ECA0454003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB5979341ECA0454003CCFAC /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
-		BB5979351ECA0454003CCFAC /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
-		BB5979361ECA0454003CCFAC /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
-		BB5979371ECA0454003CCFAC /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
-		BB5979381ECA0454003CCFAC /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
-		BB5979391ECA0454003CCFAC /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		BB59793A1ECA0454003CCFAC /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
-		BB59793B1ECA0454003CCFAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNanoVG.cpp; sourceTree = "<group>"; };
-		BB59793E1ECA0454003CCFAC /* ofxNanoVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNanoVG.h; sourceTree = "<group>"; };
-		BB6ACC131ED207B600D624E8 /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_fontstash.h; sourceTree = "<group>"; };
-		BB6ACC141ED207B600D624E8 /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl_utils.h; sourceTree = "<group>"; };
-		BB6ACC151ED207B600D624E8 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
-		BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
-		BB6ACC171ED207B600D624E8 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
-		BB9E898D1EC7E00E000C83E5 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		BB9E898E1EC7E00E000C83E5 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
@@ -402,7 +398,6 @@
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
-				BB5978F61ECA0453003CCFAC /* ofxNanoVG */,
 				88CCE135290E1DCC58B78E38 /* ofxFontStash2 */,
 				6EF0FDC4781F206366A051E5 /* ofxRemoteUI */,
 				1C02E16201287DD7B0F97B68 /* ofxTimeMeasurements */,
@@ -691,12 +686,100 @@
 			path = license;
 			sourceTree = "<group>";
 		};
+		BB1F2CBA1F3A268D00DE336D /* ofxNanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CBB1F3A268D00DE336D /* src */,
+				BB1F2CBE1F3A268D00DE336D /* libs */,
+			);
+			name = ofxNanoVG;
+			sourceTree = "<group>";
+		};
+		BB1F2CBB1F3A268D00DE336D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CBC1F3A268D00DE336D /* ofxNanoVG.cpp */,
+				BB1F2CBD1F3A268D00DE336D /* ofxNanoVG.h */,
+			);
+			name = src;
+			path = ../../ExternalAddons/ofxNanoVG/src;
+			sourceTree = "<group>";
+		};
+		BB1F2CBE1F3A268D00DE336D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CBF1F3A268D00DE336D /* nanosvg */,
+				BB1F2CD01F3A268D00DE336D /* nanovg */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxNanoVG/libs;
+			sourceTree = "<group>";
+		};
+		BB1F2CBF1F3A268D00DE336D /* nanosvg */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CC01F3A268D00DE336D /* .gitignore */,
+				BB1F2CCA1F3A268D00DE336D /* LICENSE.txt */,
+				BB1F2CCB1F3A268D00DE336D /* premake4.lua */,
+				BB1F2CCC1F3A268D00DE336D /* README.md */,
+				BB1F2CCD1F3A268D00DE336D /* src */,
+			);
+			path = nanosvg;
+			sourceTree = "<group>";
+		};
+		BB1F2CCD1F3A268D00DE336D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CCE1F3A268D00DE336D /* nanosvg.h */,
+				BB1F2CCF1F3A268D00DE336D /* nanosvgrast.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB1F2CD01F3A268D00DE336D /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CD11F3A268D00DE336D /* .gitignore */,
+				BB1F2CF11F3A268D00DE336D /* LICENSE.txt */,
+				BB1F2CF21F3A268D00DE336D /* obsolete */,
+				BB1F2CF61F3A268D00DE336D /* premake4.lua */,
+				BB1F2CF71F3A268D00DE336D /* README.md */,
+				BB1F2CF81F3A268D00DE336D /* src */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		BB1F2CF21F3A268D00DE336D /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CF31F3A268D00DE336D /* nanovg_gl2.h */,
+				BB1F2CF41F3A268D00DE336D /* nanovg_gl3.h */,
+				BB1F2CF51F3A268D00DE336D /* obsolete.md */,
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		BB1F2CF81F3A268D00DE336D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F2CF91F3A268D00DE336D /* fontstash.h */,
+				BB1F2CFA1F3A268D00DE336D /* nanovg.c */,
+				BB1F2CFB1F3A268D00DE336D /* nanovg.h */,
+				BB1F2CFC1F3A268D00DE336D /* nanovg_gl.h */,
+				BB1F2CFD1F3A268D00DE336D /* nanovg_gl_utils.h */,
+				BB1F2CFE1F3A268D00DE336D /* stb_image.h */,
+				BB1F2CFF1F3A268D00DE336D /* stb_truetype.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 				BB0318B51EA5714A008FBBC6 /* ofxPoco */,
+				BB1F2CBA1F3A268D00DE336D /* ofxNanoVG */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -712,95 +795,6 @@
 			path = ../../ExternalAddons/ofxFontStash2/example;
 			sourceTree = "<group>";
 		};
-		BB5978F61ECA0453003CCFAC /* ofxNanoVG */ = {
-			isa = PBXGroup;
-			children = (
-				BB5978F71ECA0453003CCFAC /* .gitignore */,
-				BB5978F81ECA0453003CCFAC /* .gitmodules */,
-				BB5978F91ECA0453003CCFAC /* libs */,
-				BB59793B1ECA0454003CCFAC /* README.md */,
-				BB59793C1ECA0454003CCFAC /* src */,
-			);
-			name = ofxNanoVG;
-			path = ../../ExternalAddons/ofxNanoVG;
-			sourceTree = "<group>";
-		};
-		BB5978F91ECA0453003CCFAC /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				BB5978FA1ECA0453003CCFAC /* nanosvg */,
-				BB59790B1ECA0453003CCFAC /* nanovg */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		BB5978FA1ECA0453003CCFAC /* nanosvg */ = {
-			isa = PBXGroup;
-			children = (
-				BB5978FB1ECA0453003CCFAC /* .gitignore */,
-				BB5979051ECA0453003CCFAC /* LICENSE.txt */,
-				BB5979061ECA0453003CCFAC /* premake4.lua */,
-				BB5979071ECA0453003CCFAC /* README.md */,
-				BB5979081ECA0453003CCFAC /* src */,
-			);
-			path = nanosvg;
-			sourceTree = "<group>";
-		};
-		BB5979081ECA0453003CCFAC /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB5979091ECA0453003CCFAC /* nanosvg.h */,
-				BB59790A1ECA0453003CCFAC /* nanosvgrast.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		BB59790B1ECA0453003CCFAC /* nanovg */ = {
-			isa = PBXGroup;
-			children = (
-				BB59790C1ECA0453003CCFAC /* .gitignore */,
-				BB59792C1ECA0453003CCFAC /* LICENSE.txt */,
-				BB59792D1ECA0453003CCFAC /* obsolete */,
-				BB5979311ECA0454003CCFAC /* premake4.lua */,
-				BB5979321ECA0454003CCFAC /* README.md */,
-				BB5979331ECA0454003CCFAC /* src */,
-			);
-			path = nanovg;
-			sourceTree = "<group>";
-		};
-		BB59792D1ECA0453003CCFAC /* obsolete */ = {
-			isa = PBXGroup;
-			children = (
-				BB59792E1ECA0453003CCFAC /* nanovg_gl2.h */,
-				BB59792F1ECA0453003CCFAC /* nanovg_gl3.h */,
-				BB5979301ECA0453003CCFAC /* obsolete.md */,
-			);
-			path = obsolete;
-			sourceTree = "<group>";
-		};
-		BB5979331ECA0454003CCFAC /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB5979341ECA0454003CCFAC /* fontstash.h */,
-				BB5979351ECA0454003CCFAC /* nanovg.c */,
-				BB5979361ECA0454003CCFAC /* nanovg.h */,
-				BB5979371ECA0454003CCFAC /* nanovg_gl.h */,
-				BB5979381ECA0454003CCFAC /* nanovg_gl_utils.h */,
-				BB5979391ECA0454003CCFAC /* stb_image.h */,
-				BB59793A1ECA0454003CCFAC /* stb_truetype.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		BB59793C1ECA0454003CCFAC /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BB59793D1ECA0454003CCFAC /* ofxNanoVG.cpp */,
-				BB59793E1ECA0454003CCFAC /* ofxNanoVG.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		BB9E897F1EC7E00E000C83E5 /* nanoVG */ = {
 			isa = PBXGroup;
 			children = (
@@ -813,13 +807,13 @@
 		BB9E89871EC7E00E000C83E5 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB6ACC131ED207B600D624E8 /* ofxfs2_fontstash.h */,
-				BB6ACC141ED207B600D624E8 /* ofxfs2_nanovg_gl_utils.h */,
-				BB6ACC151ED207B600D624E8 /* ofxfs2_nanovg_gl.h */,
-				BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */,
-				BB6ACC171ED207B600D624E8 /* ofxfs2_nanovg.h */,
-				BB9E898D1EC7E00E000C83E5 /* stb_image.h */,
-				BB9E898E1EC7E00E000C83E5 /* stb_truetype.h */,
+				BB5209B71F38C7E000629936 /* ofxfs2_fontstash.h */,
+				BB5209B81F38C7E000629936 /* ofxfs2_nanovg_gl_utils.h */,
+				BB5209B91F38C7E000629936 /* ofxfs2_nanovg_gl.h */,
+				BB5209BA1F38C7E000629936 /* ofxfs2_nanovg.c */,
+				BB5209BB1F38C7E000629936 /* ofxfs2_nanovg.h */,
+				BB5209BC1F38C7E000629936 /* ofxfs2_stb_image.h */,
+				BB5209BD1F38C7E000629936 /* ofxfs2_stb_truetype.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1010,24 +1004,24 @@
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
+				BB5209BE1F38C7E000629936 /* ofxfs2_nanovg.c in Sources */,
+				BB1F2D0B1F3A268D00DE336D /* obsolete.md in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
-				BB59794B1ECA0454003CCFAC /* nanovg.c in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
-				BB5979411ECA0454003CCFAC /* README.md in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
-				BB59794D1ECA0454003CCFAC /* ofxNanoVG.cpp in Sources */,
 				BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */,
+				BB1F2D001F3A268D00DE336D /* ofxNanoVG.cpp in Sources */,
+				BB1F2D0D1F3A268D00DE336D /* nanovg.c in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
-				BB5979491ECA0454003CCFAC /* obsolete.md in Sources */,
 				0EA5725384DF8D68BCC2427C /* ofxXmlSettings.cpp in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
+				BB1F2D0C1F3A268D00DE336D /* README.md in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
-				BB59794A1ECA0454003CCFAC /* README.md in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,
@@ -1035,13 +1029,12 @@
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
+				BB1F2D031F3A268D00DE336D /* README.md in Sources */,
 				BB5978F41EC9FAFE003CCFAC /* main.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
-				BB59794C1ECA0454003CCFAC /* README.md in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
-				BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

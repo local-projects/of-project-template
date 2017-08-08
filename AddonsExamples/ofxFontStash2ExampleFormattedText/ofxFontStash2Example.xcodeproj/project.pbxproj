@@ -14,6 +14,7 @@
 		BB5209A31F34BF3C00629936 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5209A01F34BF3C00629936 /* main.cpp */; };
 		BB5209A41F34BF3C00629936 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5209A11F34BF3C00629936 /* ofApp.cpp */; };
 		BB6ACC181ED207B600D624E8 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */; };
+		BB7876051F390FC10011FEAA /* ofxHistoryPlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB7876031F390FC10011FEAA /* ofxHistoryPlot.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		BB6ACC151ED207B600D624E8 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg_gl.h; sourceTree = "<group>"; };
 		BB6ACC161ED207B600D624E8 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ofxfs2_nanovg.c; sourceTree = "<group>"; };
 		BB6ACC171ED207B600D624E8 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxfs2_nanovg.h; sourceTree = "<group>"; };
+		BB7876031F390FC10011FEAA /* ofxHistoryPlot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxHistoryPlot.cpp; sourceTree = "<group>"; };
+		BB7876041F390FC10011FEAA /* ofxHistoryPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxHistoryPlot.h; sourceTree = "<group>"; };
 		D09DE0172CC459A438D35FBA /* ofxFontStashParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFontStashParser.h; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStashParser.h; sourceTree = SOURCE_ROOT; };
 		E1737C156AB026E4FBBCA5BC /* pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pugixml.cpp; path = ../../ExternalAddons/ofxFontStash2/libs/pugixml/src/pugixml.cpp; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -165,6 +168,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				BB7876011F390FC10011FEAA /* ofxHistoryPlot */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -178,6 +182,24 @@
 			);
 			name = example;
 			path = ../../ExternalAddons/ofxFontStash2/example;
+			sourceTree = "<group>";
+		};
+		BB7876011F390FC10011FEAA /* ofxHistoryPlot */ = {
+			isa = PBXGroup;
+			children = (
+				BB7876021F390FC10011FEAA /* src */,
+			);
+			name = ofxHistoryPlot;
+			sourceTree = "<group>";
+		};
+		BB7876021F390FC10011FEAA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB7876031F390FC10011FEAA /* ofxHistoryPlot.cpp */,
+				BB7876041F390FC10011FEAA /* ofxHistoryPlot.h */,
+			);
+			name = src;
+			path = ../../ExternalAddons/ofxHistoryPlot/src;
 			sourceTree = "<group>";
 		};
 		BB9E897F1EC7E00E000C83E5 /* nanoVG */ = {
@@ -333,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
+				BB7876051F390FC10011FEAA /* ofxHistoryPlot.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
@@ -430,6 +453,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -516,6 +545,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -604,6 +639,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -692,6 +733,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -754,7 +801,7 @@
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -776,6 +823,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -913,6 +966,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -924,7 +983,7 @@
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -932,10 +991,7 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../OpenFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					NANOVG_GL2_IMPLEMENTATION,
-					PROFILE_OFX_FONTSTASH2,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL3_IMPLEMENTATION;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					../../ExternalAddons/ofxFontStash2/libs/pugixml,
@@ -949,6 +1005,12 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+					"-Werror=return-type",
+					"-Wreturn-type",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
