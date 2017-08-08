@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB8E6E391F2A6E5100D27A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E361F2A6E5100D27A76 /* main.cpp */; };
-		BB8E6E3A1F2A6E5100D27A76 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E371F2A6E5100D27A76 /* ofApp.cpp */; };
+		BBBF0C371F3A4C7E002139A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C2F1F3A4C7E002139A7 /* main.cpp */; };
+		BBBF0C381F3A4C7E002139A7 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C301F3A4C7E002139A7 /* ofApp.cpp */; };
+		BBBF0C391F3A4C7E002139A7 /* License.md in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C321F3A4C7E002139A7 /* License.md */; };
+		BBBF0C3A1F3A4C7E002139A7 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C331F3A4C7E002139A7 /* ReadMe.md */; };
+		BBBF0C3B1F3A4C7E002139A7 /* ofxColorGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C351F3A4C7E002139A7 /* ofxColorGradient.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +45,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BB8E6E361F2A6E5100D27A76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxColorGradient/example/main.cpp; sourceTree = "<group>"; };
-		BB8E6E371F2A6E5100D27A76 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxColorGradient/example/ofApp.cpp; sourceTree = "<group>"; };
-		BB8E6E381F2A6E5100D27A76 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxColorGradient/example/ofApp.h; sourceTree = "<group>"; };
+		BBBF0C291F3A4C7E002139A7 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		BBBF0C2B1F3A4C7E002139A7 /* addons.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addons.make; sourceTree = "<group>"; };
+		BBBF0C2D1F3A4C7E002139A7 /* falseColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = falseColor.png; sourceTree = "<group>"; };
+		BBBF0C2F1F3A4C7E002139A7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BBBF0C301F3A4C7E002139A7 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		BBBF0C311F3A4C7E002139A7 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		BBBF0C321F3A4C7E002139A7 /* License.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
+		BBBF0C331F3A4C7E002139A7 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		BBBF0C351F3A4C7E002139A7 /* ofxColorGradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxColorGradient.cpp; sourceTree = "<group>"; };
+		BBBF0C361F3A4C7E002139A7 /* ofxColorGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxColorGradient.h; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* ofxColorGradient_exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxColorGradient_exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
@@ -78,6 +88,56 @@
 			name = addons;
 			sourceTree = "<group>";
 		};
+		BBBF0C281F3A4C7E002139A7 /* ofxColorGradient */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF0C291F3A4C7E002139A7 /* .travis.yml */,
+				BBBF0C2A1F3A4C7E002139A7 /* example */,
+				BBBF0C321F3A4C7E002139A7 /* License.md */,
+				BBBF0C331F3A4C7E002139A7 /* ReadMe.md */,
+				BBBF0C341F3A4C7E002139A7 /* src */,
+			);
+			name = ofxColorGradient;
+			path = ../../ExternalAddons/ofxColorGradient;
+			sourceTree = "<group>";
+		};
+		BBBF0C2A1F3A4C7E002139A7 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF0C2B1F3A4C7E002139A7 /* addons.make */,
+				BBBF0C2C1F3A4C7E002139A7 /* data */,
+				BBBF0C2E1F3A4C7E002139A7 /* src */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		BBBF0C2C1F3A4C7E002139A7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF0C2D1F3A4C7E002139A7 /* falseColor.png */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		BBBF0C2E1F3A4C7E002139A7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF0C2F1F3A4C7E002139A7 /* main.cpp */,
+				BBBF0C301F3A4C7E002139A7 /* ofApp.cpp */,
+				BBBF0C311F3A4C7E002139A7 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BBBF0C341F3A4C7E002139A7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF0C351F3A4C7E002139A7 /* ofxColorGradient.cpp */,
+				BBBF0C361F3A4C7E002139A7 /* ofxColorGradient.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		E4328144138ABC890047C5CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +151,7 @@
 			children = (
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				BBBF0C281F3A4C7E002139A7 /* ofxColorGradient */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
@@ -102,9 +163,6 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB8E6E361F2A6E5100D27A76 /* main.cpp */,
-				BB8E6E371F2A6E5100D27A76 /* ofApp.cpp */,
-				BB8E6E381F2A6E5100D27A76 /* ofApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -219,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8E6E3A1F2A6E5100D27A76 /* ofApp.cpp in Sources */,
-				BB8E6E391F2A6E5100D27A76 /* main.cpp in Sources */,
+				BBBF0C3B1F3A4C7E002139A7 /* ofxColorGradient.cpp in Sources */,
+				BBBF0C381F3A4C7E002139A7 /* ofApp.cpp in Sources */,
+				BBBF0C371F3A4C7E002139A7 /* main.cpp in Sources */,
+				BBBF0C3A1F3A4C7E002139A7 /* ReadMe.md in Sources */,
+				BBBF0C391F3A4C7E002139A7 /* License.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

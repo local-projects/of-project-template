@@ -1,2 +1,2 @@
 ofxPoco
-ofxExternalProcess
+../../ExternalAddons/ofxExternalProcess

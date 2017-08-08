@@ -95,9 +95,10 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\ExternalAddons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxExternalProcess\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
@@ -115,10 +116,11 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\ExternalAddons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxExternalProcess\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
+			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,10 +137,11 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\ExternalAddons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxExternalProcess\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
+			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -158,9 +161,10 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\ExternalAddons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\OpenFrameworks\addons\ofxPoco\libs\poco\include;..\..\OpenFrameworks\addons\ofxPoco\src;..\..\ExternalAddons\ofxExternalProcess\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -177,26 +181,89 @@
 	<ItemGroup>
 		<ClCompile Include="src\main.cpp" />
 		<ClCompile Include="src\ofApp.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp" />
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp" />
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.cpp" />
+		<ClCompile Include="..\..\ExternalAddons\ofxExternalProcess\src\ofxExternalProcess.cpp" />
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\dirent_vs.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h" />
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\aes.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1_mac.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1t.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bio.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\blowfish.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bn.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\buffer.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\camellia.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cast.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cmac.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cms.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\comp.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf_api.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\crypto.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des_old.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dh.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dsa.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dso.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dtls1.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\e_os2.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ebcdic.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ec.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdh.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdsa.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\engine.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\err.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\evp.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\hmac.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\idea.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\krb5_asn.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\kssl.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\lhash.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md4.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md5.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\mdc2.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\modes.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\obj_mac.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\objects.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ocsp.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf_osx.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslv.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ossl_typ.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem2.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs12.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs7.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pqueue.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rand.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc2.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc4.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ripemd.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rsa.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\safestack.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\seed.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\sha.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srp.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srtp.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl2.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl23.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl3.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\stack.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\symhacks.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\tls1.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ts.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\txt_db.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui_compat.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\whrlpool.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509_vfy.h" />
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509v3.h" />
+		<ClInclude Include="..\..\ExternalAddons\ofxExternalProcess\src\ofxExternalProcess.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">

@@ -9,6 +9,7 @@ AddonsExamples/ofxAppExample/bin/data/CH_JsonDownloads
 AddonsExamples/ofxAppExample/bin/data/CWRU_JsonDownloads
 AddonsExamples/ofxTextureAtlasExample_create/bin/data/images/cats/
 AddonsExamples/ofxTextureAtlasExample_draw/bin/data/images/cats/
+AddonsExamples/ofxImageResizer_example/bin/data/smallImages
 
 AddonsExamples/ofxAppExample/bin/data/ofxApp.pid
 AddonsExamples/ofxAppExample_noContent/bin/data/ofxApp.pid
