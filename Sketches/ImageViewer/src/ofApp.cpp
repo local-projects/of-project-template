@@ -51,7 +51,7 @@ void ofApp::keyPressed(int key){
 		if(index >= 0){
 			index++;
 			if(index >= slideshow.size()) index = 0;
-			RUI_LOG("Showing %s [%d/%d]", slideshow[index].c_str(), index + 1, slideshow.size());
+			RUI_LOG("Showing \"%s\" [%d/%d]", slideshow[index].c_str(), index + 1, slideshow.size());
 		}
 
 	}
@@ -60,7 +60,7 @@ void ofApp::keyPressed(int key){
 		if(index >= 0){
 			index--;
 			if(index < 0) index = slideshow.size() - 1;
-			RUI_LOG("Showing %s [%d/%d]", slideshow[index].c_str(), index + 1, slideshow.size());
+			RUI_LOG("Showing \"%s\" [%d/%d]", slideshow[index].c_str(), index + 1, slideshow.size());
 		}
 	}
 

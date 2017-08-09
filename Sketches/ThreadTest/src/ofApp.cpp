@@ -1,13 +1,6 @@
 #include "ofApp.h"
 
-
 void ofApp::setup(){
-
-	CustomApp::setup();
-
-	// LISTENERS
-	ofAddListener(screenSetup.setupChanged, this, &ofApp::setupChanged);
-	ofAddListener(RUI_GET_OF_EVENT(), this, &ofApp::remoteUIClientDidSomething);
 }
 
 
@@ -21,9 +14,9 @@ void ofApp::createThread(int n){
 	#else
 		ThreadTest * t = new ThreadTest();
 		if(t){
-			t->thread.detach();
+			//t->thread.detach();
 		}else{
-			ofLogError("ofApp") << "cant detaqch this std::thread!";
+			ofLogError("ofApp") << "cant detach this std::thread!";
 		}
 		threads.push_back(t);
 	#endif
@@ -82,80 +75,3 @@ void ofApp::draw(){
 	ofDrawBitmapStringHighlight(msg, 30, 30);
 }
 
-
-void ofApp::keyPressed(int key){
-
-	if(key == 'w'){
-		screenSetup.cycleToNextScreenMode();
-	}
-}
-
-
-void ofApp::keyReleased(int key){
-
-}
-
-
-void ofApp::mouseMoved(int x, int y ){
-
-}
-
-
-void ofApp::mouseDragged(int x, int y, int button){
-
-}
-
-
-void ofApp::mousePressed(int x, int y, int button){
-
-}
-
-
-void ofApp::mouseReleased(int x, int y, int button){
-
-}
-
-
-void ofApp::windowResized(int w, int h){
-
-}
-
-
-void ofApp::gotMessage(ofMessage msg){
-
-}
-
-
-void ofApp::dragEvent(ofDragInfo dragInfo){
-	
-}
-
-
-//////// CALLBACKS //////////////////////////////////////
-
-void ofApp::setupChanged(ofxScreenSetup::ScreenSetupArg &arg){
-	ofLogNotice()	<< "ofxScreenSetup setup changed from " << screenSetup.stringForMode(arg.oldMode)
-	<< " (" << arg.oldWidth << "x" << arg.oldHeight << ") "
-	<< " to " << screenSetup.stringForMode(arg.newMode)
-	<< " (" << arg.newWidth << "x" << arg.newHeight << ")";
-}
-
-
-//define a callback method to get notifications of client actions
-void ofApp::remoteUIClientDidSomething(RemoteUIServerCallBackArg &arg){
-	switch (arg.action) {
-		case CLIENT_CONNECTED: cout << "CLIENT_CONNECTED" << endl; break;
-		case CLIENT_DISCONNECTED: cout << "CLIENT_DISCONNECTED" << endl; break;
-		case CLIENT_UPDATED_PARAM: cout << "CLIENT_UPDATED_PARAM: "<< arg.paramName << " - ";
-			arg.param.print();
-			break;
-		case CLIENT_DID_SET_PRESET: cout << "CLIENT_DID_SET_PRESET" << endl; break;
-		case CLIENT_SAVED_PRESET: cout << "CLIENT_SAVED_PRESET" << endl; break;
-		case CLIENT_DELETED_PRESET: cout << "CLIENT_DELETED_PRESET" << endl; break;
-		case CLIENT_SAVED_STATE: cout << "CLIENT_SAVED_STATE" << endl; break;
-		case CLIENT_DID_RESET_TO_XML: cout << "CLIENT_DID_RESET_TO_XML" << endl; break;
-		case CLIENT_DID_RESET_TO_DEFAULTS: cout << "CLIENT_DID_RESET_TO_DEFAULTS" << endl; break;
-		default:
-			break;
-	}
-}

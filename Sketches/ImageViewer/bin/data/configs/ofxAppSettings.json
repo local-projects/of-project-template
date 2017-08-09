@@ -23,6 +23,39 @@
 			"numY" : 4,
 			"visibleAtStartup" : false
 		},
+		"MaintenanceMode":{
+			"enabled" : false,
+			"header" : {
+				"text" : "Zzzzzzzz",
+				"fontScaleup" : 1.0,
+				"spacing" : 6.0,
+				"fontID" : "regular", //this is the ofxFontStash2 ID, built in fontIDs are "mono", "monoBold", "regular", "bold"
+				"color" : [0,228,130]
+			},
+			"body" : {
+				"text" : "Sorry! The wall is resting.\nIt will be back at work soon.",
+				"fontScaleup" : 1.0,
+				"spacing" : 0.0,
+				"fontID" : "regular", //this is the ofxFontStash2 ID, built in fontIDs are "mono", "monoBold", "regular", "bold"
+				"color" : [255]
+			},
+			"bgColor" : [0,0,0,255]
+		},
+		"ErrorScreen":{
+			"bgColor" : [0,0,0,255],
+			"title":{
+				"fontID" : "regular",
+				"fontScaleup" : 1.0,
+				"spacing" : 0.0,
+				"color" : [0,228,130]
+			},
+			"body":{
+				"fontID" : "regular",
+				"fontScaleup" : 1.0,
+				"spacing" : 0.0,
+				"color" : [255]
+			}
+		},
 		"onErrorContactMessage": "call 911", //TODO!
 		"TimeSampleOfxApp" : false
 	},
@@ -32,39 +65,17 @@
 		"onErrorWaitTimeSec" : 10
 	},
 
-	"Fonts":{
-		"ofxApp":{ //required by ofxApp, dont remove the "monospaced" & "monospacedBold" sections!
-			"monospaced":{
-				"fontFile" : "fonts/UbuntuMono-R.ttf",
-				"atlasSize" : 512,
-				"lineHeight" : 1.4,
-				"mipmaps" : false,
-				"mipmapPadding" : 0,
-				"uiScale" : 1.0
-			},
-			"monospacedBold":{
-				"fontFile" : "fonts/UbuntuMono-B.ttf",
-				"atlasSize" : 512,
-				"lineHeight" : 1.4,
-				"mipmaps" : false,
-				"mipmapPadding" : 0,
-				"uiScale" : 1.0
-			}
+	"Fonts":{ //place your custom fonts here
+		"ofxFontStash":{ //ofxFontStash fonts
 		},
-		
-		"user":{ //place your custom fonts here
-			"NoManSky":{
-				"fontFile" : "fonts/geonms-webfont.ttf",
-				"atlasSize" : 512,
-				"lineHeight" : 1.3,
-				"mipmaps" : false,
-				"mipmapPadding" : 0,
-				"uiScale" : 1.0
+		"ofxFontStash2":{ //ofxFontStash2 fonts
+			"fonts":{
+			},
+			"pixelDensity" : 2.0,
+			"styles":{ //ofxFontStash2 style definitions
 			}
 		}
-
 	},
-
 
 	"StaticAssets":{
 		"textures" : "images", //this is where the static assets live; under "data"

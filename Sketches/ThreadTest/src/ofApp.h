@@ -1,10 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-#include "CustomApp.h"
 
-
-#define 	USE_OF_THREAD	 false
+#define USE_OF_THREAD	 false
 
 //////////////////////////////////////////////////////////////////////////////////////
 
@@ -27,11 +25,13 @@ public:
 
 	ThreadTest() : done(false) {
 		thread = std::thread(&ThreadTest::threadedFunction, this);
+		//thread = std::thread(std::bind(&ThreadTest::threadedFunction,this));
 	}
 
 	void threadedFunction(){
 		//ofSleepMillis(1);
 		done = true;
+		thread.detach();
 	}
 };
 
@@ -40,26 +40,12 @@ public:
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-class ofApp : public CustomApp{
+class ofApp : public ofBaseApp{
 
 public:
 	void setup();
 	void update();
 	void draw();
-
-	void keyPressed(int key);
-	void keyReleased(int key);
-	void mouseMoved(int x, int y );
-	void mouseDragged(int x, int y, int button);
-	void mousePressed(int x, int y, int button);
-	void mouseReleased(int x, int y, int button);
-	void windowResized(int w, int h);
-	void dragEvent(ofDragInfo dragInfo);
-	void gotMessage(ofMessage msg);
-
-	void setupChanged(ofxScreenSetup::ScreenSetupArg &arg);
-	void remoteUIClientDidSomething(RemoteUIServerCallBackArg & arg);
-
 
 	vector<ThreadTest*> threads;
 	vector<ThreadTest*> leakedThreads;
@@ -69,5 +55,3 @@ public:
 	void createThread(int n);
 };
 
-
-//////////////////////////////////////////////////////////////////////////////////////
