@@ -8,7 +8,7 @@
 		"window":{
 			"windowMode" : 8, //see ofxScreenSetup::ScreenMode; windowed=8, fullOneMonitor=1, fullAllMonitors=0
 			"customWidth": 1900, //540
-			"customHeight": 1400,
+			"customHeight": 800,
 			"customWindowPosition" : false,
 			"customPositionX" : 1950,
 			"customPositionY" : -450
