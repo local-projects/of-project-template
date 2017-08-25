@@ -26,6 +26,16 @@
 		B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7416C84B72931B29F2372A27 /* NetworkingUtils.cpp */; };
 		B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0697B00065A3B433EADDCD82 /* ofxRemoteUIServer.cpp */; };
 		B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */; };
+		BB3240281F4F5F4F00693712 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FCB1F4F5F4F00693712 /* jsoncpp.cpp */; };
+		BB32402D1F4F5F4F00693712 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB323FDD1F4F5F4F00693712 /* libwebsockets.a */; };
+		BB3240361F4F5F4F00693712 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF41F4F5F4F00693712 /* Client.cpp */; };
+		BB3240371F4F5F4F00693712 /* Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF51F4F5F4F00693712 /* Connection.cpp */; };
+		BB3240381F4F5F4F00693712 /* Events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF61F4F5F4F00693712 /* Events.cpp */; };
+		BB3240391F4F5F4F00693712 /* Protocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF71F4F5F4F00693712 /* Protocol.cpp */; };
+		BB32403A1F4F5F4F00693712 /* Reactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF81F4F5F4F00693712 /* Reactor.cpp */; };
+		BB32403B1F4F5F4F00693712 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB323FF91F4F5F4F00693712 /* Server.cpp */; };
+		BB3240641F4F60A600693712 /* ofxRemoteUIWebServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3240621F4F60A600693712 /* ofxRemoteUIWebServer.cpp */; };
+		BB3240661F4F60C200693712 /* RUIWebBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3240651F4F60C200693712 /* RUIWebBinary.cpp */; };
 		BB8E6E2F1F2A44E500D27A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E2C1F2A44E500D27A76 /* main.cpp */; };
 		BB8E6E301F2A44E500D27A76 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E2D1F2A44E500D27A76 /* ofApp.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
@@ -161,6 +171,31 @@
 		B79CB5CB0C032F136757BC17 /* opensslconf_osx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslconf_osx.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslconf_osx.h; sourceTree = SOURCE_ROOT; };
 		B8581C32877ED7F33F6F7B3E /* ecdsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ecdsa.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ecdsa.h; sourceTree = SOURCE_ROOT; };
 		BA16270D20A9486D53B31B95 /* ripemd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ripemd.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h; sourceTree = SOURCE_ROOT; };
+		BB323FC91F4F5F4F00693712 /* json-forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "json-forwards.h"; sourceTree = "<group>"; };
+		BB323FCA1F4F5F4F00693712 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		BB323FCB1F4F5F4F00693712 /* jsoncpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncpp.cpp; sourceTree = "<group>"; };
+		BB323FCD1F4F5F4F00693712 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		BB323FCF1F4F5F4F00693712 /* libwebsockets-test-server.key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libwebsockets-test-server.key.pem"; sourceTree = "<group>"; };
+		BB323FD01F4F5F4F00693712 /* libwebsockets-test-server.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libwebsockets-test-server.pem"; sourceTree = "<group>"; };
+		BB323FD21F4F5F4F00693712 /* libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwebsockets.h; sourceTree = "<group>"; };
+		BB323FDD1F4F5F4F00693712 /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebsockets.a; sourceTree = "<group>"; };
+		BB323FEC1F4F5F4F00693712 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		BB323FED1F4F5F4F00693712 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		BB323FEE1F4F5F4F00693712 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		BB323FEF1F4F5F4F00693712 /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
+		BB323FF01F4F5F4F00693712 /* Reactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reactor.h; sourceTree = "<group>"; };
+		BB323FF11F4F5F4F00693712 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		BB323FF21F4F5F4F00693712 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		BB323FF41F4F5F4F00693712 /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		BB323FF51F4F5F4F00693712 /* Connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Connection.cpp; sourceTree = "<group>"; };
+		BB323FF61F4F5F4F00693712 /* Events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Events.cpp; sourceTree = "<group>"; };
+		BB323FF71F4F5F4F00693712 /* Protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Protocol.cpp; sourceTree = "<group>"; };
+		BB323FF81F4F5F4F00693712 /* Reactor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reactor.cpp; sourceTree = "<group>"; };
+		BB323FF91F4F5F4F00693712 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		BB323FFF1F4F5F4F00693712 /* ofxLibwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxLibwebsockets.h; sourceTree = "<group>"; };
+		BB3240621F4F60A600693712 /* ofxRemoteUIWebServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxRemoteUIWebServer.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIWebServer.cpp; sourceTree = "<group>"; };
+		BB3240631F4F60A600693712 /* ofxRemoteUIWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxRemoteUIWebServer.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIWebServer.h; sourceTree = "<group>"; };
+		BB3240651F4F60C200693712 /* RUIWebBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RUIWebBinary.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/RUIWebBinary.cpp; sourceTree = "<group>"; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
 		BB8E6E2C1F2A44E500D27A76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../ExternalAddons/ofxRemoteUI/example-server/src/main.cpp"; sourceTree = "<group>"; };
 		BB8E6E2D1F2A44E500D27A76 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxRemoteUI/example-server/src/ofApp.cpp"; sourceTree = "<group>"; };
@@ -214,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				BB32402D1F4F5F4F00693712 /* libwebsockets.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +321,8 @@
 		415D5E519F28EDB1929BC34B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BB3240621F4F60A600693712 /* ofxRemoteUIWebServer.cpp */,
+				BB3240631F4F60A600693712 /* ofxRemoteUIWebServer.h */,
 				9F052A6C09EC04CE00CB764F /* dirent_vs.h */,
 				CA7A31FAD20A633C0EB7A73E /* ofxRemoteUI.cpp */,
 				0E73CC0CC2DC69392F2EC53D /* ofxRemoteUI.h */,
@@ -300,6 +338,7 @@
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
+				BB3240651F4F60C200693712 /* RUIWebBinary.cpp */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
 			);
@@ -458,9 +497,144 @@
 			name = openssl;
 			sourceTree = "<group>";
 		};
+		BB323E3B1F4F5F4E00693712 /* ofxLibwebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FC61F4F5F4F00693712 /* libs */,
+				BB323FFE1F4F5F4F00693712 /* src */,
+			);
+			name = ofxLibwebsockets;
+			path = ../../ExternalAddons/ofxLibwebsockets;
+			sourceTree = "<group>";
+		};
+		BB323FC61F4F5F4F00693712 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FC71F4F5F4F00693712 /* jsoncpp */,
+				BB323FCC1F4F5F4F00693712 /* libwebsockets */,
+				BB323FE91F4F5F4F00693712 /* ofxLibwebsockets */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		BB323FC71F4F5F4F00693712 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FC81F4F5F4F00693712 /* json */,
+				BB323FCB1F4F5F4F00693712 /* jsoncpp.cpp */,
+			);
+			path = jsoncpp;
+			sourceTree = "<group>";
+		};
+		BB323FC81F4F5F4F00693712 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FC91F4F5F4F00693712 /* json-forwards.h */,
+				BB323FCA1F4F5F4F00693712 /* json.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		BB323FCC1F4F5F4F00693712 /* libwebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FCD1F4F5F4F00693712 /* COPYING */,
+				BB323FCE1F4F5F4F00693712 /* data */,
+				BB323FD11F4F5F4F00693712 /* include */,
+				BB323FD31F4F5F4F00693712 /* lib */,
+			);
+			path = libwebsockets;
+			sourceTree = "<group>";
+		};
+		BB323FCE1F4F5F4F00693712 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FCF1F4F5F4F00693712 /* libwebsockets-test-server.key.pem */,
+				BB323FD01F4F5F4F00693712 /* libwebsockets-test-server.pem */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		BB323FD11F4F5F4F00693712 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FD21F4F5F4F00693712 /* libwebsockets.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BB323FD31F4F5F4F00693712 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FDC1F4F5F4F00693712 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BB323FDC1F4F5F4F00693712 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FDD1F4F5F4F00693712 /* libwebsockets.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB323FE91F4F5F4F00693712 /* ofxLibwebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FEA1F4F5F4F00693712 /* include */,
+				BB323FF31F4F5F4F00693712 /* src */,
+			);
+			path = ofxLibwebsockets;
+			sourceTree = "<group>";
+		};
+		BB323FEA1F4F5F4F00693712 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FEB1F4F5F4F00693712 /* ofxLibwebsockets */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BB323FEB1F4F5F4F00693712 /* ofxLibwebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FEC1F4F5F4F00693712 /* Client.h */,
+				BB323FED1F4F5F4F00693712 /* Connection.h */,
+				BB323FEE1F4F5F4F00693712 /* Events.h */,
+				BB323FEF1F4F5F4F00693712 /* Protocol.h */,
+				BB323FF01F4F5F4F00693712 /* Reactor.h */,
+				BB323FF11F4F5F4F00693712 /* Server.h */,
+				BB323FF21F4F5F4F00693712 /* Util.h */,
+			);
+			path = ofxLibwebsockets;
+			sourceTree = "<group>";
+		};
+		BB323FF31F4F5F4F00693712 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FF41F4F5F4F00693712 /* Client.cpp */,
+				BB323FF51F4F5F4F00693712 /* Connection.cpp */,
+				BB323FF61F4F5F4F00693712 /* Events.cpp */,
+				BB323FF71F4F5F4F00693712 /* Protocol.cpp */,
+				BB323FF81F4F5F4F00693712 /* Reactor.cpp */,
+				BB323FF91F4F5F4F00693712 /* Server.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB323FFE1F4F5F4F00693712 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB323FFF1F4F5F4F00693712 /* ofxLibwebsockets.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				BB323E3B1F4F5F4E00693712 /* ofxLibwebsockets */,
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				0117D94CE0C695E5E5482BEC /* ofxPoco */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
@@ -660,15 +834,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3240381F4F5F4F00693712 /* Events.cpp in Sources */,
+				BB32403B1F4F5F4F00693712 /* Server.cpp in Sources */,
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
+				BB3240371F4F5F4F00693712 /* Connection.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
+				BB3240641F4F60A600693712 /* ofxRemoteUIWebServer.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
+				BB3240361F4F5F4F00693712 /* Client.cpp in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
+				BB32403A1F4F5F4F00693712 /* Reactor.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
@@ -676,7 +856,9 @@
 				0EA5725384DF8D68BCC2427C /* ofxXmlSettings.cpp in Sources */,
 				BB8E6E2F1F2A44E500D27A76 /* main.cpp in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
+				BB3240661F4F60C200693712 /* RUIWebBinary.cpp in Sources */,
 				BB8E6E301F2A44E500D27A76 /* ofApp.cpp in Sources */,
+				BB3240281F4F5F4F00693712 /* jsoncpp.cpp in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
@@ -685,6 +867,7 @@
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
+				BB3240391F4F5F4F00693712 /* Protocol.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,12 +970,18 @@
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
 					../../ExternalAddons/ofxRemoteUI/src,
+					../../ExternalAddons/ofxLibwebsockets/libs,
+					../../ExternalAddons/ofxLibwebsockets/src,
+					../../ExternalAddons/ofxLibwebsockets/libs/ofxLibwebsockets/include,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/,
+				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(OF_CORE_LIBS)",
@@ -959,12 +1148,18 @@
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
 					../../ExternalAddons/ofxRemoteUI/src,
+					../../ExternalAddons/ofxLibwebsockets/libs,
+					../../ExternalAddons/ofxLibwebsockets/src,
+					../../ExternalAddons/ofxLibwebsockets/libs/ofxLibwebsockets/include,
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/,
+				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(OF_CORE_LIBS)",
@@ -1009,12 +1204,18 @@
 					../../OpenFrameworks/addons/ofxXmlSettings/libs,
 					../../OpenFrameworks/addons/ofxXmlSettings/src,
 					../../ExternalAddons/ofxRemoteUI/src,
+					../../ExternalAddons/ofxLibwebsockets/libs,
+					../../ExternalAddons/ofxLibwebsockets/src,
+					../../ExternalAddons/ofxLibwebsockets/libs/ofxLibwebsockets/include,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/,
+				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(OF_CORE_LIBS)",
