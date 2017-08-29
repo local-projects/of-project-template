@@ -15,11 +15,11 @@
 		<P name="tempFloat4k" type="float">192</P>
 		<P name="MyApp Globals" type="group"/>
 		<!-- # MyApp Globals ############################ -->
-		<P name="tileSpeed" type="float">0.5</P>
+		<P name="tileSpeed" type="float">0.358798</P>
 		<P name="MyApp Colors" type="group"/>
 		<!-- # MyApp Colors ############################ -->
-		<P c0.red="22" c1.green="22" c2.blue="22" c3.alpha="255" name="bgColor" type="color"/>
-		<P c0.red="255" c1.green="255" c2.blue="255" c3.alpha="255" name="myColor" type="color"/>
+		<P c0.red="22" c1.green="22" c2.blue="22" c3.alpha="1" name="bgColor" type="color"/>
+		<P c0.red="90" c1.green="33" c2.blue="33" c3.alpha="255" name="myColor" type="color"/>
 		<P name="APP" type="group"/>
 		<!-- # APP ############################ -->
 		<P name="showMouse" type="bool">1</P>

@@ -130,3 +130,6 @@
 [submodule "ExternalAddons/ofxImageResizer"]
 	path = ExternalAddons/ofxImageResizer
 	url = https://github.com/local-projects/ofxImageResizer.git
+[submodule "ExternalAddons/ofxLibwebsockets"]
+	path = ExternalAddons/ofxLibwebsockets
+	url = https://github.com/local-projects/ofxLibwebsockets.git
