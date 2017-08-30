@@ -112,11 +112,11 @@
 		<ClCompile Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugixml.cpp">
 			<Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
 		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxJson\src\ofxJSON.cpp">
-			<Filter>local_addons\ofxJson\src</Filter>
+		<ClCompile Include="..\..\ExternalAddons\ofxJSON\src\ofxJSON.cpp">
+			<Filter>local_addons\ofxJSON\src</Filter>
 		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\src\jsoncpp.cpp">
-			<Filter>local_addons\ofxJson\libs\jsoncpp\src</Filter>
+		<ClCompile Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
+			<Filter>local_addons\ofxJSON\libs\jsoncpp\src</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.cpp">
 			<Filter>local_addons\ofxSuperLog\src</Filter>
@@ -504,26 +504,26 @@
 		<Filter Include="local_addons\ofxTuio\src">
 			<UniqueIdentifier>{3B88F2FA-2BE3-39F8-FF2F-515B}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson">
-			<UniqueIdentifier>{2665D21E-F5FF-717A-B973-C198}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON">
+			<UniqueIdentifier>{1A99E105-1782-1278-A06F-B3D9}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\src">
-			<UniqueIdentifier>{9E3B16BC-D57E-7C53-371C-EBA0}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\src">
+			<UniqueIdentifier>{FA995221-33F4-C549-DE1A-51D6}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\libs">
-			<UniqueIdentifier>{46ACC002-409F-4D42-2A45-F35A}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\libs">
+			<UniqueIdentifier>{C1337406-F751-4A66-E601-0163}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\libs\jsoncpp">
-			<UniqueIdentifier>{E13F7E8C-09A1-7C8B-ED14-DE94}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\libs\jsoncpp">
+			<UniqueIdentifier>{56AEAC4C-A855-5322-D1FD-BB5F}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\libs\jsoncpp\include">
-			<UniqueIdentifier>{E4AFDF55-B7C8-413F-220C-0720}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\libs\jsoncpp\include">
+			<UniqueIdentifier>{C12F28DF-8DAD-61C5-F101-4FAE}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\libs\jsoncpp\include\json">
-			<UniqueIdentifier>{4A24E38D-D99F-D9B2-644D-7BD7}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\libs\jsoncpp\include\json">
+			<UniqueIdentifier>{C3BF0A8C-681E-118F-968B-B76C}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="local_addons\ofxJson\libs\jsoncpp\src">
-			<UniqueIdentifier>{B5F6473F-B151-F361-5AD0-9EB3}</UniqueIdentifier>
+		<Filter Include="local_addons\ofxJSON\libs\jsoncpp\src">
+			<UniqueIdentifier>{14CF8E53-A6B8-6CD5-1224-1FF5}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="local_addons\ofxSuperLog">
 			<UniqueIdentifier>{76F04823-B92C-0045-8CB5-C47F}</UniqueIdentifier>
@@ -1706,14 +1706,14 @@
 		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioPoint.h">
 			<Filter>local_addons\ofxTuio\src</Filter>
 		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxJson\src\ofxJSON.h">
-			<Filter>local_addons\ofxJson\src</Filter>
+		<ClInclude Include="..\..\ExternalAddons\ofxJSON\src\ofxJSON.h">
+			<Filter>local_addons\ofxJSON\src</Filter>
 		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\include\json\json-forwards.h">
-			<Filter>local_addons\ofxJson\libs\jsoncpp\include\json</Filter>
+		<ClInclude Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h">
+			<Filter>local_addons\ofxJSON\libs\jsoncpp\include\json</Filter>
 		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\include\json\json.h">
-			<Filter>local_addons\ofxJson\libs\jsoncpp\include\json</Filter>
+		<ClInclude Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json\json.h">
+			<Filter>local_addons\ofxJSON\libs\jsoncpp\include\json</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.h">
 			<Filter>local_addons\ofxSuperLog\src</Filter>

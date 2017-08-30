@@ -6,7 +6,7 @@ ofxXmlSettings
 ../../ExternalAddons/ofxFontStash
 ../../ExternalAddons/ofxFontStash2
 ../../ExternalAddons/ofxTuio
-../../ExternalAddons/ofxJson
+../../ExternalAddons/ofxJSON
 ../../ExternalAddons/ofxSuperLog
 ../../ExternalAddons/ofxAutoTexture
 ../../ExternalAddons/ofxApp
