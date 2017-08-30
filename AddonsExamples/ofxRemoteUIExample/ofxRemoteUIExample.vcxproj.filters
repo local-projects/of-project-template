@@ -73,8 +73,38 @@
 		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
 			<Filter>local_addons\ofxRemoteUI\src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
 			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\jsoncpp.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Client.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Connection.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Events.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Protocol.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Reactor.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Server.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Util.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
 		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
@@ -143,6 +173,39 @@
 		</Filter>
 		<Filter Include="local_addons\ofxRemoteUI\src">
 			<UniqueIdentifier>{0E8034BD-932E-4031-A20F-9C02}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets">
+			<UniqueIdentifier>{7B9B6E32-F5F1-3FB6-285A-FBE0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\src">
+			<UniqueIdentifier>{B2FBC382-D127-0F8F-D27C-6D6C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs">
+			<UniqueIdentifier>{CBEA4DCA-3DEF-6A92-A3C3-3B93}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp">
+			<UniqueIdentifier>{2B9CEA2C-B5EA-32FF-547C-738B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp\json">
+			<UniqueIdentifier>{694EC9CA-17B2-54AA-F4BA-837E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets">
+			<UniqueIdentifier>{1E436DEC-5346-3A64-44B5-C85C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets\include">
+			<UniqueIdentifier>{09018A48-5811-2883-00D7-F3B5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets">
+			<UniqueIdentifier>{49656C4C-9760-8706-2108-EB6E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include">
+			<UniqueIdentifier>{96508FF9-BCA7-7E44-16C0-5455}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets">
+			<UniqueIdentifier>{2349D4AB-DE92-E503-243A-2BBE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src">
+			<UniqueIdentifier>{48D92228-24A5-30BB-3C90-B70D}</UniqueIdentifier>
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
@@ -473,11 +536,50 @@
 		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
 			<Filter>local_addons\ofxRemoteUI\src</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
 			<Filter>local_addons\ofxRemoteUI\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h">
 			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\src\ofxLibwebsockets.h">
+			<Filter>local_addons\ofxLibwebsockets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json-forwards.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\libwebsockets.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\lws_config.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Client.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Connection.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Events.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Protocol.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Reactor.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Server.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Util.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>
