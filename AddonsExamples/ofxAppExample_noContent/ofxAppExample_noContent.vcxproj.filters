@@ -1,0 +1,1935 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPClient.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPManager.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPServer.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxUDPManager.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvImage.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.cpp">
+			<Filter>addons\ofxPoco\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.cpp">
+			<Filter>local_addons\ofxFontStash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.c">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.c">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStash2.cpp">
+			<Filter>local_addons\ofxFontStash2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashParser.cpp">
+			<Filter>local_addons\ofxFontStash2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg.c">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugixml.cpp">
+			<Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxJson\src\ofxJSON.cpp">
+			<Filter>local_addons\ofxJson\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\src\jsoncpp.cpp">
+			<Filter>local_addons\ofxJson\libs\jsoncpp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.cpp">
+			<Filter>local_addons\ofxSuperLog\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.cpp">
+			<Filter>local_addons\ofxSuperLog\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAutoTexture\src\ofxAutoTexture.cpp">
+			<Filter>local_addons\ofxAutoTexture\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxApp.cpp">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.cpp">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.cpp">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.cpp">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.cpp">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParser.cpp">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParserThread.cpp">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxBatchDownloader.cpp">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxChecksum.cpp">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxDownloadCentral.cpp">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.cpp">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAssets\src\AssetChecker.cpp">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAssets\src\AssetHolder.cpp">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAssets\src\AssetHolderUtils.cpp">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxThreadSafeLog\src\ofxThreadSafeLog.cpp">
+			<Filter>local_addons\ofxThreadSafeLog\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ofxProgressiveTextureLoad.cpp">
+			<Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ProgressiveTextureLoadQueue.cpp">
+			<Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObject.cpp">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConfig.cpp">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConstants.cpp">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectGC.cpp">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxJsonSettings\src\ofxJsonSettings.cpp">
+			<Filter>local_addons\ofxJsonSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurements.cpp">
+			<Filter>local_addons\ofxTimeMeasurements\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxHistoryPlot\src\ofxHistoryPlot.cpp">
+			<Filter>local_addons\ofxHistoryPlot\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatable.cpp">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableFloat.cpp">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfColor.cpp">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfPoint.cpp">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableQueue.cpp">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxScreenSetup\src\ofxScreenSetup.cpp">
+			<Filter>local_addons\ofxScreenSetup\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxSensu\src\ofxSensu.cpp">
+			<Filter>local_addons\ofxSensu\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\GA_uriencode.cpp">
+			<Filter>local_addons\ofxGoogleAnalytics\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.cpp">
+			<Filter>local_addons\ofxGoogleAnalytics\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\jsoncpp.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Client.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Connection.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Events.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Protocol.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Reactor.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Server.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Util.cpp">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxNetwork">
+			<UniqueIdentifier>{01A15744-29A6-108D-08E9-83A7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxNetwork\src">
+			<UniqueIdentifier>{3D1C10C7-8F35-E796-9C70-F5F3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv">
+			<UniqueIdentifier>{FFA81411-43B9-BD99-75AF-1DC3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\src">
+			<UniqueIdentifier>{00DE84A0-C30B-9800-5466-EA40}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs">
+			<UniqueIdentifier>{EFE72F22-7F5A-0F39-EC5E-1382}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv">
+			<UniqueIdentifier>{0391AB06-09E3-B0B3-3E3B-A02B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include">
+			<UniqueIdentifier>{18BB18A3-47A8-9F08-1A3F-16FC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv">
+			<UniqueIdentifier>{C867B0DE-B007-11B8-C182-5344}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2">
+			<UniqueIdentifier>{BCD8ABD4-43E3-302D-A2D3-9FE1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d">
+			<UniqueIdentifier>{E7CFFFA1-9DFA-D919-100C-FDAA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\core">
+			<UniqueIdentifier>{2ABB36D0-FBE0-DD47-75A8-5882}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda">
+			<UniqueIdentifier>{3F849F80-E3AF-41D3-8CD7-D868}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail">
+			<UniqueIdentifier>{508493C5-1D75-0520-6977-9A6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal">
+			<UniqueIdentifier>{B1E076F1-7F94-D4E4-6BFD-5B46}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\features2d">
+			<UniqueIdentifier>{FFED61A2-DA84-E61F-DAA8-23D8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\flann">
+			<UniqueIdentifier>{35E18472-D925-59BD-12EF-E1E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\highgui">
+			<UniqueIdentifier>{C5146E31-2B8E-4299-4FB2-2347}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs">
+			<UniqueIdentifier>{85CE0AE1-7E4F-8B50-E623-C09F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc">
+			<UniqueIdentifier>{E61CD652-51B9-BCE9-A2EB-3331}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\detail">
+			<UniqueIdentifier>{CAE2A366-0E89-C339-3DF8-86E4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\ml">
+			<UniqueIdentifier>{C217A119-B337-C774-4EDA-1ACC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect">
+			<UniqueIdentifier>{D1260DF5-DCB4-6729-CD66-ED90}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\photo">
+			<UniqueIdentifier>{450E6EA2-482C-4DAE-EF14-EE48}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\shape">
+			<UniqueIdentifier>{F67AADD7-AAFF-CD79-9464-F082}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\stitching">
+			<UniqueIdentifier>{EA043335-259C-BCEC-5E49-545A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail">
+			<UniqueIdentifier>{21D034AC-F39C-E724-350A-C7B6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\superres">
+			<UniqueIdentifier>{D2BBE5C7-0D36-257F-DD81-67F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\video">
+			<UniqueIdentifier>{61E04F54-C77F-B674-C2AB-FEC2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\videoio">
+			<UniqueIdentifier>{8C359BB4-9E19-8F59-F4F6-1832}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\videostab">
+			<UniqueIdentifier>{D4F01CB4-61E3-5965-F3B1-CFB9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc">
+			<UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\src">
+			<UniqueIdentifier>{B9DD339A-D93D-92A1-0A2F-4B41}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs">
+			<UniqueIdentifier>{99ECA1D9-873F-4622-8FC0-FC7B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack">
+			<UniqueIdentifier>{D3A98534-1602-4FEF-57A6-6593}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src">
+			<UniqueIdentifier>{BFB5BB47-98C8-BBCB-3066-1046}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
+			<UniqueIdentifier>{5A029128-EB41-95C5-CBC0-CDED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
+			<UniqueIdentifier>{79DFDFE2-400B-8654-3675-01A3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
+			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco">
+			<UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\src">
+			<UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\libs">
+			<UniqueIdentifier>{3E8A9E9C-2DA4-7391-777F-56C5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\libs\openssl">
+			<UniqueIdentifier>{5947399C-92B2-BAE8-E58F-7024}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\libs\openssl\include">
+			<UniqueIdentifier>{D5DE9DB7-5574-8FBC-7336-5107}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\libs\openssl\include\openssl">
+			<UniqueIdentifier>{C648CDF7-0C1F-4D5B-2490-7010}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings">
+			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\src">
+			<UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\libs">
+			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons">
+			<UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash">
+			<UniqueIdentifier>{B051AFE1-3013-ADDD-15A7-0AD2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\src">
+			<UniqueIdentifier>{EF8B715C-ACE0-6785-C1D1-3F05}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs">
+			<UniqueIdentifier>{D60033D4-8642-42F4-F78B-50D8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs\fontstash">
+			<UniqueIdentifier>{9E57E047-5BCF-8535-677A-05D6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs\fontstash\src">
+			<UniqueIdentifier>{593F1156-D66B-CAC5-B6CD-59D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2">
+			<UniqueIdentifier>{7D234A58-7336-7B21-EB55-8C9B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\src">
+			<UniqueIdentifier>{CFBD9D81-955C-A8B6-A720-CD64}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs">
+			<UniqueIdentifier>{FBD52F97-5B3D-D92D-7B67-6490}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs\nanoVG">
+			<UniqueIdentifier>{FE77F4C5-D9ED-FC0C-DF07-89B1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs\nanoVG\obsolete">
+			<UniqueIdentifier>{00DE24A6-2A26-ABFA-2771-1DD4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs\nanoVG\src">
+			<UniqueIdentifier>{CA37981A-C9CB-88C3-1ADD-EB35}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs\pugixml">
+			<UniqueIdentifier>{C1C94AAD-2273-12A4-E394-52A6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash2\libs\pugixml\src">
+			<UniqueIdentifier>{4A66235D-BD71-0181-0712-B89F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTuio">
+			<UniqueIdentifier>{FC760323-083B-F69A-25BF-E370}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTuio\src">
+			<UniqueIdentifier>{3B88F2FA-2BE3-39F8-FF2F-515B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson">
+			<UniqueIdentifier>{2665D21E-F5FF-717A-B973-C198}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\src">
+			<UniqueIdentifier>{9E3B16BC-D57E-7C53-371C-EBA0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\libs">
+			<UniqueIdentifier>{46ACC002-409F-4D42-2A45-F35A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\libs\jsoncpp">
+			<UniqueIdentifier>{E13F7E8C-09A1-7C8B-ED14-DE94}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\libs\jsoncpp\include">
+			<UniqueIdentifier>{E4AFDF55-B7C8-413F-220C-0720}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\libs\jsoncpp\include\json">
+			<UniqueIdentifier>{4A24E38D-D99F-D9B2-644D-7BD7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJson\libs\jsoncpp\src">
+			<UniqueIdentifier>{B5F6473F-B151-F361-5AD0-9EB3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSuperLog">
+			<UniqueIdentifier>{76F04823-B92C-0045-8CB5-C47F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSuperLog\src">
+			<UniqueIdentifier>{1A1F9A67-434F-9FDD-5551-03FC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAutoTexture">
+			<UniqueIdentifier>{839AC992-6DA4-17CE-EA33-DBDB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAutoTexture\src">
+			<UniqueIdentifier>{E369A91F-DC40-A172-897C-1904}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxApp">
+			<UniqueIdentifier>{F0490C70-A881-BC7B-25A1-52BD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxApp\src">
+			<UniqueIdentifier>{F9686DB7-8C0C-6DBD-C3C0-D0F7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMTJsonParser">
+			<UniqueIdentifier>{02790627-E44A-0960-14B5-2B0C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMTJsonParser\src">
+			<UniqueIdentifier>{89B9ACFC-C09C-B57F-5259-8430}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSimpleHttp">
+			<UniqueIdentifier>{E7F33A6D-2392-8E33-42C9-E6E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSimpleHttp\src">
+			<UniqueIdentifier>{F39988FC-5D12-F6A6-E554-9922}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTagSystem">
+			<UniqueIdentifier>{4B36136F-EE85-1483-30FE-51A0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTagSystem\src">
+			<UniqueIdentifier>{73623551-48A2-B713-846F-E3EB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxStateMachine">
+			<UniqueIdentifier>{9667759C-826A-F8F9-54DB-AFBD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxStateMachine\src">
+			<UniqueIdentifier>{92B054DF-224D-8334-2729-16C7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAssets">
+			<UniqueIdentifier>{51511F50-B51F-A597-EC6F-25EF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAssets\src">
+			<UniqueIdentifier>{25F5EBD3-B788-7EC9-F0D8-498B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxThreadSafeLog">
+			<UniqueIdentifier>{BC052D52-B966-AE2E-3B84-A6F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxThreadSafeLog\src">
+			<UniqueIdentifier>{14B8AB0A-3953-6DC2-727E-0216}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxProgressiveTextureLoad">
+			<UniqueIdentifier>{21D04AD2-53E7-4D82-53CE-DA49}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxProgressiveTextureLoad\src">
+			<UniqueIdentifier>{84A6E621-DB93-1386-3D34-AE68}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTexturedObject">
+			<UniqueIdentifier>{66A642BE-A005-E143-4A1F-88F7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTexturedObject\src">
+			<UniqueIdentifier>{78E801E7-0EF3-D06E-9151-CCE9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMullion">
+			<UniqueIdentifier>{D758D383-1B3F-B18F-CA3A-9F26}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxMullion\src">
+			<UniqueIdentifier>{2CC976DB-E9EF-F457-BE49-CFC9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJsonSettings">
+			<UniqueIdentifier>{D360CE5C-E5BB-1846-4391-0F32}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxJsonSettings\src">
+			<UniqueIdentifier>{8B628D46-2CD4-9895-801A-F120}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTimeMeasurements">
+			<UniqueIdentifier>{32BA257A-3DF7-8582-5449-9372}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxTimeMeasurements\src">
+			<UniqueIdentifier>{51C0CAA9-C6D2-7306-59A9-C82B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxRemoteUI">
+			<UniqueIdentifier>{DFCB62F2-EABF-394F-4C42-54C8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxRemoteUI\src">
+			<UniqueIdentifier>{0E8034BD-932E-4031-A20F-9C02}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxHistoryPlot">
+			<UniqueIdentifier>{46264D9D-3FCE-0439-6F0F-1CF7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxHistoryPlot\src">
+			<UniqueIdentifier>{41BC6D06-275B-CBF3-D851-4E6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAnimatable">
+			<UniqueIdentifier>{F857966F-7F8C-9B79-939F-A2FC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxAnimatable\src">
+			<UniqueIdentifier>{EEEC34D3-DAD3-19CA-B1F0-F0EC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxScreenSetup">
+			<UniqueIdentifier>{7076A0A7-EBCA-9C7E-2845-106B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxScreenSetup\src">
+			<UniqueIdentifier>{1CA68E43-F35A-0625-0B8F-3D67}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSensu">
+			<UniqueIdentifier>{B2F2210B-980D-4DCD-BDE2-36FA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxSensu\src">
+			<UniqueIdentifier>{74BDCDA2-9F70-6A0D-85C9-843B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxGoogleAnalytics">
+			<UniqueIdentifier>{2D6E7526-FDB3-B453-7355-334D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxGoogleAnalytics\src">
+			<UniqueIdentifier>{60293D9F-E46A-46CB-D9D4-2352}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets">
+			<UniqueIdentifier>{7B9B6E32-F5F1-3FB6-285A-FBE0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\src">
+			<UniqueIdentifier>{B2FBC382-D127-0F8F-D27C-6D6C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs">
+			<UniqueIdentifier>{CBEA4DCA-3DEF-6A92-A3C3-3B93}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp">
+			<UniqueIdentifier>{2B9CEA2C-B5EA-32FF-547C-738B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp\json">
+			<UniqueIdentifier>{694EC9CA-17B2-54AA-F4BA-837E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets">
+			<UniqueIdentifier>{1E436DEC-5346-3A64-44B5-C85C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets\include">
+			<UniqueIdentifier>{09018A48-5811-2883-00D7-F3B5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets">
+			<UniqueIdentifier>{49656C4C-9760-8706-2108-EB6E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include">
+			<UniqueIdentifier>{96508FF9-BCA7-7E44-16C0-5455}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets">
+			<UniqueIdentifier>{2349D4AB-DE92-E503-243A-2BBE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src">
+			<UniqueIdentifier>{48D92228-24A5-30BB-3C90-B70D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxNetwork.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxNetworkUtils.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPClient.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPManager.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPServer.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxTCPSettings.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxUDPManager.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxNetwork\src\ofxUDPSettings.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvBlob.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvColorImage.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvConstants.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvImage.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvShortImage.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxOpenCv.h">
+			<Filter>addons\ofxOpenCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cv.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cv.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cvaux.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cvaux.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cvwimage.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cxcore.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cxcore.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cxeigen.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\cxmisc.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\highgui.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv\ml.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d\calib3d.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d\calib3d_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\affine.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\base.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\bufferpool.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\core.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\core_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\block.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\border_interpolate.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\color.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\common.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\datamov_utils.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\color_detail.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\reduce.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\reduce_key_val.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\transform_detail.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\type_traits_detail.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail\vec_distance_detail.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\dynamic_smem.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\emulation.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\filters.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\funcattrib.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\functional.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\limits.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\reduce.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\saturate_cast.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\scan.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\simd_functions.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\transform.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\type_traits.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\utility.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\vec_distance.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\vec_math.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\vec_traits.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\warp.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\warp_reduce.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda\warp_shuffle.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda.inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda_stream_accessor.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cuda_types.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cvdef.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cvstd.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\cvstd.inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\directx.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\eigen.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\fast_math.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\hal.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\interface.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\intrin.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\intrin_cpp.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\intrin_neon.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal\intrin_sse.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core\hal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\ippasync.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\mat.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\mat.inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\matx.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\neon_utils.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\ocl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\ocl_genbase.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\opengl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\operations.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\optim.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\persistence.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\private.cuda.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\private.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\ptr.inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\saturate.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\sse_utils.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\traits.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\types.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\types_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\utility.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\va_intel.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\version.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core\wimage.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\core.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\cvconfig.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d\features2d.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\features2d</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\all_indices.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\allocator.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\any.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\autotuned_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\composite_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\config.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\defines.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dist.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dummy.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dynamic_bitset.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\flann.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\flann_base.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\general.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\ground_truth.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\hdf5.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\heap.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\hierarchical_clustering_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\index_testing.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kdtree_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kdtree_single_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kmeans_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\linear_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\logger.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\lsh_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\lsh_table.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\matrix.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\miniflann.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\nn_index.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\object_factory.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\params.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\random.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\result_set.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\sampling.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\saving.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\simplex_downhill.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\timer.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\flann.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\highgui.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\highgui_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs\imgcodecs.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs\imgcodecs_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs\ios.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgcodecs.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\detail\distortion_model.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\imgproc.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\imgproc_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\types_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\ml\ml.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\ml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\ml.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect\detection_based_tracker.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect\objdetect.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect\objdetect_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\opencv.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\opencv_modules.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\photo\cuda.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\photo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\photo\photo.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\photo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\photo\photo_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\photo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\photo.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape\emdL1.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\shape</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape\hist_cost.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\shape</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape\shape.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\shape</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape\shape_distance.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\shape</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape\shape_transformer.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\shape</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\shape.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\autocalib.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\blenders.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\camera.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\exposure_compensate.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\matchers.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\motion_estimators.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\seam_finders.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\timelapsers.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\util.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\util_inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\warpers.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail\warpers_inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching\warpers.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\stitching</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\stitching.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\superres\optical_flow.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\superres</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\superres.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\video\background_segm.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\video\tracking.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\video\tracking_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\video\video.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\video.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videoio\cap_ios.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videoio</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videoio\videoio.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videoio</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videoio\videoio_c.h">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videoio</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videoio.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\deblurring.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\fast_marching.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\fast_marching_inl.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\frame_source.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\global_motion.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\inpainting.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\log.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\motion_core.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\motion_stabilizing.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\optical_flow.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\outlier_rejection.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\ring_buffer.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\stabilizer.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\wobble_suppression.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab.hpp">
+			<Filter>addons\ofxOpenCv\libs\opencv\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOsc.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscArg.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.h">
+			<Filter>addons\ofxPoco\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\aes.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1_mac.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1t.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bio.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\blowfish.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bn.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\buffer.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\camellia.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cast.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cmac.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cms.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\comp.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf_api.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\crypto.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des_old.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dh.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dsa.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dso.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dtls1.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\e_os2.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ebcdic.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ec.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdh.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdsa.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\engine.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\err.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\evp.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\hmac.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\idea.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\krb5_asn.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\kssl.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\lhash.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md4.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md5.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\mdc2.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\modes.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\obj_mac.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\objects.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ocsp.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf_osx.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslv.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ossl_typ.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem2.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs12.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs7.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pqueue.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rand.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc2.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc4.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ripemd.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rsa.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\safestack.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\seed.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\sha.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srp.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srtp.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl2.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl23.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl3.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\stack.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\symhacks.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\tls1.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ts.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\txt_db.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui_compat.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\whrlpool.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509_vfy.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509v3.h">
+			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.h">
+			<Filter>local_addons\ofxFontStash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.h">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.h">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStash2.h">
+			<Filter>local_addons\ofxFontStash2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashParser.h">
+			<Filter>local_addons\ofxFontStash2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashStyle.h">
+			<Filter>local_addons\ofxFontStash2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete\nanovg_gl2.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\obsolete</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete\nanovg_gl3.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\obsolete</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_fontstash.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg_gl.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg_gl_utils.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_stb_image.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_stb_truetype.h">
+			<Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugiconfig.hpp">
+			<Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugixml.hpp">
+			<Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuio.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioClient.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioContainer.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioCursor.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioObject.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioPoint.h">
+			<Filter>local_addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxJson\src\ofxJSON.h">
+			<Filter>local_addons\ofxJson\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\include\json\json-forwards.h">
+			<Filter>local_addons\ofxJson\libs\jsoncpp\include\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxJson\libs\jsoncpp\include\json\json.h">
+			<Filter>local_addons\ofxJson\libs\jsoncpp\include\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.h">
+			<Filter>local_addons\ofxSuperLog\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.h">
+			<Filter>local_addons\ofxSuperLog\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAutoTexture\src\ofxAutoTexture.h">
+			<Filter>local_addons\ofxAutoTexture\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxApp.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppColorsBasic.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppDelegate.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppErrorReporter.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppGlobalsBasic.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppMacros.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStructs.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.h">
+			<Filter>local_addons\ofxApp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParsedObject.h">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParser.h">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParserConfig.h">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParserThread.h">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMTJsonParser\src\ofxMtJsonParserUtils.h">
+			<Filter>local_addons\ofxMTJsonParser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxBatchDownloader.h">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxChecksum.h">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxDownloadCentral.h">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSimpleHttp\src\ofxSimpleHttp.h">
+			<Filter>local_addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTagSystem\src\Tag.h">
+			<Filter>local_addons\ofxTagSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTagSystem\src\TagManager.h">
+			<Filter>local_addons\ofxTagSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTagSystem\src\TagStorage.h">
+			<Filter>local_addons\ofxTagSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxDrawableStateMachine.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAssets\src\AssetChecker.h">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAssets\src\AssetHolder.h">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAssets\src\AssetHolderStructs.h">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAssets\src\ofxAssets.h">
+			<Filter>local_addons\ofxAssets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxThreadSafeLog\src\ofxThreadSafeLog.h">
+			<Filter>local_addons\ofxThreadSafeLog\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ofxProgressiveTextureLoad.h">
+			<Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ProgressiveTextureLoadQueue.h">
+			<Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObject.h">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConfig.h">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectGC.h">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectSizes.h">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectStats.h">
+			<Filter>local_addons\ofxTexturedObject\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxMullion\src\ofxMullion.h">
+			<Filter>local_addons\ofxMullion\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxJsonSettings\src\ofxJsonSettings.h">
+			<Filter>local_addons\ofxJsonSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\GL_Measurement.h">
+			<Filter>local_addons\ofxTimeMeasurements\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurements.h">
+			<Filter>local_addons\ofxTimeMeasurements\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurementsMacros.h">
+			<Filter>local_addons\ofxTimeMeasurements\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurementsScoped.h">
+			<Filter>local_addons\ofxTimeMeasurements\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\dirent_vs.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h">
+			<Filter>local_addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxHistoryPlot\src\ofxHistoryPlot.h">
+			<Filter>local_addons\ofxHistoryPlot\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatable.h">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableFloat.h">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfColor.h">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfPoint.h">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableQueue.h">
+			<Filter>local_addons\ofxAnimatable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxScreenSetup\src\ofxScreenSetup.h">
+			<Filter>local_addons\ofxScreenSetup\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxSensu\src\ofxSensu.h">
+			<Filter>local_addons\ofxSensu\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\GA_uriencode.h">
+			<Filter>local_addons\ofxGoogleAnalytics\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxGoogleAnalytics\src\ofxGoogleAnalytics.h">
+			<Filter>local_addons\ofxGoogleAnalytics\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\src\ofxLibwebsockets.h">
+			<Filter>local_addons\ofxLibwebsockets\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json-forwards.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\libwebsockets.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\lws_config.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Client.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Connection.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Events.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Protocol.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Reactor.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Server.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Util.h">
+			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

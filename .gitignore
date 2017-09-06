@@ -1,6 +1,21 @@
 #OSX getInfo versioning info (/World/Scripts/XcodeAttachGitInfoToBinary.sh)
 gitInfo.h
 
+#ofxApp examples downloaded assets
+
+AddonsExamples/ofxAppExample/bin/data/CWRU_assets
+AddonsExamples/ofxAppExample/bin/data/CH_assets
+AddonsExamples/ofxAppExample/bin/data/CH_JsonDownloads
+AddonsExamples/ofxAppExample/bin/data/CWRU_JsonDownloads
+AddonsExamples/ofxTextureAtlasExample_create/bin/data/images/cats/
+AddonsExamples/ofxTextureAtlasExample_draw/bin/data/images/cats/
+AddonsExamples/ofxImageResizer_example/bin/data/smallImages
+
+AddonsExamples/ofxAppExample/bin/data/ofxApp.pid
+AddonsExamples/ofxAppExample_noContent/bin/data/ofxApp.pid
+textureCache
+
+
 #oriol's addons settings local 
 ofxRemoteUISettings Backups
 ofxTimeMeasurements.settings
@@ -17,6 +32,8 @@ openFrameworksUniversal.a
 [Bb]uild/
 [Oo]bj/
 *.o
+*.iobj
+*.ipdb
 [Dd]ebug*/
 [Rr]elease*/
 *.mode*

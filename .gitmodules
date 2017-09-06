@@ -16,9 +16,6 @@
 [submodule "ExternalAddons/ofxFontStash"]
 	path = ExternalAddons/ofxFontStash
 	url = https://github.com/local-projects/ofxFontStash.git
-[submodule "ExternalAddons/ofxJson"]
-	path = ExternalAddons/ofxJson
-	url = https://github.com/local-projects/ofxJSON.git
 [submodule "ExternalAddons/ofxSimpleHttp"]
 	path = ExternalAddons/ofxSimpleHttp
 	url = https://github.com/local-projects/ofxSimpleHttp.git
@@ -127,3 +124,12 @@
 [submodule "ExternalAddons/ofxTextureCrop"]
 	path = ExternalAddons/ofxTextureCrop
 	url = https://github.com/local-projects/ofxTextureCrop.git
+[submodule "ExternalAddons/ofxInterfaceKeyboard"]
+	path = ExternalAddons/ofxInterfaceKeyboard
+	url = https://github.com/local-projects/ofxInterfaceKeyboard.git
+[submodule "ExternalAddons/ofxImageResizer"]
+	path = ExternalAddons/ofxImageResizer
+	url = https://github.com/local-projects/ofxImageResizer.git
+[submodule "ExternalAddons/ofxLibwebsockets"]
+	path = ExternalAddons/ofxLibwebsockets
+	url = https://github.com/local-projects/ofxLibwebsockets.git

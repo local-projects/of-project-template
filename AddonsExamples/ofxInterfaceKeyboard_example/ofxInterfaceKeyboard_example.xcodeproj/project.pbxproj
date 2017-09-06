@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */; };
+		1331011D11EABBDD0B86E638 /* ofxJSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DE0A3DDACEFFE7DD3B933 /* ofxJSON.cpp */; };
+		197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3DF92683BDEE69D00C661B /* TouchManager.cpp */; };
+		1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */; };
+		25FB8D79DB7BBA88033049C4 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A740887331D278DE95F5D /* jsoncpp.cpp */; };
+		668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */; };
+		734F0888A9BF8D9047317CBC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64912E075D25BAA0827D3738 /* Node.cpp */; };
+		7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */; };
+		AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */; };
+		B90152454C65CC6F8673BD78 /* ofxInterfaceKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C0B7BC2023402D814FCB6E /* ofxInterfaceKeyboard.cpp */; };
+		BB8E6E601F2A7DED00D27A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E5D1F2A7DED00D27A76 /* main.cpp */; };
+		BB8E6E611F2A7DED00D27A76 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E5E1F2A7DED00D27A76 /* ofApp.cpp */; };
+		C89892317443872222560708 /* LambdaView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA14255FCBB6906BB795F38 /* LambdaView.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		045480176ACA4E32E183CF59 /* json-forwards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "json-forwards.h"; path = "../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json/json-forwards.h"; sourceTree = SOURCE_ROOT; };
+		0A8DE0A3DDACEFFE7DD3B933 /* ofxJSON.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxJSON.cpp; path = ../../ExternalAddons/ofxJSON/src/ofxJSON.cpp; sourceTree = SOURCE_ROOT; };
+		0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VirtualTouch.h; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.h; sourceTree = SOURCE_ROOT; };
+		228B1C5078370FC155D9F9A1 /* LambdaView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LambdaView.h; path = ../../ExternalAddons/ofxInterface/src/components/LambdaView.h; sourceTree = SOURCE_ROOT; };
+		28C0B7BC2023402D814FCB6E /* ofxInterfaceKeyboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxInterfaceKeyboard.cpp; path = ../../ExternalAddons/ofxInterfaceKeyboard/src/ofxInterfaceKeyboard.cpp; sourceTree = SOURCE_ROOT; };
+		3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureButton.cpp; path = ../../ExternalAddons/ofxInterface/src/components/TextureButton.cpp; sourceTree = SOURCE_ROOT; };
+		4BABAD72AA7DE13561561B46 /* Node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Node.h; path = ../../ExternalAddons/ofxInterface/src/Node.h; sourceTree = SOURCE_ROOT; };
+		57F3804A4304B846B08861C8 /* ofxInterfaceKeyboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterfaceKeyboard.h; path = ../../ExternalAddons/ofxInterfaceKeyboard/src/ofxInterfaceKeyboard.h; sourceTree = SOURCE_ROOT; };
+		5CA14255FCBB6906BB795F38 /* LambdaView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LambdaView.cpp; path = ../../ExternalAddons/ofxInterface/src/components/LambdaView.cpp; sourceTree = SOURCE_ROOT; };
+		64912E075D25BAA0827D3738 /* Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Node.cpp; path = ../../ExternalAddons/ofxInterface/src/Node.cpp; sourceTree = SOURCE_ROOT; };
+		7100735B560C1EDBCE05FE98 /* BitmapTextButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitmapTextButton.h; path = ../../ExternalAddons/ofxInterface/src/components/BitmapTextButton.h; sourceTree = SOURCE_ROOT; };
+		7720A546A9DE5C979A905515 /* json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json.h; path = ../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json/json.h; sourceTree = SOURCE_ROOT; };
+		77927AA7120505B3CB2F0289 /* TextureButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureButton.h; path = ../../ExternalAddons/ofxInterface/src/components/TextureButton.h; sourceTree = SOURCE_ROOT; };
+		7D3A740887331D278DE95F5D /* jsoncpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jsoncpp.cpp; path = ../../ExternalAddons/ofxJSON/libs/jsoncpp/src/jsoncpp.cpp; sourceTree = SOURCE_ROOT; };
+		8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SolidColorPanel.cpp; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.cpp; sourceTree = SOURCE_ROOT; };
+		AC3DF92683BDEE69D00C661B /* TouchManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchManager.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchManager.cpp; sourceTree = SOURCE_ROOT; };
+		ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchEvent.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.cpp; sourceTree = SOURCE_ROOT; };
+		AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SolidColorPanel.h; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.h; sourceTree = SOURCE_ROOT; };
+		BB8E6E5D1F2A7DED00D27A76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BB8E6E5E1F2A7DED00D27A76 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		BB8E6E5F1F2A7DED00D27A76 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		BC6FCA19A36E06452711D6BB /* TouchEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchEvent.h; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.h; sourceTree = SOURCE_ROOT; };
+		C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterface.h; path = ../../ExternalAddons/ofxInterface/src/ofxInterface.h; sourceTree = SOURCE_ROOT; };
+		C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VirtualTouch.cpp; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.cpp; sourceTree = SOURCE_ROOT; };
+		D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitmapTextButton.cpp; path = ../../ExternalAddons/ofxInterface/src/components/BitmapTextButton.cpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* ofxInterfaceKeyboard_exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxInterfaceKeyboard_exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchManager.h; path = ../../ExternalAddons/ofxInterface/src/TouchManager.h; sourceTree = SOURCE_ROOT; };
+		FFC6BBA235685A5B34851A17 /* ofxJSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxJSON.h; path = ../../ExternalAddons/ofxJSON/src/ofxJSON.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15454BE695DCCDE4460A886C /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */,
+				7100735B560C1EDBCE05FE98 /* BitmapTextButton.h */,
+				5CA14255FCBB6906BB795F38 /* LambdaView.cpp */,
+				228B1C5078370FC155D9F9A1 /* LambdaView.h */,
+				8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */,
+				AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */,
+				3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */,
+				77927AA7120505B3CB2F0289 /* TextureButton.h */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		3F9318789B177DE2E66B0399 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7D3A740887331D278DE95F5D /* jsoncpp.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+				F2162DDF1965162FDB4D9BB5 /* ofxInterface */,
+				E5BDDB2871E88677B8E927F8 /* ofxInterfaceKeyboard */,
+				9E66EBC59831BC369906EE7E /* ofxJSON */,
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		80F8783F33A95053DF24D6E1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0A8DE0A3DDACEFFE7DD3B933 /* ofxJSON.cpp */,
+				FFC6BBA235685A5B34851A17 /* ofxJSON.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		9167560307558634CD896F02 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				9802DDF623CA8AB0B52908F1 /* jsoncpp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		9802DDF623CA8AB0B52908F1 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				DD1B1BD3744DC7B92CCFDEFE /* include */,
+				3F9318789B177DE2E66B0399 /* src */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		9E66EBC59831BC369906EE7E /* ofxJSON */ = {
+			isa = PBXGroup;
+			children = (
+				80F8783F33A95053DF24D6E1 /* src */,
+				9167560307558634CD896F02 /* libs */,
+			);
+			name = ofxJSON;
+			sourceTree = "<group>";
+		};
+		A8471A3EB296A15B0495CB09 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				045480176ACA4E32E183CF59 /* json-forwards.h */,
+				7720A546A9DE5C979A905515 /* json.h */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BB8E6E5C1F2A7DED00D27A76 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E6E5D1F2A7DED00D27A76 /* main.cpp */,
+				BB8E6E5E1F2A7DED00D27A76 /* ofApp.cpp */,
+				BB8E6E5F1F2A7DED00D27A76 /* ofApp.h */,
+			);
+			name = src;
+			path = ../../../ExternalAddons/ofxInterfaceKeyboard/example/src;
+			sourceTree = "<group>";
+		};
+		CAECBE5257F59BCB0010CC44 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				15454BE695DCCDE4460A886C /* components */,
+				64912E075D25BAA0827D3738 /* Node.cpp */,
+				4BABAD72AA7DE13561561B46 /* Node.h */,
+				C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */,
+				ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */,
+				BC6FCA19A36E06452711D6BB /* TouchEvent.h */,
+				AC3DF92683BDEE69D00C661B /* TouchManager.cpp */,
+				E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */,
+				C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */,
+				0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		DD1B1BD3744DC7B92CCFDEFE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A8471A3EB296A15B0495CB09 /* json */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* ofxInterfaceKeyboard_exampleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E6E5C1F2A7DED00D27A76 /* src */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E5BDDB2871E88677B8E927F8 /* ofxInterfaceKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDC716A474E0D6E7A49B3A /* src */,
+			);
+			name = ofxInterfaceKeyboard;
+			sourceTree = "<group>";
+		};
+		F2162DDF1965162FDB4D9BB5 /* ofxInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CAECBE5257F59BCB0010CC44 /* src */,
+			);
+			name = ofxInterface;
+			sourceTree = "<group>";
+		};
+		F6DDC716A474E0D6E7A49B3A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				28C0B7BC2023402D814FCB6E /* ofxInterfaceKeyboard.cpp */,
+				57F3804A4304B846B08861C8 /* ofxInterfaceKeyboard.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxInterfaceKeyboard_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterfaceKeyboard_example" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = ofxInterfaceKeyboard_example;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxInterfaceKeyboard_exampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterfaceKeyboard_example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxInterfaceKeyboard_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved \"$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */,
+				C89892317443872222560708 /* LambdaView.cpp in Sources */,
+				BB8E6E601F2A7DED00D27A76 /* main.cpp in Sources */,
+				668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */,
+				AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */,
+				734F0888A9BF8D9047317CBC /* Node.cpp in Sources */,
+				0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */,
+				197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */,
+				7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */,
+				B90152454C65CC6F8673BD78 /* ofxInterfaceKeyboard.cpp in Sources */,
+				BB8E6E611F2A7DED00D27A76 /* ofApp.cpp in Sources */,
+				1331011D11EABBDD0B86E638 /* ofxJSON.cpp in Sources */,
+				25FB8D79DB7BBA88033049C4 /* jsoncpp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		99FA3DBC1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxInterfaceKeyboard/src,
+					../../ExternalAddons/ofxJSON/libs,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/include/json,
+					../../ExternalAddons/ofxJSON/libs/jsoncpp/src,
+					../../ExternalAddons/ofxJSON/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterfaceKeyboard_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+				99FA3DBB1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterfaceKeyboard_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+				99FA3DBC1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

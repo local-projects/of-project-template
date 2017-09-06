@@ -48,7 +48,7 @@ SubModule: ExternalAddons/ofxAssets https://github.com/local-projects/ofxAssets.
 SubModule: ExternalAddons/ofxAutoReloadedShader https://github.com/local-projects/ofxAutoReloadedShader.git armadillu?https://github.com/armadillu/ofxAutoReloadedShader.git
 SubModule: ExternalAddons/ofxAutoTexture https://github.com/local-projects/ofxAutoTexture.git armadillu?https://github.com/armadillu/ofxAutoTexture.git
 SubModule: ExternalAddons/ofxColorGradient https://github.com/local-projects/ofxColorGradient.git armadillu?https://github.com/armadillu/ofxColorGradient.git
-SubModule: ExternalAddons/ofxCv https://github.com/local-projects/ofxCv.git armadillu?https://github.com/armadillu/ofxCv.git
+SubModule: ExternalAddons/ofxCv https://github.com/local-projects/ofxCv.git  kylemcdonald?https://github.com/kylemcdonald/ofxCv.git
 SubModule: ExternalAddons/ofxExternalProcess https://github.com/local-projects/ofxExternalProcess.git armadillu?https://github.com/armadillu/ofxExternalProcess.git
 SubModule: ExternalAddons/ofxFboBlur https://github.com/local-projects/ofxFboBlur.git armadillu?https://github.com/armadillu/ofxFboBlur.git
 SubModule: ExternalAddons/ofxFontStash https://github.com/local-projects/ofxFontStash.git armadillu?https://github.com/armadillu/ofxFontStash.git
@@ -58,8 +58,9 @@ SubModule: ExternalAddons/ofxGoogleAnalytics https://github.com/local-projects/o
 SubModule: ExternalAddons/ofxHistoryPlot https://github.com/local-projects/ofxHistoryPlot.git armadillu?https://github.com/armadillu/ofxHistoryPlot.git
 SubModule: ExternalAddons/ofxHttpForm https://github.com/local-projects/ofxHttpForm.git armadillu?https://github.com/armadillu/ofxHttpForm.git
 SubModule: ExternalAddons/ofxInterface https://github.com/local-projects/ofxInterface.git armadillu?https://github.com/armadillu/ofxInterface.git
+SubModule: ExternalAddons/ofxInterfaceKeyboard https://github.com/local-projects/ofxInterfaceKeyboard.git armadillu?https://github.com/armadillu/ofxInterfaceKeyboard.git
 SubModule: ExternalAddons/ofxJSON https://github.com/local-projects/ofxJSON.git armadillu?https://github.com/armadillu/ofxJSON.git
-SubModule: ExternalAddons/ofxJsonSettings https://github.com/local-projects/ofxJsonSettings.git armadillu?https://github.com/armadillu/ofxJsonSettings.git
+SubModule: ExternalAddons/ofxJsonSettings https://github.com/local-projects/ofxJsonSettings.git
 SubModule: ExternalAddons/ofxMTJsonParser https://github.com/local-projects/ofxMTJsonParser.git armadillu?https://github.com/armadillu/ofxMTJsonParser.git
 SubModule: ExternalAddons/ofxMemoryUsage https://github.com/local-projects/ofxMemoryUsage.git armadillu?https://github.com/armadillu/ofxMemoryUsage.git
 SubModule: ExternalAddons/ofxMullion https://github.com/local-projects/ofxMullion.git armadillu?https://github.com/armadillu/ofxMullion.git
@@ -82,6 +83,10 @@ SubModule: ExternalAddons/ofxThreadSafeLog https://github.com/local-projects/ofx
 SubModule: ExternalAddons/ofxTimeMeasurements https://github.com/local-projects/ofxTimeMeasurements.git armadillu?https://github.com/armadillu/ofxTimeMeasurements.git
 SubModule: ExternalAddons/ofxTuio https://github.com/local-projects/ofxTuio.git armadillu?https://github.com/armadillu/ofxTuio.git
 SubModule: ExternalAddons/ofxUserContentUpload https://github.com/local-projects/ofxUserContentUpload.git armadillu?https://github.com/armadillu/ofxUserContentUpload.git
+SubModule: ExternalAddons/ofxNanoVG https://github.com/local-projects/ofxNanoVG.git armadillu?https://github.com/armadillu/ofxNanoVG.git galsasson?https://github.com/galsasson/ofxNanoVG.git
+SubModule: ExternalAddons/ofxImageResizer https://github.com/local-projects/ofxImageResizer.git armadillu?https://github.com/armadillu/ofxImageResizer.git
+SubModule: ExternalAddons/ofxLibwebsockets https://github.com/local-projects/ofxLibwebsockets.git upstream?https://github.com/robotconscience/ofxLibwebsockets.git
+
 SubModule: OpenFrameworks https://github.com/local-projects/OpenFrameworks.git OF?https://github.com/OpenFrameworks/OpenFrameworks.git
 }
 

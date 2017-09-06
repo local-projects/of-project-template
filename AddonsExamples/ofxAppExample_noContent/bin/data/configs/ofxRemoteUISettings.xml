@@ -1,0 +1,40 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<P name="OFXAPP GLOBALS" type="group"/>
+		<!-- # OFXAPP GLOBALS ############################ -->
+		<P name="debug" type="bool">0</P>
+		<P name="drawAppRunTime" type="bool">0</P>
+		<P name="drawStaticTexturesMemStats" type="bool">0</P>
+		<P name="drawAutoTextureMemStats" type="bool">0</P>
+		<P name="drawTextureLoaderStats" type="bool">0</P>
+		<P name="drawTextureLoaderState" type="bool">0</P>
+		<P name="OFXAPP PROTOTYPE VARS" type="group"/>
+		<!-- # OFXAPP PROTOTYPE VARS ############################ -->
+		<P name="tempFloat1" type="float">1</P>
+		<P name="tempFloat4k" type="float">192</P>
+		<P name="MyApp Globals" type="group"/>
+		<!-- # MyApp Globals ############################ -->
+		<P name="tileSpeed" type="float">0.358798</P>
+		<P name="MyApp Colors" type="group"/>
+		<!-- # MyApp Colors ############################ -->
+		<P c0.red="22" c1.green="22" c2.blue="22" c3.alpha="1" name="bgColor" type="color"/>
+		<P c0.red="90" c1.green="33" c2.blue="33" c3.alpha="255" name="myColor" type="color"/>
+		<P name="APP" type="group"/>
+		<!-- # APP ############################ -->
+		<P name="showMouse" type="bool">1</P>
+		<P name="enableMouse" type="bool">1</P>
+		<!--                                                                                 -->
+		<!-- ############################## DISABLED PARAMS ################################# -->
+		<!--                                                                                 -->
+		<P disabled="1" name="APP COLORS" type="group"/>
+		<!-- # APP COLORS ############################ -->
+		<P disabled="1" name="APP GLOBALS" type="group"/>
+		<!-- # APP GLOBALS ############################ -->
+		<P disabled="1" name="APP PARAMS" type="group"/>
+		<!-- # APP PARAMS ############################ -->
+		<P disabled="1" name="myParam" type="float">0.8025</P>
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>44044</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>

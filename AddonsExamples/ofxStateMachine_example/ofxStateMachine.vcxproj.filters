@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\OpenFrameworks\addons\ofxSvg\src\ofxSvg.cpp">
+			<Filter>addons\ofxSvg\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.cpp">
+			<Filter>local_addons\ofxFontStash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.c">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.c">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.cpp">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg">
+			<UniqueIdentifier>{3DD76815-827C-5F89-582D-2CF4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\src">
+			<UniqueIdentifier>{6A00B88F-1ADB-BB17-8276-ED19}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs">
+			<UniqueIdentifier>{C226E9C6-88C9-1F12-D422-3DA3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\libxml2">
+			<UniqueIdentifier>{2C442542-20AF-917D-3852-0023}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\libxml2\include">
+			<UniqueIdentifier>{738D0032-DFA1-33F3-D2B4-EA0A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\libxml2\include\libxml">
+			<UniqueIdentifier>{21145FAE-24D9-8981-96DC-87F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\svgtiny">
+			<UniqueIdentifier>{972ABAEB-89C4-B27D-0968-4ED1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\svgtiny\include">
+			<UniqueIdentifier>{F663B0D8-0BED-1137-B2BC-17B3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons">
+			<UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash">
+			<UniqueIdentifier>{B051AFE1-3013-ADDD-15A7-0AD2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\src">
+			<UniqueIdentifier>{EF8B715C-ACE0-6785-C1D1-3F05}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs">
+			<UniqueIdentifier>{D60033D4-8642-42F4-F78B-50D8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs\fontstash">
+			<UniqueIdentifier>{9E57E047-5BCF-8535-677A-05D6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxFontStash\libs\fontstash\src">
+			<UniqueIdentifier>{593F1156-D66B-CAC5-B6CD-59D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxStateMachine">
+			<UniqueIdentifier>{9667759C-826A-F8F9-54DB-AFBD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxStateMachine\src">
+			<UniqueIdentifier>{92B054DF-224D-8334-2729-16C7}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\src\ofxSvg.h">
+			<Filter>addons\ofxSvg\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\c14n.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\catalog.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\chvalid.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\debugXML.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\dict.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\DOCBparser.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\encoding.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\entities.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\globals.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\hash.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\HTMLparser.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\HTMLtree.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\list.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\nanoftp.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\nanohttp.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\parser.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\parserInternals.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\pattern.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\relaxng.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\SAX.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\SAX2.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\schemasInternals.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\schematron.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\threads.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\tree.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\uri.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\valid.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xinclude.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xlink.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlautomata.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlerror.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlexports.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlIO.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlmemory.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlmodule.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlreader.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlregexp.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlsave.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlschemas.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlschemastypes.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlstring.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlunicode.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlversion.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xmlwriter.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xpath.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xpathInternals.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\libxml2\include\libxml\xpointer.h">
+			<Filter>addons\ofxSvg\libs\libxml2\include\libxml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\OpenFrameworks\addons\ofxSvg\libs\svgtiny\include\svgtiny.h">
+			<Filter>addons\ofxSvg\libs\svgtiny\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.h">
+			<Filter>local_addons\ofxFontStash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.h">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.h">
+			<Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxDrawableStateMachine.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.h">
+			<Filter>local_addons\ofxStateMachine\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

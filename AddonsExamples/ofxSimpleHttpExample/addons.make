@@ -1,0 +1,2 @@
+ofxPoco
+../../ExternalAddons/ofxSimpleHttp
