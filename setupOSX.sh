@@ -42,7 +42,7 @@ fi
 echo "setting up and downloading submodules"
 git submodule sync
 git submodule init
-submods.sh
+./submods.sh
 
 # OpenFrameworks in repo-form doesn't come with static libs
 echo "downloading OF static libs for OSX"
