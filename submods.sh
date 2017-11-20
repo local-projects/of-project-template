@@ -372,7 +372,7 @@ fi
 
 echo-info "Performing basic git submodule initialization and updates"
 git submodule init
-git submodule update
+git submodule update --jobs 10
 
 # Manage our submodules
 SubMods
