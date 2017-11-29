@@ -13,13 +13,11 @@
 		<!-- # OFXAPP PROTOTYPE VARS ############################ -->
 		<P name="tempFloat1" type="float">1</P>
 		<P name="tempFloat4k" type="float">192</P>
-		<P name="MyApp Globals" type="group"/>
-		<!-- # MyApp Globals ############################ -->
-		<P name="tileSpeed" type="float">0.358798</P>
-		<P name="MyApp Colors" type="group"/>
-		<!-- # MyApp Colors ############################ -->
+		<P name="OFX_APP_NAME Globals" type="group"/>
+		<!-- # OFX_APP_NAME Globals ############################ -->
+		<P name="OFX_APP_NAME Colors" type="group"/>
+		<!-- # OFX_APP_NAME Colors ############################ -->
 		<P c0.red="22" c1.green="22" c2.blue="22" c3.alpha="1" name="bgColor" type="color"/>
-		<P c0.red="90" c1.green="33" c2.blue="33" c3.alpha="255" name="myColor" type="color"/>
 		<P name="APP" type="group"/>
 		<!-- # APP ############################ -->
 		<P name="showMouse" type="bool">1</P>
@@ -27,6 +25,12 @@
 		<!--                                                                                 -->
 		<!-- ############################## DISABLED PARAMS ################################# -->
 		<!--                                                                                 -->
+		<P disabled="1" name="MyApp Globals" type="group"/>
+		<!-- # MyApp Globals ############################ -->
+		<P disabled="1" name="tileSpeed" type="float">0.358798</P>
+		<P disabled="1" name="MyApp Colors" type="group"/>
+		<!-- # MyApp Colors ############################ -->
+		<P c0.red="90" c1.green="33" c2.blue="33" c3.alpha="255" disabled="1" name="myColor" type="color"/>
 		<P disabled="1" name="APP COLORS" type="group"/>
 		<!-- # APP COLORS ############################ -->
 		<P disabled="1" name="APP GLOBALS" type="group"/>

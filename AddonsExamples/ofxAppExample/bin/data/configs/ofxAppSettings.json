@@ -8,11 +8,11 @@
 		"maxThreads" : 6,
 		"window":{
 			"windowMode" : 8, //see ofxScreenSetup::ScreenMode; windowed=8, fullOneMonitor=1, fullAllMonitors=0
-			"customWidth": 1024, //540
-			"customHeight": 768,
+			"customWidth": 1200, //540
+			"customHeight": 800,
 			"customWindowPosition" : true,
-			"customPositionX" : 120,
-			"customPositionY" : 150
+			"customPositionX" : 70,
+			"customPositionY" : 70
 		},
 		"startupScreenViewport":{ "x":0.0, "y":0.0, "w":1.0, "h":1.0 }, //define what part of the window is used to draw loading screens
 		"renderSize":{ //get it with app.renderSize
@@ -161,7 +161,8 @@
 		"textureLodBias" : -0.3,
 		"maxTimeSpentLoadingPerFrameMs" : 4.0,//ms
 		"scanlinesPerLoop" : 128,
-		"maxLoadRequestsPerFrame" : 64
+		"maxLoadRequestsPerFrame" : 64,
+		"defaultUnloadDelay" : 10.0 //seconds
 	},
 
 	"Logging":{
@@ -181,6 +182,11 @@
 		"displayLogTimes" : true,
 		"ThreadSafeLog" : {
 			"alsoPrintToConsole" : true
+		},
+		"logLevelOverrides":{	//override of log level for certain modules
+								//Valid Levels are: [0:Vebose, 1:Notice, 2:Warning, 3:Error, 4:FatalError, 5:Silence]
+			"myModule" : 5,		//ie silence (5) "myModule" logging;
+			"myOtherModule" : 2
 		}
 	},
 	

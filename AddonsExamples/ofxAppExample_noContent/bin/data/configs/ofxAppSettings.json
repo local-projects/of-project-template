@@ -8,7 +8,7 @@
 		"window":{
 			"windowMode" : 8, //see ofxScreenSetup::ScreenMode; windowed=8, fullOneMonitor=1, fullAllMonitors=0
 			"customWidth": 1900, //540
-			"customHeight": 800,
+			"customHeight": 1400,
 			"customWindowPosition" : false,
 			"customPositionX" : 1950,
 			"customPositionY" : -450
@@ -160,7 +160,8 @@
 		"textureLodBias" : -0.3,
 		"maxTimeSpentLoadingPerFrameMs" : 4.0,//ms
 		"scanlinesPerLoop" : 128,
-		"maxLoadRequestsPerFrame" : 64
+		"maxLoadRequestsPerFrame" : 64,
+		"defaultUnloadDelay" : 10.0 //seconds
 	},
 
 	"Logging":{
@@ -180,6 +181,11 @@
 		"displayLogTimes" : true,
 		"ThreadSafeLog" : {
 			"alsoPrintToConsole" : true
+		},
+		"logLevelOverrides":{	//override of log level for certain modules
+								//Valid Levels are: [0:Vebose, 1:Notice, 2:Warning, 3:Error, 4:FatalError, 5:Silence]
+			"myModule" : 5,		//ie silence (5) "myModule" logging;
+			"myOtherModule" : 2
 		}
 	},
 	

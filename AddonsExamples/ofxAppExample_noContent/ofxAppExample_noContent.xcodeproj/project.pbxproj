@@ -80,6 +80,7 @@
 		B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */; };
 		BAE90729515173E1A3C27825 /* TexturedObjectConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC37CD22265D4B50580B74C /* TexturedObjectConfig.cpp */; };
 		BB0ABE8895D3631DEBF3BE7D /* Reactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A087D87181E574E8642A8E51 /* Reactor.cpp */; };
+		BB6B4A581FCF14780093BAE7 /* ofxAppErrorReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB6B4A571FCF14780093BAE7 /* ofxAppErrorReporter.cpp */; };
 		BBC1B9E01F58B4DD00F70C62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DB1F58B4DD00F70C62 /* main.cpp */; };
 		BBC1B9E11F58B4DD00F70C62 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DE1F58B4DD00F70C62 /* ofApp.cpp */; };
 		BEF2C9A8785466437B1367E6 /* ofxSensu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78540864C7BAA5A291D42B69 /* ofxSensu.cpp */; };
@@ -517,6 +518,7 @@
 		BA24B7370E90E08CD172170F /* TexturedObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TexturedObject.h; path = ../../ExternalAddons/ofxTexturedObject/src/TexturedObject.h; sourceTree = SOURCE_ROOT; };
 		BAD9D1B5DBD08D9744F9D7B2 /* intrin_neon.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intrin_neon.hpp; path = ../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal/intrin_neon.hpp; sourceTree = SOURCE_ROOT; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
+		BB6B4A571FCF14780093BAE7 /* ofxAppErrorReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAppErrorReporter.cpp; path = ../../ExternalAddons/ofxApp/src/ofxAppErrorReporter.cpp; sourceTree = "<group>"; };
 		BB7D770E130AB40899AECB9F /* warp_shuffle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = warp_shuffle.hpp; path = ../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/warp_shuffle.hpp; sourceTree = SOURCE_ROOT; };
 		BBC1B9DB1F58B4DD00F70C62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../ExternalAddons/ofxApp/example-NoContent/src/main.cpp"; sourceTree = "<group>"; };
 		BBC1B9DC1F58B4DD00F70C62 /* MyAppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppColors.h; path = "../../../ExternalAddons/ofxApp/example-NoContent/src/MyAppColors.h"; sourceTree = "<group>"; };
@@ -1054,6 +1056,7 @@
 				ACB324CFC1D5E9C81190785F /* ofxAppContent.cpp */,
 				7BF81161C524E9BEE860F681 /* ofxAppContent.h */,
 				10EBABE002561F6F4D922381 /* ofxAppDelegate.h */,
+				BB6B4A571FCF14780093BAE7 /* ofxAppErrorReporter.cpp */,
 				337AD49E1240108764FB7088 /* ofxAppErrorReporter.h */,
 				53BDC5FFE32CF642FFBE257A /* ofxAppFonts.cpp */,
 				975679E5863AE6FA4E39F672 /* ofxAppFonts.h */,
@@ -2313,6 +2316,7 @@
 				09499D3E602185EF130FA72A /* ofxFontStash.cpp in Sources */,
 				FD3FAFF994F3B5EB9C67451A /* fontstash.c in Sources */,
 				4E04BBED9DBE55E250419712 /* stb_truetype.c in Sources */,
+				BB6B4A581FCF14780093BAE7 /* ofxAppErrorReporter.cpp in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				F6EEEEEBFDE89B06FE072B35 /* ofxfs2_nanovg.c in Sources */,
