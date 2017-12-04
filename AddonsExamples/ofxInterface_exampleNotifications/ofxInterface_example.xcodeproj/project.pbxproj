@@ -66,7 +66,6 @@
 		BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.cpp"; sourceTree = "<group>"; };
 		BBB839ED1F8D1DF700EBBD9E /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.h"; sourceTree = "<group>"; };
 		BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = ../../ExternalAddons/ofxInterface/src/NotificationCenter.h; sourceTree = "<group>"; };
-		BBB839F11F8D1E2A00EBBD9E /* NotificationCenter.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NotificationCenter.inl; path = ../../ExternalAddons/ofxInterface/src/NotificationCenter.inl; sourceTree = "<group>"; };
 		BC6FCA19A36E06452711D6BB /* TouchEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchEvent.h; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.h; sourceTree = SOURCE_ROOT; };
 		C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterface.h; path = ../../ExternalAddons/ofxInterface/src/ofxInterface.h; sourceTree = SOURCE_ROOT; };
 		C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VirtualTouch.cpp; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.cpp; sourceTree = SOURCE_ROOT; };
@@ -145,7 +144,6 @@
 				C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */,
 				0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */,
 				BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */,
-				BBB839F11F8D1E2A00EBBD9E /* NotificationCenter.inl */,
 			);
 			name = src;
 			sourceTree = "<group>";
