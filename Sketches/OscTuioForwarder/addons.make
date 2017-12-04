@@ -1,0 +1,9 @@
+ofxOsc
+ofxXmlSettings
+ofxPoco
+../../ExternalAddons/ofxTimeMeasurements
+../../ExternalAddons/ofxRemoteUI
+../../ExternalAddons/ofxHistoryPlot
+../../ExternalAddons/ofxAnimatable
+../../ExternalAddons/ofxFontStash
+../../ExternalAddons/ofxScreenSetup
