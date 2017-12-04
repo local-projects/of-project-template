@@ -14,30 +14,13 @@
 		734F0888A9BF8D9047317CBC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64912E075D25BAA0827D3738 /* Node.cpp */; };
 		7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */; };
 		AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */; };
-		BB85546A1FD351E300EFB438 /* ofxAppDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8554631FD34F0A00EFB438 /* ofxAppDebug.a */; };
-		BBB839DE1F8C0C8F00EBBD9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839D51F8C0C8F00EBBD9E /* main.cpp */; };
-		BBB839DF1F8C0C8F00EBBD9E /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839D81F8C0C8F00EBBD9E /* ofApp.cpp */; };
-		BBB839E01F8C0C8F00EBBD9E /* ofxAppParsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839DA1F8C0C8F00EBBD9E /* ofxAppParsers.cpp */; };
-		BBB839E11F8C0C8F00EBBD9E /* TexturedObjectScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839DC1F8C0C8F00EBBD9E /* TexturedObjectScrollView.cpp */; };
+		BBB839EE1F8D1DF700EBBD9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839EB1F8D1DF700EBBD9E /* main.cpp */; };
+		BBB839EF1F8D1DF700EBBD9E /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */; };
 		C89892317443872222560708 /* LambdaView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA14255FCBB6906BB795F38 /* LambdaView.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BB8554621FD34F0A00EFB438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB85545D1FD34F0A00EFB438 /* ofxApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BB7B1AB91FC3DD9200CDD710;
-			remoteInfo = ofxApp;
-		};
-		BB85546B1FD3534200EFB438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB85545D1FD34F0A00EFB438 /* ofxApp.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BB7B1AB81FC3DD9200CDD710;
-			remoteInfo = ofxApp;
-		};
 		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
@@ -79,24 +62,17 @@
 		AC3DF92683BDEE69D00C661B /* TouchManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchManager.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchManager.cpp; sourceTree = SOURCE_ROOT; };
 		ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchEvent.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.cpp; sourceTree = SOURCE_ROOT; };
 		AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SolidColorPanel.h; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.h; sourceTree = SOURCE_ROOT; };
-		BB85545D1FD34F0A00EFB438 /* ofxApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ofxApp.xcodeproj; path = ../../ExternalAddons/ofxApp/ProjectFiles/osx/ofxApp.xcodeproj; sourceTree = "<group>"; };
-		BBB839D31F8C0C8F00EBBD9E /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../../ExternalAddons/ofxApp/example/src/CH_Object.h; sourceTree = "<group>"; };
-		BBB839D41F8C0C8F00EBBD9E /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../../ExternalAddons/ofxApp/example/src/CWRU_Object.h; sourceTree = "<group>"; };
-		BBB839D51F8C0C8F00EBBD9E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxApp/example/src/main.cpp; sourceTree = "<group>"; };
-		BBB839D61F8C0C8F00EBBD9E /* MyAppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppColors.h; path = ../../../ExternalAddons/ofxApp/example/src/MyAppColors.h; sourceTree = "<group>"; };
-		BBB839D71F8C0C8F00EBBD9E /* MyAppGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppGlobals.h; path = ../../../ExternalAddons/ofxApp/example/src/MyAppGlobals.h; sourceTree = "<group>"; };
-		BBB839D81F8C0C8F00EBBD9E /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxApp/example/src/ofApp.cpp; sourceTree = "<group>"; };
-		BBB839D91F8C0C8F00EBBD9E /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxApp/example/src/ofApp.h; sourceTree = "<group>"; };
-		BBB839DA1F8C0C8F00EBBD9E /* ofxAppParsers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAppParsers.cpp; path = ../../../ExternalAddons/ofxApp/example/src/ofxAppParsers.cpp; sourceTree = "<group>"; };
-		BBB839DB1F8C0C8F00EBBD9E /* ofxAppParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAppParsers.h; path = ../../../ExternalAddons/ofxApp/example/src/ofxAppParsers.h; sourceTree = "<group>"; };
-		BBB839DC1F8C0C8F00EBBD9E /* TexturedObjectScrollView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexturedObjectScrollView.cpp; path = ../../../ExternalAddons/ofxApp/example/src/TexturedObjectScrollView.cpp; sourceTree = "<group>"; };
-		BBB839DD1F8C0C8F00EBBD9E /* TexturedObjectScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexturedObjectScrollView.h; path = ../../../ExternalAddons/ofxApp/example/src/TexturedObjectScrollView.h; sourceTree = "<group>"; };
+		BBB839EB1F8D1DF700EBBD9E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ExternalAddons/ofxInterface/example-notifications/src/main.cpp"; sourceTree = "<group>"; };
+		BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.cpp"; sourceTree = "<group>"; };
+		BBB839ED1F8D1DF700EBBD9E /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.h"; sourceTree = "<group>"; };
+		BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = ../../ExternalAddons/ofxInterface/src/NotificationCenter.h; sourceTree = "<group>"; };
+		BBB839F11F8D1E2A00EBBD9E /* NotificationCenter.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NotificationCenter.inl; path = ../../ExternalAddons/ofxInterface/src/NotificationCenter.inl; sourceTree = "<group>"; };
 		BC6FCA19A36E06452711D6BB /* TouchEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchEvent.h; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.h; sourceTree = SOURCE_ROOT; };
 		C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterface.h; path = ../../ExternalAddons/ofxInterface/src/ofxInterface.h; sourceTree = SOURCE_ROOT; };
 		C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VirtualTouch.cpp; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.cpp; sourceTree = SOURCE_ROOT; };
 		D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitmapTextButton.cpp; path = ../../ExternalAddons/ofxInterface/src/components/BitmapTextButton.cpp; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* ofxAppExampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxAppExampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxInterface_exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
@@ -108,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB85546A1FD351E300EFB438 /* ofxAppDebug.a in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,14 +114,6 @@
 			name = local_addons;
 			sourceTree = "<group>";
 		};
-		BB4035EA1FC4AE82008EF146 /* ofxApp */ = {
-			isa = PBXGroup;
-			children = (
-				BB85545D1FD34F0A00EFB438 /* ofxApp.xcodeproj */,
-			);
-			name = ofxApp;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,12 +121,14 @@
 			name = addons;
 			sourceTree = "<group>";
 		};
-		BB85545E1FD34F0A00EFB438 /* Products */ = {
+		BBDE06681F264A1700F0F710 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB8554631FD34F0A00EFB438 /* ofxAppDebug.a */,
+				BBB839EB1F8D1DF700EBBD9E /* main.cpp */,
+				BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */,
+				BBB839ED1F8D1DF700EBBD9E /* ofApp.h */,
 			);
-			name = Products;
+			name = src;
 			sourceTree = "<group>";
 		};
 		CAECBE5257F59BCB0010CC44 /* src */ = {
@@ -175,6 +144,8 @@
 				E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */,
 				C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */,
 				0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */,
+				BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */,
+				BBB839F11F8D1E2A00EBBD9E /* NotificationCenter.inl */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -190,34 +161,15 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				BB4035EA1FC4AE82008EF146 /* ofxApp */,
+				BBDE06681F264A1700F0F710 /* src */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* ofxAppExampleDebug.app */,
+				E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleDebug.app */,
 			);
 			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BBB839D31F8C0C8F00EBBD9E /* CH_Object.h */,
-				BBB839D41F8C0C8F00EBBD9E /* CWRU_Object.h */,
-				BBB839D51F8C0C8F00EBBD9E /* main.cpp */,
-				BBB839D61F8C0C8F00EBBD9E /* MyAppColors.h */,
-				BBB839D71F8C0C8F00EBBD9E /* MyAppGlobals.h */,
-				BBB839D81F8C0C8F00EBBD9E /* ofApp.cpp */,
-				BBB839D91F8C0C8F00EBBD9E /* ofApp.h */,
-				BBB839DA1F8C0C8F00EBBD9E /* ofxAppParsers.cpp */,
-				BBB839DB1F8C0C8F00EBBD9E /* ofxAppParsers.h */,
-				BBB839DC1F8C0C8F00EBBD9E /* TexturedObjectScrollView.cpp */,
-				BBB839DD1F8C0C8F00EBBD9E /* TexturedObjectScrollView.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
 		};
 		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
 			isa = PBXGroup;
@@ -239,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* ofxAppExample */ = {
+		E4B69B5A0A3A1756003C02F2 /* ofxInterface_example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxAppExample" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterface_example" */;
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
@@ -252,12 +204,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				BB85546C1FD3534200EFB438 /* PBXTargetDependency */,
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
-			name = ofxAppExample;
+			name = ofxInterface_example;
 			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* ofxAppExampleDebug.app */;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,7 +219,7 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxAppExample" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterface_example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -283,29 +234,18 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = BB85545E1FD34F0A00EFB438 /* Products */;
-					ProjectRef = BB85545D1FD34F0A00EFB438 /* ofxApp.xcodeproj */;
-				},
-				{
 					ProductGroup = E4328144138ABC890047C5CB /* Products */;
 					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* ofxAppExample */,
+				E4B69B5A0A3A1756003C02F2 /* ofxInterface_example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BB8554631FD34F0A00EFB438 /* ofxAppDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = ofxAppDebug.a;
-			remoteRef = BB8554621FD34F0A00EFB438 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -349,29 +289,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB839E01F8C0C8F00EBBD9E /* ofxAppParsers.cpp in Sources */,
-				BBB839DE1F8C0C8F00EBBD9E /* main.cpp in Sources */,
 				1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */,
 				C89892317443872222560708 /* LambdaView.cpp in Sources */,
+				BBB839EE1F8D1DF700EBBD9E /* main.cpp in Sources */,
 				668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */,
 				AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */,
 				734F0888A9BF8D9047317CBC /* Node.cpp in Sources */,
-				BBB839E11F8C0C8F00EBBD9E /* TexturedObjectScrollView.cpp in Sources */,
+				BBB839EF1F8D1DF700EBBD9E /* ofApp.cpp in Sources */,
 				0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */,
 				197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */,
 				7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */,
-				BBB839DF1F8C0C8F00EBBD9E /* ofApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB85546C1FD3534200EFB438 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ofxApp;
-			targetProxy = BB85546B1FD3534200EFB438 /* PBXContainerItemProxy */;
-		};
 		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = openFrameworks;
@@ -392,17 +325,6 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_OFX_FONTSTASH,
-					USE_OFX_FONTSTASH2,
-					NANOVG_GL2_IMPLEMENTATION,
-					NANOVG_GL2_IMPLEMENTATION,
-					USE_OFX_FONTSTASH2,
-					USE_OFX_FONTSTASH,
-					USE_OFX_HISTORYPLOT,
-					USE_OFX_TIME_MEASUREMENTS,
-					USE_OFX_HISTORYPLOT,
-				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
@@ -412,34 +334,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_CFLAGS = (
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DUSE_OFX_TIME_MEASUREMENTS",
-					"-DUSE_OFX_FONTSTASH",
-					"-DUSE_OFX_FONTSTASH2",
-					"-DNO_RUI_WEBSOCKETS",
-					"-DNO_RUI_WEBSERVER",
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -454,26 +358,18 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
@@ -492,17 +388,6 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_OFX_FONTSTASH,
-					USE_OFX_FONTSTASH2,
-					NANOVG_GL2_IMPLEMENTATION,
-					NANOVG_GL2_IMPLEMENTATION,
-					USE_OFX_FONTSTASH2,
-					USE_OFX_FONTSTASH,
-					USE_OFX_HISTORYPLOT,
-					USE_OFX_TIME_MEASUREMENTS,
-					USE_OFX_HISTORYPLOT,
-				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
@@ -510,35 +395,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DUSE_OFX_TIME_MEASUREMENTS",
-					"-DUSE_OFX_FONTSTASH",
-					"-DUSE_OFX_FONTSTASH2",
-					"-DNO_RUI_WEBSOCKETS",
-					"-DNO_RUI_WEBSERVER",
-				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -556,17 +423,6 @@
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_OFX_FONTSTASH,
-					USE_OFX_FONTSTASH2,
-					NANOVG_GL2_IMPLEMENTATION,
-					NANOVG_GL2_IMPLEMENTATION,
-					USE_OFX_FONTSTASH2,
-					USE_OFX_FONTSTASH,
-					USE_OFX_HISTORYPLOT,
-					USE_OFX_TIME_MEASUREMENTS,
-					USE_OFX_HISTORYPLOT,
-				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
@@ -575,34 +431,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_CFLAGS = (
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DNANOVG_GL2_IMPLEMENTATION",
-					"-DUSE_OFX_TIME_MEASUREMENTS",
-					"-DUSE_OFX_FONTSTASH",
-					"-DUSE_OFX_FONTSTASH2",
-					"-DNO_RUI_WEBSOCKETS",
-					"-DNO_RUI_WEBSERVER",
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -618,26 +456,17 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
 			};
@@ -652,26 +481,17 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a,
-					../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a,
-					../../ExternalAddons/ofxLibwebsockets/libs/libwebsockets/lib/osx/libwebsockets.a,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
@@ -681,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxAppExample" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterface_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -691,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxAppExample" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterface_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,
