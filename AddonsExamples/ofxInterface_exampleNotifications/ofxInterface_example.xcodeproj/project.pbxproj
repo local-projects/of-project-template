@@ -14,8 +14,9 @@
 		734F0888A9BF8D9047317CBC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64912E075D25BAA0827D3738 /* Node.cpp */; };
 		7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */; };
 		AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */; };
-		BBB839EE1F8D1DF700EBBD9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839EB1F8D1DF700EBBD9E /* main.cpp */; };
-		BBB839EF1F8D1DF700EBBD9E /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */; };
+		BBAD67451FE99323005FC9A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAD673C1FE99323005FC9A0 /* main.cpp */; };
+		BBAD67461FE99323005FC9A0 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAD673D1FE99323005FC9A0 /* ofApp.cpp */; };
+		BBAD67471FE99323005FC9A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBAD673F1FE99323005FC9A0 /* README.md */; };
 		C89892317443872222560708 /* LambdaView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA14255FCBB6906BB795F38 /* LambdaView.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 /* End PBXBuildFile section */
@@ -62,10 +63,15 @@
 		AC3DF92683BDEE69D00C661B /* TouchManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchManager.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchManager.cpp; sourceTree = SOURCE_ROOT; };
 		ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchEvent.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.cpp; sourceTree = SOURCE_ROOT; };
 		AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SolidColorPanel.h; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.h; sourceTree = SOURCE_ROOT; };
-		BBB839EB1F8D1DF700EBBD9E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ExternalAddons/ofxInterface/example-notifications/src/main.cpp"; sourceTree = "<group>"; };
-		BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.cpp"; sourceTree = "<group>"; };
-		BBB839ED1F8D1DF700EBBD9E /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../ExternalAddons/ofxInterface/example-notifications/src/ofApp.h"; sourceTree = "<group>"; };
-		BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = ../../ExternalAddons/ofxInterface/src/NotificationCenter.h; sourceTree = "<group>"; };
+		BBAD67381FE99323005FC9A0 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		BBAD67391FE99323005FC9A0 /* addon_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addon_config.mk; sourceTree = "<group>"; };
+		BBAD673B1FE99323005FC9A0 /* addons.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addons.make; sourceTree = "<group>"; };
+		BBAD673C1FE99323005FC9A0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BBAD673D1FE99323005FC9A0 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		BBAD673E1FE99323005FC9A0 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		BBAD673F1FE99323005FC9A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBAD67421FE99323005FC9A0 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		BBAD67441FE99323005FC9A0 /* ofxNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNotificationCenter.h; sourceTree = "<group>"; };
 		BC6FCA19A36E06452711D6BB /* TouchEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchEvent.h; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.h; sourceTree = SOURCE_ROOT; };
 		C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterface.h; path = ../../ExternalAddons/ofxInterface/src/ofxInterface.h; sourceTree = SOURCE_ROOT; };
 		C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VirtualTouch.cpp; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.cpp; sourceTree = SOURCE_ROOT; };
@@ -108,6 +114,7 @@
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
+				BBAD67371FE99323005FC9A0 /* ofxNotificationCenter */,
 				F2162DDF1965162FDB4D9BB5 /* ofxInterface */,
 			);
 			name = local_addons;
@@ -120,12 +127,58 @@
 			name = addons;
 			sourceTree = "<group>";
 		};
+		BBAD67371FE99323005FC9A0 /* ofxNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD67381FE99323005FC9A0 /* .travis.yml */,
+				BBAD67391FE99323005FC9A0 /* addon_config.mk */,
+				BBAD673A1FE99323005FC9A0 /* example */,
+				BBAD673F1FE99323005FC9A0 /* README.md */,
+				BBAD67401FE99323005FC9A0 /* scripts */,
+				BBAD67431FE99323005FC9A0 /* src */,
+			);
+			name = ofxNotificationCenter;
+			path = ../../ExternalAddons/ofxNotificationCenter;
+			sourceTree = "<group>";
+		};
+		BBAD673A1FE99323005FC9A0 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD673B1FE99323005FC9A0 /* addons.make */,
+				BBAD673C1FE99323005FC9A0 /* main.cpp */,
+				BBAD673D1FE99323005FC9A0 /* ofApp.cpp */,
+				BBAD673E1FE99323005FC9A0 /* ofApp.h */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		BBAD67401FE99323005FC9A0 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD67411FE99323005FC9A0 /* ci */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		BBAD67411FE99323005FC9A0 /* ci */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD67421FE99323005FC9A0 /* install.sh */,
+			);
+			path = ci;
+			sourceTree = "<group>";
+		};
+		BBAD67431FE99323005FC9A0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD67441FE99323005FC9A0 /* ofxNotificationCenter.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BBDE06681F264A1700F0F710 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BBB839EB1F8D1DF700EBBD9E /* main.cpp */,
-				BBB839EC1F8D1DF700EBBD9E /* ofApp.cpp */,
-				BBB839ED1F8D1DF700EBBD9E /* ofApp.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -143,7 +196,6 @@
 				E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */,
 				C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */,
 				0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */,
-				BBB839F01F8D1E2A00EBBD9E /* NotificationCenter.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -289,13 +341,14 @@
 			files = (
 				1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */,
 				C89892317443872222560708 /* LambdaView.cpp in Sources */,
-				BBB839EE1F8D1DF700EBBD9E /* main.cpp in Sources */,
+				BBAD67451FE99323005FC9A0 /* main.cpp in Sources */,
 				668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */,
 				AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */,
 				734F0888A9BF8D9047317CBC /* Node.cpp in Sources */,
-				BBB839EF1F8D1DF700EBBD9E /* ofApp.cpp in Sources */,
+				BBAD67461FE99323005FC9A0 /* ofApp.cpp in Sources */,
 				0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */,
 				197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */,
+				BBAD67471FE99323005FC9A0 /* README.md in Sources */,
 				7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
