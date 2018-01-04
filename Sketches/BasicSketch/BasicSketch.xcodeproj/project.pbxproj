@@ -9,7 +9,7 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>0F95B5EA035A92510BBA967D</key>
+			<key>2680EB1727C7E8A6BFAD1EA4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -18,20 +18,47 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxScreenSetup.h</string>
+				<string>ofxScreenSetup.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxScreenSetup/src\ofxScreenSetup.h</string>
+				<string>../../ExternalAddons/ofxScreenSetup/src/ofxScreenSetup.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B07AD110C948A57108F2DAD8</key>
+			<key>30F6CDA9EF0AAFAE6D03A60E</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>7253F84C2A37603687105019</string>
+					<string>2680EB1727C7E8A6BFAD1EA4</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>07D135DAF2347079931E7327</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>30F6CDA9EF0AAFAE6D03A60E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxScreenSetup</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1C8DD6DEE06582FD45DDD14C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>D8FDC0F3BEF838FADA4C2F73</string>
+				<string>7253F84C2A37603687105019</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>D8FDC0F3BEF838FADA4C2F73</key>
+			<key>7253F84C2A37603687105019</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -40,13 +67,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxScreenSetup.cpp</string>
+				<string>ofxScreenSetup.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxScreenSetup/src\ofxScreenSetup.cpp</string>
+				<string>../../ExternalAddons/ofxScreenSetup/src/ofxScreenSetup.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B99914D6895EFBC77258D471</key>
+			<key>2884D0882E9BB292044AF969</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -55,20 +82,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\fontstash\src\stb_truetype.h</string>
+				<string>stb_truetype.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src\stb_truetype.h</string>
+				<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src/stb_truetype.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>22218DB5F0E3F813437EB954</key>
+			<key>4E04BBED9DBE55E250419712</key>
 			<dict>
 				<key>fileRef</key>
-				<string>66993EFBB6D90D357613AD4D</string>
+				<string>AADBB991EB7E8A40079428F9</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>66993EFBB6D90D357613AD4D</key>
+			<key>AADBB991EB7E8A40079428F9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.c</string>
@@ -77,13 +104,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\fontstash\src\stb_truetype.c</string>
+				<string>stb_truetype.c</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src\stb_truetype.c</string>
+				<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src/stb_truetype.c</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>AF8B0B36E9060A3EBACE353F</key>
+			<key>5980885A531065B9DDDE4EB8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -92,20 +119,62 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\fontstash\src\fontstash.h</string>
+				<string>fontstash.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src\fontstash.h</string>
+				<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src/fontstash.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>81F29384297D6F0F5735EC95</key>
+			<key>01B62EBC0D8D3B34CBE49FA3</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>2F1F43B1D032BF660E578A1C</string>
+					<string>5980885A531065B9DDDE4EB8</string>
+					<string>AADBB991EB7E8A40079428F9</string>
+					<string>2884D0882E9BB292044AF969</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>62C4C35774FF435220269444</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>01B62EBC0D8D3B34CBE49FA3</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>fontstash</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>ED02D5F2113B52AF673868D3</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>62C4C35774FF435220269444</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FD3FAFF994F3B5EB9C67451A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>FECA444D7F33165E648B30F5</string>
+				<string>2F1F43B1D032BF660E578A1C</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>FECA444D7F33165E648B30F5</key>
+			<key>2F1F43B1D032BF660E578A1C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.c</string>
@@ -114,13 +183,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\fontstash\src\fontstash.c</string>
+				<string>fontstash.c</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src\fontstash.c</string>
+				<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src/fontstash.c</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>213E28D2F261CAD94149FDFC</key>
+			<key>CDB3F20090A187761F40812F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -129,20 +198,48 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxFontStash.h</string>
+				<string>ofxFontStash.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/src\ofxFontStash.h</string>
+				<string>../../ExternalAddons/ofxFontStash/src/ofxFontStash.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DA10626604B61DED275D2701</key>
+			<key>F994DAE6B5D410D5BA4D060E</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8C988A07864863F53B7E125E</string>
+					<string>CDB3F20090A187761F40812F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FAD5CA8F119892047610C35A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>F994DAE6B5D410D5BA4D060E</string>
+					<string>ED02D5F2113B52AF673868D3</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxFontStash</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>09499D3E602185EF130FA72A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>816EA47F2243D788FB5F6717</string>
+				<string>8C988A07864863F53B7E125E</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>816EA47F2243D788FB5F6717</key>
+			<key>8C988A07864863F53B7E125E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -151,13 +248,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxFontStash.cpp</string>
+				<string>ofxFontStash.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxFontStash/src\ofxFontStash.cpp</string>
+				<string>../../ExternalAddons/ofxFontStash/src/ofxFontStash.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>37D70C0F2B7D798A0C997453</key>
+			<key>FF68189EF5210C1B3AC18621</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -166,20 +263,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableQueue.h</string>
+				<string>ofxAnimatableQueue.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableQueue.h</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CB69264D31D114988652A3FB</key>
+			<key>6C1D20D7EF04FE2EA8652279</key>
 			<dict>
 				<key>fileRef</key>
-				<string>D0520099564C5C74ED7CFED4</string>
+				<string>8F7BB9D9A1A9AD6AFA121F99</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>D0520099564C5C74ED7CFED4</key>
+			<key>8F7BB9D9A1A9AD6AFA121F99</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -188,13 +285,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableQueue.cpp</string>
+				<string>ofxAnimatableQueue.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableQueue.cpp</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>622BB9E5749B5026E871AD1F</key>
+			<key>8E0EE3A94131658AA144B2E0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -203,20 +300,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableOfPoint.h</string>
+				<string>ofxAnimatableOfPoint.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableOfPoint.h</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CDF3CF04C7588078C5EC7C2B</key>
+			<key>94F902D6857BEF04CA429979</key>
 			<dict>
 				<key>fileRef</key>
-				<string>FE00F2F0688DF4BBE540429B</string>
+				<string>52E115498B64D30010470550</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>FE00F2F0688DF4BBE540429B</key>
+			<key>52E115498B64D30010470550</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -225,13 +322,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableOfPoint.cpp</string>
+				<string>ofxAnimatableOfPoint.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableOfPoint.cpp</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BD61025F50B1E5F403FA38FC</key>
+			<key>B1CD54DDE1EA9286E9E3C011</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -240,20 +337,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableOfColor.h</string>
+				<string>ofxAnimatableOfColor.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableOfColor.h</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfColor.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>93DE6E5E7CE2417C86D1F3F8</key>
+			<key>345019F66CDF689909AB4F13</key>
 			<dict>
 				<key>fileRef</key>
-				<string>9BB7B3BD38530BAA8F419C89</string>
+				<string>C715AC19772B6F1CE018C58F</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>9BB7B3BD38530BAA8F419C89</key>
+			<key>C715AC19772B6F1CE018C58F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -262,13 +359,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableOfColor.cpp</string>
+				<string>ofxAnimatableOfColor.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableOfColor.cpp</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfColor.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>357170E98931F4204613B386</key>
+			<key>2F43723A77B0671B7786C39E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -277,20 +374,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableFloat.h</string>
+				<string>ofxAnimatableFloat.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableFloat.h</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableFloat.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>01C8A30171D9A44CCA17B578</key>
+			<key>B33249AEA0D8C83C8AE132D4</key>
 			<dict>
 				<key>fileRef</key>
-				<string>E9A8F1756C6EF37BFAFE7A59</string>
+				<string>77F6E955BE84D5F41DF32925</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>E9A8F1756C6EF37BFAFE7A59</key>
+			<key>77F6E955BE84D5F41DF32925</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -299,13 +396,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatableFloat.cpp</string>
+				<string>ofxAnimatableFloat.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatableFloat.cpp</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatableFloat.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8C5A6C15790A1532F95B1866</key>
+			<key>53F02FB9B1725AE3D8566690</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -314,20 +411,55 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatable.h</string>
+				<string>ofxAnimatable.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatable.h</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>41B58CBFE28377597E1648EF</key>
+			<key>1773F456C12DA9AE43E1BA7E</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>BFE9B0A14FFBBDBDC5AB2A3A</string>
+					<string>53F02FB9B1725AE3D8566690</string>
+					<string>77F6E955BE84D5F41DF32925</string>
+					<string>2F43723A77B0671B7786C39E</string>
+					<string>C715AC19772B6F1CE018C58F</string>
+					<string>B1CD54DDE1EA9286E9E3C011</string>
+					<string>52E115498B64D30010470550</string>
+					<string>8E0EE3A94131658AA144B2E0</string>
+					<string>8F7BB9D9A1A9AD6AFA121F99</string>
+					<string>FF68189EF5210C1B3AC18621</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>ED7337D538DDBB66F862A492</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>1773F456C12DA9AE43E1BA7E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxAnimatable</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E13CEC105F736D529D317C7B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3BADF119DB9AD3E3A835E725</string>
+				<string>BFE9B0A14FFBBDBDC5AB2A3A</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3BADF119DB9AD3E3A835E725</key>
+			<key>BFE9B0A14FFBBDBDC5AB2A3A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -336,13 +468,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxAnimatable.cpp</string>
+				<string>ofxAnimatable.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxAnimatable/src\ofxAnimatable.cpp</string>
+				<string>../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E7819EB8889A8B526A2FAECE</key>
+			<key>17C672C67AB1E03402019C8F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -351,20 +483,47 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxHistoryPlot.h</string>
+				<string>ofxHistoryPlot.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxHistoryPlot/src\ofxHistoryPlot.h</string>
+				<string>../../ExternalAddons/ofxHistoryPlot/src/ofxHistoryPlot.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1F1E34170B59C9320CCF7E74</key>
+			<key>D4CC8DF1385BDF4B0636F780</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6DBD16E08C3D5A193FF30643</string>
+					<string>17C672C67AB1E03402019C8F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>4928A92ED5B27C2789CA7845</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>D4CC8DF1385BDF4B0636F780</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxHistoryPlot</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FC7A347B4FFFF65BA56DB24B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>AD41A84C6E71C10D6B683769</string>
+				<string>6DBD16E08C3D5A193FF30643</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>AD41A84C6E71C10D6B683769</key>
+			<key>6DBD16E08C3D5A193FF30643</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -373,13 +532,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxHistoryPlot.cpp</string>
+				<string>ofxHistoryPlot.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxHistoryPlot/src\ofxHistoryPlot.cpp</string>
+				<string>../../ExternalAddons/ofxHistoryPlot/src/ofxHistoryPlot.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>81DC4D5FE7B14CFF68707B51</key>
+			<key>BBCF5BFC230D5188B3DE8359</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -388,20 +547,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\uriencode.h</string>
+				<string>uriencode.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\uriencode.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/uriencode.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>AC27DD1F5087DF64D3840092</key>
+			<key>4F2BDE2719E697BEC37E2EC2</key>
 			<dict>
 				<key>fileRef</key>
-				<string>264BAB1FB4E3D40B194DD108</string>
+				<string>8FB25397694DCEDC255D8FF8</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>264BAB1FB4E3D40B194DD108</key>
+			<key>8FB25397694DCEDC255D8FF8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -410,20 +569,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\uriencode.cpp</string>
+				<string>uriencode.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\uriencode.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/uriencode.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8280FCF8E9769BC11B703495</key>
+			<key>649CDADD0DCA15B2D83110EF</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3104407189C6FE1869EFA5A3</string>
+				<string>CECB18B68600B4176892BED2</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3104407189C6FE1869EFA5A3</key>
+			<key>CECB18B68600B4176892BED2</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -432,13 +591,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\RUIWebBinary.cpp</string>
+				<string>RUIWebBinary.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\RUIWebBinary.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/RUIWebBinary.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8349DFDC50C07442DDB7BA78</key>
+			<key>918920A25168C6B1BBF38D7B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -447,13 +606,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\RemoteParam.h</string>
+				<string>RemoteParam.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\RemoteParam.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/RemoteParam.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>05E15D596472685FCCAEBA58</key>
+			<key>611293A209AE220935A47509</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -462,20 +621,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIWebServer.h</string>
+				<string>ofxRemoteUIWebServer.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIWebServer.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIWebServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>EDA7EB4C9221430A283B7A6A</key>
+			<key>8DC28E682270E67ECB89C400</key>
 			<dict>
 				<key>fileRef</key>
-				<string>2749E258FA30E72367BDFAE8</string>
+				<string>F1D287072165A09CD61F0AF3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>2749E258FA30E72367BDFAE8</key>
+			<key>F1D287072165A09CD61F0AF3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -484,13 +643,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIWebServer.cpp</string>
+				<string>ofxRemoteUIWebServer.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIWebServer.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIWebServer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>314206966ED400DEA8131CAC</key>
+			<key>0572FB51E42261684CEDFF51</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -499,13 +658,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIVars.h</string>
+				<string>ofxRemoteUIVars.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIVars.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIVars.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3EA0041839546BF75D7089D6</key>
+			<key>BC3FAF086572A19C05B71387</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -514,13 +673,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUISimpleNotifications.h</string>
+				<string>ofxRemoteUISimpleNotifications.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUISimpleNotifications.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7DD96C29053B5FE417FF8783</key>
+			<key>0A25FF7E0AC0CCEF80883F12</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -529,13 +688,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIServerMacros.h</string>
+				<string>ofxRemoteUIServerMacros.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIServerMacros.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIServerMacros.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B17F64B2C7F946DA5F59150D</key>
+			<key>A3AFB2DBDCD962E9C84691C1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -544,20 +703,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIServer.h</string>
+				<string>ofxRemoteUIServer.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIServer.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIServer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>85DF14B736C3345BBD53213F</key>
+			<key>B5AF721B2D306A70C2E7186B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>62A6CDC6FF93A530CC26C411</string>
+				<string>0697B00065A3B433EADDCD82</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>62A6CDC6FF93A530CC26C411</key>
+			<key>0697B00065A3B433EADDCD82</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -566,13 +725,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIServer.cpp</string>
+				<string>ofxRemoteUIServer.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIServer.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIServer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4591DE6F798924CC107DB98B</key>
+			<key>3CC32C73FF00A77C7747B40C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -581,20 +740,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIofParamaterSync.h</string>
+				<string>ofxRemoteUIofParamaterSync.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIofParamaterSync.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIofParamaterSync.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1193CC15A549349FC0F9B604</key>
+			<key>9230170133880F2D9BFD65A3</key>
 			<dict>
 				<key>fileRef</key>
-				<string>8AD872DEA57FD81E5252DA83</string>
+				<string>DE90C107FBE1D212B87EE9F8</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>8AD872DEA57FD81E5252DA83</key>
+			<key>DE90C107FBE1D212B87EE9F8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -603,13 +762,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIofParamaterSync.cpp</string>
+				<string>ofxRemoteUIofParamaterSync.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIofParamaterSync.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIofParamaterSync.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A02DF9880431FF89BF20DDAC</key>
+			<key>F29DC702833F30894D699307</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -618,20 +777,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUINeigbors.h</string>
+				<string>ofxRemoteUINeigbors.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUINeigbors.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUINeigbors.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>18E91971AFED4BEEAC2CC3B3</key>
+			<key>88516A6B26B002345087E741</key>
 			<dict>
 				<key>fileRef</key>
-				<string>F51E98581EF51469A56386BA</string>
+				<string>A25EBF965ED94265F20A0A16</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>F51E98581EF51469A56386BA</key>
+			<key>A25EBF965ED94265F20A0A16</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -640,13 +799,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUINeigbors.cpp</string>
+				<string>ofxRemoteUINeigbors.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUINeigbors.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUINeigbors.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A52002B1C86DEEC50BF3BDBC</key>
+			<key>2F96EF71F904F42ABB97D6BA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -655,20 +814,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIClient.h</string>
+				<string>ofxRemoteUIClient.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIClient.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIClient.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F1B22B5865DBD3722B3AF873</key>
+			<key>867198CD707F5B0CF9C7C83F</key>
 			<dict>
 				<key>fileRef</key>
-				<string>87A7C8DE0DF8C5F18F0EED9E</string>
+				<string>D620B3489D730DC2532633E3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>87A7C8DE0DF8C5F18F0EED9E</key>
+			<key>D620B3489D730DC2532633E3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -677,13 +836,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUIClient.cpp</string>
+				<string>ofxRemoteUIClient.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUIClient.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUIClient.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A278D4054C07D91222E498AA</key>
+			<key>0E73CC0CC2DC69392F2EC53D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -692,20 +851,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUI.h</string>
+				<string>ofxRemoteUI.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUI.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUI.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D4939793528441F209A758A6</key>
+			<key>0594EC0999E170E9D4D4CE44</key>
 			<dict>
 				<key>fileRef</key>
-				<string>E112B7892A5CB0D67D13BE8E</string>
+				<string>CA7A31FAD20A633C0EB7A73E</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>E112B7892A5CB0D67D13BE8E</key>
+			<key>CA7A31FAD20A633C0EB7A73E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -714,13 +873,58 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxRemoteUI.cpp</string>
+				<string>ofxRemoteUI.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\ofxRemoteUI.cpp</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUI.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1877C7D73C6A6247AE554C68</key>
+			<key>415D5E519F28EDB1929BC34B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>9F052A6C09EC04CE00CB764F</string>
+					<string>CA7A31FAD20A633C0EB7A73E</string>
+					<string>0E73CC0CC2DC69392F2EC53D</string>
+					<string>D620B3489D730DC2532633E3</string>
+					<string>2F96EF71F904F42ABB97D6BA</string>
+					<string>A25EBF965ED94265F20A0A16</string>
+					<string>F29DC702833F30894D699307</string>
+					<string>DE90C107FBE1D212B87EE9F8</string>
+					<string>3CC32C73FF00A77C7747B40C</string>
+					<string>0697B00065A3B433EADDCD82</string>
+					<string>A3AFB2DBDCD962E9C84691C1</string>
+					<string>0A25FF7E0AC0CCEF80883F12</string>
+					<string>BC3FAF086572A19C05B71387</string>
+					<string>0572FB51E42261684CEDFF51</string>
+					<string>F1D287072165A09CD61F0AF3</string>
+					<string>611293A209AE220935A47509</string>
+					<string>918920A25168C6B1BBF38D7B</string>
+					<string>CECB18B68600B4176892BED2</string>
+					<string>8FB25397694DCEDC255D8FF8</string>
+					<string>BBCF5BFC230D5188B3DE8359</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6EF0FDC4781F206366A051E5</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>415D5E519F28EDB1929BC34B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxRemoteUI</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>9F052A6C09EC04CE00CB764F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -729,13 +933,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\dirent_vs.h</string>
+				<string>dirent_vs.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxRemoteUI/src\dirent_vs.h</string>
+				<string>../../ExternalAddons/ofxRemoteUI/src/dirent_vs.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>460A84D2C5D161BCD6DA00D7</key>
+			<key>656296A3F6AE4DF9B513F9B0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -744,13 +948,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxTimeMeasurementsScoped.h</string>
+				<string>ofxTimeMeasurementsScoped.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxTimeMeasurements/src\ofxTimeMeasurementsScoped.h</string>
+				<string>../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsScoped.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>53D41E9634F2ADE9CF5DE7BF</key>
+			<key>7A6FDA0E478EDEF614EDDDB3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -759,13 +963,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxTimeMeasurementsMacros.h</string>
+				<string>ofxTimeMeasurementsMacros.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxTimeMeasurements/src\ofxTimeMeasurementsMacros.h</string>
+				<string>../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsMacros.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6502077C403F342D444C0C5E</key>
+			<key>569DA45655AF84D7959F2362</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -774,20 +978,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxTimeMeasurements.h</string>
+				<string>ofxTimeMeasurements.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxTimeMeasurements/src\ofxTimeMeasurements.h</string>
+				<string>../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>51A90B0A60BF4A8EDB001D57</key>
+			<key>9F9F8850CD1066AEE052800B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>026EFD43D95996B2A794AD40</string>
+				<string>B8AEC5B896853B6FC7C19C68</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>026EFD43D95996B2A794AD40</key>
+			<key>B8AEC5B896853B6FC7C19C68</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -796,13 +1000,43 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxTimeMeasurements.cpp</string>
+				<string>ofxTimeMeasurements.cpp</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxTimeMeasurements/src\ofxTimeMeasurements.cpp</string>
+				<string>../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>258F142978EFA172C80378A5</key>
+			<key>158635681647526293F545E1</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>20D1411DA271B2BEBCDECADC</string>
+					<string>B8AEC5B896853B6FC7C19C68</string>
+					<string>569DA45655AF84D7959F2362</string>
+					<string>7A6FDA0E478EDEF614EDDDB3</string>
+					<string>656296A3F6AE4DF9B513F9B0</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1C02E16201287DD7B0F97B68</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>158635681647526293F545E1</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxTimeMeasurements</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>20D1411DA271B2BEBCDECADC</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -811,20 +1045,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\GL_Measurement.h</string>
+				<string>GL_Measurement.h</string>
 				<key>path</key>
-				<string>../../ExternalAddons/ofxTimeMeasurements/src\GL_Measurement.h</string>
+				<string>../../ExternalAddons/ofxTimeMeasurements/src/GL_Measurement.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>946BE8D340804A5C83C63EF4</key>
+			<key>21AEFDF3F78AE07CCA61A662</key>
 			<dict>
 				<key>fileRef</key>
-				<string>B35BBC92A7B6495A33D5BF00</string>
+				<string>AE48BFEA89164DD097A290B9</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>B35BBC92A7B6495A33D5BF00</key>
+			<key>AE48BFEA89164DD097A290B9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -833,20 +1067,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\tinyxmlparser.cpp</string>
+				<string>tinyxmlparser.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/libs\tinyxmlparser.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlparser.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7956100615D79A349CB83FEA</key>
+			<key>64C97810FFA5FBAA0EF21B38</key>
 			<dict>
 				<key>fileRef</key>
-				<string>F8FDE95348CC9222477B64E7</string>
+				<string>BC353DDAF05D3994D07433F1</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>F8FDE95348CC9222477B64E7</key>
+			<key>BC353DDAF05D3994D07433F1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -855,13 +1089,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\tinyxmlerror.cpp</string>
+				<string>tinyxmlerror.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/libs\tinyxmlerror.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A7271200D63AB2977145450D</key>
+			<key>6760F4F516B8CA85B1C4240A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -870,20 +1104,36 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\tinyxml.h</string>
+				<string>tinyxml.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/libs\tinyxml.h</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxml.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3B4B8D89DEBC6DFB48917C91</key>
+			<key>6E54289412D2D94F45A05113</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>CD11E1582CE4E65E6E7C9F26</string>
+					<string>6760F4F516B8CA85B1C4240A</string>
+					<string>BC353DDAF05D3994D07433F1</string>
+					<string>AE48BFEA89164DD097A290B9</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E73B8C4450C782C52FCCBAD4</key>
 			<dict>
 				<key>fileRef</key>
-				<string>7F963CDCA069C7BAEF37A8AF</string>
+				<string>CD11E1582CE4E65E6E7C9F26</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>7F963CDCA069C7BAEF37A8AF</key>
+			<key>CD11E1582CE4E65E6E7C9F26</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -892,13 +1142,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\tinyxml.cpp</string>
+				<string>tinyxml.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/libs\tinyxml.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxml.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>16E703FCC729CECADDE181F9</key>
+			<key>454A1AEDABDA4CCE34450A12</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -907,20 +1157,48 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxXmlSettings.h</string>
+				<string>ofxXmlSettings.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/src\ofxXmlSettings.h</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6E39DBC9FB1969960D609CAF</key>
+			<key>6ECEF0D76BC33727823EADFF</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>95AC613A7AFD71D147359C5F</string>
+					<string>454A1AEDABDA4CCE34450A12</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1F4FB5C423662B96ADFDCC0B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6ECEF0D76BC33727823EADFF</string>
+					<string>6E54289412D2D94F45A05113</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxXmlSettings</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>0EA5725384DF8D68BCC2427C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>ED9B5F0B1B8B33A18F5ED67F</string>
+				<string>95AC613A7AFD71D147359C5F</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>ED9B5F0B1B8B33A18F5ED67F</key>
+			<key>95AC613A7AFD71D147359C5F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -929,13 +1207,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxXmlSettings.cpp</string>
+				<string>ofxXmlSettings.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxXmlSettings/src\ofxXmlSettings.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8D5EE2ED9B92E3BD75140C98</key>
+			<key>A77FB557CD4BB7136ECD5A1B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -944,20 +1222,1315 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxXmlPoco.h</string>
+				<string>x509v3.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxPoco/src\ofxXmlPoco.h</string>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/x509v3.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5ECB4E71A96066EC5A4FF1FC</key>
+			<key>8194E4C7BD5B7AD8B29C96CA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>x509_vfy.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/x509_vfy.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D9BC1FC1F4EBC235E4E3F302</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>x509.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/x509.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F2E1BD30CA7A7EA003B4A95A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>whrlpool.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/whrlpool.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A34E3885FD99A1B80BDF319F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ui_compat.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ui_compat.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C99508573F17231907C9137E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ui.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ui.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5F64EAB931FC55E89B342B29</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>txt_db.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/txt_db.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>37B28A39B6BC1D18426CE8B3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ts.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ts.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>80DA7B8DC53DFD7FE60C3EE6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>tls1.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/tls1.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C12E9EEB8AD17F43826930AD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>symhacks.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/symhacks.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CC4022DEA0A540E7B6A36D76</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>stack.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/stack.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>612B89DBBFEE42AA65AB8FC2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ssl3.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ssl3.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>FB78C125699B4B6BE0E1606A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ssl23.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ssl23.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>11C8D17AF39A4F40664E8085</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ssl2.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ssl2.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>32F9641353EB6A8F8AD8B161</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ssl.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ssl.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F7CBFCB7D77CBAB78A41FBC2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>srtp.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/srtp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>48F1CF1B3019C74C25E1C658</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>srp.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/srp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BB56B924F5A25704D3159095</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>sha.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D2F197417744DF5ED6C86673</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>seed.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/seed.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DAE5397A92B00115F21B6556</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>safestack.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/safestack.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>77DFE8676DD4ACF67BBA30D3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rsa.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/rsa.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BA16270D20A9486D53B31B95</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ripemd.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>829142BFC3E05E4661CC7AC6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rc4.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/rc4.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EC56C9D753A3C3F64F9691B6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rc2.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/rc2.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>431145D333BCC41CA7FA0522</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rand.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/rand.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AD637EF5D87E20F2DB3575B7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>pqueue.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pqueue.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>ABBBD00922AC4EA644AEF76A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>pkcs7.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pkcs7.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B67EC1220B1C93868485C653</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>pkcs12.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pkcs12.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2A551779E68BB0DFF0E0BFD5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>pem2.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pem2.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>621C960B7B0524E11319E1F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>pem.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/pem.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B4BDADCFF6620168E977C837</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ossl_typ.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>32897B1153C1F66055CB8949</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>opensslv.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslv.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B79CB5CB0C032F136757BC17</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>opensslconf_osx.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslconf_osx.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>43277B8993EDC45A1117A26B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>opensslconf.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/opensslconf.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2A8D76290864BF24015909E4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ocsp.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ocsp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>187E74FD4780F4CA68B997D1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>objects.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/objects.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>961ABB575206BAE87FF4653F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>obj_mac.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/obj_mac.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>626529DF7C1DFC897C9F230A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>modes.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/modes.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1A6CB7A19A6A69151A8550D6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>mdc2.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/mdc2.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6BDB7359B0C7C768671CFDA0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>md5.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/md5.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>258485C25CBC80981137422D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>md4.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/md4.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>91853A71FE74C31DC9964BEE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>lhash.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/lhash.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D8AADED2A3B851A156188BF5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>kssl.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/kssl.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>86FE5F9CE95DF0C64E448062</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>krb5_asn.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/krb5_asn.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DCBF382EF97845A974C6382D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>idea.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/idea.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C7840DFDE186EE170972A6F5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>hmac.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/hmac.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>55014A3AB44CF82E5AF793FD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>evp.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/evp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C06DAC66F51D07FA1BC3AE5D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>err.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/err.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C76E01ECCB3711BDC71E04D8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>engine.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/engine.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B8581C32877ED7F33F6F7B3E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ecdsa.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ecdsa.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9D887C9BDA9FF0DF31E89C5F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ecdh.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ecdh.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1D6DDB700E5ACDB47B926116</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ec.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ec.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>32505808F9967774CF449527</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ebcdic.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ebcdic.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B191458410048AF6690712E1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>e_os2.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/e_os2.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0D7369D17ED3FB7828581C7F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dtls1.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dtls1.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A56EE43CFB6DC222EEAB4B55</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dso.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dso.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5969B17E41EBE2B939FDFE01</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dsa.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dsa.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>772973A358B1010A96B5D20D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dh.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/dh.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A95F721E7CDFD3790B65139F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>des_old.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/des_old.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9E6F1D0BE62C9A6983475D9B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>des.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/des.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B41897C2C208195C21B89DD2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>crypto.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/crypto.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>53244B2D8596A411053FD269</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>conf_api.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/conf_api.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EC734B5F2EF06A35FA602928</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>conf.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/conf.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5B2D962944947973C2533DC5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>comp.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/comp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>04CF99809F708A24D54C1645</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>cms.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/cms.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9AEBEBA409AE6CED9A44DA77</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>cmac.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/cmac.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BE929EB04FF743BB0200713B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>cast.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/cast.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>229A147A6EE383BD90545B98</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>camellia.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/camellia.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0B7E29347CCC914F187643F4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>buffer.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/buffer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>06AE6EBA3CC5DAE55F32720A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>bn.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/bn.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C345BA165523D2D3BDFE5319</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>blowfish.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/blowfish.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D5F4569D40BA980A68EAD244</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>bio.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/bio.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BCCCF102DE2F4CB002C4B895</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>asn1t.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1t.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AB5316187239A304ADC9457F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>asn1_mac.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1_mac.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>83370E382CBA682E1FEA64E2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>asn1.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>70E25EBAAB745F09329DDB44</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8735A038D4887BDE606566C0</string>
+					<string>83370E382CBA682E1FEA64E2</string>
+					<string>AB5316187239A304ADC9457F</string>
+					<string>BCCCF102DE2F4CB002C4B895</string>
+					<string>D5F4569D40BA980A68EAD244</string>
+					<string>C345BA165523D2D3BDFE5319</string>
+					<string>06AE6EBA3CC5DAE55F32720A</string>
+					<string>0B7E29347CCC914F187643F4</string>
+					<string>229A147A6EE383BD90545B98</string>
+					<string>BE929EB04FF743BB0200713B</string>
+					<string>9AEBEBA409AE6CED9A44DA77</string>
+					<string>04CF99809F708A24D54C1645</string>
+					<string>5B2D962944947973C2533DC5</string>
+					<string>EC734B5F2EF06A35FA602928</string>
+					<string>53244B2D8596A411053FD269</string>
+					<string>B41897C2C208195C21B89DD2</string>
+					<string>9E6F1D0BE62C9A6983475D9B</string>
+					<string>A95F721E7CDFD3790B65139F</string>
+					<string>772973A358B1010A96B5D20D</string>
+					<string>5969B17E41EBE2B939FDFE01</string>
+					<string>A56EE43CFB6DC222EEAB4B55</string>
+					<string>0D7369D17ED3FB7828581C7F</string>
+					<string>B191458410048AF6690712E1</string>
+					<string>32505808F9967774CF449527</string>
+					<string>1D6DDB700E5ACDB47B926116</string>
+					<string>9D887C9BDA9FF0DF31E89C5F</string>
+					<string>B8581C32877ED7F33F6F7B3E</string>
+					<string>C76E01ECCB3711BDC71E04D8</string>
+					<string>C06DAC66F51D07FA1BC3AE5D</string>
+					<string>55014A3AB44CF82E5AF793FD</string>
+					<string>C7840DFDE186EE170972A6F5</string>
+					<string>DCBF382EF97845A974C6382D</string>
+					<string>86FE5F9CE95DF0C64E448062</string>
+					<string>D8AADED2A3B851A156188BF5</string>
+					<string>91853A71FE74C31DC9964BEE</string>
+					<string>258485C25CBC80981137422D</string>
+					<string>6BDB7359B0C7C768671CFDA0</string>
+					<string>1A6CB7A19A6A69151A8550D6</string>
+					<string>626529DF7C1DFC897C9F230A</string>
+					<string>961ABB575206BAE87FF4653F</string>
+					<string>187E74FD4780F4CA68B997D1</string>
+					<string>2A8D76290864BF24015909E4</string>
+					<string>43277B8993EDC45A1117A26B</string>
+					<string>B79CB5CB0C032F136757BC17</string>
+					<string>32897B1153C1F66055CB8949</string>
+					<string>B4BDADCFF6620168E977C837</string>
+					<string>621C960B7B0524E11319E1F2</string>
+					<string>2A551779E68BB0DFF0E0BFD5</string>
+					<string>B67EC1220B1C93868485C653</string>
+					<string>ABBBD00922AC4EA644AEF76A</string>
+					<string>AD637EF5D87E20F2DB3575B7</string>
+					<string>431145D333BCC41CA7FA0522</string>
+					<string>EC56C9D753A3C3F64F9691B6</string>
+					<string>829142BFC3E05E4661CC7AC6</string>
+					<string>BA16270D20A9486D53B31B95</string>
+					<string>77DFE8676DD4ACF67BBA30D3</string>
+					<string>DAE5397A92B00115F21B6556</string>
+					<string>D2F197417744DF5ED6C86673</string>
+					<string>BB56B924F5A25704D3159095</string>
+					<string>48F1CF1B3019C74C25E1C658</string>
+					<string>F7CBFCB7D77CBAB78A41FBC2</string>
+					<string>32F9641353EB6A8F8AD8B161</string>
+					<string>11C8D17AF39A4F40664E8085</string>
+					<string>FB78C125699B4B6BE0E1606A</string>
+					<string>612B89DBBFEE42AA65AB8FC2</string>
+					<string>CC4022DEA0A540E7B6A36D76</string>
+					<string>C12E9EEB8AD17F43826930AD</string>
+					<string>80DA7B8DC53DFD7FE60C3EE6</string>
+					<string>37B28A39B6BC1D18426CE8B3</string>
+					<string>5F64EAB931FC55E89B342B29</string>
+					<string>C99508573F17231907C9137E</string>
+					<string>A34E3885FD99A1B80BDF319F</string>
+					<string>F2E1BD30CA7A7EA003B4A95A</string>
+					<string>D9BC1FC1F4EBC235E4E3F302</string>
+					<string>8194E4C7BD5B7AD8B29C96CA</string>
+					<string>A77FB557CD4BB7136ECD5A1B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>openssl</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>13C2436A78CDB4354594CA7D</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>70E25EBAAB745F09329DDB44</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>B2C98B62869583DB9FE30DA7</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>13C2436A78CDB4354594CA7D</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>openssl</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>959BC13926B6C962531CEF17</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B2C98B62869583DB9FE30DA7</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8735A038D4887BDE606566C0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>aes.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/aes.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2F96D090B22CB31EB2B268AA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxXmlPoco.h</string>
+				<key>path</key>
+				<string>../../OpenFrameworks/addons/ofxPoco/src/ofxXmlPoco.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0EFE45161A4E28BDE46D84D0</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6D3B1E8C8AF335278560FF39</string>
+					<string>2F96D090B22CB31EB2B268AA</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>0117D94CE0C695E5E5482BEC</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0EFE45161A4E28BDE46D84D0</string>
+					<string>959BC13926B6C962531CEF17</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxPoco</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>9D12BE9B8F1D1E4080643C6D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>CD7794DDB9AAB260EF8ECCE8</string>
+				<string>6D3B1E8C8AF335278560FF39</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>CD7794DDB9AAB260EF8ECCE8</key>
+			<key>6D3B1E8C8AF335278560FF39</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -966,13 +2539,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxXmlPoco.cpp</string>
+				<string>ofxXmlPoco.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxPoco/src\ofxXmlPoco.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxPoco/src/ofxXmlPoco.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C5E55EA63B8A7E76F797993B</key>
+			<key>3558E20877DFAB08BB08F991</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -981,20 +2554,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscTypes.h</string>
+				<string>OscTypes.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscTypes.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>54E560FDC9CED25F7B60A080</key>
+			<key>3EE2DB2F6F2B06EDD745CA4C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>5A941417F892F772B7EDE38B</string>
+				<string>EB66CB0E1883D43752D0A3C1</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>5A941417F892F772B7EDE38B</key>
+			<key>EB66CB0E1883D43752D0A3C1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1003,13 +2576,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscTypes.cpp</string>
+				<string>OscTypes.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscTypes.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9CCF459A49EF424C55A28F0A</key>
+			<key>E513C68A4EA02BDE9FC2CC9C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1018,20 +2591,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscReceivedElements.h</string>
+				<string>OscReceivedElements.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscReceivedElements.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C23A42A3F5B8A25FB37DF54D</key>
+			<key>B0DED94E327D8813DF0A7B67</key>
 			<dict>
 				<key>fileRef</key>
-				<string>72B291F2E2FED29BEC0E7D88</string>
+				<string>48A61DDA77A363E5184007AC</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>72B291F2E2FED29BEC0E7D88</key>
+			<key>48A61DDA77A363E5184007AC</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1040,13 +2613,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscReceivedElements.cpp</string>
+				<string>OscReceivedElements.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscReceivedElements.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CB89D05B85B46C23AAC45F75</key>
+			<key>985B820BE26100DBDE2F59B7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1055,20 +2628,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscPrintReceivedElements.h</string>
+				<string>OscPrintReceivedElements.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscPrintReceivedElements.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6D6FD9481B151CC3D76CB208</key>
+			<key>B93F0A05F64CF304FB6F5CBE</key>
 			<dict>
 				<key>fileRef</key>
-				<string>8D738462CC8BBADFC3FA2FAF</string>
+				<string>46BBD2967765719B442C6BF4</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>8D738462CC8BBADFC3FA2FAF</key>
+			<key>46BBD2967765719B442C6BF4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1077,13 +2650,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscPrintReceivedElements.cpp</string>
+				<string>OscPrintReceivedElements.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscPrintReceivedElements.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>226D88716D169BECEAC46BD2</key>
+			<key>8832BE4BA60BD48AE9E18E0E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1092,13 +2665,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscPacketListener.h</string>
+				<string>OscPacketListener.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscPacketListener.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CFFB7F3AF2611D5831E26859</key>
+			<key>D036CB0048C7402234774C45</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1107,20 +2680,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscOutboundPacketStream.h</string>
+				<string>OscOutboundPacketStream.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscOutboundPacketStream.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>41C31AA1B9AFC9AAACC00B16</key>
+			<key>13D96CD79B4EA5F04A313F53</key>
 			<dict>
 				<key>fileRef</key>
-				<string>4A8FF9D1333B1859CB7F8888</string>
+				<string>3CACD7F8E07AA5F56E349161</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>4A8FF9D1333B1859CB7F8888</key>
+			<key>3CACD7F8E07AA5F56E349161</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1129,13 +2702,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscOutboundPacketStream.cpp</string>
+				<string>OscOutboundPacketStream.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscOutboundPacketStream.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3D3DE55E3A6693E932638CE9</key>
+			<key>398D9402F54E5579A0C42D50</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1144,13 +2717,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscHostEndianness.h</string>
+				<string>OscHostEndianness.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscHostEndianness.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>33E14B962CC0038A662C1805</key>
+			<key>706CE60050218D58A5BB6669</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1159,13 +2732,37 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\OscException.h</string>
+				<string>OscException.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\OscException.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2E4E94966D66E031D18521F7</key>
+			<key>30CB364908817057B430D528</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>D97E3E55F89CAAF6FEA80E76</string>
+					<string>706CE60050218D58A5BB6669</string>
+					<string>398D9402F54E5579A0C42D50</string>
+					<string>3CACD7F8E07AA5F56E349161</string>
+					<string>D036CB0048C7402234774C45</string>
+					<string>8832BE4BA60BD48AE9E18E0E</string>
+					<string>46BBD2967765719B442C6BF4</string>
+					<string>985B820BE26100DBDE2F59B7</string>
+					<string>48A61DDA77A363E5184007AC</string>
+					<string>E513C68A4EA02BDE9FC2CC9C</string>
+					<string>EB66CB0E1883D43752D0A3C1</string>
+					<string>3558E20877DFAB08BB08F991</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>osc</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>D97E3E55F89CAAF6FEA80E76</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1174,13 +2771,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\osc\MessageMappingOscPacketListener.h</string>
+				<string>MessageMappingOscPacketListener.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc\MessageMappingOscPacketListener.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>210D5FC854B21E1B26581174</key>
+			<key>5E25203034548B1414A2EC4A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1189,13 +2786,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\UdpSocket.h</string>
+				<string>UdpSocket.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\UdpSocket.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E44D537536E206B0000887CC</key>
+			<key>C14C53FDE1245047EDCB51B7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1204,20 +2801,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\TimerListener.h</string>
+				<string>TimerListener.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\TimerListener.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7E27B77CD91E21E74AB0C204</key>
+			<key>F66965C604FB34D9FFFB700D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>4CFEBF16248D13D612F8BB0B</string>
+				<string>11F2AD156B7B836C03B67F0B</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>4CFEBF16248D13D612F8BB0B</key>
+			<key>11F2AD156B7B836C03B67F0B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1226,20 +2823,34 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\posix\UdpSocket.cpp</string>
+				<string>UdpSocket.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix\UdpSocket.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9470FD7E6E9A2A84F9621B1E</key>
+			<key>641362CA659FAFEE4E81001B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>7416C84B72931B29F2372A27</string>
+					<string>11F2AD156B7B836C03B67F0B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>posix</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>B3D24F884D94EAADD7895790</key>
 			<dict>
 				<key>fileRef</key>
-				<string>875C50B536E47F9D0765FD9B</string>
+				<string>7416C84B72931B29F2372A27</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>875C50B536E47F9D0765FD9B</key>
+			<key>7416C84B72931B29F2372A27</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1248,13 +2859,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\posix\NetworkingUtils.cpp</string>
+				<string>NetworkingUtils.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix\NetworkingUtils.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1187018E86657E44A170D2B3</key>
+			<key>1D2373857B1D8039AAA2BF31</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1263,13 +2874,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\PacketListener.h</string>
+				<string>PacketListener.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\PacketListener.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D205786A59922EA63785BBFA</key>
+			<key>0D3B04EEDBEECD561E6F8C17</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1278,13 +2889,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\NetworkingUtils.h</string>
+				<string>NetworkingUtils.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\NetworkingUtils.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9AD8715D99D17E0F8C475801</key>
+			<key>0953512432AE40C0DD488168</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1293,20 +2904,79 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\IpEndpointName.h</string>
+				<string>IpEndpointName.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\IpEndpointName.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9D21A0B994C59E58D3AFBB61</key>
+			<key>FF8CDF57858E9B94E3237115</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0F9B77F3CACDDB534CB87ED3</string>
+					<string>0953512432AE40C0DD488168</string>
+					<string>0D3B04EEDBEECD561E6F8C17</string>
+					<string>1D2373857B1D8039AAA2BF31</string>
+					<string>641362CA659FAFEE4E81001B</string>
+					<string>C14C53FDE1245047EDCB51B7</string>
+					<string>5E25203034548B1414A2EC4A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ip</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>D27B2221A225CA523C019676</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>FF8CDF57858E9B94E3237115</string>
+					<string>30CB364908817057B430D528</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>86D2677079A3AF4A5A88E29A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>D27B2221A225CA523C019676</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>oscpack</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>38871A5825686AE018EC2BF0</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>86D2677079A3AF4A5A88E29A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5F494ABF8C2513CB9ACF30AD</key>
 			<dict>
 				<key>fileRef</key>
-				<string>799A5A17557413E90A69D43F</string>
+				<string>0F9B77F3CACDDB534CB87ED3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>799A5A17557413E90A69D43F</key>
+			<key>0F9B77F3CACDDB534CB87ED3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1315,13 +2985,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libs\oscpack\src\ip\IpEndpointName.cpp</string>
+				<string>IpEndpointName.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\IpEndpointName.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8EAB85C0D25A3D28B29DAA79</key>
+			<key>60264129E173C2D0D9139A97</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1330,20 +3000,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscSender.h</string>
+				<string>ofxOscSender.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscSender.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D6D687FA507DA896A5355EB1</key>
+			<key>3426C5511C0153F2AB33069C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>63E04318EC5816187C687E14</string>
+				<string>9A06D38BE54C07ED8CFA8C62</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>63E04318EC5816187C687E14</key>
+			<key>9A06D38BE54C07ED8CFA8C62</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1352,13 +3022,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscSender.cpp</string>
+				<string>ofxOscSender.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscSender.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4626B2D9C3DEFDF6E24DCB53</key>
+			<key>2B45373E1FE3F818BEB673D5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1367,20 +3037,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscReceiver.h</string>
+				<string>ofxOscReceiver.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscReceiver.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscReceiver.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F5DB689246739C0C39F4024C</key>
+			<key>51FE116C283EB08FA155DEB7</key>
 			<dict>
 				<key>fileRef</key>
-				<string>8BC23216CFFF0E520ABBAF31</string>
+				<string>00475544F3C483272A387F01</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>8BC23216CFFF0E520ABBAF31</key>
+			<key>00475544F3C483272A387F01</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1389,13 +3059,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscReceiver.cpp</string>
+				<string>ofxOscReceiver.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscReceiver.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscReceiver.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>19894AFCF8811260B300C0C7</key>
+			<key>9D4B51AE45413A5CEEE7BB4B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1404,20 +3074,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscParameterSync.h</string>
+				<string>ofxOscParameterSync.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscParameterSync.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscParameterSync.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>192BA4C4F6567125C05E6B7F</key>
+			<key>D0F9D17220EE59CA11374E3C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>97C02A2CF736E189348EC6C5</string>
+				<string>CAB91E360B6E30ABFDBD97C8</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>97C02A2CF736E189348EC6C5</key>
+			<key>CAB91E360B6E30ABFDBD97C8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1426,13 +3096,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscParameterSync.cpp</string>
+				<string>ofxOscParameterSync.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscParameterSync.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscParameterSync.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B4350C341A6E1C44474A390F</key>
+			<key>DBE73F94F2400C4CF7F2A211</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1441,20 +3111,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscMessage.h</string>
+				<string>ofxOscMessage.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscMessage.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscMessage.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>69BABD223A3C860EAA7BF97F</key>
+			<key>643C3F1AF9DC87013EE60BEC</key>
 			<dict>
 				<key>fileRef</key>
-				<string>53D284A8FFBED80B32C98C80</string>
+				<string>A2E7EF6C2DDE38ABB2440A94</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>53D284A8FFBED80B32C98C80</key>
+			<key>A2E7EF6C2DDE38ABB2440A94</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1463,13 +3133,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscMessage.cpp</string>
+				<string>ofxOscMessage.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscMessage.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscMessage.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0B3CCF869CDDB8D19FE10A76</key>
+			<key>C0AAF32CFB11DC02850F4F20</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1478,20 +3148,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscBundle.h</string>
+				<string>ofxOscBundle.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscBundle.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscBundle.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1269115996619C871A75CF17</key>
+			<key>F7DEAB801DB3067A7980BC2D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>70622B5A4397941D9E97BB15</string>
+				<string>88E607657E8F4D03885B751F</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>70622B5A4397941D9E97BB15</key>
+			<key>88E607657E8F4D03885B751F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1500,13 +3170,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscBundle.cpp</string>
+				<string>ofxOscBundle.cpp</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscBundle.cpp</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscBundle.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F393AC049731EA600F09768F</key>
+			<key>B0413FA90AE37E82CBF8E321</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1515,13 +3185,51 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOscArg.h</string>
+				<string>ofxOscArg.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOscArg.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOscArg.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>42ECC4429C1BA4AD1CA4154B</key>
+			<key>BD2F1A9F8D0C05EDB29122D0</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>62E4DB2F6A265DC653B8AD3F</string>
+					<string>B0413FA90AE37E82CBF8E321</string>
+					<string>88E607657E8F4D03885B751F</string>
+					<string>C0AAF32CFB11DC02850F4F20</string>
+					<string>A2E7EF6C2DDE38ABB2440A94</string>
+					<string>DBE73F94F2400C4CF7F2A211</string>
+					<string>CAB91E360B6E30ABFDBD97C8</string>
+					<string>9D4B51AE45413A5CEEE7BB4B</string>
+					<string>00475544F3C483272A387F01</string>
+					<string>2B45373E1FE3F818BEB673D5</string>
+					<string>9A06D38BE54C07ED8CFA8C62</string>
+					<string>60264129E173C2D0D9139A97</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E6053AB7FEC63D5F83825B88</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>BD2F1A9F8D0C05EDB29122D0</string>
+					<string>38871A5825686AE018EC2BF0</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxOsc</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>62E4DB2F6A265DC653B8AD3F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1530,13 +3238,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofxOsc.h</string>
+				<string>ofxOsc.h</string>
 				<key>path</key>
-				<string>../../OpenFrameworks/addons\ofxOsc/src\ofxOsc.h</string>
+				<string>../../OpenFrameworks/addons/ofxOsc/src/ofxOsc.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C5318E5F59AB3E5B76827F50</key>
+			<key>4620442B51C31CF2E9E01EFF</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1545,60 +3253,23 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofApp.h</string>
+				<string>CustomApp.h</string>
 				<key>path</key>
-				<string>src\ofApp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A69E3BC437534E0A424AEA6A</key>
-			<dict>
-				<key>fileRef</key>
-				<string>F4EC735D3A6B6E781BEDB7D1</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>F4EC735D3A6B6E781BEDB7D1</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>src\ofApp.cpp</string>
-				<key>path</key>
-				<string>src\ofApp.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B2AD926770259F4C697118FD</key>
-			<dict>
-				<key>fileRef</key>
-				<string>0BC8C4FE0158A18092F89F8E</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>0BC8C4FE0158A18092F89F8E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>src\main.cpp</string>
-				<key>path</key>
-				<string>src\main.cpp</string>
+				<string>src/CustomApp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
-				<array />
+				<array>
+					<string>1C02E16201287DD7B0F97B68</string>
+					<string>6EF0FDC4781F206366A051E5</string>
+					<string>4928A92ED5B27C2789CA7845</string>
+					<string>ED7337D538DDBB66F862A492</string>
+					<string>FAD5CA8F119892047610C35A</string>
+					<string>07D135DAF2347079931E7327</string>
+				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
@@ -1735,42 +3406,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -1841,42 +3512,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -1916,7 +3587,11 @@ fi
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
-				<array />
+				<array>
+					<string>E6053AB7FEC63D5F83825B88</string>
+					<string>0117D94CE0C695E5E5482BEC</string>
+					<string>1F4FB5C423662B96ADFDCC0B</string>
+				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
@@ -2080,42 +3755,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -2184,42 +3859,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -2277,44 +3952,42 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>B2AD926770259F4C697118FD</string>
-					<string>A69E3BC437534E0A424AEA6A</string>
-					<string>1269115996619C871A75CF17</string>
-					<string>69BABD223A3C860EAA7BF97F</string>
-					<string>192BA4C4F6567125C05E6B7F</string>
-					<string>F5DB689246739C0C39F4024C</string>
-					<string>D6D687FA507DA896A5355EB1</string>
-					<string>9D21A0B994C59E58D3AFBB61</string>
-					<string>9470FD7E6E9A2A84F9621B1E</string>
-					<string>7E27B77CD91E21E74AB0C204</string>
-					<string>41C31AA1B9AFC9AAACC00B16</string>
-					<string>6D6FD9481B151CC3D76CB208</string>
-					<string>C23A42A3F5B8A25FB37DF54D</string>
-					<string>54E560FDC9CED25F7B60A080</string>
-					<string>5ECB4E71A96066EC5A4FF1FC</string>
-					<string>6E39DBC9FB1969960D609CAF</string>
-					<string>3B4B8D89DEBC6DFB48917C91</string>
-					<string>7956100615D79A349CB83FEA</string>
-					<string>946BE8D340804A5C83C63EF4</string>
-					<string>51A90B0A60BF4A8EDB001D57</string>
-					<string>D4939793528441F209A758A6</string>
-					<string>F1B22B5865DBD3722B3AF873</string>
-					<string>18E91971AFED4BEEAC2CC3B3</string>
-					<string>1193CC15A549349FC0F9B604</string>
-					<string>85DF14B736C3345BBD53213F</string>
-					<string>EDA7EB4C9221430A283B7A6A</string>
-					<string>8280FCF8E9769BC11B703495</string>
-					<string>AC27DD1F5087DF64D3840092</string>
-					<string>1F1E34170B59C9320CCF7E74</string>
-					<string>41B58CBFE28377597E1648EF</string>
-					<string>01C8A30171D9A44CCA17B578</string>
-					<string>93DE6E5E7CE2417C86D1F3F8</string>
-					<string>CDF3CF04C7588078C5EC7C2B</string>
-					<string>CB69264D31D114988652A3FB</string>
-					<string>DA10626604B61DED275D2701</string>
-					<string>81F29384297D6F0F5735EC95</string>
-					<string>22218DB5F0E3F813437EB954</string>
-					<string>B07AD110C948A57108F2DAD8</string>
+					<string>F7DEAB801DB3067A7980BC2D</string>
+					<string>643C3F1AF9DC87013EE60BEC</string>
+					<string>D0F9D17220EE59CA11374E3C</string>
+					<string>51FE116C283EB08FA155DEB7</string>
+					<string>3426C5511C0153F2AB33069C</string>
+					<string>5F494ABF8C2513CB9ACF30AD</string>
+					<string>B3D24F884D94EAADD7895790</string>
+					<string>F66965C604FB34D9FFFB700D</string>
+					<string>13D96CD79B4EA5F04A313F53</string>
+					<string>B93F0A05F64CF304FB6F5CBE</string>
+					<string>B0DED94E327D8813DF0A7B67</string>
+					<string>3EE2DB2F6F2B06EDD745CA4C</string>
+					<string>9D12BE9B8F1D1E4080643C6D</string>
+					<string>0EA5725384DF8D68BCC2427C</string>
+					<string>E73B8C4450C782C52FCCBAD4</string>
+					<string>64C97810FFA5FBAA0EF21B38</string>
+					<string>21AEFDF3F78AE07CCA61A662</string>
+					<string>9F9F8850CD1066AEE052800B</string>
+					<string>0594EC0999E170E9D4D4CE44</string>
+					<string>867198CD707F5B0CF9C7C83F</string>
+					<string>88516A6B26B002345087E741</string>
+					<string>9230170133880F2D9BFD65A3</string>
+					<string>B5AF721B2D306A70C2E7186B</string>
+					<string>8DC28E682270E67ECB89C400</string>
+					<string>649CDADD0DCA15B2D83110EF</string>
+					<string>4F2BDE2719E697BEC37E2EC2</string>
+					<string>FC7A347B4FFFF65BA56DB24B</string>
+					<string>E13CEC105F736D529D317C7B</string>
+					<string>B33249AEA0D8C83C8AE132D4</string>
+					<string>345019F66CDF689909AB4F13</string>
+					<string>94F902D6857BEF04CA429979</string>
+					<string>6C1D20D7EF04FE2EA8652279</string>
+					<string>09499D3E602185EF130FA72A</string>
+					<string>FD3FAFF994F3B5EB9C67451A</string>
+					<string>4E04BBED9DBE55E250419712</string>
+					<string>1C8DD6DEE06582FD45DDD14C</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -2410,42 +4083,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -2499,42 +4172,42 @@ fi
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNetSSL.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoNet.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoCrypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoUtil.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoJSON.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoXML.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/lib/osx/PocoFoundation.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/crypto.a</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/lib/osx/ssl.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNetSSL.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoNet.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoCrypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoUtil.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoJSON.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoXML.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/lib/osx/PocoFoundation.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/crypto.a</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/lib/osx/ssl.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\posix</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\ip\win32</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/libs\oscpack\src\osc</string>
-						<string>../../OpenFrameworks/addons\ofxOsc/src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/poco/include</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\src</string>
-						<string>..\..\OpenFrameworks\addons/ofxPoco\libs/openssl/include</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/libs</string>
-						<string>../../OpenFrameworks/addons\ofxXmlSettings/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/osc</string>
+						<string>../../OpenFrameworks/addons/ofxOsc/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/poco/include</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/src</string>
+						<string>../../OpenFrameworks/addons/ofxPoco/libs/openssl/include</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/libs</string>
+						<string>../../OpenFrameworks/addons/ofxXmlSettings/src</string>
 						<string>../../ExternalAddons/ofxTimeMeasurements/src</string>
 						<string>../../ExternalAddons/ofxRemoteUI/src</string>
 						<string>../../ExternalAddons/ofxHistoryPlot/src</string>
 						<string>../../ExternalAddons/ofxAnimatable/src</string>
 						<string>../../ExternalAddons/ofxFontStash/libs</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash</string>
-						<string>../../ExternalAddons/ofxFontStash/libs\fontstash\src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxFontStash/src</string>
-						<string>../../ExternalAddons/ofxFontStash\libs/fontstash/src</string>
+						<string>../../ExternalAddons/ofxFontStash/libs/fontstash/src</string>
 						<string>../../ExternalAddons/ofxScreenSetup/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -2576,9 +4249,7 @@ fi
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
-					<string>0BC8C4FE0158A18092F89F8E</string>
-					<string>F4EC735D3A6B6E781BEDB7D1</string>
-					<string>C5318E5F59AB3E5B76827F50</string>
+					<string>4620442B51C31CF2E9E01EFF</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
