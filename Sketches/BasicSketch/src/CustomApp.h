@@ -51,6 +51,7 @@ protected:
 		TIME_SAMPLE_GET_INSTANCE()->setDeadThreadTimeDecay(0.985);
 		TIME_SAMPLE_GET_INSTANCE()->setUiScale( 1.0 ); //bigger ui in 4k screens
 		TIME_SAMPLE_GET_INSTANCE()->drawUiWithFontStash("fonts/VeraMono.ttf");
+		TIME_SAMPLE_GET_INSTANCE()->setSavesSettingsOnExit(false);
 		TIME_SAMPLE_ENABLE();
 
 	}
