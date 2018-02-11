@@ -1,0 +1,34 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<P name="PARAMS" type="group"/>
+		<!-- # PARAMS ############################ -->
+		<P name="myFloat" type="float">19.27</P>
+		<P c0.red="0" c1.green="19" c2.blue="255" c3.alpha="255" name="myColor" type="color"/>
+		<P name="myBool" type="bool">1</P>
+		<P name="myInt" type="int">69</P>
+		<P name="myString" type="string">hello</P>
+		<P name="myEnum" type="enum">0</P>
+		<!--                                                                                 -->
+		<!-- ############################## DISABLED PARAMS ################################# -->
+		<!--                                                                                 -->
+		<P disabled="1" name="Track 6" type="enum">2</P>
+		<P disabled="1" name="myIntParam" type="int">32</P>
+		<P c0.red="255" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="myColor/red" type="color"/>
+		<P c0.red="144" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="myColor/green" type="color"/>
+		<P c0.red="139" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="myColor/blue" type="color"/>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="$" type="color"/>
+		<P c0.red="1" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="$/red" type="color"/>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="$/green" type="color"/>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="$/blue" type="color"/>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="" type="color"/>
+		<P c0.red="255" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="red" type="color"/>
+		<P c0.red="174" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="green" type="color"/>
+		<P c0.red="170" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="blue" type="color"/>
+		<P c0.red="255" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="alpha" type="color"/>
+		<P c0.red="255" c1.green="0" c2.blue="0" c3.alpha="0" disabled="1" name="myColor/alpha" type="color"/>
+		<P disabled="1" name="p1" type="float">0</P>
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>15687</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>
