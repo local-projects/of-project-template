@@ -1,6 +1,5 @@
 #include "ofMain.h"
 #include "ofApp.h"
-#include "ofxTimeMeasurements.h"
 
 //========================================================================
 int main( ){
@@ -18,8 +17,6 @@ int main( ){
 
 	// 10 x 1 screens
 	//ofSetupOpenGL(&win, w, h, OF_WINDOW /*OF_FULLSCREEN*/);	// <-------- setup the GL context
-
-	TIME_SAMPLE_ADD_SETUP_HOOKS();
 
 	ofRunApp(win, shared_ptr<ofBaseApp>(new ofApp()));
 	ofRunMainLoop();

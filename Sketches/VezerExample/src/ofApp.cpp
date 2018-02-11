@@ -1,5 +1,5 @@
 #include "ofApp.h"
-#include "OscQueryServerMgr.h"
+#include "ofxRemoteUIServer.h"
 
 void ofApp::setup(){
 
@@ -14,8 +14,7 @@ void ofApp::setup(){
 	RUI_SHARE_PARAM(myString);
 	RUI_SHARE_ENUM_PARAM(myEnum, 0, NUM_ENUMS - 1, {"ENUM_1", "ENUM_2", "ENUM_3"});
 
-	OscQueryServerMgr mgr;
-	mgr.buildJSON();
+	ofBackground(22);
 
 }
 
