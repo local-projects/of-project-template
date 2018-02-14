@@ -15,16 +15,22 @@
 		<P name="expSigmoidSteep" type="float">0.646305</P>
 		<P name="CUBIC BEZIER" type="group"/>
 		<!-- # CUBIC BEZIER ############################ -->
-		<P name="cubicBezAx" type="float">0.191083</P>
-		<P name="cubicBezAy" type="float">0.907767</P>
-		<P name="cubicBezBx" type="float">0.967006</P>
-		<P name="cubicBezBy" type="float">0.203883</P>
+		<P name="cubicBezAx" type="float">0.306771</P>
+		<P name="cubicBezAy" type="float">1.81666</P>
+		<P name="cubicBezBx" type="float">0.443986</P>
+		<P name="cubicBezBy" type="float">-0.0070527</P>
 		<P name="CUBIC BEZIER 2" type="group"/>
 		<!-- # CUBIC BEZIER 2 ############################ -->
-		<P name="cubicBez2Ax" type="float">0.360661</P>
-		<P name="cubicBez2Ay" type="float">0.222493</P>
-		<P name="cubicBez2Bx" type="float">0.55311</P>
-		<P name="cubicBez2By" type="float">0.80518</P>
+		<P name="cubicBez2Ax" type="float">0.12201</P>
+		<P name="cubicBez2Ay" type="float">0.719437</P>
+		<P name="cubicBez2Bx" type="float">0.0259731</P>
+		<P name="cubicBez2By" type="float">0.282652</P>
+		<P name="CUBIC BEZIER CAMEL" type="group"/>
+		<!-- # CUBIC BEZIER CAMEL ############################ -->
+		<P name="cubicBezCamelAx" type="float">0.248643</P>
+		<P name="cubicBezCamelAy" type="float">0.829592</P>
+		<P name="cubicBezCamelBx" type="float">0.512339</P>
+		<P name="cubicBezCamelBy" type="float">0.240683</P>
 		<P name="ELASTIC" type="group"/>
 		<!-- # ELASTIC ############################ -->
 		<P name="elasticG" type="float">0.259456</P>

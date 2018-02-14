@@ -33,6 +33,7 @@
 		BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA1F1CBF0EBC004EB39A /* ofxFontStash.cpp */; };
 		BB19DA291CBF0EBC004EB39A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA241CBF0EBC004EB39A /* fontstash.c */; };
 		BB19DA2A1CBF0EBC004EB39A /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB19DA261CBF0EBC004EB39A /* stb_truetype.c */; };
+		BB9A09902034AB8A0045EBD6 /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9A098E2034AB8A0045EBD6 /* OscQueryServerMgr.cpp */; };
 		BB9E2C211F337DC10065ED1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2C1E1F337DC10065ED1B /* main.cpp */; };
 		BB9E2C221F337DC10065ED1B /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2C1F1F337DC10065ED1B /* ofApp.cpp */; };
 		BBDE247B1E43B94700663956 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE21401E43B94700663956 /* ofxXmlPoco.cpp */; };
@@ -111,7 +112,6 @@
 		53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAnimatable.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h; sourceTree = SOURCE_ROOT; };
 		569DA45655AF84D7959F2362 /* ofxTimeMeasurements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTimeMeasurements.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.h; sourceTree = SOURCE_ROOT; };
 		5E25203034548B1414A2EC4A /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
-		5FE44E52941549810A497BA4 /* TinyPie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TinyPie.h; path = ../../ExternalAddons/ofxRemoteUI/src/TinyPie.h; sourceTree = SOURCE_ROOT; };
 		60264129E173C2D0D9139A97 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
 		62E4DB2F6A265DC653B8AD3F /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
 		656296A3F6AE4DF9B513F9B0 /* ofxTimeMeasurementsScoped.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTimeMeasurementsScoped.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsScoped.h; sourceTree = SOURCE_ROOT; };
@@ -145,6 +145,8 @@
 		BB19DA251CBF0EBC004EB39A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
 		BB19DA261CBF0EBC004EB39A /* stb_truetype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
 		BB19DA271CBF0EBC004EB39A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		BB9A098E2034AB8A0045EBD6 /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BB9A098F2034AB8A0045EBD6 /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BB9E2C1E1F337DC10065ED1B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/main.cpp"; sourceTree = "<group>"; };
 		BB9E2C1F1F337DC10065ED1B /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/ofApp.cpp"; sourceTree = "<group>"; };
 		BB9E2C201F337DC10065ED1B /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../ExternalAddons/ofxAnimatable/example-CurveParameters/src/ofApp.h"; sourceTree = "<group>"; };
@@ -375,6 +377,8 @@
 		415D5E519F28EDB1929BC34B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BB9A098E2034AB8A0045EBD6 /* OscQueryServerMgr.cpp */,
+				BB9A098F2034AB8A0045EBD6 /* OscQueryServerMgr.h */,
 				9F052A6C09EC04CE00CB764F /* dirent_vs.h */,
 				CA7A31FAD20A633C0EB7A73E /* ofxRemoteUI.cpp */,
 				0E73CC0CC2DC69392F2EC53D /* ofxRemoteUI.h */,
@@ -390,7 +394,6 @@
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
-				5FE44E52941549810A497BA4 /* TinyPie.h */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
 			);
@@ -946,6 +949,7 @@
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
 				BB9E2C221F337DC10065ED1B /* ofApp.cpp in Sources */,
+				BB9A09902034AB8A0045EBD6 /* OscQueryServerMgr.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
 				BB9E2C211F337DC10065ED1B /* main.cpp in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
