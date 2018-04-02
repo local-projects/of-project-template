@@ -50,6 +50,7 @@
 		BB7845901F13D235002BAF3B /* TouchAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB78458E1F13D235002BAF3B /* TouchAnimation.cpp */; };
 		BB7846571F13DA2D002BAF3B /* ofxSuperLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB7846531F13DA2D002BAF3B /* ofxSuperLog.cpp */; };
 		BB7846581F13DA2D002BAF3B /* ofxSuperLogDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB7846551F13DA2D002BAF3B /* ofxSuperLogDisplay.cpp */; };
+		BB94B3E42030FA3400BA4AC1 /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB94B3E22030FA3400BA4AC1 /* OscQueryServerMgr.cpp */; };
 		BB9637541F14276D006AB2AE /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9636D61F14276D006AB2AE /* b2BroadPhase.cpp */; };
 		BB9637551F14276D006AB2AE /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9636D81F14276D006AB2AE /* b2CollideCircle.cpp */; };
 		BB9637561F14276D006AB2AE /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9636D91F14276D006AB2AE /* b2CollideEdge.cpp */; };
@@ -313,6 +314,8 @@
 		BB78FF0B1E3D271100570DD5 /* crypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = crypto.a; sourceTree = "<group>"; };
 		BB78FF0C1E3D271100570DD5 /* ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ssl.a; sourceTree = "<group>"; };
 		BB78FF0E1E3D271100570DD5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB94B3E22030FA3400BA4AC1 /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BB94B3E32030FA3400BA4AC1 /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BB9636D41F14276D006AB2AE /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		BB9636D61F14276D006AB2AE /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
 		BB9636D71F14276D006AB2AE /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
@@ -586,6 +589,8 @@
 				0A25FF7E0AC0CCEF80883F12 /* ofxRemoteUIServerMacros.h */,
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
+				BB94B3E22030FA3400BA4AC1 /* OscQueryServerMgr.cpp */,
+				BB94B3E32030FA3400BA4AC1 /* OscQueryServerMgr.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
@@ -1479,6 +1484,7 @@
 				BB7844C81F13D0DA002BAF3B /* testApp.cpp in Sources */,
 				BB96375C1F14276D006AB2AE /* b2ChainShape.cpp in Sources */,
 				BB96375E1F14276D006AB2AE /* b2EdgeShape.cpp in Sources */,
+				BB94B3E42030FA3400BA4AC1 /* OscQueryServerMgr.cpp in Sources */,
 				BB9637641F14276D006AB2AE /* b2StackAllocator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
