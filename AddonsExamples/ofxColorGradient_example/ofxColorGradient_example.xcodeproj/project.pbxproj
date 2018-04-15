@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB66025820841CCC00CE6FA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB66025520841CCC00CE6FA7 /* main.cpp */; };
+		BB66025920841CCC00CE6FA7 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB66025620841CCC00CE6FA7 /* ofApp.cpp */; };
 		BBBF0C3B1F3A4C7E002139A7 /* ofxColorGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0C351F3A4C7E002139A7 /* ofxColorGradient.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB66025520841CCC00CE6FA7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxColorGradient/example/src/main.cpp; sourceTree = "<group>"; };
+		BB66025620841CCC00CE6FA7 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxColorGradient/example/src/ofApp.cpp; sourceTree = "<group>"; };
+		BB66025720841CCC00CE6FA7 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxColorGradient/example/src/ofApp.h; sourceTree = "<group>"; };
 		BBBF0C351F3A4C7E002139A7 /* ofxColorGradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxColorGradient.cpp; sourceTree = "<group>"; };
 		BBBF0C361F3A4C7E002139A7 /* ofxColorGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxColorGradient.h; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -119,6 +124,9 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BB66025520841CCC00CE6FA7 /* main.cpp */,
+				BB66025620841CCC00CE6FA7 /* ofApp.cpp */,
+				BB66025720841CCC00CE6FA7 /* ofApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -233,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB66025820841CCC00CE6FA7 /* main.cpp in Sources */,
+				BB66025920841CCC00CE6FA7 /* ofApp.cpp in Sources */,
 				BBBF0C3B1F3A4C7E002139A7 /* ofxColorGradient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

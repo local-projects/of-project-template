@@ -48,6 +48,7 @@
 		BB5822EF1D52B4620076E136 /* TexturedObjectConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E81D52B4620076E136 /* TexturedObjectConstants.cpp */; };
 		BB5822F01D52B4620076E136 /* TexturedObjectGC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E91D52B4620076E136 /* TexturedObjectGC.cpp */; };
 		BB5822FC1D52B4A10076E136 /* ofxMemoryUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822FA1D52B4A10076E136 /* ofxMemoryUsage.cpp */; };
+		BB66026B20841E3E00CE6FA7 /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */; };
 		BB8B2D361E43A75D0060BAEA /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29FB1E43A75D0060BAEA /* ofxXmlPoco.cpp */; };
 		BB8B2D371E43A75D0060BAEA /* crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B2A4F1E43A75D0060BAEA /* crypto.a */; };
 		BB8B2D381E43A75D0060BAEA /* ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B2A501E43A75D0060BAEA /* ssl.a */; };
@@ -126,7 +127,6 @@
 		52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAnimatableOfPoint.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.cpp; sourceTree = SOURCE_ROOT; };
 		53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAnimatable.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h; sourceTree = SOURCE_ROOT; };
 		5E25203034548B1414A2EC4A /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
-		5FE44E52941549810A497BA4 /* TinyPie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TinyPie.h; path = ../../ExternalAddons/ofxRemoteUI/src/TinyPie.h; sourceTree = SOURCE_ROOT; };
 		60264129E173C2D0D9139A97 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
 		62E4DB2F6A265DC653B8AD3F /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
 		6760F4F516B8CA85B1C4240A /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
@@ -395,6 +395,8 @@
 		BB5822EC1D52B4620076E136 /* TexturedObjectStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObjectStats.h; sourceTree = "<group>"; };
 		BB5822FA1D52B4A10076E136 /* ofxMemoryUsage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMemoryUsage.cpp; sourceTree = "<group>"; };
 		BB5822FB1D52B4A10076E136 /* ofxMemoryUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxMemoryUsage.h; sourceTree = "<group>"; };
+		BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BB66026A20841E3E00CE6FA7 /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BB8B29FB1E43A75D0060BAEA /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlPoco.cpp; sourceTree = "<group>"; };
 		BB8B29FC1E43A75D0060BAEA /* ofxXmlPoco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlPoco.h; sourceTree = "<group>"; };
 		BB8B2A011E43A75D0060BAEA /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -626,7 +628,8 @@
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
-				5FE44E52941549810A497BA4 /* TinyPie.h */,
+				BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */,
+				BB66026A20841E3E00CE6FA7 /* OscQueryServerMgr.h */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
 			);
@@ -1732,6 +1735,7 @@
 				BB5822CA1D5282C60076E136 /* ofxCvImage.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				BB5822C81D5282C60076E136 /* ofxCvGrayscaleImage.cpp in Sources */,
+				BB66026B20841E3E00CE6FA7 /* OscQueryServerMgr.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
