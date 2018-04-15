@@ -103,6 +103,7 @@
 		BBAD675E1FE9966F005FC9A0 /* ofxAppStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAppStructs.h; path = ../../ExternalAddons/ofxApp/src/ofxAppStructs.h; sourceTree = "<group>"; };
 		BBAD675F1FE9966F005FC9A0 /* ofxAppUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAppUtils.cpp; path = ../../ExternalAddons/ofxApp/src/ofxAppUtils.cpp; sourceTree = "<group>"; };
 		BBAD67601FE9966F005FC9A0 /* ofxAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAppUtils.h; path = ../../ExternalAddons/ofxApp/src/ofxAppUtils.h; sourceTree = "<group>"; };
+		BBB58AE62084193D0036AFB2 /* ofxAppSettings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ofxAppSettings.json; path = bin/data/configs/ofxAppSettings.json; sourceTree = "<group>"; };
 		BBB839D31F8C0C8F00EBBD9E /* CH_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH_Object.h; path = ../../../ExternalAddons/ofxApp/example/src/CH_Object.h; sourceTree = "<group>"; };
 		BBB839D41F8C0C8F00EBBD9E /* CWRU_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWRU_Object.h; path = ../../../ExternalAddons/ofxApp/example/src/CWRU_Object.h; sourceTree = "<group>"; };
 		BBB839D51F8C0C8F00EBBD9E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxApp/example/src/main.cpp; sourceTree = "<group>"; };
@@ -238,6 +239,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				BBB58AE62084193D0036AFB2 /* ofxAppSettings.json */,
 				BB4035EA1FC4AE82008EF146 /* ofxApp */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,

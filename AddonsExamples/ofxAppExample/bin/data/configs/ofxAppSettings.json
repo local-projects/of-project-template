@@ -242,8 +242,8 @@
 		"JsonSources":{ 
 
 			"CH" : {
-				//"url" : "file://testJson/ch_small.json",
-				"url" : "http://127.0.0.1:8000/ch_small.json",
+				"url" : "file://testJson/ch_small.json",
+				//"url" : "http://127.0.0.1:8000/ch_small.json",
 				//"url" : "http://uri.cat/LP/ch_small.json",
 				"jsonDownloadDir": "CH_JsonDownloads",
 				"assetsLocation": "CH_assets",  //all assets will be in that folder, with a sub-folder (named after the object ID) per each content object
