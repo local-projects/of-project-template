@@ -28,6 +28,9 @@
 		B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7416C84B72931B29F2372A27 /* NetworkingUtils.cpp */; };
 		B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0697B00065A3B433EADDCD82 /* ofxRemoteUIServer.cpp */; };
 		B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */; };
+		BBED951E208414D1002F28DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBED951C208414D1002F28DB /* main.cpp */; };
+		BBED951F208414D1002F28DB /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBED951D208414D1002F28DB /* ofApp.cpp */; };
+		BBED9522208414E0002F28DB /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBED9521208414E0002F28DB /* OscQueryServerMgr.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD11E1582CE4E65E6E7C9F26 /* tinyxml.cpp */; };
@@ -164,6 +167,11 @@
 		BA16270D20A9486D53B31B95 /* ripemd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ripemd.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h; sourceTree = SOURCE_ROOT; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
+		BBED951B208414D1002F28DB /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../ExternalAddons/ofxRemoteUI/example-server/src/ofApp.h"; sourceTree = "<group>"; };
+		BBED951C208414D1002F28DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../ExternalAddons/ofxRemoteUI/example-server/src/main.cpp"; sourceTree = "<group>"; };
+		BBED951D208414D1002F28DB /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxRemoteUI/example-server/src/ofApp.cpp"; sourceTree = "<group>"; };
+		BBED9520208414DF002F28DB /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
+		BBED9521208414E0002F28DB /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
 		BCCCF102DE2F4CB002C4B895 /* asn1t.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asn1t.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1t.h; sourceTree = SOURCE_ROOT; };
@@ -285,6 +293,8 @@
 		415D5E519F28EDB1929BC34B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BBED9521208414E0002F28DB /* OscQueryServerMgr.cpp */,
+				BBED9520208414DF002F28DB /* OscQueryServerMgr.h */,
 				9F052A6C09EC04CE00CB764F /* dirent_vs.h */,
 				CA7A31FAD20A633C0EB7A73E /* ofxRemoteUI.cpp */,
 				0E73CC0CC2DC69392F2EC53D /* ofxRemoteUI.h */,
@@ -471,6 +481,16 @@
 			name = addons;
 			sourceTree = "<group>";
 		};
+		BBED951A208414B9002F28DB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBED951C208414D1002F28DB /* main.cpp */,
+				BBED951D208414D1002F28DB /* ofApp.cpp */,
+				BBED951B208414D1002F28DB /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,22 +530,15 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				BBED951A208414B9002F28DB /* src */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
 				E4B69B5B0A3A1756003C02F2 /* ofxRemoteUIExampleDebug.app */,
 			);
 			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
 		};
 		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
 			isa = PBXGroup;
@@ -662,14 +675,17 @@
 			files = (
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
+				BBED9522208414E0002F28DB /* OscQueryServerMgr.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
+				BBED951F208414D1002F28DB /* ofApp.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
 				B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */,
+				BBED951E208414D1002F28DB /* main.cpp in Sources */,
 				B0DED94E327D8813DF0A7B67 /* OscReceivedElements.cpp in Sources */,
 				3EE2DB2F6F2B06EDD745CA4C /* OscTypes.cpp in Sources */,
 				9D12BE9B8F1D1E4080643C6D /* ofxXmlPoco.cpp in Sources */,
