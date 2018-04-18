@@ -7,3 +7,4 @@ ofxXmlSettings
 ../../ExternalAddons/ofxAnimatable
 ../../ExternalAddons/ofxFontStash
 ../../ExternalAddons/ofxScreenSetup
+../../ExternalAddons/ofxSuperLog
