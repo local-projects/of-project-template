@@ -14,14 +14,13 @@ void ofApp::setup(){
 	RUI_NEW_GROUP("PARAMS");
 	RUI_SHARE_PARAM(p1, -1, 1);
 
-
+	ofLogNotice() << "hello!";
 }
 
 
 void ofApp::update(){
 
 	float dt = 1./60.;
-
 }
 
 
@@ -34,6 +33,10 @@ void ofApp::keyPressed(int key){
 
 	if(key == 'w'){
 		screenSetup.cycleToNextScreenMode();
+	}
+
+	if(key == 'L'){
+		ofxSuperLog::getLogger()->setScreenLoggingEnabled(!ofxSuperLog::getLogger()->isScreenLoggingEnabled());
 	}
 }
 

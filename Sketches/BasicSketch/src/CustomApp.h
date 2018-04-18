@@ -14,20 +14,31 @@
 #include "ofxTimeMeasurements.h"
 #include "ofxRemoteUIServer.h"
 #include "ofxScreenSetup.h"
+#include "ofxSuperLog.h"
 
 #define CONFIGS_DIRECTORY	"configs"
 
 
-class CustomApp : public ofBaseApp{
+class CustomApp : public ofBaseApp {
 
 protected:
 
-	void setup(){
+	void setup() {
 
 		ofSetFrameRate(60);
 		ofSetVerticalSync(true);
 		ofEnableAlphaBlending();
 		ofBackground(22);
+
+		// LOGGING //////////////////////////////////////////////
+
+		auto loggerStorage = new ofPtr<ofxSuperLog>();
+		*loggerStorage = ofxSuperLog::getLogger(true, true, "");
+		ofxSuperLog::getLogger()->setDisplayWidth(0.8);
+		ofxSuperLog::getLogger()->setScreenLoggingEnabled(false);
+		ofxSuperLog::getLogger()->setMaximized(true);
+		ofSetLoggerChannel(*loggerStorage);
+		//ofxSuperLog::getLogger()->getDisplayLogger().setBgColor(ofColor(22));
 
 		// setup a listener for changed window modes /////////
 		screenSetup.setup(ofGetWidth(), ofGetHeight(), ofxScreenSetup::WINDOWED);
@@ -49,13 +60,14 @@ protected:
 		TIME_SAMPLE_SET_DRAW_LOCATION(TIME_MEASUREMENTS_BOTTOM_RIGHT);
 		TIME_SAMPLE_SET_REMOVE_EXPIRED_THREADS(true);
 		TIME_SAMPLE_GET_INSTANCE()->setDeadThreadTimeDecay(0.985);
-		TIME_SAMPLE_GET_INSTANCE()->setUiScale( 1.0 ); //bigger ui in 4k screens
+		TIME_SAMPLE_GET_INSTANCE()->setUiScale(1.0); //bigger ui in 4k screens
 		TIME_SAMPLE_GET_INSTANCE()->drawUiWithFontStash("fonts/VeraMono.ttf");
 		TIME_SAMPLE_GET_INSTANCE()->setSavesSettingsOnExit(false);
 		TIME_SAMPLE_ENABLE();
 
-	}
+		ofxSuperLog::getLogger()->setFont(&(RUI_GET_INSTANCE()->getFont()), 14);
 
+	}
 
 
 	ofxScreenSetup screenSetup;
