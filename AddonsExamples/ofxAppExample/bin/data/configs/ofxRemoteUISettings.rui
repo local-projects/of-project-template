@@ -3,14 +3,16 @@
 	<OFX_REMOTE_UI_PARAMS>
 		<!-- # OFXAPP GLOBALS ################################################################################# -->
 		<P name="OFXAPP GLOBALS" type="group" />
+		<P name="bgColor" type="color" c0.red="22" c1.green="22" c2.blue="22" c3.alpha="255" />
 		<P name="debug" type="bool">0</P>
-		<P name="drawAppRunTime" type="bool">0</P>
+		<P name="drawAppRunTime" type="bool">1</P>
 		<P name="drawStaticTexturesMemStats" type="bool">0</P>
 		<P name="drawAutoTextureMemStats" type="bool">0</P>
 		<P name="drawTextureLoaderStats" type="bool">0</P>
 		<P name="drawTextureLoaderState" type="bool">0</P>
 		<P name="drawGoogleAnalyticsState" type="bool">0</P>
 		<P name="drawScreenLogs" type="bool">1</P>
+		<P name="drawLiveUpdateStatus" type="bool">1</P>
 		<!-- # OFXAPP PROTOTYPE VARS ################################################################################# -->
 		<P name="OFXAPP PROTOTYPE VARS" type="group" />
 		<P name="tempFloat1" type="float">1.0102e-38</P>
@@ -33,16 +35,15 @@
 		<P name="TAC_bounceNum" type="int">4</P>
 		<P name="TAC_bounceElast" type="float">0.38</P>
 		<P name="tempAnimCurve2" type="enum">26</P>
-		<!-- # OFX_APP_NAME Colors ################################################################################# -->
-		<P name="OFX_APP_NAME Colors" type="group" />
-		<P name="bgColor" type="color" c0.red="22" c1.green="22" c2.blue="22" c3.alpha="255" />
+		<!-- # APP ################################################################################# -->
+		<P name="APP" type="group" />
+		<P name="showMouse" type="bool">1</P>
+		<P name="enableMouse" type="bool">1</P>
 		<!--                                                                                                  -->
 		<!-- ###################################### DISABLED PARAMS ######################################### -->
 		<!--                                                                                                  -->
-		<!-- # APP ################################################################################# -->
-		<P name="APP" type="group" disabled="1" />
-		<P name="showMouse" type="bool" disabled="1">1</P>
-		<P name="enableMouse" type="bool" disabled="1">1</P>
+		<!-- # OFX_APP_NAME Colors ################################################################################# -->
+		<P name="OFX_APP_NAME Colors" type="group" disabled="1" />
 		<!-- # OFX_APP_NAME Globals ################################################################################# -->
 		<P name="OFX_APP_NAME Globals" type="group" disabled="1" />
 		<!-- # MyApp Globals ################################################################################# -->
