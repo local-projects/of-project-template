@@ -248,7 +248,7 @@
 				"assetsLocation": "assets/CH",  //all assets will be in that folder, with a sub-folder (named after the object ID) per each content object
 				"shouldSkipObjectPolicyTests" : false,  //set this to true to avoid the object cleanup according to the policies defined below
 				"liveUpdates" : { //if enabled, ofxApp will hit that endPoint every "interval seconds" and call ofxAppContentUpdate() on the delegate
-					"enabled" : false,
+					"enabled" : true,
 					"interval" : 10.0, //seconds
 					"maxThreads" : 1, //override standard # of threads for live updates, to not drop performance too much while the app is running
 					"maxConcurrentDownloads" : 1 //same as above for bandwidth

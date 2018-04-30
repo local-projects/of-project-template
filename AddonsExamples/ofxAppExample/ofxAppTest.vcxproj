@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ofxAppTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../OpenFrameworks/libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="..\..\ExternalAddons\ofxApp\ProjectFiles\vs\ofxAppDependenciesRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../OpenFrameworks/libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="..\..\ExternalAddons\ofxApp\ProjectFiles\vs\ofxAppDependenciesRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../OpenFrameworks/libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="..\..\ExternalAddons\ofxApp\ProjectFiles\vs\ofxAppDependenciesDebug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../OpenFrameworks/libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="..\..\ExternalAddons\ofxApp\ProjectFiles\vs\ofxAppDependenciesDebug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN;USE_OFX_FONTSTASH;USE_OFX_FONTSTASH2;NANOVG_GL2_IMPLEMENTATION;USE_OFX_HISTORYPLOT;USE_OFX_TIME_MEASUREMENTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;../../ExternalAddons/ofxApp/src;../../ExternalAddons/ofxApp/example/src;../../ExternalAddons/ofxInterface/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ObjectFileName>$(IntDir)/$(Platform)/%(Directory)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN;USE_OFX_FONTSTASH;USE_OFX_FONTSTASH2;NANOVG_GL2_IMPLEMENTATION;USE_OFX_HISTORYPLOT;USE_OFX_TIME_MEASUREMENTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;../../ExternalAddons/ofxApp/src;../../ExternalAddons/ofxApp/example/src;../../ExternalAddons/ofxInterface/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ObjectFileName>$(IntDir)/$(Platform)/%(Directory)/</ObjectFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN;USE_OFX_FONTSTASH;USE_OFX_FONTSTASH2;NANOVG_GL2_IMPLEMENTATION;USE_OFX_HISTORYPLOT;USE_OFX_TIME_MEASUREMENTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;../../ExternalAddons/ofxApp/src;../../ExternalAddons/ofxApp/example/src;../../ExternalAddons/ofxInterface/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ObjectFileName>$(IntDir)/$(Platform)/%(Directory)/</ObjectFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN;USE_OFX_FONTSTASH;USE_OFX_FONTSTASH2;NANOVG_GL2_IMPLEMENTATION;USE_OFX_HISTORYPLOT;USE_OFX_TIME_MEASUREMENTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;../../ExternalAddons/ofxApp/src;../../ExternalAddons/ofxApp/example/src;../../ExternalAddons/ofxInterface/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ObjectFileName>$(IntDir)/$(Platform)/%(Directory)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
+      <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExternalAddons\ofxApp\ProjectFiles\vs\ofxApp.vcxproj">
+      <Project>{c86616b9-4761-42ae-b5bb-e0cbf1f1a675}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(OF_ROOT)\libs\openFrameworksCompiled\project\vs</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CH_Object.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CWRU_Object.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\MyAppGlobals.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxApp.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppDelegate.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppErrorReporter.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppGlobalsBasic.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppMacros.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStructs.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\Node.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\ofxInterface.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\main.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxApp.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppErrorReporter.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppGlobalsBasic.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\Node.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="icon.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

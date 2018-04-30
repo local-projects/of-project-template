@@ -121,6 +121,12 @@
     <ClCompile Include="..\..\ExternalAddons\ofxScreenSetup\src\ofxScreenSetup.cpp">
       <Filter>local_addons\ofxScreenSetup\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.cpp">
+      <Filter>local_addons\ofxSuperLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.cpp">
+      <Filter>local_addons\ofxSuperLog</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -215,6 +221,9 @@
     </Filter>
     <Filter Include="local_addons\ofxScreenSetup\src">
       <UniqueIdentifier>{1CA68E43-F35A-0625-0B8F-3D67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxSuperLog">
+      <UniqueIdentifier>{f52957b2-e6d5-4be0-bb86-c090fe84a967}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -373,6 +382,12 @@
     </ClInclude>
     <ClInclude Include="src\CustomApp.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.h">
+      <Filter>local_addons\ofxSuperLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.h">
+      <Filter>local_addons\ofxSuperLog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
