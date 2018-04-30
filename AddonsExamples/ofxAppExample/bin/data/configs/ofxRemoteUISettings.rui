@@ -8,8 +8,8 @@
 		<P name="drawAppRunTime" type="bool">1</P>
 		<P name="drawStaticTexturesMemStats" type="bool">0</P>
 		<P name="drawAutoTextureMemStats" type="bool">0</P>
-		<P name="drawTextureLoaderStats" type="bool">0</P>
-		<P name="drawTextureLoaderState" type="bool">0</P>
+		<P name="drawTextureLoaderStats" type="bool">1</P>
+		<P name="drawTextureLoaderState" type="bool">1</P>
 		<P name="drawGoogleAnalyticsState" type="bool">0</P>
 		<P name="drawScreenLogs" type="bool">1</P>
 		<P name="drawLiveUpdateStatus" type="bool">1</P>
