@@ -87,6 +87,9 @@
 		BBC1B9E01F58B4DD00F70C62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DB1F58B4DD00F70C62 /* main.cpp */; };
 		BBC1B9E11F58B4DD00F70C62 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DE1F58B4DD00F70C62 /* ofApp.cpp */; };
 		BBED95262084153C002F28DB /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBED95252084153C002F28DB /* OscQueryServerMgr.cpp */; };
+		BBF3135E20C9F21000B279F6 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF3135720C9F21000B279F6 /* sha1.cpp */; };
+		BBF3135F20C9F21000B279F6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBF3135B20C9F21000B279F6 /* README.md */; };
+		BBF3136020C9F21000B279F6 /* xxhash.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF3135C20C9F21000B279F6 /* xxhash.c */; };
 		BEF2C9A8785466437B1367E6 /* ofxSensu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78540864C7BAA5A291D42B69 /* ofxSensu.cpp */; };
 		C737B17A893298F568B07D2E /* ofxSuperLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A08D83E385A68F250D52E /* ofxSuperLog.cpp */; };
 		C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C456297E03FFB4330EF59F8E /* ofxChecksum.cpp */; };
@@ -524,6 +527,13 @@
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
 		BBED95242084153C002F28DB /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BBED95252084153C002F28DB /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BBF3135620C9F21000B279F6 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		BBF3135720C9F21000B279F6 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		BBF3135820C9F21000B279F6 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		BBF3135A20C9F21000B279F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBF3135B20C9F21000B279F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBF3135C20C9F21000B279F6 /* xxhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxhash.c; sourceTree = "<group>"; };
+		BBF3135D20C9F21000B279F6 /* xxhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxhash.h; sourceTree = "<group>"; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
 		BC519782AE9F4B64EB444A6C /* imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgproc.hpp; path = ../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp; sourceTree = SOURCE_ROOT; };
@@ -1381,6 +1391,7 @@
 		73960BBFE754AE467B50C70B /* ofxSimpleHttp */ = {
 			isa = PBXGroup;
 			children = (
+				BBF3135420C9F21000B279F6 /* libs */,
 				74F7A099F188C01B4E0A0EC1 /* src */,
 			);
 			name = ofxSimpleHttp;
@@ -1752,6 +1763,37 @@
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BBF3135420C9F21000B279F6 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3135520C9F21000B279F6 /* sha1 */,
+				BBF3135920C9F21000B279F6 /* xxHash */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxSimpleHttp/libs;
+			sourceTree = "<group>";
+		};
+		BBF3135520C9F21000B279F6 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3135620C9F21000B279F6 /* Platform.h */,
+				BBF3135720C9F21000B279F6 /* sha1.cpp */,
+				BBF3135820C9F21000B279F6 /* sha1.h */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
+		BBF3135920C9F21000B279F6 /* xxHash */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3135A20C9F21000B279F6 /* LICENSE */,
+				BBF3135B20C9F21000B279F6 /* README.md */,
+				BBF3135C20C9F21000B279F6 /* xxhash.c */,
+				BBF3135D20C9F21000B279F6 /* xxhash.h */,
+			);
+			path = xxHash;
 			sourceTree = "<group>";
 		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
@@ -2202,6 +2244,7 @@
 				A440E31B3672B0D48F527D3B /* ofxCvImage.cpp in Sources */,
 				74D4B5ECE5503C9E6ABA2B76 /* ofxCvShortImage.cpp in Sources */,
 				F7DEAB801DB3067A7980BC2D /* ofxOscBundle.cpp in Sources */,
+				BBF3135F20C9F21000B279F6 /* README.md in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
@@ -2228,6 +2271,7 @@
 				09499D3E602185EF130FA72A /* ofxFontStash.cpp in Sources */,
 				FD3FAFF994F3B5EB9C67451A /* fontstash.c in Sources */,
 				4E04BBED9DBE55E250419712 /* stb_truetype.c in Sources */,
+				BBF3135E20C9F21000B279F6 /* sha1.cpp in Sources */,
 				BB7ABAC220969F1D00B33F7E /* TexturedObjectStats.cpp in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
@@ -2255,6 +2299,7 @@
 				94AA1F5007C3DB025CEDAE93 /* AssetHolderUtils.cpp in Sources */,
 				BB7ABABF20969F1D00B33F7E /* TexturedObject.cpp in Sources */,
 				B78BD34EFE069BDA1F7C0A10 /* ofxThreadSafeLog.cpp in Sources */,
+				BBF3136020C9F21000B279F6 /* xxhash.c in Sources */,
 				19B151DC088659DCCAC073C0 /* ofxProgressiveTextureLoad.cpp in Sources */,
 				8E651108C75AD9596B08800D /* ProgressiveTextureLoadQueue.cpp in Sources */,
 				139297C6FADADED97F097790 /* ofxJsonSettings.cpp in Sources */,
