@@ -86,6 +86,7 @@
 		BB7ABAE420969F7D00B33F7E /* ofxAppUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB7ABADC20969F7D00B33F7E /* ofxAppUtils.cpp */; };
 		BBC1B9E01F58B4DD00F70C62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DB1F58B4DD00F70C62 /* main.cpp */; };
 		BBC1B9E11F58B4DD00F70C62 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B9DE1F58B4DD00F70C62 /* ofApp.cpp */; };
+		BBD5AE1820D452C000E35668 /* ofxNetworkUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE1720D452C000E35668 /* ofxNetworkUtils.cpp */; };
 		BBED95262084153C002F28DB /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBED95252084153C002F28DB /* OscQueryServerMgr.cpp */; };
 		BBF3135E20C9F21000B279F6 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF3135720C9F21000B279F6 /* sha1.cpp */; };
 		BBF3135F20C9F21000B279F6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBF3135B20C9F21000B279F6 /* README.md */; };
@@ -525,6 +526,7 @@
 		BBC1B9DE1F58B4DD00F70C62 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxApp/example-NoContent/src/ofApp.cpp"; sourceTree = "<group>"; };
 		BBC1B9DF1F58B4DD00F70C62 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../ExternalAddons/ofxApp/example-NoContent/src/ofApp.h"; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
+		BBD5AE1720D452C000E35668 /* ofxNetworkUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxNetworkUtils.cpp; path = ../../OpenFrameworks/addons/ofxNetwork/src/ofxNetworkUtils.cpp; sourceTree = "<group>"; };
 		BBED95242084153C002F28DB /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BBED95252084153C002F28DB /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
 		BBF3135620C9F21000B279F6 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
@@ -892,6 +894,7 @@
 			children = (
 				224ED24F6F1E574F49C2952E /* ofxNetwork.h */,
 				52FDBB98429778D8B81EA71A /* ofxNetworkUtils.h */,
+				BBD5AE1720D452C000E35668 /* ofxNetworkUtils.cpp */,
 				E6736A59F7CD6975ED7382AE /* ofxTCPClient.cpp */,
 				D129E52F31E8D9402AFC3A24 /* ofxTCPClient.h */,
 				9A925F4B64FDDAB554EFC473 /* ofxTCPManager.cpp */,
@@ -2266,6 +2269,7 @@
 				0EA5725384DF8D68BCC2427C /* ofxXmlSettings.cpp in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
+				BBD5AE1820D452C000E35668 /* ofxNetworkUtils.cpp in Sources */,
 				BB7ABACC20969F2E00B33F7E /* ofxMtJsonParserUtils.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				09499D3E602185EF130FA72A /* ofxFontStash.cpp in Sources */,

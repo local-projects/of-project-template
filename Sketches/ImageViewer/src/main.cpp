@@ -12,8 +12,6 @@ int main( ){
 
 	ofGLFWWindowSettings winSettings;
 	winSettings.numSamples = ofxApp::get().getInt("App/numAASamples", 8);
-	winSettings.width = 1027;
-	winSettings.height = 768;
 //	winSettings.glVersionMajor = 3;
 //	winSettings.glVersionMinor = 2;
 
