@@ -477,6 +477,7 @@
 		BA16270D20A9486D53B31B95 /* ripemd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ripemd.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h; sourceTree = SOURCE_ROOT; };
 		BAD9D1B5DBD08D9744F9D7B2 /* intrin_neon.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intrin_neon.hpp; path = ../../OpenFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal/intrin_neon.hpp; sourceTree = SOURCE_ROOT; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
+		BB72B35320D9C8920025FDD7 /* ofxAppSettings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ofxAppSettings.json; path = bin/data/configs/ofxAppSettings.json; sourceTree = "<group>"; };
 		BB7ABAA720969F0400B33F7E /* ofxTuio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxTuio.h; path = ../../ExternalAddons/ofxTuio/src/ofxTuio.h; sourceTree = "<group>"; };
 		BB7ABAA820969F0400B33F7E /* ofxTuioClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxTuioClient.cpp; path = ../../ExternalAddons/ofxTuio/src/ofxTuioClient.cpp; sourceTree = "<group>"; };
 		BB7ABAA920969F0400B33F7E /* ofxTuioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxTuioClient.h; path = ../../ExternalAddons/ofxTuio/src/ofxTuioClient.h; sourceTree = "<group>"; };
@@ -1968,6 +1969,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				BB72B35320D9C8920025FDD7 /* ofxAppSettings.json */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
