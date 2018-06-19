@@ -7,7 +7,7 @@ In short, this repo doesn't contain OpenFrameworks per se, it uses submodules to
 Usually you would get all the submodules in the repo with:
 
 ```
-git submodule update --init
+git submodule update --init --recusive
 ```
 
 But we built a custom script that handles all of it. If you look at the script named ```submods.sh``` in the repo root, you can see it contains a custom definition of a list of submodules, just below the initial comments.
@@ -70,7 +70,7 @@ brew install ccache
 
 For more info, see this [forum thread](https://forum.openframeworks.cc/t/speeding-up-compilation-with-ccache-xcode-tip/23492/7).
 
-To get Ccache working with OF, we added these 2 lines at the end of ```CoreOF.xcconfig``` to our [fork](https://github.com/local-projects/openframeworks/tree/feature/ccache) of OpenFrameworks, note its the branch ```feature/ccache```.
+To get CCache working with OF, we added these 2 lines at the end of ```CoreOF.xcconfig```  (in `OpenFrameworks/libs/openFrameworksCompiled/project/osx`) to our [fork](https://github.com/local-projects/openFrameworks/tree/LP/0.10.0_ccache) of OpenFrameworks, note its the branch ```LP/0.10.0_ccache```.
 
 ```
 CC = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang.sh
