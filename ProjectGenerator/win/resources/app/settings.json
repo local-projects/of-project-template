@@ -1,7 +1,7 @@
 {
-	"advancedMode": true,
-	"defaultOfPath": "C:\\Users\\oriol\\Desktop\\lp-internal.OF_Project_template\\OpenFrameworks",
-	"defaultPlatform": "osx",
+	"advancedMode": false,
+	"defaultOfPath": "../",
+	"defaultPlatform": "vs",
 	"defaultRelativeProjectPath": "apps/myApps",
 	"showConsole": false,
 	"showDeveloperTools": false,
