@@ -7,6 +7,12 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.cpp">
       <Filter>addons\ofxOsc\src</Filter>
     </ClCompile>
@@ -43,6 +49,9 @@
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
       <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.cpp">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
       <Filter>addons\ofxXmlSettings\src</Filter>
     </ClCompile>
@@ -67,7 +76,16 @@
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
@@ -88,6 +106,9 @@
     <ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfPoint.cpp">
       <Filter>local_addons\ofxAnimatable\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableQueue.cpp">
+      <Filter>local_addons\ofxAnimatable\src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.cpp">
       <Filter>local_addons\ofxFontStash\src</Filter>
     </ClCompile>
@@ -99,6 +120,12 @@
     </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxScreenSetup\src\ofxScreenSetup.cpp">
       <Filter>local_addons\ofxScreenSetup\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.cpp">
+      <Filter>local_addons\ofxSuperLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.cpp">
+      <Filter>local_addons\ofxSuperLog</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +158,12 @@
     </Filter>
     <Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
       <UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco">
+      <UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco\src">
+      <UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxXmlSettings">
       <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
@@ -189,12 +222,15 @@
     <Filter Include="local_addons\ofxScreenSetup\src">
       <UniqueIdentifier>{1CA68E43-F35A-0625-0B8F-3D67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="local_addons\ofxSuperLog">
+      <UniqueIdentifier>{f52957b2-e6d5-4be0-bb86-c090fe84a967}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\CustomApp.h">
+    <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOsc.h">
@@ -257,11 +293,17 @@
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
       <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.h">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.h">
       <Filter>addons\ofxXmlSettings\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.h">
       <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\GL_Measurement.h">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurements.h">
       <Filter>local_addons\ofxTimeMeasurements\src</Filter>
@@ -284,6 +326,9 @@
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
@@ -296,10 +341,10 @@
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\TinyPie.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h">
@@ -320,6 +365,9 @@
     <ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableOfPoint.h">
       <Filter>local_addons\ofxAnimatable\src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxAnimatable\src\ofxAnimatableQueue.h">
+      <Filter>local_addons\ofxAnimatable\src</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.h">
       <Filter>local_addons\ofxFontStash\src</Filter>
     </ClInclude>
@@ -331,6 +379,15 @@
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxScreenSetup\src\ofxScreenSetup.h">
       <Filter>local_addons\ofxScreenSetup\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CustomApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.h">
+      <Filter>local_addons\ofxSuperLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLogDisplay.h">
+      <Filter>local_addons\ofxSuperLog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
