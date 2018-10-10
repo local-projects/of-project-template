@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -27,24 +27,24 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
@@ -179,9 +179,9 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\main.cpp" />
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\MyScreenObject.cpp" />
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\ofApp.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\main.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyScreenObject.cpp" />
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\ofApp.cpp" />
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvColorImage.cpp" />
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvContourFinder.cpp" />
     <ClCompile Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvFloatImage.cpp" />
@@ -226,16 +226,15 @@
     <ClCompile Include="..\..\ExternalAddons\ofxMemoryUsage\src\ofxMemoryUsage.cpp" />
     <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObject.cpp" />
     <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConfig.cpp" />
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConstants.cpp" />
     <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectGC.cpp" />
     <ClCompile Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ofxProgressiveTextureLoad.cpp" />
     <ClCompile Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ProgressiveTextureLoadQueue.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\CustomApp.h" />
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\MyScreenObject.h" />
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\MyTexturedObject.h" />
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\ofApp.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\CustomApp.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyScreenObject.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyTexturedObject.h" />
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\ofApp.h" />
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvBlob.h" />
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvColorImage.h" />
     <ClInclude Include="..\..\OpenFrameworks\addons\ofxOpenCv\src\ofxCvConstants.h" />
