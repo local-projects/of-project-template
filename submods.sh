@@ -86,6 +86,7 @@ SubModule: ExternalAddons/ofxUserContentUpload https://github.com/local-projects
 SubModule: ExternalAddons/ofxNanoVG https://github.com/local-projects/ofxNanoVG.git armadillu?https://github.com/armadillu/ofxNanoVG.git galsasson?https://github.com/galsasson/ofxNanoVG.git
 SubModule: ExternalAddons/ofxImageResizer https://github.com/local-projects/ofxImageResizer.git armadillu?https://github.com/armadillu/ofxImageResizer.git
 SubModule: ExternalAddons/ofxLibwebsockets https://github.com/local-projects/ofxLibwebsockets.git upstream?https://github.com/robotconscience/ofxLibwebsockets.git
+SubModule: ExternalAddons/ofxNotificationCenter https://github.com/local-projects/ofxNotificationCenter.git armadillu?https://github.com/armadillu/ofxNotificationCenter.git
 
 SubModule: OpenFrameworks https://github.com/local-projects/OpenFrameworks.git OF?https://github.com/OpenFrameworks/OpenFrameworks.git
 }
@@ -372,7 +373,8 @@ fi
 
 echo-info "Performing basic git submodule initialization and updates"
 git submodule init
-git submodule update
+git fetch --recurse-submodules=yes --jobs=10
+git submodule update --jobs=10
 
 # Manage our submodules
 SubMods

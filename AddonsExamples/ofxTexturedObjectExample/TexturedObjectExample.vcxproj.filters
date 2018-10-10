@@ -133,9 +133,6 @@
     <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConfig.cpp">
       <Filter>local_addons\ofxTexturedObject\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectConstants.cpp">
-      <Filter>local_addons\ofxTexturedObject\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\src\TexturedObjectGC.cpp">
       <Filter>local_addons\ofxTexturedObject\src</Filter>
     </ClCompile>
@@ -145,13 +142,13 @@
     <ClCompile Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ProgressiveTextureLoadQueue.cpp">
       <Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\main.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\MyScreenObject.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyScreenObject.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\ofApp.cpp">
+    <ClCompile Include="..\..\ExternalAddons\ofxTexturedObject\example\src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1607,16 +1604,16 @@
     <ClInclude Include="..\..\ExternalAddons\ofxProgressiveTextureLoad\src\ProgressiveTextureLoadQueue.h">
       <Filter>local_addons\ofxProgressiveTextureLoad\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\CustomApp.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\CustomApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\MyScreenObject.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyScreenObject.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\MyTexturedObject.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\MyTexturedObject.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\ofApp.h">
+    <ClInclude Include="..\..\ExternalAddons\ofxTexturedObject\example\src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

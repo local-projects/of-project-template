@@ -48,6 +48,7 @@
 		BB5209BE1F38C7E000629936 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5209BA1F38C7E000629936 /* ofxfs2_nanovg.c */; };
 		BB5978F41EC9FAFE003CCFAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F11EC9FAFE003CCFAC /* main.cpp */; };
 		BB5978F51EC9FAFE003CCFAC /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */; };
+		BB66025220841BBE00CE6FA7 /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB66025020841BBE00CE6FA7 /* OscQueryServerMgr.cpp */; };
 		BBBD6AD61F3A38FF006C38DE /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBD6ACD1F3A38FF006C38DE /* ofxFontStash.cpp */; };
 		BBBD6AD71F3A38FF006C38DE /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = BBBD6AD21F3A38FF006C38DE /* fontstash.c */; };
 		BBBD6AD81F3A38FF006C38DE /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = BBBD6AD41F3A38FF006C38DE /* stb_truetype.c */; };
@@ -259,6 +260,8 @@
 		BB5978F11EC9FAFE003CCFAC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BB5978F21EC9FAFE003CCFAC /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
 		BB5978F31EC9FAFE003CCFAC /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		BB66025020841BBE00CE6FA7 /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BB66025120841BBE00CE6FA7 /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BBBD6ACD1F3A38FF006C38DE /* ofxFontStash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStash.cpp; sourceTree = "<group>"; };
 		BBBD6ACE1F3A38FF006C38DE /* ofxFontStash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFontStash.h; sourceTree = "<group>"; };
 		BBBD6AD21F3A38FF006C38DE /* fontstash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fontstash.c; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 		415D5E519F28EDB1929BC34B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BB66025020841BBE00CE6FA7 /* OscQueryServerMgr.cpp */,
+				BB66025120841BBE00CE6FA7 /* OscQueryServerMgr.h */,
 				9F052A6C09EC04CE00CB764F /* dirent_vs.h */,
 				CA7A31FAD20A633C0EB7A73E /* ofxRemoteUI.cpp */,
 				0E73CC0CC2DC69392F2EC53D /* ofxRemoteUI.h */,
@@ -1080,6 +1085,7 @@
 				BB1F2D0C1F3A268D00DE336D /* README.md in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
+				BB66025220841BBE00CE6FA7 /* OscQueryServerMgr.cpp in Sources */,
 				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
 				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
 				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,

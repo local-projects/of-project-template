@@ -133,3 +133,6 @@
 [submodule "ExternalAddons/ofxLibwebsockets"]
 	path = ExternalAddons/ofxLibwebsockets
 	url = https://github.com/local-projects/ofxLibwebsockets.git
+[submodule "ExternalAddons/ofxNotificationCenter"]
+	path = ExternalAddons/ofxNotificationCenter
+	url = https://github.com/local-projects/ofxNotificationCenter.git

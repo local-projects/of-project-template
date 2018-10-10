@@ -33,6 +33,9 @@
 		B93F0A05F64CF304FB6F5CBE /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BBD2967765719B442C6BF4 /* OscPrintReceivedElements.cpp */; };
 		BBB61FDD1F28F49200B9EF0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB61FDA1F28F49200B9EF0F /* main.cpp */; };
 		BBB61FDE1F28F49200B9EF0F /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB61FDB1F28F49200B9EF0F /* ofApp.cpp */; };
+		BBD5AE2C20D453CE00E35668 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE2520D453CE00E35668 /* sha1.cpp */; };
+		BBD5AE2D20D453CE00E35668 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE2920D453CE00E35668 /* README.md */; };
+		BBD5AE2E20D453CE00E35668 /* xxhash.c in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE2A20D453CE00E35668 /* xxhash.c */; };
 		C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C456297E03FFB4330EF59F8E /* ofxChecksum.cpp */; };
 		CD950F2E6482A88DADF72404 /* ofxDownloadCentral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D43F0E08FB57A2E11F76737 /* ofxDownloadCentral.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
@@ -185,6 +188,13 @@
 		BBB61FDB1F28F49200B9EF0F /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxGoogleAnalytics/example-simple/src/ofApp.cpp"; sourceTree = "<group>"; };
 		BBB61FDC1F28F49200B9EF0F /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../ExternalAddons/ofxGoogleAnalytics/example-simple/src/ofApp.h"; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
+		BBD5AE2420D453CE00E35668 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		BBD5AE2520D453CE00E35668 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		BBD5AE2620D453CE00E35668 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		BBD5AE2820D453CE00E35668 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBD5AE2920D453CE00E35668 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBD5AE2A20D453CE00E35668 /* xxhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxhash.c; sourceTree = "<group>"; };
+		BBD5AE2B20D453CE00E35668 /* xxhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxhash.h; sourceTree = "<group>"; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
 		BCCCF102DE2F4CB002C4B895 /* asn1t.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asn1t.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/asn1t.h; sourceTree = SOURCE_ROOT; };
@@ -484,6 +494,7 @@
 		73960BBFE754AE467B50C70B /* ofxSimpleHttp */ = {
 			isa = PBXGroup;
 			children = (
+				BBD5AE2220D453CE00E35668 /* libs */,
 				74F7A099F188C01B4E0A0EC1 /* src */,
 			);
 			name = ofxSimpleHttp;
@@ -536,6 +547,37 @@
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BBD5AE2220D453CE00E35668 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE2320D453CE00E35668 /* sha1 */,
+				BBD5AE2720D453CE00E35668 /* xxHash */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxSimpleHttp/libs;
+			sourceTree = "<group>";
+		};
+		BBD5AE2320D453CE00E35668 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE2420D453CE00E35668 /* Platform.h */,
+				BBD5AE2520D453CE00E35668 /* sha1.cpp */,
+				BBD5AE2620D453CE00E35668 /* sha1.h */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
+		BBD5AE2720D453CE00E35668 /* xxHash */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE2820D453CE00E35668 /* LICENSE */,
+				BBD5AE2920D453CE00E35668 /* README.md */,
+				BBD5AE2A20D453CE00E35668 /* xxhash.c */,
+				BBD5AE2B20D453CE00E35668 /* xxhash.h */,
+			);
+			path = xxHash;
 			sourceTree = "<group>";
 		};
 		BD2F1A9F8D0C05EDB29122D0 /* src */ = {
@@ -769,6 +811,7 @@
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				7D9D704BA864F8CA41346355 /* ofxBatchDownloader.cpp in Sources */,
+				BBD5AE2C20D453CE00E35668 /* sha1.cpp in Sources */,
 				C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */,
 				CD950F2E6482A88DADF72404 /* ofxDownloadCentral.cpp in Sources */,
 				846C520144534642B48EA14B /* ofxSimpleHttp.cpp in Sources */,
@@ -776,9 +819,11 @@
 				5A2B42542BA5EF4472E6FD5C /* ofxGoogleAnalytics.cpp in Sources */,
 				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
+				BBD5AE2D20D453CE00E35668 /* README.md in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
 				88516A6B26B002345087E741 /* ofxRemoteUINeigbors.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
+				BBD5AE2E20D453CE00E35668 /* xxhash.c in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
 			);

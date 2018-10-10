@@ -10,6 +10,9 @@
 		7D9D704BA864F8CA41346355 /* ofxBatchDownloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63922F549A8CD5CCD6CBDB6 /* ofxBatchDownloader.cpp */; };
 		846C520144534642B48EA14B /* ofxSimpleHttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A97288DDF5AB6AB5F511E22 /* ofxSimpleHttp.cpp */; };
 		9D12BE9B8F1D1E4080643C6D /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B1E8C8AF335278560FF39 /* ofxXmlPoco.cpp */; };
+		BBD5AE5D20D4554C00E35668 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE5620D4554C00E35668 /* sha1.cpp */; };
+		BBD5AE5E20D4554C00E35668 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE5A20D4554C00E35668 /* README.md */; };
+		BBD5AE5F20D4554C00E35668 /* xxhash.c in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE5B20D4554C00E35668 /* xxhash.c */; };
 		BBDE06C81F265D4300F0F710 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06C51F265D4300F0F710 /* main.cpp */; };
 		BBDE06C91F265D4300F0F710 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06C61F265D4300F0F710 /* ofApp.cpp */; };
 		C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C456297E03FFB4330EF59F8E /* ofxChecksum.cpp */; };
@@ -109,6 +112,13 @@
 		B8581C32877ED7F33F6F7B3E /* ecdsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ecdsa.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ecdsa.h; sourceTree = SOURCE_ROOT; };
 		BA16270D20A9486D53B31B95 /* ripemd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ripemd.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/ripemd.h; sourceTree = SOURCE_ROOT; };
 		BB56B924F5A25704D3159095 /* sha.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sha.h; path = ../../OpenFrameworks/addons/ofxPoco/libs/openssl/include/openssl/sha.h; sourceTree = SOURCE_ROOT; };
+		BBD5AE5520D4554C00E35668 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		BBD5AE5620D4554C00E35668 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		BBD5AE5720D4554C00E35668 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		BBD5AE5920D4554C00E35668 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBD5AE5A20D4554C00E35668 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBD5AE5B20D4554C00E35668 /* xxhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxhash.c; sourceTree = "<group>"; };
+		BBD5AE5C20D4554C00E35668 /* xxhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxhash.h; sourceTree = "<group>"; };
 		BBDE06C51F265D4300F0F710 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../ExternalAddons/ofxSimpleHttp/example-ofxSimpleHttp/src/main.cpp"; sourceTree = "<group>"; };
 		BBDE06C61F265D4300F0F710 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxSimpleHttp/example-ofxSimpleHttp/src/ofApp.cpp"; sourceTree = "<group>"; };
 		BBDE06C71F265D4300F0F710 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../ExternalAddons/ofxSimpleHttp/example-ofxSimpleHttp/src/ofApp.h"; sourceTree = "<group>"; };
@@ -275,6 +285,7 @@
 		73960BBFE754AE467B50C70B /* ofxSimpleHttp */ = {
 			isa = PBXGroup;
 			children = (
+				BBD5AE5320D4554C00E35668 /* libs */,
 				74F7A099F188C01B4E0A0EC1 /* src */,
 			);
 			name = ofxSimpleHttp;
@@ -317,6 +328,37 @@
 				0117D94CE0C695E5E5482BEC /* ofxPoco */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BBD5AE5320D4554C00E35668 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE5420D4554C00E35668 /* sha1 */,
+				BBD5AE5820D4554C00E35668 /* xxHash */,
+			);
+			name = libs;
+			path = ../../ExternalAddons/ofxSimpleHttp/libs;
+			sourceTree = "<group>";
+		};
+		BBD5AE5420D4554C00E35668 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE5520D4554C00E35668 /* Platform.h */,
+				BBD5AE5620D4554C00E35668 /* sha1.cpp */,
+				BBD5AE5720D4554C00E35668 /* sha1.h */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
+		BBD5AE5820D4554C00E35668 /* xxHash */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5AE5920D4554C00E35668 /* LICENSE */,
+				BBD5AE5A20D4554C00E35668 /* README.md */,
+				BBD5AE5B20D4554C00E35668 /* xxhash.c */,
+				BBD5AE5C20D4554C00E35668 /* xxhash.h */,
+			);
+			path = xxHash;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -466,6 +508,9 @@
 				BBDE06C81F265D4300F0F710 /* main.cpp in Sources */,
 				C9A53497A3156A58473E52FC /* ofxChecksum.cpp in Sources */,
 				CD950F2E6482A88DADF72404 /* ofxDownloadCentral.cpp in Sources */,
+				BBD5AE5E20D4554C00E35668 /* README.md in Sources */,
+				BBD5AE5F20D4554C00E35668 /* xxhash.c in Sources */,
+				BBD5AE5D20D4554C00E35668 /* sha1.cpp in Sources */,
 				846C520144534642B48EA14B /* ofxSimpleHttp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

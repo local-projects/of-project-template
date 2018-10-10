@@ -1,588 +1,261 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.cpp">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.cpp">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.cpp">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.cpp">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.cpp">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.cpp">
-			<Filter>addons\ofxPoco\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
-			<Filter>addons\ofxXmlSettings\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.cpp">
-			<Filter>addons\ofxXmlSettings\libs</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
-			<Filter>addons\ofxXmlSettings\libs</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
-			<Filter>addons\ofxXmlSettings\libs</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\jsoncpp.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Client.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Connection.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Events.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Protocol.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Reactor.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Server.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\src\Util.cpp">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc">
-			<UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\src">
-			<UniqueIdentifier>{B9DD339A-D93D-92A1-0A2F-4B41}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs">
-			<UniqueIdentifier>{99ECA1D9-873F-4622-8FC0-FC7B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs\oscpack">
-			<UniqueIdentifier>{D3A98534-1602-4FEF-57A6-6593}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs\oscpack\src">
-			<UniqueIdentifier>{BFB5BB47-98C8-BBCB-3066-1046}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
-			<UniqueIdentifier>{5A029128-EB41-95C5-CBC0-CDED}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
-			<UniqueIdentifier>{79DFDFE2-400B-8654-3675-01A3}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
-			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco">
-			<UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco\src">
-			<UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco\libs">
-			<UniqueIdentifier>{3E8A9E9C-2DA4-7391-777F-56C5}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco\libs\openssl">
-			<UniqueIdentifier>{5947399C-92B2-BAE8-E58F-7024}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco\libs\openssl\include">
-			<UniqueIdentifier>{D5DE9DB7-5574-8FBC-7336-5107}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxPoco\libs\openssl\include\openssl">
-			<UniqueIdentifier>{C648CDF7-0C1F-4D5B-2490-7010}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxXmlSettings">
-			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxXmlSettings\src">
-			<UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxXmlSettings\libs">
-			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons">
-			<UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxRemoteUI">
-			<UniqueIdentifier>{DFCB62F2-EABF-394F-4C42-54C8}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxRemoteUI\src">
-			<UniqueIdentifier>{0E8034BD-932E-4031-A20F-9C02}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets">
-			<UniqueIdentifier>{7B9B6E32-F5F1-3FB6-285A-FBE0}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\src">
-			<UniqueIdentifier>{B2FBC382-D127-0F8F-D27C-6D6C}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs">
-			<UniqueIdentifier>{CBEA4DCA-3DEF-6A92-A3C3-3B93}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp">
-			<UniqueIdentifier>{2B9CEA2C-B5EA-32FF-547C-738B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\jsoncpp\json">
-			<UniqueIdentifier>{694EC9CA-17B2-54AA-F4BA-837E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets">
-			<UniqueIdentifier>{1E436DEC-5346-3A64-44B5-C85C}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\libwebsockets\include">
-			<UniqueIdentifier>{09018A48-5811-2883-00D7-F3B5}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets">
-			<UniqueIdentifier>{49656C4C-9760-8706-2108-EB6E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include">
-			<UniqueIdentifier>{96508FF9-BCA7-7E44-16C0-5455}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets">
-			<UniqueIdentifier>{2349D4AB-DE92-E503-243A-2BBE}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\src">
-			<UniqueIdentifier>{48D92228-24A5-30BB-3C90-B70D}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOsc.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscArg.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.h">
-			<Filter>addons\ofxOsc\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
-			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.h">
-			<Filter>addons\ofxPoco\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\aes.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1_mac.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\asn1t.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bio.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\blowfish.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\bn.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\buffer.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\camellia.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cast.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cmac.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\cms.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\comp.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\conf_api.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\crypto.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\des_old.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dh.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dsa.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dso.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\dtls1.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\e_os2.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ebcdic.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ec.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdh.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ecdsa.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\engine.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\err.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\evp.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\hmac.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\idea.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\krb5_asn.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\kssl.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\lhash.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md4.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\md5.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\mdc2.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\modes.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\obj_mac.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\objects.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ocsp.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslconf_osx.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\opensslv.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ossl_typ.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pem2.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs12.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pkcs7.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\pqueue.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rand.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc2.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rc4.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ripemd.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\rsa.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\safestack.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\seed.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\sha.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srp.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\srtp.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl2.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl23.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ssl3.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\stack.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\symhacks.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\tls1.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ts.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\txt_db.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\ui_compat.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\whrlpool.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509_vfy.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\libs\openssl\include\openssl\x509v3.h">
-			<Filter>addons\ofxPoco\libs\openssl\include\openssl</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.h">
-			<Filter>addons\ofxXmlSettings\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.h">
-			<Filter>addons\ofxXmlSettings\libs</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\dirent_vs.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h">
-			<Filter>local_addons\ofxRemoteUI\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\src\ofxLibwebsockets.h">
-			<Filter>local_addons\ofxLibwebsockets\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json-forwards.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\jsoncpp\json\json.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\jsoncpp\json</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\libwebsockets.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\libwebsockets\include\lws_config.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\libwebsockets\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Client.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Connection.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Events.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Protocol.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Reactor.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Server.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\ExternalAddons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets\Util.h">
-			<Filter>local_addons\ofxLibwebsockets\libs\ofxLibwebsockets\include\ofxLibwebsockets</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.cpp">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\OscQueryServerMgr.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\example-server\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\example-server\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc">
+      <UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\src">
+      <UniqueIdentifier>{B9DD339A-D93D-92A1-0A2F-4B41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs">
+      <UniqueIdentifier>{99ECA1D9-873F-4622-8FC0-FC7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack">
+      <UniqueIdentifier>{D3A98534-1602-4FEF-57A6-6593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src">
+      <UniqueIdentifier>{BFB5BB47-98C8-BBCB-3066-1046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
+      <UniqueIdentifier>{5A029128-EB41-95C5-CBC0-CDED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
+      <UniqueIdentifier>{79DFDFE2-400B-8654-3675-01A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
+      <UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco">
+      <UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco\src">
+      <UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons">
+      <UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxRemoteUI">
+      <UniqueIdentifier>{DFCB62F2-EABF-394F-4C42-54C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxRemoteUI\src">
+      <UniqueIdentifier>{0E8034BD-932E-4031-A20F-9C02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOsc.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscArg.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscBundle.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscMessage.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscParameterSync.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscReceiver.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\src\ofxOscSender.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxPoco\src\ofxXmlPoco.h">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenFrameworks\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\dirent_vs.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUI.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIClient.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\OscQueryServerMgr.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\example-server\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
 </Project>

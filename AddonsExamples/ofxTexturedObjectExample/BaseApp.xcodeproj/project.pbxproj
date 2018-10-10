@@ -43,11 +43,8 @@
 		BB5822CA1D5282C60076E136 /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5821331D5282C60076E136 /* ofxCvImage.cpp */; };
 		BB5822CB1D5282C60076E136 /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5821351D5282C60076E136 /* ofxCvShortImage.cpp */; };
 		BB5822CE1D5282C60076E136 /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5822731D5282C60076E136 /* opencv.a */; };
-		BB5822ED1D52B4620076E136 /* TexturedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E41D52B4620076E136 /* TexturedObject.cpp */; };
-		BB5822EE1D52B4620076E136 /* TexturedObjectConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E61D52B4620076E136 /* TexturedObjectConfig.cpp */; };
-		BB5822EF1D52B4620076E136 /* TexturedObjectConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E81D52B4620076E136 /* TexturedObjectConstants.cpp */; };
-		BB5822F01D52B4620076E136 /* TexturedObjectGC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822E91D52B4620076E136 /* TexturedObjectGC.cpp */; };
 		BB5822FC1D52B4A10076E136 /* ofxMemoryUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB5822FA1D52B4A10076E136 /* ofxMemoryUsage.cpp */; };
+		BB66026B20841E3E00CE6FA7 /* OscQueryServerMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */; };
 		BB8B2D361E43A75D0060BAEA /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29FB1E43A75D0060BAEA /* ofxXmlPoco.cpp */; };
 		BB8B2D371E43A75D0060BAEA /* crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B2A4F1E43A75D0060BAEA /* crypto.a */; };
 		BB8B2D381E43A75D0060BAEA /* ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B2A501E43A75D0060BAEA /* ssl.a */; };
@@ -62,6 +59,10 @@
 		BB8E6E431F2A714A00D27A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E3D1F2A714A00D27A76 /* main.cpp */; };
 		BB8E6E441F2A714A00D27A76 /* MyScreenObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E3E1F2A714A00D27A76 /* MyScreenObject.cpp */; };
 		BB8E6E451F2A714A00D27A76 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8E6E411F2A714A00D27A76 /* ofApp.cpp */; };
+		BBD5AE6C20D4562D00E35668 /* TexturedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE6420D4562D00E35668 /* TexturedObject.cpp */; };
+		BBD5AE6D20D4562D00E35668 /* TexturedObjectConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE6620D4562D00E35668 /* TexturedObjectConfig.cpp */; };
+		BBD5AE6E20D4562D00E35668 /* TexturedObjectGC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE6820D4562D00E35668 /* TexturedObjectGC.cpp */; };
+		BBD5AE6F20D4562D00E35668 /* TexturedObjectStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD5AE6A20D4562D00E35668 /* TexturedObjectStats.cpp */; };
 		D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB91E360B6E30ABFDBD97C8 /* ofxOscParameterSync.cpp */; };
 		E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -126,7 +127,6 @@
 		52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAnimatableOfPoint.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.cpp; sourceTree = SOURCE_ROOT; };
 		53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAnimatable.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h; sourceTree = SOURCE_ROOT; };
 		5E25203034548B1414A2EC4A /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../OpenFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
-		5FE44E52941549810A497BA4 /* TinyPie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TinyPie.h; path = ../../ExternalAddons/ofxRemoteUI/src/TinyPie.h; sourceTree = SOURCE_ROOT; };
 		60264129E173C2D0D9139A97 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
 		62E4DB2F6A265DC653B8AD3F /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = ../../OpenFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
 		6760F4F516B8CA85B1C4240A /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
@@ -384,17 +384,10 @@
 		BB5822261D5282C60076E136 /* videostab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = videostab.hpp; sourceTree = "<group>"; };
 		BB5822731D5282C60076E136 /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv.a; sourceTree = "<group>"; };
 		BB5822C41D5282C60076E136 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BB5822E41D52B4620076E136 /* TexturedObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObject.cpp; sourceTree = "<group>"; };
-		BB5822E51D52B4620076E136 /* TexturedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObject.h; sourceTree = "<group>"; };
-		BB5822E61D52B4620076E136 /* TexturedObjectConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectConfig.cpp; sourceTree = "<group>"; };
-		BB5822E71D52B4620076E136 /* TexturedObjectConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObjectConfig.h; sourceTree = "<group>"; };
-		BB5822E81D52B4620076E136 /* TexturedObjectConstants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectConstants.cpp; sourceTree = "<group>"; };
-		BB5822E91D52B4620076E136 /* TexturedObjectGC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectGC.cpp; sourceTree = "<group>"; };
-		BB5822EA1D52B4620076E136 /* TexturedObjectGC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObjectGC.h; sourceTree = "<group>"; };
-		BB5822EB1D52B4620076E136 /* TexturedObjectSizes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObjectSizes.h; sourceTree = "<group>"; };
-		BB5822EC1D52B4620076E136 /* TexturedObjectStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedObjectStats.h; sourceTree = "<group>"; };
 		BB5822FA1D52B4A10076E136 /* ofxMemoryUsage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMemoryUsage.cpp; sourceTree = "<group>"; };
 		BB5822FB1D52B4A10076E136 /* ofxMemoryUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxMemoryUsage.h; sourceTree = "<group>"; };
+		BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscQueryServerMgr.cpp; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.cpp; sourceTree = "<group>"; };
+		BB66026A20841E3E00CE6FA7 /* OscQueryServerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscQueryServerMgr.h; path = ../../ExternalAddons/ofxRemoteUI/src/OscQueryServerMgr.h; sourceTree = "<group>"; };
 		BB8B29FB1E43A75D0060BAEA /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlPoco.cpp; sourceTree = "<group>"; };
 		BB8B29FC1E43A75D0060BAEA /* ofxXmlPoco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlPoco.h; sourceTree = "<group>"; };
 		BB8B2A011E43A75D0060BAEA /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -493,6 +486,14 @@
 		BB8E6E411F2A714A00D27A76 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../ExternalAddons/ofxTexturedObject/example/src/ofApp.cpp; sourceTree = "<group>"; };
 		BB8E6E421F2A714A00D27A76 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../ExternalAddons/ofxTexturedObject/example/src/ofApp.h; sourceTree = "<group>"; };
 		BBCF5BFC230D5188B3DE8359 /* uriencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = uriencode.h; path = ../../ExternalAddons/ofxRemoteUI/src/uriencode.h; sourceTree = SOURCE_ROOT; };
+		BBD5AE6420D4562D00E35668 /* TexturedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObject.cpp; sourceTree = "<group>"; };
+		BBD5AE6520D4562D00E35668 /* TexturedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedObject.h; sourceTree = "<group>"; };
+		BBD5AE6620D4562D00E35668 /* TexturedObjectConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectConfig.cpp; sourceTree = "<group>"; };
+		BBD5AE6720D4562D00E35668 /* TexturedObjectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedObjectConfig.h; sourceTree = "<group>"; };
+		BBD5AE6820D4562D00E35668 /* TexturedObjectGC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectGC.cpp; sourceTree = "<group>"; };
+		BBD5AE6920D4562D00E35668 /* TexturedObjectGC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedObjectGC.h; sourceTree = "<group>"; };
+		BBD5AE6A20D4562D00E35668 /* TexturedObjectStats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexturedObjectStats.cpp; sourceTree = "<group>"; };
+		BBD5AE6B20D4562D00E35668 /* TexturedObjectStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedObjectStats.h; sourceTree = "<group>"; };
 		BC353DDAF05D3994D07433F1 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../OpenFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRemoteUISimpleNotifications.h; path = ../../ExternalAddons/ofxRemoteUI/src/ofxRemoteUISimpleNotifications.h; sourceTree = SOURCE_ROOT; };
 		BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAnimatable.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.cpp; sourceTree = SOURCE_ROOT; };
@@ -626,7 +627,8 @@
 				BC3FAF086572A19C05B71387 /* ofxRemoteUISimpleNotifications.h */,
 				0572FB51E42261684CEDFF51 /* ofxRemoteUIVars.h */,
 				918920A25168C6B1BBF38D7B /* RemoteParam.h */,
-				5FE44E52941549810A497BA4 /* TinyPie.h */,
+				BB66026920841E3E00CE6FA7 /* OscQueryServerMgr.cpp */,
+				BB66026A20841E3E00CE6FA7 /* OscQueryServerMgr.h */,
 				8FB25397694DCEDC255D8FF8 /* uriencode.cpp */,
 				BBCF5BFC230D5188B3DE8359 /* uriencode.h */,
 			);
@@ -1288,15 +1290,14 @@
 		BB5822E31D52B4620076E136 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BB5822E41D52B4620076E136 /* TexturedObject.cpp */,
-				BB5822E51D52B4620076E136 /* TexturedObject.h */,
-				BB5822E61D52B4620076E136 /* TexturedObjectConfig.cpp */,
-				BB5822E71D52B4620076E136 /* TexturedObjectConfig.h */,
-				BB5822E81D52B4620076E136 /* TexturedObjectConstants.cpp */,
-				BB5822E91D52B4620076E136 /* TexturedObjectGC.cpp */,
-				BB5822EA1D52B4620076E136 /* TexturedObjectGC.h */,
-				BB5822EB1D52B4620076E136 /* TexturedObjectSizes.h */,
-				BB5822EC1D52B4620076E136 /* TexturedObjectStats.h */,
+				BBD5AE6420D4562D00E35668 /* TexturedObject.cpp */,
+				BBD5AE6520D4562D00E35668 /* TexturedObject.h */,
+				BBD5AE6620D4562D00E35668 /* TexturedObjectConfig.cpp */,
+				BBD5AE6720D4562D00E35668 /* TexturedObjectConfig.h */,
+				BBD5AE6820D4562D00E35668 /* TexturedObjectGC.cpp */,
+				BBD5AE6920D4562D00E35668 /* TexturedObjectGC.h */,
+				BBD5AE6A20D4562D00E35668 /* TexturedObjectStats.cpp */,
+				BBD5AE6B20D4562D00E35668 /* TexturedObjectStats.h */,
 			);
 			name = src;
 			path = ../../ExternalAddons/ofxTexturedObject/src;
@@ -1732,10 +1733,12 @@
 				BB5822CA1D5282C60076E136 /* ofxCvImage.cpp in Sources */,
 				643C3F1AF9DC87013EE60BEC /* ofxOscMessage.cpp in Sources */,
 				BB5822C81D5282C60076E136 /* ofxCvGrayscaleImage.cpp in Sources */,
+				BB66026B20841E3E00CE6FA7 /* OscQueryServerMgr.cpp in Sources */,
+				BBD5AE6D20D4562D00E35668 /* TexturedObjectConfig.cpp in Sources */,
 				D0F9D17220EE59CA11374E3C /* ofxOscParameterSync.cpp in Sources */,
+				BBD5AE6E20D4562D00E35668 /* TexturedObjectGC.cpp in Sources */,
 				51FE116C283EB08FA155DEB7 /* ofxOscReceiver.cpp in Sources */,
 				3426C5511C0153F2AB33069C /* ofxOscSender.cpp in Sources */,
-				BB5822F01D52B4620076E136 /* TexturedObjectGC.cpp in Sources */,
 				BB5822FC1D52B4A10076E136 /* ofxMemoryUsage.cpp in Sources */,
 				5F494ABF8C2513CB9ACF30AD /* IpEndpointName.cpp in Sources */,
 				BB58211B1D5282A80076E136 /* ProgressiveTextureLoadQueue.cpp in Sources */,
@@ -1743,6 +1746,7 @@
 				BB19DA281CBF0EBC004EB39A /* ofxFontStash.cpp in Sources */,
 				B3D24F884D94EAADD7895790 /* NetworkingUtils.cpp in Sources */,
 				BB8E6E431F2A714A00D27A76 /* main.cpp in Sources */,
+				BBD5AE6C20D4562D00E35668 /* TexturedObject.cpp in Sources */,
 				F66965C604FB34D9FFFB700D /* UdpSocket.cpp in Sources */,
 				BB8E6E451F2A714A00D27A76 /* ofApp.cpp in Sources */,
 				13D96CD79B4EA5F04A313F53 /* OscOutboundPacketStream.cpp in Sources */,
@@ -1755,7 +1759,6 @@
 				BB5822C51D5282C60076E136 /* ofxCvColorImage.cpp in Sources */,
 				E73B8C4450C782C52FCCBAD4 /* tinyxml.cpp in Sources */,
 				64C97810FFA5FBAA0EF21B38 /* tinyxmlerror.cpp in Sources */,
-				BB5822ED1D52B4620076E136 /* TexturedObject.cpp in Sources */,
 				21AEFDF3F78AE07CCA61A662 /* tinyxmlparser.cpp in Sources */,
 				0594EC0999E170E9D4D4CE44 /* ofxRemoteUI.cpp in Sources */,
 				867198CD707F5B0CF9C7C83F /* ofxRemoteUIClient.cpp in Sources */,
@@ -1763,6 +1766,7 @@
 				BB5822C61D5282C60076E136 /* ofxCvContourFinder.cpp in Sources */,
 				BB8E6E441F2A714A00D27A76 /* MyScreenObject.cpp in Sources */,
 				9230170133880F2D9BFD65A3 /* ofxRemoteUIofParamaterSync.cpp in Sources */,
+				BBD5AE6F20D4562D00E35668 /* TexturedObjectStats.cpp in Sources */,
 				B5AF721B2D306A70C2E7186B /* ofxRemoteUIServer.cpp in Sources */,
 				4F2BDE2719E697BEC37E2EC2 /* uriencode.cpp in Sources */,
 				FC7A347B4FFFF65BA56DB24B /* ofxHistoryPlot.cpp in Sources */,
@@ -1774,8 +1778,6 @@
 				345019F66CDF689909AB4F13 /* ofxAnimatableOfColor.cpp in Sources */,
 				BB5822CB1D5282C60076E136 /* ofxCvShortImage.cpp in Sources */,
 				94F902D6857BEF04CA429979 /* ofxAnimatableOfPoint.cpp in Sources */,
-				BB5822EF1D52B4620076E136 /* TexturedObjectConstants.cpp in Sources */,
-				BB5822EE1D52B4620076E136 /* TexturedObjectConfig.cpp in Sources */,
 				BB5821241D5282AB0076E136 /* ofxTimeMeasurements.cpp in Sources */,
 				1C8DD6DEE06582FD45DDD14C /* ofxScreenSetup.cpp in Sources */,
 			);
