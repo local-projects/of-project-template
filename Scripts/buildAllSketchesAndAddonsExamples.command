@@ -27,9 +27,22 @@ echo-blue() {
 
 echo-blue "This script will build all the xcode projects inside \"AddonsExamples\" and \"Sketches\""
 
-mdfind "kMDItemDisplayName == *.xcodeproj" -onlyin ../AddonsExamples -onlyin ../Sketches | while read line; do
-    echo-green "Building project at \"$line\""
-     xcodebuild  -project "$line" 2>/dev/null  | egrep '^(/.+:[0-9+:[0-9]+:.(error|warning):|fatal|===|\*\*)'
-done
+buildResult=0; #sum all the build results, one by one. The final sum must be zero for it all to be good.
+
+#if you are wondering about the {} wraping around the foor loop, its command grouping; and I'm using it to
+#be able to keep the valie of $buildResult otuside the loop
+# http://mywiki.wooledge.org/BashFAQ/024
+mdfind "kMDItemDisplayName == *.xcodeproj" -onlyin ../AddonsExamples -onlyin ../Sketches |
+{
+    while read line; do
+        echo-green "Building project at \"$line\""
+        #xcodebuild  -project "$line" 2>/dev/null  | egrep '^(/.+:[0-9+:[0-9]+:.(error|warning):|fatal|===|\*\*)' #nice output with just errors printed
+        xcodebuild  -project "$line"; #xcodebuild with all it the verbosity unleashed - we keep this as we need to capture the status code result and piping negates that
+        buildResult=$(($((buildResult)) + $(($?)))) 
+    done
+
+    echo "All Done! Build Result: $buildResult"
+    exit $buildResult
+}
 
 
