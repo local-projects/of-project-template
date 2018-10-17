@@ -27,6 +27,7 @@ echo-blue() {
 
 echo-blue "This script will build all the xcode projects inside \"AddonsExamples\" and \"Sketches\""
 
+openframeworksPath="./OpenFrameworks"; #where is OpenFrameworks in the repo?
 
 #test if OF is there...
 if [ -d "$openframeworksPath/examples" ]; then #seems like the OF folder is fully there
