@@ -1,14 +1,16 @@
 #!/bin/bash
 
-#cd into the git repo root
-repoRoot=$(git rev-parse --show-toplevel);
+cd "$(dirname "$0")" #cd to where the script command is (when 2-clicked from the fidner)
+
+repoRoot=$(git rev-parse --show-toplevel); 
 echo "Building Release for Repo: $repoRoot"
-cd "$repoRoot" 
+cd "$repoRoot"  #go to repo root
 
 ## CONFIG - EDIT HERE ################################################################
 XcodePrjPath="AddonsExamples/ofxAppExample/ofxAppExample.xcodeproj"; #the Xcode Project name (in /Apps/$appFolderName/)
 XcodeScheme="ofxAppExample Release"
 openframeworksPath="./OpenFrameworks"; #where is OpenFrameworks in the repo?
+shouldCleanBeforeBuild=false; #should cache from previous builds be used? Or a full build from scratch?
 
 #note that this script will fail if xcode-select is not pointing to the right version of Xcode.
 #run $ xcode-select -p; to see what version of Xcode will xcodebuild use.
@@ -45,13 +47,17 @@ else
 	echo "OpenFrameworks libs are present..."
 fi
 
+buildCommand="build";
+if [ "$shouldCleanBeforeBuild" = true ]; then
+	buildCommand="clean build";
+fi
 
 #this is to handle a script that needs to build several binaries - add up all the build results so that if any build fails,
 #the script returns fail (with exit $buildResult)
 buildResult=0; #sum all the build results, one by one. The final sum must be zero for it all to be good.
 
 #build the project - using cache objects from prev builds
-xcodebuild -scheme "$XcodeScheme" -project "$XcodePrjPath" build 
+xcodebuild -scheme "$XcodeScheme" -project "$XcodePrjPath" $buildCommand 
 buildResult=$(($((buildResult)) + $(($?)))) #sum exit code of xcodebuild with total exit code sum
 
 echo "All Done! Build Result: $buildResult"

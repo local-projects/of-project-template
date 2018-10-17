@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#cd into the git repo root
-repoRoot=$(git rev-parse --show-toplevel);
+cd "$(dirname "$0")" #cd to where the script command is (when 2-clicked from the fidner)
+
+repoRoot=$(git rev-parse --show-toplevel); 
 echo "Building Release for Repo: $repoRoot"
-cd "$repoRoot" 
+cd "$repoRoot"  #go to repo root
 
 
 echo-color() {
