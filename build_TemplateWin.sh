@@ -53,7 +53,7 @@ case "$visualStudioVersion" in
 			vcvarsVersion="10.0";
 			vsVersion="v100";
 			msbuildPath="/c/Windows/Microsoft.NET/Framework64/v4.0.30319/MSbuild.exe"
-			targetsPath="C:/Program\ Files\ \(x86\)/MSBuild/Microsoft.Cpp/v4.0/$vsVersion"
+			targetsPath="C:/Program\ Files\ \(x86\)/MSBuild/Microsoft.Cpp/v4.0/"
 			;;
 		2012)
 			echo "Visual Studio 2012"
