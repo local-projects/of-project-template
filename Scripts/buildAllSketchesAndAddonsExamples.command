@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#cd into the path where the .command file resides
-repoRoot=$(dirname "$0");
+#cd into the git repo root
+repoRoot=$(git rev-parse --show-toplevel);
 echo "Building Release for Repo: $repoRoot"
 cd "$repoRoot" 
 
@@ -58,13 +58,12 @@ else
 fi
 
 
-
 buildResult=0; #sum all the build results, one by one. The final sum must be zero for it all to be good.
 
 #if you are wondering about the {} wraping around the foor loop, its command grouping; and I'm using it to
 #be able to keep the valie of $buildResult otuside the loop
 # http://mywiki.wooledge.org/BashFAQ/024
-mdfind "kMDItemDisplayName == *.xcodeproj" -onlyin ../AddonsExamples -onlyin ../Sketches |
+mdfind "kMDItemDisplayName == *.xcodeproj" -onlyin $repoRoot/AddonsExamples -onlyin $repoRoot/Sketches |
 {
     while read line; do
         echo-green "Building project at \"$line\""
