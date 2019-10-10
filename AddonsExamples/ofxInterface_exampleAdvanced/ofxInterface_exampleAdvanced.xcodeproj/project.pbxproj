@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */; };
+		197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3DF92683BDEE69D00C661B /* TouchManager.cpp */; };
+		1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */; };
+		345019F66CDF689909AB4F13 /* ofxAnimatableOfColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C715AC19772B6F1CE018C58F /* ofxAnimatableOfColor.cpp */; };
+		668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */; };
+		6C1D20D7EF04FE2EA8652279 /* ofxAnimatableQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BB9D9A1A9AD6AFA121F99 /* ofxAnimatableQueue.cpp */; };
+		734F0888A9BF8D9047317CBC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64912E075D25BAA0827D3738 /* Node.cpp */; };
+		7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */; };
+		94F902D6857BEF04CA429979 /* ofxAnimatableOfPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */; };
+		AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */; };
+		B33249AEA0D8C83C8AE132D4 /* ofxAnimatableFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F6E955BE84D5F41DF32925 /* ofxAnimatableFloat.cpp */; };
+		BBDE06931F264ACD00F0F710 /* AppManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06831F264ACD00F0F710 /* AppManager.cpp */; };
+		BBDE06941F264ACD00F0F710 /* CloseButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06851F264ACD00F0F710 /* CloseButton.cpp */; };
+		BBDE06951F264ACD00F0F710 /* InfoWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06881F264ACD00F0F710 /* InfoWindow.cpp */; };
+		BBDE06961F264ACD00F0F710 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE068A1F264ACD00F0F710 /* main.cpp */; };
+		BBDE06971F264ACD00F0F710 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE068B1F264ACD00F0F710 /* ofApp.cpp */; };
+		BBDE06981F264ACD00F0F710 /* ScreenObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE068D1F264ACD00F0F710 /* ScreenObject.cpp */; };
+		BBDE06991F264ACD00F0F710 /* ScreenObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE068F1F264ACD00F0F710 /* ScreenObjectManager.cpp */; };
+		BBDE069A1F264ACD00F0F710 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBDE06911F264ACD00F0F710 /* WindowManager.cpp */; };
+		C89892317443872222560708 /* LambdaView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA14255FCBB6906BB795F38 /* LambdaView.cpp */; };
+		E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VirtualTouch.h; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.h; sourceTree = SOURCE_ROOT; };
+		228B1C5078370FC155D9F9A1 /* LambdaView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LambdaView.h; path = ../../ExternalAddons/ofxInterface/src/components/LambdaView.h; sourceTree = SOURCE_ROOT; };
+		2F43723A77B0671B7786C39E /* ofxAnimatableFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxAnimatableFloat.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableFloat.h; sourceTree = SOURCE_ROOT; };
+		3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureButton.cpp; path = ../../ExternalAddons/ofxInterface/src/components/TextureButton.cpp; sourceTree = SOURCE_ROOT; };
+		4BABAD72AA7DE13561561B46 /* Node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Node.h; path = ../../ExternalAddons/ofxInterface/src/Node.h; sourceTree = SOURCE_ROOT; };
+		52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxAnimatableOfPoint.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.cpp; sourceTree = SOURCE_ROOT; };
+		53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxAnimatable.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.h; sourceTree = SOURCE_ROOT; };
+		5CA14255FCBB6906BB795F38 /* LambdaView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LambdaView.cpp; path = ../../ExternalAddons/ofxInterface/src/components/LambdaView.cpp; sourceTree = SOURCE_ROOT; };
+		64912E075D25BAA0827D3738 /* Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Node.cpp; path = ../../ExternalAddons/ofxInterface/src/Node.cpp; sourceTree = SOURCE_ROOT; };
+		7100735B560C1EDBCE05FE98 /* BitmapTextButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitmapTextButton.h; path = ../../ExternalAddons/ofxInterface/src/components/BitmapTextButton.h; sourceTree = SOURCE_ROOT; };
+		77927AA7120505B3CB2F0289 /* TextureButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureButton.h; path = ../../ExternalAddons/ofxInterface/src/components/TextureButton.h; sourceTree = SOURCE_ROOT; };
+		77F6E955BE84D5F41DF32925 /* ofxAnimatableFloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxAnimatableFloat.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableFloat.cpp; sourceTree = SOURCE_ROOT; };
+		8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SolidColorPanel.cpp; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.cpp; sourceTree = SOURCE_ROOT; };
+		8E0EE3A94131658AA144B2E0 /* ofxAnimatableOfPoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxAnimatableOfPoint.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfPoint.h; sourceTree = SOURCE_ROOT; };
+		8F7BB9D9A1A9AD6AFA121F99 /* ofxAnimatableQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxAnimatableQueue.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.cpp; sourceTree = SOURCE_ROOT; };
+		AC3DF92683BDEE69D00C661B /* TouchManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchManager.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchManager.cpp; sourceTree = SOURCE_ROOT; };
+		ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TouchEvent.cpp; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.cpp; sourceTree = SOURCE_ROOT; };
+		AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SolidColorPanel.h; path = ../../ExternalAddons/ofxInterface/src/components/SolidColorPanel.h; sourceTree = SOURCE_ROOT; };
+		B1CD54DDE1EA9286E9E3C011 /* ofxAnimatableOfColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxAnimatableOfColor.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfColor.h; sourceTree = SOURCE_ROOT; };
+		BBDE06831F264ACD00F0F710 /* AppManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppManager.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/AppManager.cpp"; sourceTree = "<group>"; };
+		BBDE06841F264ACD00F0F710 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/AppManager.h"; sourceTree = "<group>"; };
+		BBDE06851F264ACD00F0F710 /* CloseButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CloseButton.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/CloseButton.cpp"; sourceTree = "<group>"; };
+		BBDE06861F264ACD00F0F710 /* CloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloseButton.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/CloseButton.h"; sourceTree = "<group>"; };
+		BBDE06871F264ACD00F0F710 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/Globals.h"; sourceTree = "<group>"; };
+		BBDE06881F264ACD00F0F710 /* InfoWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InfoWindow.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/InfoWindow.cpp"; sourceTree = "<group>"; };
+		BBDE06891F264ACD00F0F710 /* InfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoWindow.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/InfoWindow.h"; sourceTree = "<group>"; };
+		BBDE068A1F264ACD00F0F710 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/main.cpp"; sourceTree = "<group>"; };
+		BBDE068B1F264ACD00F0F710 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ofApp.cpp"; sourceTree = "<group>"; };
+		BBDE068C1F264ACD00F0F710 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ofApp.h"; sourceTree = "<group>"; };
+		BBDE068D1F264ACD00F0F710 /* ScreenObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenObject.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ScreenObject.cpp"; sourceTree = "<group>"; };
+		BBDE068E1F264ACD00F0F710 /* ScreenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenObject.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ScreenObject.h"; sourceTree = "<group>"; };
+		BBDE068F1F264ACD00F0F710 /* ScreenObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenObjectManager.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ScreenObjectManager.cpp"; sourceTree = "<group>"; };
+		BBDE06901F264ACD00F0F710 /* ScreenObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenObjectManager.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/ScreenObjectManager.h"; sourceTree = "<group>"; };
+		BBDE06911F264ACD00F0F710 /* WindowManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WindowManager.cpp; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/WindowManager.cpp"; sourceTree = "<group>"; };
+		BBDE06921F264ACD00F0F710 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowManager.h; path = "../../../ExternalAddons/ofxInterface/example-advanced/src/WindowManager.h"; sourceTree = "<group>"; };
+		BC6FCA19A36E06452711D6BB /* TouchEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchEvent.h; path = ../../ExternalAddons/ofxInterface/src/TouchEvent.h; sourceTree = SOURCE_ROOT; };
+		BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxAnimatable.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatable.cpp; sourceTree = SOURCE_ROOT; };
+		C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInterface.h; path = ../../ExternalAddons/ofxInterface/src/ofxInterface.h; sourceTree = SOURCE_ROOT; };
+		C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VirtualTouch.cpp; path = ../../ExternalAddons/ofxInterface/src/VirtualTouch.cpp; sourceTree = SOURCE_ROOT; };
+		C715AC19772B6F1CE018C58F /* ofxAnimatableOfColor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxAnimatableOfColor.cpp; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableOfColor.cpp; sourceTree = SOURCE_ROOT; };
+		D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitmapTextButton.cpp; path = ../../ExternalAddons/ofxInterface/src/components/BitmapTextButton.cpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleAdvancedDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxInterface_exampleAdvancedDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TouchManager.h; path = ../../ExternalAddons/ofxInterface/src/TouchManager.h; sourceTree = SOURCE_ROOT; };
+		FF68189EF5210C1B3AC18621 /* ofxAnimatableQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxAnimatableQueue.h; path = ../../ExternalAddons/ofxAnimatable/src/ofxAnimatableQueue.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15454BE695DCCDE4460A886C /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D8995E319CFE44249EA96B9C /* BitmapTextButton.cpp */,
+				7100735B560C1EDBCE05FE98 /* BitmapTextButton.h */,
+				5CA14255FCBB6906BB795F38 /* LambdaView.cpp */,
+				228B1C5078370FC155D9F9A1 /* LambdaView.h */,
+				8A0443727EF4807AE6CAA744 /* SolidColorPanel.cpp */,
+				AF00AAB7CEB74070A6FE6375 /* SolidColorPanel.h */,
+				3B7C9FF9F17E98AD049F8007 /* TextureButton.cpp */,
+				77927AA7120505B3CB2F0289 /* TextureButton.h */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		1773F456C12DA9AE43E1BA7E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9B0A14FFBBDBDC5AB2A3A /* ofxAnimatable.cpp */,
+				53F02FB9B1725AE3D8566690 /* ofxAnimatable.h */,
+				77F6E955BE84D5F41DF32925 /* ofxAnimatableFloat.cpp */,
+				2F43723A77B0671B7786C39E /* ofxAnimatableFloat.h */,
+				C715AC19772B6F1CE018C58F /* ofxAnimatableOfColor.cpp */,
+				B1CD54DDE1EA9286E9E3C011 /* ofxAnimatableOfColor.h */,
+				52E115498B64D30010470550 /* ofxAnimatableOfPoint.cpp */,
+				8E0EE3A94131658AA144B2E0 /* ofxAnimatableOfPoint.h */,
+				8F7BB9D9A1A9AD6AFA121F99 /* ofxAnimatableQueue.cpp */,
+				FF68189EF5210C1B3AC18621 /* ofxAnimatableQueue.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+				F2162DDF1965162FDB4D9BB5 /* ofxInterface */,
+				ED7337D538DDBB66F862A492 /* ofxAnimatable */,
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		CAECBE5257F59BCB0010CC44 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				15454BE695DCCDE4460A886C /* components */,
+				64912E075D25BAA0827D3738 /* Node.cpp */,
+				4BABAD72AA7DE13561561B46 /* Node.h */,
+				C09C5B720F94A8CB1EB102A0 /* ofxInterface.h */,
+				ADF904E05711DBB4EE2FA3A5 /* TouchEvent.cpp */,
+				BC6FCA19A36E06452711D6BB /* TouchEvent.h */,
+				AC3DF92683BDEE69D00C661B /* TouchManager.cpp */,
+				E78E0D6F76C1F9C719C7FA27 /* TouchManager.h */,
+				C34027FD1B92CDB3A40E1EEB /* VirtualTouch.cpp */,
+				0C9BBF51E09AB5B195182B0A /* VirtualTouch.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleAdvancedDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE06831F264ACD00F0F710 /* AppManager.cpp */,
+				BBDE06841F264ACD00F0F710 /* AppManager.h */,
+				BBDE06851F264ACD00F0F710 /* CloseButton.cpp */,
+				BBDE06861F264ACD00F0F710 /* CloseButton.h */,
+				BBDE06871F264ACD00F0F710 /* Globals.h */,
+				BBDE06881F264ACD00F0F710 /* InfoWindow.cpp */,
+				BBDE06891F264ACD00F0F710 /* InfoWindow.h */,
+				BBDE068A1F264ACD00F0F710 /* main.cpp */,
+				BBDE068B1F264ACD00F0F710 /* ofApp.cpp */,
+				BBDE068C1F264ACD00F0F710 /* ofApp.h */,
+				BBDE068D1F264ACD00F0F710 /* ScreenObject.cpp */,
+				BBDE068E1F264ACD00F0F710 /* ScreenObject.h */,
+				BBDE068F1F264ACD00F0F710 /* ScreenObjectManager.cpp */,
+				BBDE06901F264ACD00F0F710 /* ScreenObjectManager.h */,
+				BBDE06911F264ACD00F0F710 /* WindowManager.cpp */,
+				BBDE06921F264ACD00F0F710 /* WindowManager.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		ED7337D538DDBB66F862A492 /* ofxAnimatable */ = {
+			isa = PBXGroup;
+			children = (
+				1773F456C12DA9AE43E1BA7E /* src */,
+			);
+			name = ofxAnimatable;
+			sourceTree = "<group>";
+		};
+		F2162DDF1965162FDB4D9BB5 /* ofxInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CAECBE5257F59BCB0010CC44 /* src */,
+			);
+			name = ofxInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxInterface_exampleAdvanced */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterface_exampleAdvanced" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = ofxInterface_exampleAdvanced;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxInterface_exampleAdvancedDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterface_exampleAdvanced" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxInterface_exampleAdvanced */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved \"$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF5227ECF5D18B63E44AB0C /* BitmapTextButton.cpp in Sources */,
+				C89892317443872222560708 /* LambdaView.cpp in Sources */,
+				668B5B1E00F7EC5465B55C2F /* SolidColorPanel.cpp in Sources */,
+				BBDE06951F264ACD00F0F710 /* InfoWindow.cpp in Sources */,
+				BBDE06941F264ACD00F0F710 /* CloseButton.cpp in Sources */,
+				BBDE06961F264ACD00F0F710 /* main.cpp in Sources */,
+				BBDE06931F264ACD00F0F710 /* AppManager.cpp in Sources */,
+				AC1947B104A2D7C824F468B5 /* TextureButton.cpp in Sources */,
+				734F0888A9BF8D9047317CBC /* Node.cpp in Sources */,
+				0AE68BB9074EC302778503BB /* TouchEvent.cpp in Sources */,
+				BBDE06991F264ACD00F0F710 /* ScreenObjectManager.cpp in Sources */,
+				197C3C0F70C261ED3604C49A /* TouchManager.cpp in Sources */,
+				7ECA9C6E28612A6A0CF42B9A /* VirtualTouch.cpp in Sources */,
+				BBDE06981F264ACD00F0F710 /* ScreenObject.cpp in Sources */,
+				BBDE069A1F264ACD00F0F710 /* WindowManager.cpp in Sources */,
+				E13CEC105F736D529D317C7B /* ofxAnimatable.cpp in Sources */,
+				B33249AEA0D8C83C8AE132D4 /* ofxAnimatableFloat.cpp in Sources */,
+				345019F66CDF689909AB4F13 /* ofxAnimatableOfColor.cpp in Sources */,
+				94F902D6857BEF04CA429979 /* ofxAnimatableOfPoint.cpp in Sources */,
+				BBDE06971F264ACD00F0F710 /* ofApp.cpp in Sources */,
+				6C1D20D7EF04FE2EA8652279 /* ofxAnimatableQueue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		99FA3DBC1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxInterface/src,
+					../../ExternalAddons/ofxInterface/src/components,
+					../../ExternalAddons/ofxAnimatable/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxInterface_exampleAdvanced" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+				99FA3DBB1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxInterface_exampleAdvanced" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+				99FA3DBC1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

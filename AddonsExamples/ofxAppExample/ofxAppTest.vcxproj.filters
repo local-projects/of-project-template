@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{efc977ea-3d17-4b7f-acc1-534ba22813de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxInterface">
+      <UniqueIdentifier>{b44754e9-6739-4c76-82ab-c0ab4634204a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxApp">
+      <UniqueIdentifier>{825ae91c-4916-400e-9992-e80f4d85336e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CH_Object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\CWRU_Object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\MyAppGlobals.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\Node.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\ofxInterface.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.h">
+      <Filter>addons\ofxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxApp.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppDelegate.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppErrorReporter.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppGlobalsBasic.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppMacros.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppStructs.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.h">
+      <Filter>addons\ofxApp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\ofxAppParsers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\example\src\TexturedObjectScrollView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\Node.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.cpp">
+      <Filter>addons\ofxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxApp.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppContent.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppErrorReporter.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppFonts.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppGlobalsBasic.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppStaticTextures.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxApp\src\ofxAppUtils.cpp">
+      <Filter>addons\ofxApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

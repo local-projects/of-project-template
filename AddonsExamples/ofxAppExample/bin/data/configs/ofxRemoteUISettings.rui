@@ -1,0 +1,64 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<!-- # OFXAPP GLOBALS ################################################################################# -->
+		<P name="OFXAPP GLOBALS" type="group" />
+		<P name="bgColor" type="color" c0.red="22" c1.green="22" c2.blue="22" c3.alpha="255" />
+		<P name="debug" type="bool">0</P>
+		<P name="drawAppRunTime" type="bool">1</P>
+		<P name="drawStaticTexturesMemStats" type="bool">0</P>
+		<P name="drawAutoTextureMemStats" type="bool">0</P>
+		<P name="drawTextureLoaderStats" type="bool">1</P>
+		<P name="drawTextureLoaderState" type="bool">1</P>
+		<P name="drawGoogleAnalyticsState" type="bool">0</P>
+		<P name="drawScreenLogs" type="bool">1</P>
+		<P name="drawLiveUpdateStatus" type="bool">1</P>
+		<!-- # OFXAPP PROTOTYPE VARS ################################################################################# -->
+		<P name="OFXAPP PROTOTYPE VARS" type="group" />
+		<P name="tempFloat1" type="float">1.0102e-38</P>
+		<P name="tempFloat4k" type="float">2.9389e-39</P>
+		<!-- # OFX_ANIMATABLE TEST CURVES ################################################################################# -->
+		<P name="OFX_ANIMATABLE TEST CURVES" type="group" />
+		<P name="drawTempAnimCurve1" type="bool">0</P>
+		<P name="tempAnimCurve1" type="enum">6</P>
+		<P name="TAC_quadBezierA" type="float">0.87</P>
+		<P name="TAC_quadBezierB" type="float">0.18</P>
+		<P name="TAC_expSigmoidSteep" type="float">0.65</P>
+		<P name="TAC_cubicBezAx" type="float">0.19</P>
+		<P name="TAC_cubicBezAy" type="float">0.91</P>
+		<P name="TAC_cubicBezBx" type="float">0.97</P>
+		<P name="TAC_cubicBezBy" type="float">0.2</P>
+		<P name="TAC_elasticG" type="float">0.26</P>
+		<P name="TAC_elasticFreq" type="float">0.52</P>
+		<P name="TAC_elasticDecay" type="float">0.08</P>
+		<P name="TAC_easeOutOffset" type="float">-0.78</P>
+		<P name="TAC_bounceNum" type="int">4</P>
+		<P name="TAC_bounceElast" type="float">0.38</P>
+		<P name="tempAnimCurve2" type="enum">26</P>
+		<!-- # APP ################################################################################# -->
+		<P name="APP" type="group" />
+		<P name="showMouse" type="bool">1</P>
+		<P name="enableMouse" type="bool">1</P>
+		<!--                                                                                                  -->
+		<!-- ###################################### DISABLED PARAMS ######################################### -->
+		<!--                                                                                                  -->
+		<!-- # OFX_APP_NAME Colors ################################################################################# -->
+		<P name="OFX_APP_NAME Colors" type="group" disabled="1" />
+		<!-- # OFX_APP_NAME Globals ################################################################################# -->
+		<P name="OFX_APP_NAME Globals" type="group" disabled="1" />
+		<!-- # MyApp Globals ################################################################################# -->
+		<P name="MyApp Globals" type="group" disabled="1" />
+		<P name="myParam" type="float" disabled="1">0.5</P>
+		<!-- # MyApp Colors ################################################################################# -->
+		<P name="MyApp Colors" type="group" disabled="1" />
+		<P name="myColor" type="color" c0.red="255" c1.green="255" c2.blue="255" c3.alpha="255" disabled="1" />
+		<!-- # APP PARAMS ################################################################################# -->
+		<P name="APP PARAMS" type="group" disabled="1" />
+		<!-- # APP COLORS ################################################################################# -->
+		<P name="APP COLORS" type="group" disabled="1" />
+		<!-- # AppColors ################################################################################# -->
+		<P name="AppColors" type="group" disabled="1" />
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>24892</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>

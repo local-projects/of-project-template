@@ -1,0 +1,80 @@
+#OSX getInfo versioning info (/World/Scripts/XcodeAttachGitInfoToBinary.sh)
+gitInfo.h
+
+#ofxApp examples downloaded assets
+
+AddonsExamples/ofxAppExample/bin/data/assets
+AddonsExamples/ofxAppExample/bin/data/jsonDownloads
+AddonsExamples/ofxTextureAtlasExample_create/bin/data/images/cats/
+AddonsExamples/ofxTextureAtlasExample_draw/bin/data/images/cats/
+AddonsExamples/ofxImageResizer_example/bin/data/smallImages
+
+AddonsExamples/ofxAppExample/bin/data/ofxApp.pid
+AddonsExamples/ofxAppExample_noContent/bin/data/ofxApp.pid
+textureCache
+
+
+#oriol's addons settings local 
+ofxRemoteUISettings Backups
+ofxTimeMeasurements.settings
+
+# OF-specific ignore patterns
+
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+
+
+# Some general ignore patterns
+
+[Bb]uild/
+[Oo]bj/
+*.o
+*.iobj
+*.ipdb
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+*.dll
+*.exp
+*.exe
+*.lib
+Thumbs.db
+
+# IDE-specific ignore patterns
+
+#XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+
+#OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+#Linux
+.AppleDouble
+
+
+#Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+*.VC.db
+*.VC.VC.opendb

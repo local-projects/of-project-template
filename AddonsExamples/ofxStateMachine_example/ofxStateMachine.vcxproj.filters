@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.cpp">
+      <Filter>local_addons\ofxFontStash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.c">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.c">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.cpp">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.cpp">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.cpp">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxStateMachine\example\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxStateMachine\example\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons">
+      <UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash">
+      <UniqueIdentifier>{B051AFE1-3013-ADDD-15A7-0AD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\src">
+      <UniqueIdentifier>{EF8B715C-ACE0-6785-C1D1-3F05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs">
+      <UniqueIdentifier>{D60033D4-8642-42F4-F78B-50D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs\fontstash">
+      <UniqueIdentifier>{9E57E047-5BCF-8535-677A-05D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs\fontstash\src">
+      <UniqueIdentifier>{593F1156-D66B-CAC5-B6CD-59D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxStateMachine">
+      <UniqueIdentifier>{9667759C-826A-F8F9-54DB-AFBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxStateMachine\src">
+      <UniqueIdentifier>{92B054DF-224D-8334-2729-16C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.h">
+      <Filter>local_addons\ofxFontStash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.h">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.h">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\LoadingScreen.h">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxDrawableStateMachine.h">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ofxStateMachine.h">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxStateMachine\src\ProgressBar.h">
+      <Filter>local_addons\ofxStateMachine\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxStateMachine\example\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

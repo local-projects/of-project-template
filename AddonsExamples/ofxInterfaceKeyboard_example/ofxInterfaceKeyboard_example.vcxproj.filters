@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.cpp">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.cpp">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.cpp">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.cpp">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\Node.cpp">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.cpp">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.cpp">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.cpp">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterfaceKeyboard\src\ofxInterfaceKeyboard.cpp">
+      <Filter>local_addons\ofxInterfaceKeyboard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxJSON\src\ofxJSON.cpp">
+      <Filter>local_addons\ofxJSON\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
+      <Filter>local_addons\ofxJSON\libs\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterfaceKeyboard\example\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxInterfaceKeyboard\example\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons">
+      <UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxInterface">
+      <UniqueIdentifier>{A1A10A40-F4F8-0FC8-F583-A8E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxInterface\src">
+      <UniqueIdentifier>{7F2CE90C-43BE-01C6-63F8-CDD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxInterface\src\components">
+      <UniqueIdentifier>{02B6E5F1-AC69-FDDF-9C53-5F47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxInterfaceKeyboard">
+      <UniqueIdentifier>{71C36CD9-0351-3B43-673F-33E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxInterfaceKeyboard\src">
+      <UniqueIdentifier>{D6C34026-25B9-734E-C8B0-92CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON">
+      <UniqueIdentifier>{1A99E105-1782-1278-A06F-B3D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\src">
+      <UniqueIdentifier>{FA995221-33F4-C549-DE1A-51D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\libs">
+      <UniqueIdentifier>{C1337406-F751-4A66-E601-0163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\libs\jsoncpp">
+      <UniqueIdentifier>{56AEAC4C-A855-5322-D1FD-BB5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\libs\jsoncpp\include">
+      <UniqueIdentifier>{C12F28DF-8DAD-61C5-F101-4FAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\libs\jsoncpp\include\json">
+      <UniqueIdentifier>{C3BF0A8C-681E-118F-968B-B76C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxJSON\libs\jsoncpp\src">
+      <UniqueIdentifier>{14CF8E53-A6B8-6CD5-1224-1FF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\BitmapTextButton.h">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\LambdaView.h">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\SolidColorPanel.h">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\components\TextureButton.h">
+      <Filter>local_addons\ofxInterface\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\Node.h">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\ofxInterface.h">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchEvent.h">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\TouchManager.h">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterface\src\VirtualTouch.h">
+      <Filter>local_addons\ofxInterface\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterfaceKeyboard\src\ofxInterfaceKeyboard.h">
+      <Filter>local_addons\ofxInterfaceKeyboard\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxJSON\src\ofxJSON.h">
+      <Filter>local_addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h">
+      <Filter>local_addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxJSON\libs\jsoncpp\include\json\json.h">
+      <Filter>local_addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxInterfaceKeyboard\example\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

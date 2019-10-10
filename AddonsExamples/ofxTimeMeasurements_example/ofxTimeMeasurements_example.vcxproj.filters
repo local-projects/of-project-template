@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurements.cpp">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxHistoryPlot\src\ofxHistoryPlot.cpp">
+      <Filter>local_addons\ofxHistoryPlot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.cpp">
+      <Filter>local_addons\ofxFontStash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.c">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.c">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStash2.cpp">
+      <Filter>local_addons\ofxFontStash2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashParser.cpp">
+      <Filter>local_addons\ofxFontStash2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg.c">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugixml.cpp">
+      <Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTimeMeasurements\example\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTimeMeasurements\example\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons">
+      <UniqueIdentifier>{DE6745C7-E99D-D8E0-F77D-C032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxTimeMeasurements">
+      <UniqueIdentifier>{32BA257A-3DF7-8582-5449-9372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxTimeMeasurements\src">
+      <UniqueIdentifier>{51C0CAA9-C6D2-7306-59A9-C82B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxHistoryPlot">
+      <UniqueIdentifier>{46264D9D-3FCE-0439-6F0F-1CF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxHistoryPlot\src">
+      <UniqueIdentifier>{41BC6D06-275B-CBF3-D851-4E6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash">
+      <UniqueIdentifier>{B051AFE1-3013-ADDD-15A7-0AD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\src">
+      <UniqueIdentifier>{EF8B715C-ACE0-6785-C1D1-3F05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs">
+      <UniqueIdentifier>{D60033D4-8642-42F4-F78B-50D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs\fontstash">
+      <UniqueIdentifier>{9E57E047-5BCF-8535-677A-05D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash\libs\fontstash\src">
+      <UniqueIdentifier>{593F1156-D66B-CAC5-B6CD-59D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2">
+      <UniqueIdentifier>{7D234A58-7336-7B21-EB55-8C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\src">
+      <UniqueIdentifier>{CFBD9D81-955C-A8B6-A720-CD64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs">
+      <UniqueIdentifier>{FBD52F97-5B3D-D92D-7B67-6490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs\nanoVG">
+      <UniqueIdentifier>{FE77F4C5-D9ED-FC0C-DF07-89B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs\nanoVG\obsolete">
+      <UniqueIdentifier>{00DE24A6-2A26-ABFA-2771-1DD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs\nanoVG\src">
+      <UniqueIdentifier>{CA37981A-C9CB-88C3-1ADD-EB35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs\pugixml">
+      <UniqueIdentifier>{C1C94AAD-2273-12A4-E394-52A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_addons\ofxFontStash2\libs\pugixml\src">
+      <UniqueIdentifier>{4A66235D-BD71-0181-0712-B89F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\GL_Measurement.h">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurements.h">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurementsMacros.h">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\src\ofxTimeMeasurementsScoped.h">
+      <Filter>local_addons\ofxTimeMeasurements\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxHistoryPlot\src\ofxHistoryPlot.h">
+      <Filter>local_addons\ofxHistoryPlot\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\src\ofxFontStash.h">
+      <Filter>local_addons\ofxFontStash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\fontstash.h">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.h">
+      <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStash2.h">
+      <Filter>local_addons\ofxFontStash2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashParser.h">
+      <Filter>local_addons\ofxFontStash2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\src\ofxFontStashStyle.h">
+      <Filter>local_addons\ofxFontStash2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete\nanovg_gl2.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\obsolete\nanovg_gl3.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_fontstash.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg_gl.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\ofxfs2_nanovg_gl_utils.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\stb_image.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\nanoVG\src\stb_truetype.h">
+      <Filter>local_addons\ofxFontStash2\libs\nanoVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugiconfig.hpp">
+      <Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxFontStash2\libs\pugixml\src\pugixml.hpp">
+      <Filter>local_addons\ofxFontStash2\libs\pugixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxTimeMeasurements\example\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

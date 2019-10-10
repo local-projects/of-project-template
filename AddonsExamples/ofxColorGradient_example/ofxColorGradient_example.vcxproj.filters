@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{828f0036-f183-4fe4-9045-909c92632ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxColorGradient">
+      <UniqueIdentifier>{64d384b5-63f9-453a-acb0-91b98b52e4ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ExternalAddons\ofxColorGradient\example\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxColorGradient\example\src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxColorGradient\src\ofxColorGradient.cpp">
+      <Filter>addons\ofxColorGradient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ExternalAddons\ofxColorGradient\example\src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxColorGradient\src\ofxColorGradient.h">
+      <Filter>addons\ofxColorGradient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

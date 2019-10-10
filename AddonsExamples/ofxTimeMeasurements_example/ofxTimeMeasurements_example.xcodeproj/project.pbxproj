@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09499D3E602185EF130FA72A /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C988A07864863F53B7E125E /* ofxFontStash.cpp */; };
+		145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2EF02351B426C319B9EBBD /* ofxFontStash2.cpp */; };
+		14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1737C156AB026E4FBBCA5BC /* pugixml.cpp */; };
+		4E04BBED9DBE55E250419712 /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = AADBB991EB7E8A40079428F9 /* stb_truetype.c */; };
+		8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11294DD4BD966EF204DDCF17 /* ofxFontStashParser.cpp */; };
+		9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8AEC5B896853B6FC7C19C68 /* ofxTimeMeasurements.cpp */; };
+		BB6A1C781F2F9922008AAD98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB6A1C751F2F9922008AAD98 /* main.cpp */; };
+		BB6A1C791F2F9922008AAD98 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB6A1C761F2F9922008AAD98 /* ofApp.cpp */; };
+		BB6A1C7E1F2F9A50008AAD98 /* ofxHistoryPlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB6A1C7C1F2F9A50008AAD98 /* ofxHistoryPlot.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		F6EEEEEBFDE89B06FE072B35 /* ofxfs2_nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = E8CF6C7BA3E6E8F9B6EB7F56 /* ofxfs2_nanovg.c */; };
+		FD3FAFF994F3B5EB9C67451A /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F43B1D032BF660E578A1C /* fontstash.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11294DD4BD966EF204DDCF17 /* ofxFontStashParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFontStashParser.cpp; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStashParser.cpp; sourceTree = SOURCE_ROOT; };
+		13F9E4A5D683E687F4439DA5 /* nanovg_gl2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg_gl2.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete/nanovg_gl2.h; sourceTree = SOURCE_ROOT; };
+		1E56D6CC2EE1C5BC533AD819 /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_truetype.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
+		20D1411DA271B2BEBCDECADC /* GL_Measurement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GL_Measurement.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/GL_Measurement.h; sourceTree = SOURCE_ROOT; };
+		2884D0882E9BB292044AF969 /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_truetype.h; path = ../../ExternalAddons/ofxFontStash/libs/fontstash/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
+		2BC8FCA39DF05C6FFDA04E6E /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/stb_image.h; sourceTree = SOURCE_ROOT; };
+		2DEE2C3A00D6F7F0C2E04AD7 /* nanovg_gl3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg_gl3.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete/nanovg_gl3.h; sourceTree = SOURCE_ROOT; };
+		2E293555DC44AFAA4E6F22AF /* ofxfs2_fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxfs2_fontstash.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/ofxfs2_fontstash.h; sourceTree = SOURCE_ROOT; };
+		2F1F43B1D032BF660E578A1C /* fontstash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fontstash.c; path = ../../ExternalAddons/ofxFontStash/libs/fontstash/src/fontstash.c; sourceTree = SOURCE_ROOT; };
+		3C28E9F295B621ED0EC831F7 /* ofxfs2_nanovg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxfs2_nanovg.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/ofxfs2_nanovg.h; sourceTree = SOURCE_ROOT; };
+		4232A214EB042ACFD4EC0D7C /* ofxfs2_nanovg_gl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxfs2_nanovg_gl_utils.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/ofxfs2_nanovg_gl_utils.h; sourceTree = SOURCE_ROOT; };
+		569DA45655AF84D7959F2362 /* ofxTimeMeasurements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTimeMeasurements.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.h; sourceTree = SOURCE_ROOT; };
+		5980885A531065B9DDDE4EB8 /* fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fontstash.h; path = ../../ExternalAddons/ofxFontStash/libs/fontstash/src/fontstash.h; sourceTree = SOURCE_ROOT; };
+		6026C5D8D1A93637A3D116C9 /* ofxFontStash2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStash2.h; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStash2.h; sourceTree = SOURCE_ROOT; };
+		656296A3F6AE4DF9B513F9B0 /* ofxTimeMeasurementsScoped.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTimeMeasurementsScoped.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsScoped.h; sourceTree = SOURCE_ROOT; };
+		7A6FDA0E478EDEF614EDDDB3 /* ofxTimeMeasurementsMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTimeMeasurementsMacros.h; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurementsMacros.h; sourceTree = SOURCE_ROOT; };
+		8C988A07864863F53B7E125E /* ofxFontStash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFontStash.cpp; path = ../../ExternalAddons/ofxFontStash/src/ofxFontStash.cpp; sourceTree = SOURCE_ROOT; };
+		906B4BE466B2D2F2C7D6BF99 /* ofxfs2_nanovg_gl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxfs2_nanovg_gl.h; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/ofxfs2_nanovg_gl.h; sourceTree = SOURCE_ROOT; };
+		961C8E84350AA1635EE81175 /* pugixml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pugixml.hpp; path = ../../ExternalAddons/ofxFontStash2/libs/pugixml/src/pugixml.hpp; sourceTree = SOURCE_ROOT; };
+		AADBB991EB7E8A40079428F9 /* stb_truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_truetype.c; path = ../../ExternalAddons/ofxFontStash/libs/fontstash/src/stb_truetype.c; sourceTree = SOURCE_ROOT; };
+		B588A5CAFAD1F1E91D6FC6AA /* pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pugiconfig.hpp; path = ../../ExternalAddons/ofxFontStash2/libs/pugixml/src/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
+		B8AEC5B896853B6FC7C19C68 /* ofxTimeMeasurements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTimeMeasurements.cpp; path = ../../ExternalAddons/ofxTimeMeasurements/src/ofxTimeMeasurements.cpp; sourceTree = SOURCE_ROOT; };
+		BB6A1C751F2F9922008AAD98 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../ExternalAddons/ofxTimeMeasurements/example/src/main.cpp; sourceTree = "<group>"; };
+		BB6A1C761F2F9922008AAD98 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../ExternalAddons/ofxTimeMeasurements/example/src/ofApp.cpp; sourceTree = "<group>"; };
+		BB6A1C771F2F9922008AAD98 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = ../../../ExternalAddons/ofxTimeMeasurements/example/src/ofApp.h; sourceTree = "<group>"; };
+		BB6A1C7C1F2F9A50008AAD98 /* ofxHistoryPlot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxHistoryPlot.cpp; sourceTree = "<group>"; };
+		BB6A1C7D1F2F9A50008AAD98 /* ofxHistoryPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxHistoryPlot.h; sourceTree = "<group>"; };
+		CDB3F20090A187761F40812F /* ofxFontStash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStash.h; path = ../../ExternalAddons/ofxFontStash/src/ofxFontStash.h; sourceTree = SOURCE_ROOT; };
+		D09DE0172CC459A438D35FBA /* ofxFontStashParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStashParser.h; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStashParser.h; sourceTree = SOURCE_ROOT; };
+		E1737C156AB026E4FBBCA5BC /* pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = ../../ExternalAddons/ofxFontStash2/libs/pugixml/src/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* ofxTimeMeasurements_exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxTimeMeasurements_exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../OpenFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E8CF6C7BA3E6E8F9B6EB7F56 /* ofxfs2_nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ofxfs2_nanovg.c; path = ../../ExternalAddons/ofxFontStash2/libs/nanoVG/src/ofxfs2_nanovg.c; sourceTree = SOURCE_ROOT; };
+		EB2EF02351B426C319B9EBBD /* ofxFontStash2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFontStash2.cpp; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStash2.cpp; sourceTree = SOURCE_ROOT; };
+		F0AB936C503BA3240063A923 /* ofxFontStashStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStashStyle.h; path = ../../ExternalAddons/ofxFontStash2/src/ofxFontStashStyle.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B62EBC0D8D3B34CBE49FA3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2F1F43B1D032BF660E578A1C /* fontstash.c */,
+				5980885A531065B9DDDE4EB8 /* fontstash.h */,
+				AADBB991EB7E8A40079428F9 /* stb_truetype.c */,
+				2884D0882E9BB292044AF969 /* stb_truetype.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		158635681647526293F545E1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				20D1411DA271B2BEBCDECADC /* GL_Measurement.h */,
+				B8AEC5B896853B6FC7C19C68 /* ofxTimeMeasurements.cpp */,
+				569DA45655AF84D7959F2362 /* ofxTimeMeasurements.h */,
+				7A6FDA0E478EDEF614EDDDB3 /* ofxTimeMeasurementsMacros.h */,
+				656296A3F6AE4DF9B513F9B0 /* ofxTimeMeasurementsScoped.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		1C02E16201287DD7B0F97B68 /* ofxTimeMeasurements */ = {
+			isa = PBXGroup;
+			children = (
+				158635681647526293F545E1 /* src */,
+			);
+			name = ofxTimeMeasurements;
+			sourceTree = "<group>";
+		};
+		62C4C35774FF435220269444 /* fontstash */ = {
+			isa = PBXGroup;
+			children = (
+				01B62EBC0D8D3B34CBE49FA3 /* src */,
+			);
+			name = fontstash;
+			sourceTree = "<group>";
+		};
+		68B05597764A9636080CCD25 /* nanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E49E47F6A360A9B0EE32E /* obsolete */,
+				FF012023B00C8C553C25851B /* src */,
+			);
+			name = nanoVG;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+				1C02E16201287DD7B0F97B68 /* ofxTimeMeasurements */,
+				FAD5CA8F119892047610C35A /* ofxFontStash */,
+				88CCE135290E1DCC58B78E38 /* ofxFontStash2 */,
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		6F739D6EA6502645A9A20C8C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				68B05597764A9636080CCD25 /* nanoVG */,
+				8DF3024E269407B1C1DEA0A5 /* pugixml */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		88CCE135290E1DCC58B78E38 /* ofxFontStash2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2E15760FEFBE9DB2122D /* src */,
+				6F739D6EA6502645A9A20C8C /* libs */,
+			);
+			name = ofxFontStash2;
+			sourceTree = "<group>";
+		};
+		8DF3024E269407B1C1DEA0A5 /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6D9058AC334E75D130ABF /* src */,
+			);
+			name = pugixml;
+			sourceTree = "<group>";
+		};
+		8F4E49E47F6A360A9B0EE32E /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				13F9E4A5D683E687F4439DA5 /* nanovg_gl2.h */,
+				2DEE2C3A00D6F7F0C2E04AD7 /* nanovg_gl3.h */,
+			);
+			name = obsolete;
+			sourceTree = "<group>";
+		};
+		9CB6D9058AC334E75D130ABF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B588A5CAFAD1F1E91D6FC6AA /* pugiconfig.hpp */,
+				E1737C156AB026E4FBBCA5BC /* pugixml.cpp */,
+				961C8E84350AA1635EE81175 /* pugixml.hpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AA7A2E15760FEFBE9DB2122D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB2EF02351B426C319B9EBBD /* ofxFontStash2.cpp */,
+				6026C5D8D1A93637A3D116C9 /* ofxFontStash2.h */,
+				11294DD4BD966EF204DDCF17 /* ofxFontStashParser.cpp */,
+				D09DE0172CC459A438D35FBA /* ofxFontStashParser.h */,
+				F0AB936C503BA3240063A923 /* ofxFontStashStyle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BB6A1C7A1F2F9A50008AAD98 /* ofxHistoryPlot */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A1C7B1F2F9A50008AAD98 /* src */,
+			);
+			name = ofxHistoryPlot;
+			sourceTree = "<group>";
+		};
+		BB6A1C7B1F2F9A50008AAD98 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A1C7C1F2F9A50008AAD98 /* ofxHistoryPlot.cpp */,
+				BB6A1C7D1F2F9A50008AAD98 /* ofxHistoryPlot.h */,
+			);
+			name = src;
+			path = ../../ExternalAddons/ofxHistoryPlot/src;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				BB6A1C7A1F2F9A50008AAD98 /* ofxHistoryPlot */,
+				E4B69B5B0A3A1756003C02F2 /* ofxTimeMeasurements_exampleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A1C751F2F9922008AAD98 /* main.cpp */,
+				BB6A1C761F2F9922008AAD98 /* ofApp.cpp */,
+				BB6A1C771F2F9922008AAD98 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		ED02D5F2113B52AF673868D3 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				62C4C35774FF435220269444 /* fontstash */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		F994DAE6B5D410D5BA4D060E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8C988A07864863F53B7E125E /* ofxFontStash.cpp */,
+				CDB3F20090A187761F40812F /* ofxFontStash.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		FAD5CA8F119892047610C35A /* ofxFontStash */ = {
+			isa = PBXGroup;
+			children = (
+				F994DAE6B5D410D5BA4D060E /* src */,
+				ED02D5F2113B52AF673868D3 /* libs */,
+			);
+			name = ofxFontStash;
+			sourceTree = "<group>";
+		};
+		FF012023B00C8C553C25851B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2E293555DC44AFAA4E6F22AF /* ofxfs2_fontstash.h */,
+				E8CF6C7BA3E6E8F9B6EB7F56 /* ofxfs2_nanovg.c */,
+				3C28E9F295B621ED0EC831F7 /* ofxfs2_nanovg.h */,
+				906B4BE466B2D2F2C7D6BF99 /* ofxfs2_nanovg_gl.h */,
+				4232A214EB042ACFD4EC0D7C /* ofxfs2_nanovg_gl_utils.h */,
+				2BC8FCA39DF05C6FFDA04E6E /* stb_image.h */,
+				1E56D6CC2EE1C5BC533AD819 /* stb_truetype.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxTimeMeasurements_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxTimeMeasurements_example" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = ofxTimeMeasurements_example;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxTimeMeasurements_exampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxTimeMeasurements_example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxTimeMeasurements_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved \"$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6A1C7E1F2F9A50008AAD98 /* ofxHistoryPlot.cpp in Sources */,
+				9F9F8850CD1066AEE052800B /* ofxTimeMeasurements.cpp in Sources */,
+				09499D3E602185EF130FA72A /* ofxFontStash.cpp in Sources */,
+				BB6A1C781F2F9922008AAD98 /* main.cpp in Sources */,
+				FD3FAFF994F3B5EB9C67451A /* fontstash.c in Sources */,
+				4E04BBED9DBE55E250419712 /* stb_truetype.c in Sources */,
+				145519ECDA4D5BF5DBD70B79 /* ofxFontStash2.cpp in Sources */,
+				BB6A1C791F2F9922008AAD98 /* ofApp.cpp in Sources */,
+				8D7E488605E5CD5B491ED00B /* ofxFontStashParser.cpp in Sources */,
+				F6EEEEEBFDE89B06FE072B35 /* ofxfs2_nanovg.c in Sources */,
+				14B34D3C77D7C00F0E4ADBCC /* pugixml.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		99FA3DBC1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL2_IMPLEMENTATION;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL2_IMPLEMENTATION;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PREPROCESSOR_DEFINITIONS = NANOVG_GL2_IMPLEMENTATION;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../ExternalAddons/ofxTimeMeasurements/src,
+					../../ExternalAddons/ofxFontStash/libs,
+					../../ExternalAddons/ofxFontStash/libs/fontstash,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash/src,
+					../../ExternalAddons/ofxFontStash/libs/fontstash/src,
+					../../ExternalAddons/ofxFontStash2/libs,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/obsolete,
+					../../ExternalAddons/ofxFontStash2/libs/nanoVG/src,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml,
+					../../ExternalAddons/ofxFontStash2/libs/pugixml/src,
+					../../ExternalAddons/ofxFontStash2/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DNANOVG_GL2_IMPLEMENTATION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxTimeMeasurements_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+				99FA3DBB1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxTimeMeasurements_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+				99FA3DBC1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

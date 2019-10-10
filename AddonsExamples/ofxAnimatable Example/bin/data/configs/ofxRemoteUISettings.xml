@@ -1,0 +1,50 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<P name="PARAMS" type="group"/>
+		<!-- # PARAMS ############################ -->
+		<P name="OBJ DROP" type="group"/>
+		<!-- # OBJ DROP ############################ -->
+		<P name="dropBounceHeight" type="float">0.19</P>
+		<P name="QUADRATIC BEZIER" type="group"/>
+		<!-- # QUADRATIC BEZIER ############################ -->
+		<P name="quadBezierA" type="float">0.101725</P>
+		<P name="quadBezierB" type="float">0.897302</P>
+		<P name="EXP SIGMOID" type="group"/>
+		<!-- # EXP SIGMOID ############################ -->
+		<P name="expSigmoidSteep" type="float">0.70852</P>
+		<P name="CUBIC BEZIER" type="group"/>
+		<!-- # CUBIC BEZIER ############################ -->
+		<P name="cubicBezAx" type="float">1.01718</P>
+		<P name="cubicBezAy" type="float">-0.0125775</P>
+		<P name="cubicBezBx" type="float">0.859738</P>
+		<P name="cubicBezBy" type="float">0.304622</P>
+		<P name="CUBIC BEZIER 2" type="group"/>
+		<!-- # CUBIC BEZIER 2 ############################ -->
+		<P name="cubicBez2Ax" type="float">0.335555</P>
+		<P name="cubicBez2Ay" type="float">0.560524</P>
+		<P name="cubicBez2Bx" type="float">0.655167</P>
+		<P name="cubicBez2By" type="float">0.271044</P>
+		<P name="ELASTIC" type="group"/>
+		<!-- # ELASTIC ############################ -->
+		<P name="elasticG" type="float">0.505442</P>
+		<P name="elasticFreq" type="float">1</P>
+		<P name="elasticDecay" type="float">0.295236</P>
+		<P name="EASE_OUT" type="group"/>
+		<!-- # EASE_OUT ############################ -->
+		<P name="easeOutOffset" type="float">0</P>
+		<P name="BOUNCE" type="group"/>
+		<!-- # BOUNCE ############################ -->
+		<P name="bounceNum" type="int">4</P>
+		<P name="bounceElast" type="float">0.156246</P>
+		<!--                                                                                 -->
+		<!-- ############################## DISABLED PARAMS ################################# -->
+		<!--                                                                                 -->
+		<P disabled="1" name="cubicBezA" type="float">0.803505</P>
+		<P disabled="1" name="cubicBezB" type="float">0.119661</P>
+		<P disabled="1" name="cubicBezC" type="float">0.243963</P>
+		<P disabled="1" name="cubicBezD" type="float">0.864177</P>
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>58840</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>
