@@ -1,3 +1,35 @@
+What is OpenFrameworks?
+
+What is it good for? installations, things that last a long time, things that don't need licensed software and never will
+
+What do you need to do this? Working knowledge of OF. However, of currently doesn't have a good versioning / package solution to ensure that old projects will be backwards compatible, addons of the right kind will work, etc...
+
+This repo addresses a need for OF. It:
+
+- versions OF (as a submodule)
+- versions OF libraries (modified download script)
+- versions packages as submodules (allows you to work on submodules as distinct repos and push/pull to/from them)
+- automatically downloads submodules
+- if someone else gets your version of this repo, they should be able to reproduce your system
+
+Expectations for this repo moving forward
+
+- each OF release will be concurrent here and will download the respective OF libraries
+
+How to use this repo. What is the process like for setting it up?
+
+- git clone
+- git submodule update --init --recursive
+- ./download_libs.sh (per-platform instructions) (per-version instructions?)
+
+
+
+
+
+
+
+
+
 This repo is your starting point for any OpenFrameworks-based project. It follows the recommendations found [here](https://www.assembla.com/spaces/lp-internal/wiki/Openframeworks_Project_Organization).  
 
 In short, this repo doesn't contain OpenFrameworks per se, it uses submodules to handle dependencies like OpenFrameworks and OF Addons.
