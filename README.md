@@ -41,6 +41,12 @@ OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
 
 
 
+What does this expect to be maintained? (location of libs on ci.of.cc)
+
+What needs to be maintained moving forward? (location of libs. access to past project gens?)
+
+
+
 
 
 This repo is your starting point for any OpenFrameworks-based project. It follows the recommendations found [here](https://www.assembla.com/spaces/lp-internal/wiki/Openframeworks_Project_Organization).  
