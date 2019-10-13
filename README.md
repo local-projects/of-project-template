@@ -1,3 +1,7 @@
+Status: Documentation incomplete; however, version 0.10.1 has been confirmed working on VS2017/19 64bit
+
+
+
 What is OpenFrameworks?
 
 What is it good for? installations, things that last a long time, things that don't need licensed software and never will
