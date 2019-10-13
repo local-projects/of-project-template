@@ -24,6 +24,15 @@ How to use this repo. What is the process like for setting it up?
 
 
 
+Run this script with the correct platform. Currently, only version 0.10.1 is supported
+
+```c++
+git clone -b version/0.10.1 https://github.com/local-projects/openFrameworks.git
+git submodule update --init --recursive
+OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+
+```
+
 
 
 
