@@ -40,6 +40,22 @@ A quick note on submodules
 
 
 
+Setting up your own project repo
+
+```C++
+git clone [template]
+git remote set-url origin [project -- blank]
+git push
+```
+
+
+
+
+
+
+
+
+
 Status: Documentation incomplete; however, version 0.10.1 has been confirmed working on VS2017/19 64bit
 
 

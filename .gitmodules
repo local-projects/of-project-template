@@ -136,3 +136,6 @@
 [submodule "ExternalAddons/ofxNotificationCenter"]
 	path = ExternalAddons/ofxNotificationCenter
 	url = https://github.com/local-projects/ofxNotificationCenter.git
+[submodule "ExternalAddons/ofxProjectionApp"]
+	path = ExternalAddons/ofxProjectionApp
+	url = https://github.com/local-projects/ofxProjectionApp.git
