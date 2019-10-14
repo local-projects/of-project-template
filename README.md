@@ -1,3 +1,45 @@
+# OpenFrameworks Project Template	
+
+This repository sets forth a template that allows versioning of OpenFrameworks and its Addons. It has been used by [Local Projects](https://localprojects.com/) across many museum exhibits.
+
+
+
+###### What is OF?
+
+[OpenFrameworks](https://openframeworks.cc/) (OF) is an open-source arts engineering toolkit. It is commonly used by artists, engineers, students, educators, and creative agencies to make experimental interfaces, performances, interactive experiences, exhibits, hardware prototypes and more. It is widely recognized as an incredibly powerful creative coding tool, and rightly so—because of its implementation in C++. 
+
+###### Addons
+
+Part of OF's power lies in its extensibility. In order to add more functionality to OF, it is common practice to add "Addons" to it. [Addons](http://www.ofxaddons.com/categories) are libraries of code that easily interface with the core code of OF. Addons always begin with the prefix "ofx", as in *ofxOpenCv* or *ofxGui*. As of 2019, there are only a few verified Addons that come prepackaged with OF (the aforementioned two included). The rest of the Addons in existence are contributed by the community. They still bear the prefix "ofx"; however, since they are not verified or pre-vetted, they are not guaranteed to work. 
+
+Oftentimes, it only takes a few changes to unverified Addons' code to make them work. Good software practices instruct us to first [fork](https://help.github.com/en/articles/fork-a-repo) an Addon, then change it and push those changes to our fork. This fork would then be the Addon we use with OF, since we can be sure it works. With all these changes to code and so many different versions of the same Addons in existence, keeping tracking of which ones to use can quickly become a frustrating task. This template proposes one solution for tracking Addons by including them as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) in a parent repository (more on this later). 
+
+###### OF Version
+
+OpenFrameworks has been around for more than a decade. As software standards change and new features are requested, improvements are contributed to the core codebase. Every now and then, OpenFrameworks posts a new official release. At present, the latest OF version is **0.10.1**.
+
+OpenFrameworks consists of three main pieces: the **Project Generator**, the **source code** and the **libraries**. The source code consists of the core code (.h and .cpp files) that make OF run. These files are compiled when building an application. The libraries consist of pre-compiled code packages with very specific functionalities. For example, one library may encapsulate all core functions of opencv.
+
+OF is most commonly setup by [downloading](https://openframeworks.cc/download/) a zipped file from OF's website, then unzipping it and placing it in an arbitrary location on your computer. Since this approach is quick and easy, it is the most common approach people take, especially in education. This approach gives you everything you need to get started right away. However, it doesn't version OF or the Addons you use.
+
+
+
+However, this source code is not linked to any versioned code respository -- it is just a folder on your computer. What happens if OF releases a new version and you want to use it? You would have to re-download the zip and move all of your files over. What happens if you want to save the edits to your addon in the cloud? You would have to manually upload these changes. 
+
+Using a versioning service like github to manage changes to code allows it to be maintained, organized and updated much more easily. The same is true for OF's core, even if it doesn't change very often, especially if you are creating projects that you want to last a long time. This is why we made this template—because we want our projects to be easily maintained years into the future. If you're using OF for quick prototypes and have no desire or need for your projects to last years, this template may not be right for you.
+
+While this template allows for more flexibility of OF, it also requires a few extra steps to get OF setup correctly. 
+
+###### Submodules
+
+A quick note on submodules
+
+
+
+
+
+
+
 Status: Documentation incomplete; however, version 0.10.1 has been confirmed working on VS2017/19 64bit
 
 
@@ -28,16 +70,20 @@ How to use this repo. What is the process like for setting it up?
 
 
 
-Run this script with the correct platform. Currently, only version 0.10.1 is supported
+Run this script with the correct platform. Currently, only version 0.10.1 is supported. Must use terminal or command line to run these commands:
 
 ```c++
-git clone -b version/0.10.1 https://github.com/local-projects/openFrameworks.git
+git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+cd of-project-template
 git submodule update --init --recursive
 OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
 
 ```
 
 
+
+Project Template <--> OF (source code and libraries)
+In order to version OF, must use git. In order to use git, must manually download libraries
 
 
 
