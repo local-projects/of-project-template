@@ -1,4 +1,5 @@
-#include "testApp.h"
+#include "ofApp.h"
+#define CONFIGS_DIRECTORY	"configs"
 
 bool recalcNow;
 //define a callback method to get notifications of client actions
@@ -11,16 +12,16 @@ void serverCallback(RemoteUIServerCallBackArg arg){
 	}
 }
 
-void testApp::setup(){
+void ofApp::setup(){
 
 	ofSetVerticalSync(false);
 	ofEnableAlphaBlending();
 	ofBackground(0);
 
 	tuioClient.start(3333);
-    ofAddListener(tuioClient.cursorAdded,this,&testApp::tuioAdded);
-	ofAddListener(tuioClient.cursorRemoved,this,&testApp::tuioRemoved);
-	ofAddListener(tuioClient.cursorUpdated,this,&testApp::tuioUpdated);
+    ofAddListener(tuioClient.cursorAdded,this,&ofApp::tuioAdded);
+	ofAddListener(tuioClient.cursorRemoved,this,&ofApp::tuioRemoved);
+	ofAddListener(tuioClient.cursorUpdated,this,&ofApp::tuioUpdated);
 	
 	dragger = new BoxDragger();
 
@@ -62,12 +63,21 @@ void testApp::setup(){
 	OFX_REMOTEUI_SERVER_SHARE_PARAM(deleteAll);
 
 	ofSetFrameRate(frameRate);
-	TIME_SAMPLE_SET_FRAMERATE(frameRate);
 
-	TIME_SAMPLE_DISABLE();
-	TIME_SAMPLE_SET_DRAW_LOCATION(TIME_MEASUREMENTS_TOP_RIGHT);
+	
+	// SETUP TIME SAMPLE ///////////////////////////////////
+
+	TIME_SAMPLE_SET_FRAMERATE(60);
+	TIME_SAMPLE_SET_CONFIG_DIR(CONFIGS_DIRECTORY);
+	TIME_SAMPLE_DISABLE_AVERAGE();
+	//TIME_SAMPLE_SET_AVERAGE_RATE(0.04);
+	TIME_SAMPLE_SET_DRAW_LOCATION(TIME_MEASUREMENTS_BOTTOM_RIGHT);
+	TIME_SAMPLE_SET_REMOVE_EXPIRED_THREADS(true);
+	TIME_SAMPLE_GET_INSTANCE()->setDeadThreadTimeDecay(0.985);
+	TIME_SAMPLE_GET_INSTANCE()->setUiScale(1.0); //bigger ui in 4k screens
 	TIME_SAMPLE_GET_INSTANCE()->drawUiWithFontStash("fonts/VeraMono.ttf");
-	TIME_SAMPLE_GET_INSTANCE()->setUiScale(2);
+	TIME_SAMPLE_GET_INSTANCE()->setSavesSettingsOnExit(false);
+	TIME_SAMPLE_ENABLE();
 
 
 	ofxSuperLog::getLogger()->setFont(&(TIME_SAMPLE_GET_INSTANCE()->getFont()), 20);
@@ -97,7 +107,7 @@ void testApp::setup(){
 }
 
 
-void testApp::update(){
+void ofApp::update(){
 
 	float dt = 1./60.;
 	tuioClient.getMessage();
@@ -123,7 +133,7 @@ void testApp::update(){
 }
 
 
-void testApp::clearFingerLines(){
+void ofApp::clearFingerLines(){
 	map<int, FingerLines>::iterator it = fingerLines.begin();
 	while(it != fingerLines.end()){
 		it->second.points.clear();
@@ -133,7 +143,7 @@ void testApp::clearFingerLines(){
 }
 
 
-void testApp::drawFingerLines(){
+void ofApp::drawFingerLines(){
 	
 	map<int, FingerLines>::iterator it = fingerLines.begin();
 	int c = 0;
@@ -160,7 +170,7 @@ void testApp::drawFingerLines(){
 }
 
 
-void testApp::addMessage(string msg, ofColor color){
+void ofApp::addMessage(string msg, ofColor color){
 
 	ScreenMessage m;
 	m.msg = msg;
@@ -170,7 +180,7 @@ void testApp::addMessage(string msg, ofColor color){
 	screenMsgs.push_back(m);
 }
 
-void testApp::draw(){
+void ofApp::draw(){
 
 	dragger->draw();
 
@@ -242,7 +252,7 @@ void testApp::draw(){
 }
 
 
-void testApp::tuioAdded(ofxTuioCursor &tuioCursor){
+void ofApp::tuioAdded(ofxTuioCursor &tuioCursor){
 	ofPoint loc = ofPoint(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
 	if(logTouches) ofLogNotice("TUIO") << "Point n " << tuioCursor.getFingerId() << " ADD at " << loc;
 
@@ -278,7 +288,7 @@ void testApp::tuioAdded(ofxTuioCursor &tuioCursor){
 }
 
 
-void testApp::tuioUpdated(ofxTuioCursor &tuioCursor){
+void ofApp::tuioUpdated(ofxTuioCursor &tuioCursor){
 	ofPoint loc = ofPoint(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
 
 	if(logTouches) ofLogNotice("TUIO") << "Point n " << tuioCursor.getFingerId() << " UPDATED at " << loc ;
@@ -302,7 +312,7 @@ void testApp::tuioUpdated(ofxTuioCursor &tuioCursor){
 }
 
 
-void testApp::tuioRemoved(ofxTuioCursor &tuioCursor){
+void ofApp::tuioRemoved(ofxTuioCursor &tuioCursor){
 	ofPoint loc = ofPoint(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
 	if(logTouches) ofLogNotice("TUIO") << "Point n " << tuioCursor.getFingerId() << " REMOVED at " << loc;
 	dragger->box2d.grabShapeUp(loc.x, loc.y, tuioCursor.getFingerId());
@@ -332,7 +342,7 @@ void testApp::tuioRemoved(ofxTuioCursor &tuioCursor){
 }
 
 
-void testApp::keyPressed(int key){
+void ofApp::keyPressed(int key){
 
 	if(key=='d'){
 		dragger->destroyAll();
@@ -359,21 +369,21 @@ void testApp::keyPressed(int key){
 }
 
 
-void testApp::keyReleased(int key){
+void ofApp::keyReleased(int key){
 
 }
 
 
-void testApp::mouseMoved(int x, int y ){
+void ofApp::mouseMoved(int x, int y ){
 }
 
 
-void testApp::mouseDragged(int x, int y, int button){
+void ofApp::mouseDragged(int x, int y, int button){
 
 }
 
 
-void testApp::mousePressed(int x, int y, int button){
+void ofApp::mousePressed(int x, int y, int button){
 
 	if(touchCreatesBodies){
 		if(!dragger->hit(ofVec2f(x,y))){
@@ -383,22 +393,22 @@ void testApp::mousePressed(int x, int y, int button){
 }
 
 
-void testApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseReleased(int x, int y, int button){
 
 }
 
 
-void testApp::windowResized(int w, int h){
+void ofApp::windowResized(int w, int h){
 	dragger->box2d.createBounds();
 
 }
 
 
-void testApp::gotMessage(ofMessage msg){
+void ofApp::gotMessage(ofMessage msg){
 
 }
 
 
-void testApp::dragEvent(ofDragInfo dragInfo){ 
+void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }

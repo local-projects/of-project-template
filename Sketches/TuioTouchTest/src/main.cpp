@@ -1,5 +1,5 @@
 #include "ofMain.h"
-#include "testApp.h"
+#include "ofApp.h"
 //========================================================================
 int main( ){
 
@@ -11,7 +11,7 @@ int main( ){
     
     //ofSetupOpenGL(&win, w, h, OF_WINDOW /*OF_FULLSCREEN*/);	// <-------- setup the GL context
     
-    ofRunApp(win, shared_ptr<ofBaseApp>(new testApp()));
+    ofRunApp(win, shared_ptr<ofBaseApp>(new ofApp()));
     ofSetFullscreen(true);
     ofRunMainLoop();
 

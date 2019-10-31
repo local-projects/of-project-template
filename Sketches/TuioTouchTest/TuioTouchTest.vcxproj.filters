@@ -1,6 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -175,9 +178,6 @@
     <ClCompile Include="src\ofxBox2d\src\ofxBox2dRect.cpp">
       <Filter>src\ofxBox2d\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\testApp.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="src\TouchAnimation.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -250,6 +250,15 @@
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\OscQueryServerMgr.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\RUIWebBinary.cpp">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxRemoteUI\src\uriencode.cpp">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClCompile>
@@ -279,6 +288,21 @@
     </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxFontStash\libs\fontstash\src\stb_truetype.c">
       <Filter>local_addons\ofxFontStash\libs\fontstash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioClient.cpp">
+      <Filter>local_addons\ofxTuio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioContainer.cpp">
+      <Filter>local_addons\ofxTuio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioCursor.cpp">
+      <Filter>local_addons\ofxTuio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioObject.cpp">
+      <Filter>local_addons\ofxTuio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ExternalAddons\ofxTuio\src\ofxTuioPoint.cpp">
+      <Filter>local_addons\ofxTuio\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\ExternalAddons\ofxSuperLog\src\ofxSuperLog.cpp">
       <Filter>local_addons\ofxSuperLog\src</Filter>
@@ -434,6 +458,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
     <ClInclude Include="src\BoxDragger.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -632,9 +659,6 @@
     <ClInclude Include="src\ofxTouchHelper.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\testApp.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="src\TouchAnimation.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -744,6 +768,12 @@
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIVars.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
+      <Filter>local_addons\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\OscQueryServerMgr.h">
       <Filter>local_addons\ofxRemoteUI\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ExternalAddons\ofxRemoteUI\src\RemoteParam.h">
