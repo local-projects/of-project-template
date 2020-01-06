@@ -4,9 +4,20 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
 
 
 
-## Quickstart Setup
+## Quick Setup (v0.10.1)
 
-### Step A: Copy Template
+``` bash
+git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+cd of-project-template
+git submodule update --init --recursive
+./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+```
+
+
+
+## Full Setup Instructions
+
+### Create New Project (Copy Template)
 
 1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
@@ -30,7 +41,7 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
    git push
    ```
 
-### Step B: Setup Repo
+### Download OF and Addons
 
 1. Update all submodules. (This downloads OpenFrameworks and all addons).
 
@@ -38,15 +49,70 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
    git submodule update --init --recursive
    ```
 
-2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studios 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
+2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
 
-   Available platforms include `android`, `emscritpen`, `ios`,` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
+   Available platforms include `android`, `emscritpen`, `ios`, ` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
 
    *Note: On some platforms, this steps requires a special bash environment.*
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
    ```
+
+### Setup Project Generator
+
+The *projectGenerator* GUI is required for creating and modifying projects. The *projectGenerator* that corresponds to your OF version must be downloaded to your system. 
+
+1. [Download](https://openframeworks.cc/download/) the prebuilt OpenFrameworks zip folder for your platform and desired OF version. See [here](https://openframeworks.cc/download/older/) for archived versions.
+
+2. <u>OSX Instructions</u>
+
+   Open the folder *projectGenerator*. Run the *_runMeFirst.command* script if it exists. Copy the executable *projectGenerator* into your *Applications* folder.
+
+   <u>Windows Instructions</u>
+
+   Copy the entire folder *projectGenerator* into your *Applications* folder. The executable *projectGenerator.exe* is contained inside.
+
+   *Other platforms may require different setup instructions.*
+
+3. Consider renaming the *projectGenerator* with the version of OF you downloaded in order to keep track of different versions of project generators. For example, we might rename this *projectGenerator_v0.10.1*.
+
+4. Discard the rest of the zipped file. It is no longer needed.
+
+5. Run the *projectGenerator*. The first time you run it and any subsequent time you change the project repo it points to, you shall provide the OpenFrameworks path. Click the gear icon in the top right and provide the appropriate path to the OpenFramworks folder. For example, here it would be `/Users/johndoe/Documents/myProject/OpenFrameworks`. If you began working on a different project called **mySecondProject**, then the OF path you would provide would be something like `/Users/johndoe/Documents/mySecondProject/OpenFrameworks`.
+
+### Create New App
+
+1. Open the *projectGenerator*.
+2. 
+
+
+
+### Rejuvenate Old App
+
+
+
+
+
+### Add Submodule to App
+
+
+
+### Remove Submodule from App
+
+
+
+
+
+### Add New Submodule to ExternalAddons
+
+
+
+How to add new submodules?
+
+Importing an old project (when would you want to do this?) What things do you delete?
+
+
 
 
 
