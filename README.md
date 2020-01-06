@@ -2,6 +2,54 @@
 
 This repository sets forth a template that allows versioning of OpenFrameworks and its Addons. It has been used by [Local Projects](https://localprojects.com/) across many museum exhibits.
 
+
+
+## Quickstart Setup
+
+### Step A: Copy Template
+
+1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
+
+2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`, `0.11.0`.
+
+   ```bash
+   git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+   ```
+
+3. Rename this template folder to the name of your repo. Navigate into the repo.
+
+   ```bash
+   mv of-project-template myProject
+   cd myProject
+   ```
+
+4. Set the remote origin to your project repo. Push the template files to your repo.
+
+   ```bash
+   git remote set-url origin https://github.com/local-projects/myProject.git
+   git push
+   ```
+
+### Step B: Setup Repo
+
+1. Update all submodules. (This downloads OpenFrameworks and all addons).
+
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studios 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
+
+   Available platforms include `android`, `emscritpen`, `ios`,` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
+
+   *Note: On some platforms, this steps requires a special bash environment.*
+
+   ```bash
+   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+   ```
+
+
+
 ## What is OF?
 
 [OpenFrameworks](https://openframeworks.cc/) (OF) is an open-source arts engineering toolkit. It is commonly used by artists, engineers, students, educators, and creative agencies to make experimental interfaces, performances, interactive experiences, exhibits, hardware prototypes and more. It is widely recognized as an incredibly powerful creative coding tool, and rightly so—because of its implementation in C++. 
@@ -57,51 +105,15 @@ A quick note on submodules
 
 
 
-## Quickstart Setup
 
-### Step A: Copy Template
 
-1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
-2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`, `0.11.0`.
 
-   ```bash
-   git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
-   ```
 
-3. Rename this template folder to the name of your repo. Navigate into the repo.
 
-   ```bash
-   mv of-project-template myProject
-   cd myProject
-   ```
 
-4. Set the remote origin to your project repo. Push the template files to your repo.
 
-   ```bash
-   git remote set-url origin https://github.com/local-projects/myProject.git
-   git push
-   ```
 
-### Step B: Setup Repo
-
-1. Update all submodules. (This downloads OpenFrameworks and all addons).
-
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studios 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
-
-   Available platforms include `android`, `emscritpen`, `ios`,` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
-
-   *Note: On some platforms, this steps requires a special bash environment.*
-
-   ```bash
-   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
-   ```
-
-   
 
 
 
