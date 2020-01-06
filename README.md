@@ -2,17 +2,17 @@
 
 This repository sets forth a template that allows versioning of OpenFrameworks and its Addons. It has been used by [Local Projects](https://localprojects.com/) across many museum exhibits.
 
-#### What is OF?
+## What is OF?
 
 [OpenFrameworks](https://openframeworks.cc/) (OF) is an open-source arts engineering toolkit. It is commonly used by artists, engineers, students, educators, and creative agencies to make experimental interfaces, performances, interactive experiences, exhibits, hardware prototypes and more. It is widely recognized as an incredibly powerful creative coding tool, and rightly so—because of its implementation in C++. 
 
-#### Addons
+### Addons
 
 Part of OF's power lies in its extensibility. In order to add more functionality to OF, it is common practice to add "Addons" to it. [Addons](http://www.ofxaddons.com/categories) are libraries of code that easily interface with the core code of OF. Addons always begin with the prefix "ofx", as in *ofxOpenCv* or *ofxGui*. As of 2019, there are only a few verified Addons that come prepackaged with OF (the aforementioned two included). The rest of the Addons in existence are contributed by the community. They still bear the prefix "ofx"; however, since they are not verified or pre-vetted, they are not guaranteed to work. 
 
 Oftentimes, it only takes a few changes to unverified Addons' code to make them work. Good software practices instruct us to first [fork](https://help.github.com/en/articles/fork-a-repo) an Addon, then change it and push those changes to our fork. This fork would then be the Addon we use with OF, since we can be sure it works. With all these changes to code and so many different versions of the same Addons in existence, keeping tracking of which ones to use can quickly become a frustrating task. This template proposes one solution for tracking Addons by including them as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) in a parent repository (more on this later). 
 
-#### OF Version
+### OF Version
 
 OpenFrameworks has been around for more than a decade. As software standards change and new features are requested, improvements are contributed to the core codebase. Every now and then, OpenFrameworks posts a new official release. At present, the latest OF version is **0.10.1**.
 
@@ -34,9 +34,10 @@ Here are some use cases that would be difficult with a traditional approach, but
 	- The traditional approach doesn't provide you any tools to do this. Sorry!
 	- This template versions nearly everything, with the exception of the Project Generator. So, you should much more easily be able to maintain your code and any changes to any addons or the OF core. 
 	
+
 Versioning your projects using a platform like Github allows your code to be saved, maintained and shared much more easily. This is why we made this template—because we want our projects to last a long time. If you're using OF for quick prototypes or have no need for your projects to last years, this template may not be right for you. This template makes OF more flexible; however, it also requires familiarity with command line tools, git workflows, and a few extra steps to get setup correctly.
 
-#### "Project" Terminology
+### "Project" Terminology
 
 The traditional approach to working with OF uses the word "project" to denote a single application. These "projects" are stored in folders two levels down in the OF directory. For example, *myProject* might live here: *OpenFrameworks > apps > myApps > myProject*. In the template set forth in this repository, we use "project" to denote the collection of *all* code encompassing an exhibition, installation, etc., and the word "application" to define a single application of OF. For example, say we are creating a new museum. Each exhibit in this museum will be its own "project" by our definition. Therefore, we would use this template for *each* exhibit in the museum. Since each exhibit is a self-contained piece of software, sometimes developed by different people, each exhibit (project) may use a different version of OF and/or different versions of the same addons. This template allows for just this. Furthermore, this template is capable of containing multiple "applications," either in the *Sketches* or *Apps* folder. Traditionally, the folder *Sketches* is used for quick applications, prototypes, proof of concepts, etc., while *Apps* contains the final (or in-progress) applications deployed in an exhibit.
 
@@ -48,20 +49,75 @@ A quick note on submodules
 
 
 
-#### Project Generator
+### Project Generator
 
 (Does not align with the name of this template...)
 
 
-Setting up your own project repo
 
-```C++
-git clone [template]
-git remote set-url origin [project -- blank]
-git push
-```
 
-What does it mean to clone from a template?
+
+## Quickstart Setup
+
+### Step A: Copy Template
+
+1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
+
+2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`, `0.11.0`.
+
+   ```bash
+   git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+   ```
+
+3. Rename this template folder to the name of your repo. Navigate into the repo.
+
+   ```bash
+   mv of-project-template myProject
+   cd myProject
+   ```
+
+4. Set the remote origin to your project repo. Push the template files to your repo.
+
+   ```bash
+   git remote set-url origin https://github.com/local-projects/myProject.git
+   git push
+   ```
+
+### Step B: Setup Repo
+
+1. Update all submodules. (This downloads OpenFrameworks and all addons).
+
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studios 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
+
+   Available platforms include `android`, `emscritpen`, `ios`,` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
+
+   *Note: On some platforms, this steps requires a special bash environment.*
+
+   ```bash
+   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+   ```
+
+   
+
+
+
+Create New Project
+
+Import Existing Project
+
+
+
+
+
+
+
+
+
+Note: Github templates do not work, since they do not copy submodules
 
 
 
