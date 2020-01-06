@@ -1,2 +1,0 @@
-../../ExternalAddons/ofxInterface
-../../ExternalAddons/ofxAnimatable
