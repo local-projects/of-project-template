@@ -20,12 +20,5 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-    
-    // Parameters for the bouncing ball
-    float speed = 10.0;
-    float radius = 100.0;
-    glm::vec2 position = glm::vec2(radius, radius);
-    glm::vec2 direction = glm::vec2(speed, speed);
-    
 		
 };
