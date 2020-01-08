@@ -18,19 +18,13 @@ cd of-project-template
 
 ## Quick Links
 
-[Create New Project](#create-new-project)
+[Create a new project](#create-new-project)
 
-[Install projectGenerator](#install-projectgenerator)
+[Create](#create-new-app) or [rebuild](#rebuild-existing-app) an app
 
-[Create New App](#create-new-app)
+[Add](#add-addon-to-existing-app) or [remove](#remove-addon-from-app) an addon to/from an app
 
-[Rebuild Existing App](#rebuild-existing-app) (or create a new one with external addons)
-
-[Add Addon to Existing App](#add-addon-to-existing-app)
-
-[Remove Addon from App](#remove-addon-from-app)
-
-[Push Changes to an External Addon](#push-changes-to-an-external-addon)
+[Add a new external addon to a project](#add-new-external-addon-to-project) or [commit an external addon's changes](#commit-changes-to-an-external-addon)
 
 
 
@@ -127,7 +121,7 @@ The *projectGenerator* that corresponds to your OF version must be downloaded to
 
 Follow this procedure if you would like to create a new app with no addons or with core addons only. The procedure for creating a new app with any external addons requires some initial app to already exist—in this case, skip to [Rebuild Existing App](#rebuild-existing-app).
 
-1. Open the *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+1. Open the *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (see the section [Install projectGenerator](#install-projectgenerator) for more instructions).
 2. Choose a *Project Name* for your app.
 3. Select *Project Path* for this app's folder. For initial sketches, this would be the *Sketches* folder. For final apps, this would be the *Apps* folder. 
 4. Select the addons you would like to include from the *Addons* drop-down menu. Note: This drop down only includes the *Core Addons*. To include any (non-core) addons in the *ExternalAddons* folder, you must follow the instructions for importing an existing app. If you don't have a blank app to import, use the steps for creating a new app to generate a blank one.
@@ -184,7 +178,7 @@ In order to import an existing app (say, **myApp**), it must contain at least th
 
    Note: If you are trying to build an example that is provided as part of an external addon, this relative path will need to contain another `../` for any included included external addons, making the pats.
 
-4. Open *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+4. Open *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (see the section [Install projectGenerator](#install-projectgenerator) for more instructions).
 
 5. Click *Import*. Select your app's folder. For example, I might select *myApp* in the folder *Sketches*. If all addon paths have been correctly set and all addons exist, then no errors will be thrown. If they are, re-check the paths in *addons.make*.
 
@@ -222,7 +216,7 @@ If you would like to use an external (non-core) addon that is not in the *Extern
 
 Now, the addon will be available to include in an app.
 
-### Push Changes to an External Addon
+### Commit Changes to an External Addon
 
 External addons are [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This means they are their own "child" repos, contained within a "parent" repo. A submodule can be edited like any other repo, and changes pushed to it. However, the parent repo doesn't directly store these changes; it only stores the submodule's commit hash. Thus, in order to commit changes to a submodule "in the view of" the parent repo, two steps need to be performed: (1) changes are committed within the submodule, and (2) the submodule's current hash is committed in the parent repo. Let's illustrate this with an example:
 
