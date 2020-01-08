@@ -7,24 +7,12 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    
-    // Update the position of the ball
-    position += direction;
-    
-    // Update the direction based on the position and canvas bounds
-    if (abs(position.x - (ofGetWidth()/2.0)) > ofGetWidth()/2.0-radius) direction.x *= -1.0;
-    if (abs(position.y - (ofGetHeight()/2.0)) > ofGetHeight()/2.0-radius) direction.y *= -1.0;
 
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofBackground(255, 200, 200);
-    
-    // Set the color of the ball and draw it
-    ofSetColor(255, 0, 0);
-    ofDrawCircle(position, radius);
-    
+
 }
 
 //--------------------------------------------------------------

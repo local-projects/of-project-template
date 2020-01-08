@@ -1,2 +1,0 @@
-../../ExternalAddons/ofxFontStash
-../../ExternalAddons/ofxTimeMeasurements

@@ -2,7 +2,6 @@
 gitInfo.h
 
 #ofxApp examples downloaded assets
-
 AddonsExamples/ofxAppExample/bin/data/assets
 AddonsExamples/ofxAppExample/bin/data/jsonDownloads
 AddonsExamples/ofxTextureAtlasExample_create/bin/data/images/cats/
@@ -13,20 +12,16 @@ AddonsExamples/ofxAppExample/bin/data/ofxApp.pid
 AddonsExamples/ofxAppExample_noContent/bin/data/ofxApp.pid
 textureCache
 
-
 #oriol's addons settings local 
 ofxRemoteUISettings Backups
 ofxTimeMeasurements.settings
 
 # OF-specific ignore patterns
-
 openFrameworks.a
 openFrameworksDebug.a
 openFrameworksUniversal.a
 
-
 # Some general ignore patterns
-
 [Bb]uild/
 [Oo]bj/
 *.o
@@ -67,7 +62,6 @@ xcuserdata
 #Linux
 .AppleDouble
 
-
 #Visual Studio
 *.sdf
 *.opensdf
@@ -78,3 +72,4 @@ xcuserdata
 ipch/
 *.VC.db
 *.VC.VC.opendb
+.vs/

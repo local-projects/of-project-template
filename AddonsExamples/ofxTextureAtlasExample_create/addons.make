@@ -1,2 +1,0 @@
-../../ExternalAddons/ofxTextureAtlas
-../../ExternalAddons/ofxRectangleUtils

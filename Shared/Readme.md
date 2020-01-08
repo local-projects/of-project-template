@@ -1,1 +1,0 @@
-Project-specific code that is shared among Sketches and/or Apps.
