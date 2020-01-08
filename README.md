@@ -42,7 +42,7 @@ cd of-project-template
 
 
 
-## Full Setup Instructions
+## Setup Instructions and Usage
 
 ### Create New Project
 
