@@ -21,7 +21,7 @@ git submodule update --init --recursive
 
 1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
-2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`, `0.11.0`.
+2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`.
 
    ```bash
    git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
@@ -53,7 +53,7 @@ git submodule update --init --recursive
 
    Available platforms include `android`, `emscritpen`, `ios`, ` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
 
-   *Note: On some platforms, this steps requires a special bash environment.*
+   *Note: On some platforms, this steps requires a special bash environment. For Windows development, see the section title "Downloading OF Libs with Cygwin."* 
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
@@ -61,7 +61,7 @@ git submodule update --init --recursive
 
 ### Setup Project Generator
 
-The *projectGenerator* GUI is required for creating and modifying projects. The *projectGenerator* that corresponds to your OF version must be downloaded to your system. 
+The *projectGenerator* GUI is required for creating and modifying projects. The *projectGenerator* that corresponds to your OF version must be downloaded to your system. Note: *projectGenerator* can only generate project files for the platform on which it is being used.
 
 1. [Download](https://openframeworks.cc/download/) the prebuilt OpenFrameworks zip folder for your platform and desired OF version. See [here](https://openframeworks.cc/download/older/) for archived versions.
 
@@ -83,40 +83,110 @@ The *projectGenerator* GUI is required for creating and modifying projects. The 
 
 ### Create New App
 
-1. Open the *projectGenerator*.
-2. 
+1. Open the *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+2. Choose a *Project Name* for your app.
+3. Select *Project Path* for this app's folder. For initial sketches, this would be the *Sketches* folder. For final apps, this would be the *Apps* folder. 
+4. Select the addons you would like to include from the *Addons* drop-down menu. Note: This drop down only includes the *Core Addons*. To include any (non-core) addons in the *ExternalAddons* folder, you must follow the instructions for importing an existing app. If you don't have a blank app to import, use the steps for creating a new app to generate a blank one.
+5. Click *Update*.
+
+### Rebuild Existing App
+
+#### Reasons for rebuilding an existing app
+
+1. You would like to include non-core (addons in the *ExternalAddons* folder) in your app.
+2. You would like to begin with an app that has already been developed but doesn't have its project files generated yet.
+3. You would like to update an old app whose project files do not correspond with the version of your code editor.
+4. The app you want to work on was developed on a different platform.
+
+#### Existing App Requirements
+
+An app is represented by a folder with the name of the app. Rebuilding an app will regenerate its project files.
+
+In order to import an existing app (say, **myApp**), it must contain at least the following files and folders in this directory structure, where [items] are optional. Any other items, including the folders *obj* and *.vs*; the files *\*.sln*,  *\*.vcxproj*, *\*.vcxproj.filters*, *\*.vcxproj.user*, *icon.rc*, *\*.xcodeproj*, *\*.plist*, *\*.xcconfig*, etc. in the main directory; and any *\*.dll*, *\*.exe*, *\*.exp*, *\*.lib*, *\*.ilk*, *\*.pdb*, *\*.app*, etc. in the *bin* folder <u>must be deleted</u>. Failing to do so may result in conflicts later on. Note: All preprocessor defintitions, additional includes, etc. that have been manually added to the project will be wiped and will need to be manually added again after new project files are generated.
+
+- myApp
+  - addons.make
+  - [bin]
+    - [data]
+      - [*]
+  - [config.make]
+  - [Makefile]
+  - src
+    - main.h
+    - ofApp.cpp
+    - ofApp.h
+
+#### Importing Instructions
+
+1. Obtain the app you want to import and place it in the *Sketches* or *Apps* folder (depending on your stage of development). Typically, *Sketches* is used for prototyping and *Apps* is used for final development. 
+
+   If you don't have an app to import, copy the *emptySketch* app in the *Sketches* folder and rename it to the name of your app.
+
+2. Delete any files that are not included in the above directory structure. Doing so ensures that there will be no conflicts later on.
+
+3. Edit the *addons.make* file to include any core and non-core addons you wish. Core addons are listed with just their name, for example `ofxXmlSettings` in the example below. Non-core addons (in the *ExternalAddons* folder) require more careful inclusion. Their relative path to your app folder must be listed in the *addons.make* file. For example, if our app is located in ***myProject*** > *Sketches* > ***myApp***, and we want to include *ofxRemoteUI*, which is located in ***myProject*** > *ExternalAddons* > *ofxRemoteUI*, then the relative path would be `../../ExternalAddons/ofxRemoteUI`, as listed below.
+
+   *Example of an addons.make file including both core and non-core addons:*
+
+   ```cmake
+   ofxOsc
+   ofxPoco
+   ofxXmlSettings
+   ../../ExternalAddons/ofxRemoteUI
+   ../../ExternalAddons/ofxTimeMeasurements
+   ```
+
+   Note: Not all available external addons are listed in *ExternalAddons*. This folder includes those external addons we use most, but they or their specific hash might not be right for your application. If an external addon is listed in this *addons.make* file, but is not in the *ExternalAddons* folder, the *projectGenerator* will fail to build project files.
+
+   Note: If you are trying to build an example that is provided as part of an external addon, this relative path will need to contain another `../` for any included included external addons, making the pats.
+
+4. Open *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+
+5. Click *Import*. Select your app's folder. For example, I might select *myApp* in the folder *Sketches*. If all addon paths have been correctly set and all addons exist, then no errors will be thrown. If they are, re-check the paths in *addons.make*.
+
+6. Click *Generate*.
+
+### Add Addon to Existing App
+
+If the addon is non-core and does not yet exist in the *ExternalAddons* folder, follow the instructions in the section "Add New External Addon."
+
+To add an addon (core or non-core) to an existing app, follow the instructions in the section "Rebuild Existing App", except make sure to add your addon to the *addons.make* file in Step 3.
+
+### Remove Addon from App
+
+To remove an addon (core or non-core) from an existing app, follow the instructions in the section "Rebuild Existing App," except make sure to remove your addons from the *addons.make* file in Step 3.
+
+### Add New External Addon to Project
+
+*External Addons are included in this template as submodules (repos within repos) so they can be versioned.*
+
+If you would like to use an external (non-core) addon that is not in the *ExternalAddons* folder, it must first be added to your project repo as a new submodule:
+
+1. Obtain the web url of your addon, for example `https://github.com/local-projects/ofxMyAddon.git`.
+
+2. Navigate into the top (main) level of your project repo and execute the following command:
+
+   ```bash
+   git submodule add https://github.com/local-projects/ofxMyAddon.git ExternalAddons/ofxMyAddon
+   ```
+
+3. Initialize the addon and update it recursively
+
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+Now, the addon will be available to include in an app.
+
+### Push Changes to an External Addon
+
+—TODO—
 
 
 
-### Rejuvenate Old App
 
 
-
-
-
-### Add Submodule to App
-
-
-
-### Remove Submodule from App
-
-
-
-
-
-### Add New Submodule to ExternalAddons
-
-
-
-How to add new submodules?
-
-Importing an old project (when would you want to do this?) What things do you delete?
-
-
-
-
-
-## What is OF?
+## Philosophy / What is OF?
 
 [OpenFrameworks](https://openframeworks.cc/) (OF) is an open-source arts engineering toolkit. It is commonly used by artists, engineers, students, educators, and creative agencies to make experimental interfaces, performances, interactive experiences, exhibits, hardware prototypes and more. It is widely recognized as an incredibly powerful creative coding tool, and rightly so—because of its implementation in C++. 
 
@@ -157,208 +227,74 @@ The traditional approach to working with OF uses the word "project" to denote a 
 
 ##### Submodules
 
-A quick note on submodules
-
-
-
-
+A quick note on submodules [TODO]
 
 ### Project Generator
 
-(Does not align with the name of this template...)
+--TODO--
 
+### Expectations of Maintenance
 
+This template expects a few things to be maintained on OF's end:
 
+1. Project Generators will continue to be available in releases. All prior releases will be available from the downloads page.
+2. OF libraries will continue to be kept on the OF Server at `http://ci.openframeworks.cc/libs/` in folders named with their respective versions (for example, `0.10.1`)
 
 
 
+## Troubleshooting
 
+### Visual Studios 2019
 
+Visual Studios 2019 works with the OF `vs2017` flag; however, the first time you open a newly generated app in Visual Studios, you will be promted to update the project files to the v142 toolset. Proceed with this update every time you are prompted.
 
+### Downloading OF Libs with Cygwin
 
+Cygwin is a command line environment with a built-in package manager for Windows. Of all command line tools, it provides the easiest way to run the bash script to download OpenFrameworks libraries. An alternative would be to use Powershell or Git Bash; however, the former doesn't download all libraries necessary and the latter is missing common utilities the scripts use for downloading and unzipping files. Another option might be to use Choco, but this has not been verified to work.
 
+#### Install Cygwin
 
+1. Download Cygwin from [here](http://cygwin.com/).
+2. Run the installation procedure. Include packages `unzip`, `curl`, `wget`, `rsync`, and `dos2unix` in the installation.
 
+#### Download OF Libs
 
+Certain bash scripts will not run properly in Cygwin unless the line endings are converted from the Windows to the Linux style. Instead of running the `download_libs.sh` script in a bash environment of your choice, follow these steps
 
+1. Open Cygwin.
 
+2. Navigate to your project repo.
 
-Create New Project
+3. Convert the script to linux style:
 
-Import Existing Project
+   ```bash
+   dos2unix OpenFrameworks/scripts/dev/download_libs.sh
+   ```
 
+4. Run the script as you normally would for your desired platform (for example, `vs2017`) and version (for example, `0.10.1`).
 
+   ```bash
+   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+   ```
 
+5. Close Cygwin and return to your preferred command line editor.
 
+### Templatizing this Repo with Github Templates
 
+Currently, templatizing this repo will not work, since Github templates do not support submodules.
 
+### ofPackageManager
 
+OpenFrameworks doesn't provide any way to version its addons; however, a 3rd party tool called [ofPackageManager](https://github.com/thomasgeissl/ofPackageManager) makes it easier to mange multiple addons. It isn't recommended to use it with this template, since it cannot version OF itself; however, it is useful to be aware of it and may be right tool for certain users who do not need OF versioning.
 
+### OF Pre-10.0
 
-Note: Github templates do not work, since they do not copy submodules
+Releases of OpenFrameworks prior to 10 come with OF libraries, so they don't need to be downloaded with the `download_libs.sh` script.
 
+### CCache
 
+[This section has not been verified to work as of Jan 2020]
 
-
-
-
-
-
-Status: Documentation incomplete; however, version 0.10.1 has been confirmed working on VS2017/19 64bit
-
-
-
-What is OpenFrameworks?
-
-What is it good for? installations, things that last a long time, things that don't need licensed software and never will
-
-What do you need to do this? Working knowledge of OF. However, of currently doesn't have a good versioning / package solution to ensure that old projects will be backwards compatible, addons of the right kind will work, etc...
-
-This repo addresses a need for OF. It:
-
-- versions OF (as a submodule)
-- versions OF libraries (modified download script)
-- versions packages as submodules (allows you to work on submodules as distinct repos and push/pull to/from them)
-- automatically downloads submodules
-- if someone else gets your version of this repo, they should be able to reproduce your system
-
-Expectations for this repo moving forward
-
-- each OF release will be concurrent here and will download the respective OF libraries
-
-How to use this repo. What is the process like for setting it up?
-
-- git clone
-- git submodule update --init --recursive
-- ./download_libs.sh (per-platform instructions) (per-version instructions?)
-
-
-
-Run this script with the correct platform. Currently, only version 0.10.1 is supported. Must use terminal or command line to run these commands:
-
-```c++
-git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
-cd of-project-template
-git submodule update --init --recursive
-OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
-
-```
-
-
-ExternalAddons
-How to add?
-How to change / update / save?
-How to point to new repo / etc
-
-Other options? ofPackageManager
-
-
-How to generate a new project
-Download project generator
-Link correct OF version
-Make sure addons.make has correct relative links (esp to External Addons)
-Generate
-For vs2019, allow upgrade to v142 toolset
-
-
-What are all of the other folders used for? Deployment, Scripts, etc.
-
-
-
-
-
-
-
-Project Template <--> OF (source code and libraries)
-In order to version OF, must use git. In order to use git, must manually download libraries
-
-
-
-What does this expect to be maintained? (location of libs on ci.of.cc)
-
-What needs to be maintained moving forward? (location of libs. access to past project gens?)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This repo is your starting point for any OpenFrameworks-based project. It follows the recommendations found [here](https://www.assembla.com/spaces/lp-internal/wiki/Openframeworks_Project_Organization).  
-
-In short, this repo doesn't contain OpenFrameworks per se, it uses submodules to handle dependencies like OpenFrameworks and OF Addons.
-
-# Using Git Submodules
-
-Usually you would get all the submodules in the repo with:
-
-```
-git submodule update --init --recusive
-```
-
-But we built a custom script that handles all of it. If you look at the script named ```submods.sh``` in the repo root, you can see it contains a custom definition of a list of submodules, just below the initial comments.
-
-```
-SubMods() {
-	SubModule: ExternalAddons/WeightedObject https://github.com/local-projects/WeightedObject.git
-	SubModule: ExternalAddons/ofxAnimatable https://github.com/local-projects/ofxAnimatable.git
-	...
-	SubModule: OpenFrameworks https://github.com/local-projects/OpenFrameworks.git OF?https://github.com/OpenFrameworks/OpenFrameworks.git
-}
-```
-
-This custom syntax can be deciphered like this:
-
-```
-SubModule: pathToSubmodule submoduleURL upstreamName1?anotherSubmoduleURL upstreamName2?anotherSubmoduleURL
-```
-
-The idea behind this is to have a full submodules definition in a single file for the whole repo. This means that if you need to add new submodules, you can just edit this file and re-run the script, and it will take care of it all.
-
-So, instead of using git directly to handle the submodules, just invoke the script:
-
-```
-./submods.sh
-```
-
-This will clone OpenFrameworks as a submodule inside the ```/OpenFrameworks``` folder, together with all the addons we use frequently. All the non-standard addons (ie non core OF addons) go in the ```/ExternalAddons``` folder.
-
-You can read more about Git Submodules [here](https://github.com/blog/2104-working-with-submodules), or just Google about it.  
-
-# OpenFrameworks - downloading libs!
-The Git version of OpenFrameworks is not ready to run out of the box, you must download the libs for your platform manually; For OSX:
-
-```
-./OpenFrameworks/scripts/osx/download_libs.sh
-```
-
-On Windows, the download script will fail as ```wget``` and ```rsync``` don't exist. I've used [chocolatey](https://chocolatey.org/) to install both and it worked.
-
-You will have to first install chocolatey (follow the instructions on their site), then install wiget and rsync;
-
-```
-choco install wget
-choco install rsync
-```
-
-and then run the script in ```./OpenFrameworks/scripts/vs```. To run the script, open a git bash window in that directory, and type ```./download_libs.sh```.
-
-#Installing Git
-
-If you are on Windows, you will need to install git. Get it from [here](https://git-scm.com/download/win) and go though the installation with all the default options, don't change anything on any of the prompt screens.
-
-# CCache
 Required for Ccode project compilation - ccache caches your obj files to speed up compiling. Handy when we have as many addons as we do. Just install it with [Homebrew](https://brew.sh):
 
 ```
@@ -377,8 +313,3 @@ CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
 **if you dont care / dont want to deal with ccache, just remove/comment-out these 2 lines mentioned above from ```CoreOF.xcconfig```**
 
 **Note that Xcode will fail to compile using ccache if you enable the ```Address Sanitiser```; just comment out those two lines in ```CoreOF.xcconfig ``` if you need a build with it.**
-
-
-# Xcode 8 plugins
-
-If you want to have plugins in Xcode 8, try [this](https://github.com/XVimProject/XVim/blob/master/INSTALL_Xcode8.md).
