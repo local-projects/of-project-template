@@ -4,7 +4,7 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
 
 
 
-## Quick Setup (v0.10.1)
+## Quick Setup
 
 Run these commands in the command line. Replace `0.10.1` with your OF version and `vs2017` with your platform (for example, `osx`, `linux`, `vs2017`, etc).
 
