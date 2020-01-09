@@ -6,12 +6,12 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
 
 ## Quick Setup
 
-Run these commands in the command line. Replace `0.10.1` with your OF version and `vs2017` with your platform (for example, `osx`, `linux`, `vs2017`, etc).
+Run these commands in the command line. Replace `0.11.0` with your OF version and `vs2017` with your platform (for example, `osx`, `linux`, `vs2017`, etc).
 
 ``` bash
-git clone -b version/0.10.1 --recursive https://github.com/local-projects/of-project-template.git
+git clone -b version/0.11.0 --recursive https://github.com/local-projects/of-project-template.git
 cd of-project-template
-./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
 ```
 
 
@@ -50,10 +50,10 @@ This will create a new project, download its submodules (OF and external addons 
 
 1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
-2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`. Passing the `--recursive` command will download all submodules, including OF and any external addons.
+2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.11.0**). Supported versions include `0.11.0`. Passing the `--recursive` command will download all submodules, including OF and any external addons.
 
    ```bash
-   git clone -b version/0.10.1 --recursive https://github.com/local-projects/of-project-template.git
+   git clone -b version/0.11.0 --recursive https://github.com/local-projects/of-project-template.git
    ```
 
 3. Rename this template folder to the name of your repo. Navigate into the repo.
@@ -70,10 +70,10 @@ This will create a new project, download its submodules (OF and external addons 
    git push
    ```
    
-5. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
+5. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.11.0 — this should correspond with the template's branch version above). 
 
    ```bash
-   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
+   ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
    ```
 
    Successful executation of this command indicates that files have been downloaded, uncompressed and copied into place. (Unsuccessful execution will be obvious).
@@ -111,7 +111,7 @@ The *projectGenerator* that corresponds to your OF version must be downloaded to
 
    *Other platforms may require different setup instructions.*
 
-3. Consider renaming the *projectGenerator* with the version of OF you downloaded in order to keep track of different versions of project generators. For example, we might rename this *projectGenerator_v0.10.1*.
+3. Consider renaming the *projectGenerator* with the version of OF you downloaded in order to keep track of different versions of project generators. For example, we might rename this *projectGenerator_v0.11.0*.
 
 4. Discard the rest of the zipped file. It is no longer needed.
 
@@ -270,7 +270,7 @@ Oftentimes, it only takes a few changes to unverified Addons' code to make them 
 
 ### OF Version
 
-OpenFrameworks has been around for more than a decade. As software standards change and new features are requested, improvements are contributed to the core codebase. Every now and then, OpenFrameworks posts a new official release. At present, the latest OF version is **0.10.1**.
+OpenFrameworks has been around for more than a decade. As software standards change and new features are requested, improvements are contributed to the core codebase. Every now and then, OpenFrameworks posts a new official release. At present, the latest OF version is **0.11.0**.
 
 OpenFrameworks consists of three main pieces: the **Project Generator**, the **source code** and the **libraries**. The source code consists of the core code (.h and .cpp files) that make OF run. These files are compiled when building an application. The libraries consist of pre-compiled code packages with very specific functionalities. For example, one library may encapsulate all core functions of opencv. It is possible to compile these libraries on your own with Apothecary (a submodule of OF located in OF > Scripts > Apothecary); however, these are notoriously difficult to compile, so downloading precompiled versions is *highly* recommended.
 
@@ -310,7 +310,7 @@ A quick note on submodules [TODO]
 This template expects a few things to be maintained on OF's end:
 
 1. Project Generators will continue to be available in releases. All prior releases will be available from the downloads page.
-2. OF libraries will continue to be kept on the OF Server at `http://ci.openframeworks.cc/libs/` in folders named with their respective versions (for example, `0.10.1`)
+2. OF libraries will continue to be kept on the OF Server at `http://ci.openframeworks.cc/libs/` in folders named with their respective versions (for example, `0.11.0`)
 
 
 
@@ -343,7 +343,7 @@ Certain bash scripts will not run properly in Cygwin unless the line endings are
    dos2unix OpenFrameworks/scripts/dev/download_libs.sh
    ```
 
-4. Run the script as you normally would for your desired platform (for example, `vs2017`) and version (for example, `0.10.1`).
+4. Run the script as you normally would for your desired platform (for example, `vs2017`) and version (for example, `0.11.0`).
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
