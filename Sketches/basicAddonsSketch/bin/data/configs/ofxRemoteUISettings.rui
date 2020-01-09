@@ -1,0 +1,14 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<!-- # General Params ################################################################################# -->
+		<P name="General Params" type="group" />
+		<P name="Speed" type="float">10</P>
+		<P name="Radius" type="float">100</P>
+		<!--                                                                                                  -->
+		<!-- ###################################### DISABLED PARAMS ######################################### -->
+		<!--                                                                                                  -->
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>37636</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>

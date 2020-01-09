@@ -4,27 +4,56 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
 
 
 
-## Quick Setup (v0.10.1)
+## Quick Setup
+
+Run these commands in the command line. Replace `0.10.1` with your OF version and `vs2017` with your platform (for example, `osx`, `linux`, `vs2017`, etc).
 
 ``` bash
-git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+git clone -b version/0.10.1 --recursive https://github.com/local-projects/of-project-template.git
 cd of-project-template
-git submodule update --init --recursive
 ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
 ```
 
 
 
-## Full Setup Instructions
+## Quick Links
 
-### Create New Project (Copy Template)
+[Create a new project](#create-new-project)
+
+[Create](#create-new-app) or [rebuild](#rebuild-existing-app) an app
+
+[Add](#add-addon-to-existing-app) or [remove](#remove-addon-from-app) an addon to/from an app
+
+[Add a new external addon to a project](#add-new-external-addon-to-project) or [commit an external addon's changes](#commit-changes-to-an-external-addon)
+
+
+
+## Terminology
+
+<u>*Project*</u> - This template is a project. A project can contain multiple apps. It represents the interactive for an exhibit, installtion, etc.
+
+*<u>App</u>* - A single OpenFrameworks application. Perhaps counterintuitively, the *projectGenerator* creates apps. Elsewhere, this may be called a "project." It may be used to describe the folder that contains its files ("app files"), the *bin* folder, or the binary executable that begins program execution.
+
+*<u>App Files</u>* - The files and folders within an app folder. Elsewhere, these may be called "project files." 
+
+*<u>Core Addon</u>* - An addon that comes with OF. These are listed in *OpenFrameworks > Addons*.
+
+*<u>External Addon</u>* - Also called "non-core addon", this is a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) of an addon in the *ExternalAddons* folder.
+
+
+
+## Setup Instructions and Usage
+
+### Create New Project
+
+This will create a new project, download its submodules (OF and external addons inlcuded), and download OF libraries.
 
 1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
-2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`.
+2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.10.1**). Supported versions include `0.10.1`. Passing the `--recursive` command will download all submodules, including OF and any external addons.
 
    ```bash
-   git clone -b version/0.10.1 https://github.com/local-projects/of-project-template.git
+   git clone -b version/0.10.1 --recursive https://github.com/local-projects/of-project-template.git
    ```
 
 3. Rename this template folder to the name of your repo. Navigate into the repo.
@@ -40,28 +69,35 @@ git submodule update --init --recursive
    git remote set-url origin https://github.com/local-projects/myProject.git
    git push
    ```
-
-### Download OF and Addons
-
-1. Update all submodules. (This downloads OpenFrameworks and all addons).
-
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-2. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
-
-   Available platforms include `android`, `emscritpen`, `ios`, ` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.)
-
-   *Note: On some platforms, this steps requires a special bash environment. For Windows development, see the section title "Downloading OF Libs with Cygwin."* 
+   
+5. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.10.1 — this should correspond with the template's branch version above). 
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.10.1
    ```
 
-### Setup Project Generator
+   Successful executation of this command indicates that files have been downloaded, uncompressed and copied into place. (Unsuccessful execution will be obvious).
 
-The *projectGenerator* GUI is required for creating and modifying projects. The *projectGenerator* that corresponds to your OF version must be downloaded to your system. Note: *projectGenerator* can only generate project files for the platform on which it is being used.
+   *Note: On some platforms, this steps requires a special bash environment. For Windows development, see the section [Downloading OF Libs with Cygwin](#downloading-of-libs-with-cygwin)*.
+
+   *Note: Do not use any of the other download_libs scripts in this or any other directory within the "scripts" folder. Only this script has been changed to reflect correct library versioning.*
+
+   *All available script flags include:*
+
+| Flag               | Required? | Description                                                  |
+| ------------------ | --------- | ------------------------------------------------------------ |
+| -p, --platform     | Yes       | Available platforms include `android`, `emscritpen`, `ios`, ` linux`, `linux64`, `linuxarmv6l`, `linuxarmv7l`, `msys2`, `osx`, `tvos`, `vs2015`, `vs2017`. (Visual Studio 2019 will work with the `vs2017` flag.) |
+| -v, --version      | Yes       | Version of OF libraries to download. Available libraries include `0.10.0`, `0.10.1`, `0.11.0` |
+| -n, --no-overwrite | No        | Merge new libraries with exisiting ones, use only to download same version for different platforms. |
+| -a, --arch         | No        | Available architectures include `32` or `64` for vs2015; `32` or `64` for vs2017; `32` for msys2; `armv7` or `x86` for android; and `64gcc4`, `64gcc5`, `64gcc6`, `armv6l`, or `armv7l` for linux. |
+| -s, --silent       | No        | Slient download progress.                                    |
+| -h, --help         | No        | Shows help message.                                          |
+
+### Install projectGenerator
+
+The *projectGenerator* GUI is required for creating and modifying apps. Each project can contain mutliple apps. Apps are usually kept in the *Apps* or *Sketches* folders. 
+
+The *projectGenerator* that corresponds to your OF version must be downloaded to your system. Note: *projectGenerator* can only generate app files for the platform on which it is being used.
 
 1. [Download](https://openframeworks.cc/download/) the prebuilt OpenFrameworks zip folder for your platform and desired OF version. See [here](https://openframeworks.cc/download/older/) for archived versions.
 
@@ -83,7 +119,9 @@ The *projectGenerator* GUI is required for creating and modifying projects. The 
 
 ### Create New App
 
-1. Open the *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+Follow this procedure if you would like to create a new app with no addons or with core addons only. The procedure for creating a new app with any external addons requires some initial app to already exist—in this case, skip to [Rebuild Existing App](#rebuild-existing-app).
+
+1. Open the *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (see the section [Install projectGenerator](#install-projectgenerator) for more instructions).
 2. Choose a *Project Name* for your app.
 3. Select *Project Path* for this app's folder. For initial sketches, this would be the *Sketches* folder. For final apps, this would be the *Apps* folder. 
 4. Select the addons you would like to include from the *Addons* drop-down menu. Note: This drop down only includes the *Core Addons*. To include any (non-core) addons in the *ExternalAddons* folder, you must follow the instructions for importing an existing app. If you don't have a blank app to import, use the steps for creating a new app to generate a blank one.
@@ -91,18 +129,18 @@ The *projectGenerator* GUI is required for creating and modifying projects. The 
 
 ### Rebuild Existing App
 
-#### Reasons for rebuilding an existing app
+#### Reasons for Rebuilding an Existing App
 
-1. You would like to include non-core (addons in the *ExternalAddons* folder) in your app.
-2. You would like to begin with an app that has already been developed but doesn't have its project files generated yet.
-3. You would like to update an old app whose project files do not correspond with the version of your code editor.
-4. The app you want to work on was developed on a different platform.
+1. You would like to include external addons in your <u>new</u> or existing app.
+2. You would like to begin with an app that has already been developed but doesn't have its app files generated yet.
+3. You would like to update an old app whose app files do not correspond with the version of your code editor. For example, you need to update an app from 
+4. The app you want to work on was developed on a different platform. For example, you began developing an app on Mac, but now need to work on Windows.
 
 #### Existing App Requirements
 
-An app is represented by a folder with the name of the app. Rebuilding an app will regenerate its project files.
+An app is represented by a folder with the name of the app. Rebuilding an app will regenerate its app files.
 
-In order to import an existing app (say, **myApp**), it must contain at least the following files and folders in this directory structure, where [items] are optional. Any other items, including the folders *obj* and *.vs*; the files *\*.sln*,  *\*.vcxproj*, *\*.vcxproj.filters*, *\*.vcxproj.user*, *icon.rc*, *\*.xcodeproj*, *\*.plist*, *\*.xcconfig*, etc. in the main directory; and any *\*.dll*, *\*.exe*, *\*.exp*, *\*.lib*, *\*.ilk*, *\*.pdb*, *\*.app*, etc. in the *bin* folder <u>must be deleted</u>. Failing to do so may result in conflicts later on. Note: All preprocessor defintitions, additional includes, etc. that have been manually added to the project will be wiped and will need to be manually added again after new project files are generated.
+In order to import an existing app (say, **myApp**), it must contain at least the following files and folders in this directory structure, where [items] are optional. Any other items, including the folders *obj* and *.vs*; the files *\*.sln*,  *\*.vcxproj*, *\*.vcxproj.filters*, *\*.vcxproj.user*, *icon.rc*, *\*.xcodeproj*, *\*.plist*, *\*.xcconfig*, etc. in the main directory; and any *\*.dll*, *\*.exe*, *\*.exp*, *\*.lib*, *\*.ilk*, *\*.pdb*, *\*.app*, etc. in the *bin* folder <u>must be deleted</u>. Failing to do so may result in conflicts later on. Note: All preprocessor defintitions, additional includes, etc. that have been manually added to the project will be wiped and will need to be manually added again after new app files are generated.
 
 - myApp
   - addons.make
@@ -116,11 +154,11 @@ In order to import an existing app (say, **myApp**), it must contain at least th
     - ofApp.cpp
     - ofApp.h
 
-#### Importing Instructions
+#### Rebuilding Instructions
 
 1. Obtain the app you want to import and place it in the *Sketches* or *Apps* folder (depending on your stage of development). Typically, *Sketches* is used for prototyping and *Apps* is used for final development. 
 
-   If you don't have an app to import, copy the *emptySketch* app in the *Sketches* folder and rename it to the name of your app.
+   **If you are beginning from scratch and don't have an app to import, copy the *emptySketch* app in the *Sketches* folder and rename it to the name of your app.**
 
 2. Delete any files that are not included in the above directory structure. Doing so ensures that there will be no conflicts later on.
 
@@ -136,11 +174,11 @@ In order to import an existing app (say, **myApp**), it must contain at least th
    ../../ExternalAddons/ofxTimeMeasurements
    ```
 
-   Note: Not all available external addons are listed in *ExternalAddons*. This folder includes those external addons we use most, but they or their specific hash might not be right for your application. If an external addon is listed in this *addons.make* file, but is not in the *ExternalAddons* folder, the *projectGenerator* will fail to build project files.
+   Note: Not all available external addons are listed in *ExternalAddons*. This folder includes those external addons we use most, but they or their specific hash might not be right for your application. If an external addon is listed in this *addons.make* file, but is not in the *ExternalAddons* folder, the *projectGenerator* will fail to build app files.
 
    Note: If you are trying to build an example that is provided as part of an external addon, this relative path will need to contain another `../` for any included included external addons, making the pats.
 
-4. Open *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (top right gear icon).
+4. Open *projectGenerator*. Make sure the correct OpenFrameworks path is set in the settings tab (see the section [Install projectGenerator](#install-projectgenerator) for more instructions).
 
 5. Click *Import*. Select your app's folder. For example, I might select *myApp* in the folder *Sketches*. If all addon paths have been correctly set and all addons exist, then no errors will be thrown. If they are, re-check the paths in *addons.make*.
 
@@ -148,7 +186,7 @@ In order to import an existing app (say, **myApp**), it must contain at least th
 
 ### Add Addon to Existing App
 
-If the addon is non-core and does not yet exist in the *ExternalAddons* folder, follow the instructions in the section "Add New External Addon."
+If the addon is non-core and does not yet exist in the *ExternalAddons* folder, follow the instructions in the section [Add New External Addon to Project](#add-new-external-addon-to-project).
 
 To add an addon (core or non-core) to an existing app, follow the instructions in the section "Rebuild Existing App", except make sure to add your addon to the *addons.make* file in Step 3.
 
@@ -178,11 +216,45 @@ If you would like to use an external (non-core) addon that is not in the *Extern
 
 Now, the addon will be available to include in an app.
 
-### Push Changes to an External Addon
+### Commit Changes to an External Addon
 
-—TODO—
+External addons are [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This means they are their own "child" repos, contained within a "parent" repo. A submodule can be edited like any other repo, and changes pushed to it. However, the parent repo doesn't directly store these changes; it only stores the submodule's commit hash. Thus, in order to commit changes to a submodule "in the view of" the parent repo, two steps need to be performed: (1) changes are committed within the submodule, and (2) the submodule's current hash is committed in the parent repo. Let's illustrate this with an example:
 
+Say that we have a project called **myProject** and within it is contained an app **myApp** in the folder *Apps*. **myApp** utilizes the external addon **ofxMyAddon**, which is located in the folder *ExternalAddons*. myAddon enacapsulates some reusable code that is currently used by **myApp**. Thus, we are concurrently developing **ofxMyAddon** in parallel with **myApp**. To save our changes to **ofxMyAddon** we follow these instructions:
 
+1. Navigate into the external addon's directory.
+
+   ```bash
+   cd ExternalAddons/ofxMyAddon
+   ```
+
+   Calling `pwd` would print `/Users/local-projects/Documents/myProject/ExternalAddons/ofxMyAddon` or something similar.
+
+2. Add the changes you wish (here, all are added), commit the changes, and push these commits to the <u>addon's</u> repo.
+
+   ```bash
+   git add .
+   git commit -m "Updates to ofxMyAddon"
+   git push
+   ```
+
+3. Navigate up into the project's main directory.
+
+   ```bash
+   cd ../../
+   ```
+
+   Calling `pwd` would print `/Users/local-projects/Documents/myProject` or something similar.
+
+4. Add the update to this submodule, commit the changes, and push these commits to the <u>project's</u> repo.
+
+   ```bash
+   git add ExternalAddons/ofxMyAddon
+   git commit -m "Updated ofxMyAddon"
+   git push
+   ```
+
+Now, the addon and the project have been updated with said changes to the addon.
 
 
 
@@ -206,7 +278,7 @@ OF is most commonly setup by [downloading](https://openframeworks.cc/download/) 
 
 Here are some use cases that would be difficult with a traditional approach, but easier using this template:
 - OF releases a new version and you want to use your old projects with it. 
-	- The traditional approach would force you to re-download the zipped folder and after extracting all files, manually copy your old project files over to this new instance of OF.
+	- The traditional approach would force you to re-download the zipped folder and after extracting all files, manually copy your old app files over to this new instance of OF.
 	- This template allows you to pull new versions of OF from the command line, since your OF repo is a versioned git repository.
 - You want to save some changes you've made to OF's core or to an Addon.
 	- The traditional approach would not allow you to save changes to OF, nor to addons. Sorry!
@@ -246,7 +318,7 @@ This template expects a few things to be maintained on OF's end:
 
 ### Visual Studios 2019
 
-Visual Studios 2019 works with the OF `vs2017` flag; however, the first time you open a newly generated app in Visual Studios, you will be promted to update the project files to the v142 toolset. Proceed with this update every time you are prompted.
+Visual Studios 2019 works with the OF `vs2017` flag; however, the first time you open a newly generated app in Visual Studios, you will be promted to update the app files to the v142 toolset. Proceed with this update every time you are prompted.
 
 ### Downloading OF Libs with Cygwin
 
@@ -255,7 +327,7 @@ Cygwin is a command line environment with a built-in package manager for Windows
 #### Install Cygwin
 
 1. Download Cygwin from [here](http://cygwin.com/).
-2. Run the installation procedure. Include packages `unzip`, `curl`, `wget`, `rsync`, and `dos2unix` in the installation.
+2. Run the installation procedure. Include packages `unzip`, `curl`, `wget`, `rsync`, and `dos2unix` in the installation. The download script requires these packages.
 
 #### Download OF Libs
 
