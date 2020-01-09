@@ -10,8 +10,7 @@ Run these commands in the command line. Replace `0.11.0` with your OF version an
 
 ``` bash
 git clone -b version/0.11.0 --recursive https://github.com/local-projects/of-project-template.git
-cd of-project-template
-./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
+./of-project-template/OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
 ```
 
 
