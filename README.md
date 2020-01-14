@@ -14,8 +14,6 @@ cd of-project-template
 ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
 ```
 
-> Install wget and rsync for windows
-
 ## Quick Links
 
 [Create a new project](#create-new-project)
