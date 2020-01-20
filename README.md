@@ -57,10 +57,10 @@ This will create a new project, download its submodules (OF and external addons 
 
 3. Add the of-project-template as a remote named **template**.
 
-   ```bash
+  ```bash
   cd myProject
   git remote add template https://github.com/local-projects/of-project-template.git
-   ```
+  ```
 
 4. Pull the of-project-template repo, pointing to the correct branch. Below pulls the branch **version/0.11.0**.
 
