@@ -15,8 +15,6 @@ do
 
 	for i in $(echo $line | sed "s/,/ /g")
 	do
-    	# call your procedure/other scripts here below
-    	#echo "$i"
 
     	if [ "$counter" == "0" ]; then
     		addon_name="$i"
@@ -32,13 +30,7 @@ do
 
 done < "$input"
 
-# for i in $(echo $variable | sed "s/,/ /g")
-# do
-#     # call your procedure/other scripts here below
-#     echo "$i"
-# done
 
-echo Creating directories
+echo  ---- Completed Submodule Install ---- 
 
-echo Attempting to clone all repos
 
