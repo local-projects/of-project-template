@@ -215,6 +215,23 @@ If you would like to use an external (non-core) addon that is not in the *Extern
 
 Now, the addon will be available to include in an app.
 
+### Change the Remote of an Addon
+
+If you would like to change the remote origin url of an addon (submodule), follow these steps:
+
+1. Open the *.gitmodules* file at the top level of your repo.
+
+2. Edit the `url` parameter for the addon of interest. The new url should reflect the url you want this addon's origin to point to.
+
+3. Save the file and close it.
+
+4. At the top level of your repo, run the following commands in the command line to syncronize this new url with the submodule:
+
+```bash
+git submodule sync
+git submodule update --init --recursive
+```
+
 ### Commit Changes to an External Addon
 
 External addons are [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This means they are their own "child" repos, contained within a "parent" repo. A submodule can be edited like any other repo, and changes pushed to it. However, the parent repo doesn't directly store these changes; it only stores the submodule's commit hash. Thus, in order to commit changes to a submodule "in the view of" the parent repo, two steps need to be performed: (1) changes are committed within the submodule, and (2) the submodule's current hash is committed in the parent repo. Let's illustrate this with an example:
