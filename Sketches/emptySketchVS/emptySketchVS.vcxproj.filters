@@ -13,6 +13,9 @@
     <ClCompile Include="src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Version.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -24,6 +27,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Version.hpp">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

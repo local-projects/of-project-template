@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "Version.hpp"
 
 class ofApp : public ofBaseApp{
 

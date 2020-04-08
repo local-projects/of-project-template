@@ -330,6 +330,22 @@ To include an icon and version in a new or existing app, follow these steps
 
 To confirm that your app is build with the icon of your choice, navigate to your app's bin folder. Your app should now use this icon. To confirm the app's metadata has been set, right click your executable (*.exe) and select *Properties*. In the *Details* tab, your metadata should now be listed.
 
+***How to Get Version From Within an App***
+
+See *Sketches > emptySketchVS* for an example of how to retrieve version information from within an app. In short, you can retrieve this information by:
+
+1. In the *Solution Explorer* window, right click your project and select *Properties*. While editing *All Configurations* and *All Platforms*, navigate to *Linker > Input*. Under *Additional Dependencies*, click the down arrow and select *Edit*. On a new line, add `version.lib`. Apply these changes.
+
+2. Add the files `Version.hpp` and `Version.cpp` to your project. Your will need to copy them to your project's *src* folder and add them in the Solution Explorer. These files can be found in this repo in the directory *Sketches > emptySketchVS > src*.
+
+3. Include the files and access the version as needed:
+
+   ```c++
+   #include "Version.hpp"
+   
+   ofLogNotice("App Version") << getThisAppVersion();
+   ```
+
 
 
 ## Philosophy / What is OF?
