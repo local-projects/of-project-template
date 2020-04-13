@@ -3,8 +3,13 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-	ofLogNotice("App Version") << getThisAppVersion();
-
+    // Retrieve and print file version info
+    FileVersionInfo  fvi;
+    if (fvi.create())
+    {
+        ofLogNotice("File Version Info") << fvi.jsonInfo();
+        //ofLogNotice("File Version Info") << nlohmann::json::parse(fvi.jsonInfo()).dump(4);
+    }
 }
 
 //--------------------------------------------------------------
