@@ -4,12 +4,12 @@
 void ofApp::setup(){
 
     // Retrieve and print file version info
-    FileVersionInfo  fvi;
-    if (fvi.create())
-    {
-        ofLogNotice("File Version Info") << fvi.jsonInfo();
-        //ofLogNotice("File Version Info") << nlohmann::json::parse(fvi.jsonInfo()).dump(4);
-    }
+    FileVersionInfo fvi;
+    ofLogNotice("File Version Info") << (fvi.create() ? fvi.jsonInfo() : "{}");
+
+    // To pretty print, use:
+    //ofLogNotice("File Version Info") << (fvi.create() ? nlohmann::json::parse(fvi.jsonInfo()).dump(4) : "{}");
+
 }
 
 //--------------------------------------------------------------
