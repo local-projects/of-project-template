@@ -71,7 +71,17 @@ This will create a new project, download its submodules (OF and external addons 
    git push
    ```
    
-5. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.11.0 — this should correspond with the template's branch version above). 
+5. Version **0.11.0** and up do not come prepackaged with all addon submodules. Instead, a script named *install_addons.sh* will download any addons you list within it as submodules to directories of your choice. This script is intended to make the process of adding your own addons and submodules easier. To run this script, issue the command:
+
+   ```bash
+   ./install_addons.sh
+   ```
+
+   Then, commit any changes you make to your **myProject** repo. This will secure these addons as submodules to your project. 
+
+   To change the submodules or their url, open this script file and edit the contents according to the instructions inside.
+
+6. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.11.0 — this should correspond with the template's branch version above). 
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
