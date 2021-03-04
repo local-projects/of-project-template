@@ -49,29 +49,48 @@ git clone -b version/0.11.0 --recursive https://github.com/local-projects/of-pro
 
 This will create a new project, download its submodules (OF and external addons inlcuded), and download OF libraries.
 
-1. [Create a new, empty Github repository](https://github.com/new) repository to copy the template into. For example, let' call this repo **myProject** in the Github user account **local-projects**.
+1. [Create a new, empty Github repository](https://github.com/new) repository. For example, let' call this repo **myProject** in the Github user account **local-projects**.
 
-2. Clone the template onto your computer. The branch should match your desired OF version (here, **0.11.0**). Supported versions include `0.11.0`. Passing the `--recursive` command will download all submodules, including OF and any external addons.
+2. Clone your project repo.
 
-   ```bash
-   git clone -b version/0.11.0 --recursive https://github.com/local-projects/of-project-template.git
+	```bash
+   git clone https://github.com/local-projects/myProject.git
    ```
 
-3. Rename this template folder to the name of your repo. Navigate into the repo.
+3. Add the of-project-template as a remote named **template**.
+
+	```bash
+	cd myProject
+	git remote add template https://github.com/local-projects/of-project-template.git
+	```
+
+4. Pull the of-project-template repo, pointing to the correct branch. Below pulls the branch **version/0.11.0**.
 
    ```bash
-   mv of-project-template myProject
-   cd myProject
-   ```
-
-4. Set the remote origin to your project repo. Push the template files to your repo.
-
-   ```bash
-   git remote set-url origin https://github.com/local-projects/myProject.git
-   git push
+   git pull template version/0.11.0
    ```
    
-5. Download OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.11.0 — this should correspond with the template's branch version above). 
+5. Update the ***ExternallAddons.make*** file with the addons for the project. The format should follow the example below. Each line represents a new addon with the **name of the addon** and **addon repo URL** seperated by a comma respectively. The purpose of this script is to make the template less bulky and independent of specific addons. 
+
+	```bash
+   ofxRemoteUI,https://github.com/local-projects/ofxRemoteUI.git
+	ofxTimeMeasurements,https://github.com/local-projects/ofxTimeMeasurements.git
+   ```
+
+6. Once the ***ExternallAddons.make*** file is complete, install the submodules using the ***install_submodules.sh*** script. This script will clone openFrameworks and all addons in the make file. 
+
+ 	```bash
+   ./install_submodules.sh
+   ```
+   
+7. Add the changes to your project repo. 
+
+ 	```bash
+   git add .
+   git push
+   ```
+
+8. ownload OpenFrameworks libraries. Pass the platform (here, Visual Studio 2017) and the version (here, 0.11.0 — this should correspond with the template's branch version above). 
 
    ```bash
    ./OpenFrameworks/scripts/dev/download_libs.sh -p vs2017 -v 0.11.0
