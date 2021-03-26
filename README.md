@@ -304,17 +304,16 @@ An example for Visual Studios (with project files) has been provided in *Sketche
    #endif
    ```
 
-3. ***version.h*** -- This is a version header file that defines the metadata of the application. Open it in a text editor and adjust values as you see fit. Common user-editable values include:
+3. ***version.h*** -- This is a version header file that defines the metadata of the application. Open it in a text editor and adjust values as you see fit. Version should follow [Semantic Versioning](http://semver.org/). Common user-editable values include:
 
    ```c++
-   // Application version (e.g. 0.0.0.0)
+   // Application version (e.g. 0.0.0)
    #define VERSION_MAJOR               0
    #define VERSION_MINOR               0
-   #define VERSION_REVISION            0
-   #define VERSION_BUILD               0
+   #define VERSION_PATCH               0
    
    // Author, Name, Copyright
-   #define VER_COMPANY_NAME_STR		"Local Projects"
+   #define VER_COMPANY_NAME_STR	       "Local Projects"
    #define VER_FILE_DESCRIPTION_STR    "Description"
    #define VER_PRODUCTNAME_STR         "myApp"
    #define VER_COPYRIGHT_STR           "Copyright (C) 2020"
