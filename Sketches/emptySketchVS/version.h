@@ -10,18 +10,25 @@
 // File Version
 #define VERSION_MAJOR               0
 #define VERSION_MINOR               0
-#define VERSION_REVISION            0
-#define VERSION_BUILD               0
+#define VERSION_PATCH	              0
+// #define VERSION_BUILD               0
 
 // Prepare a string version of the file version
-#define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
+#ifdef VERSION_BUILD
+#define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH, VERSION_BUILD
 #define VER_FILE_VERSION_STR        STRINGIZE(VERSION_MAJOR)        \
                                     "." STRINGIZE(VERSION_MINOR)    \
-                                    "." STRINGIZE(VERSION_REVISION) \
-                                    "." STRINGIZE(VERSION_BUILD)
+                                    "." STRINGIZE(VERSION_PATCH) \
+                                    "+" STRINGIZE(VERSION_BUILD)
+#else
+#define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH
+#define VER_FILE_VERSION_STR        STRINGIZE(VERSION_MAJOR)        \
+                                    "." STRINGIZE(VERSION_MINOR)    \
+                                    "." STRINGIZE(VERSION_PATCH)
+#endif
 
 // Other application metadata
-#define VER_COMPANY_NAME_STR		"Local Projects"
+#define VER_COMPANY_NAME_STR        "Local Projects"
 #define VER_FILE_DESCRIPTION_STR    "Description"
 #define VER_PRODUCTNAME_STR         "myApp"
 #define VER_PRODUCT_VERSION         VER_FILE_VERSION
