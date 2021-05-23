@@ -345,14 +345,15 @@ See *Sketches > emptySketchVS* for an example of how to retrieve version informa
 
 1. In the *Solution Explorer* window, right click your project and select *Properties*. While editing *All Configurations* and *All Platforms*, navigate to *Linker > Input*. Under *Additional Dependencies*, click the down arrow and select *Edit*. On a new line, add `version.lib`. Apply these changes.
 
-2. Add the files `Version.hpp` and `Version.cpp` to your project. Your will need to copy them to your project's *src* folder and add them in the Solution Explorer. These files can be found in this repo in the directory *Sketches > emptySketchVS > src*.
+2. Add the files `FileVersionInfo.h` and `FileVersionInfo.cpp` to your project. Your will need to copy them to your project's *src* folder and add them in the Solution Explorer. These files can be found in this repo in the directory *Sketches > emptySketchVS > src*.
 
-3. Include the files and access the version as needed:
+3. Include the files, create a FileVersionInfo object, and print the version information as needed. See the example in *Sketches > emptySketchVS > src > ofApp.cpp* for reference.
 
    ```c++
-   #include "Version.hpp"
+   #include "FileVersionInfo.h"
    
-   ofLogNotice("App Version") << getThisAppVersion();
+   FileVersionInfo fvi;
+   ofLogNotice("File Version Info") << (fvi.create() ? fvi.jsonInfo() : "{}");
    ```
 
 
